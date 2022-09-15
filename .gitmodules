@@ -1,3 +1,6 @@
 [submodule "platforms/bedrock/generators/BedrockData/LiteLoaderSDK"]
 	path = platforms/bedrock/generators/BedrockData/LiteLoaderSDK
 	url = https://github.com/LiteLDev/LiteLoaderSDK
+[submodule "platforms/bedrock/generators/BedrockData/LiteLoaderBDS"]
+	path = platforms/bedrock/generators/BedrockData/LiteLoaderBDS
+	url = https://github.com/LiteLDev/LiteLoaderBDS
