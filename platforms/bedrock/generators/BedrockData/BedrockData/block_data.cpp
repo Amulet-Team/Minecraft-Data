@@ -21,6 +21,27 @@
 #include "get_file.hpp"
 
 
+void generate_block_data(Minecraft*);
+void generate_block_actor(Minecraft*);
+
+
+void block_main(Minecraft* minecraft) {
+    generate_block_data(minecraft);
+    generate_block_actor(minecraft);
+}
+
+
+void generate_block_actor(Minecraft* minecraft) {
+    auto blockMapPtr = dlsym("?mClassIdMap@BlockActor@@0V?$map@W4BlockActorType@@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@U?$less@W4BlockActorType@@@3@V?$allocator@U?$pair@$$CBW4BlockActorType@@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@std@@@3@@std@@B");
+    auto& blockMap = *reinterpret_cast<std::map<enum BlockActorType, std::string>*>(blockMapPtr);
+    getFile("generated/block/actor_map.txt");
+    map<enum BlockActorType, std::string>::iterator it;
+    for (it = blockMap.begin(); it != blockMap.end(); ++it) {
+        *getFile("generated/block/actor_map.txt") << it->first << "|" << it->second << std::endl;
+    }
+}
+
+
 std::string write_compound(const CompoundTag *tag) {
     void* vtbl = dlsym("??_7StringByteOutput@@6B@");
     string result = "";
@@ -32,33 +53,33 @@ std::string write_compound(const CompoundTag *tag) {
 void block_state(const Block &block) {
     const CompoundTag* tag = &block.getSerializationId();
     std::string out = write_compound(tag);
-    getFile("generated/block/states.bin", true)->write(out.c_str(), out.size());
+    getFile("generated/block/data/states.bin", true)->write(out.c_str(), out.size());
 }
 
 void block_map_colour(const Block& block) {
     auto colour = block.getLegacyBlock().getMapColor();
-    *getFile("generated/block/map_colour.txt") << colour.r << "," << colour.g << "," << colour.b << "," << colour.a << std::endl;
+    *getFile("generated/block/data/map_colour.txt") << colour.r << "," << colour.g << "," << colour.b << "," << colour.a << std::endl;
 }
 
 void block_min_version(const Block& block) {
     const BlockLegacy &legacy_block = block.getLegacyBlock();
     const BaseGameVersion &min_version = legacy_block.getRequiredBaseGameVersion();
     const SemVersion& sem_version = min_version.asSemVersion();
-    *getFile("generated/block/min_game_version.txt") << sem_version.asString() << std::endl;
+    *getFile("generated/block/data/min_game_version.txt") << sem_version.asString() << std::endl;
 }
 
 void block_light(const Block& block) {
     Brightness light = block.getLight();
     const unsigned char* light_value = (unsigned char*) &light;
     const int light_value_int = *light_value;
-    *getFile("generated/block/light.txt") << light_value_int << std::endl;
+    *getFile("generated/block/data/light.txt") << light_value_int << std::endl;
 }
 
 void block_light_emission(const Block& block) {
     Brightness light = block.getLightEmission();
     const unsigned char* light_value = (unsigned char*)&light;
     const int light_value_int = *light_value;
-    *getFile("generated/block/light_emission.txt") << light_value_int << std::endl;
+    *getFile("generated/block/data/light_emission.txt") << light_value_int << std::endl;
 }
 
 
@@ -73,10 +94,10 @@ void generate_block_data(Minecraft* minecraft) {
         const BlockLegacy& legacy_block = block.getLegacyBlock();
         
         // Block state info
-        *getFile("generated/block/name.txt") << block.getName().getString() << std::endl;
+        *getFile("generated/block/data/name.txt") << block.getName().getString() << std::endl;
         block_state(block);
-        *getFile("generated/block/variant.txt") << block.getVariant() << std::endl;
-        *getFile("generated/block/runtime_id.txt") << block.getRuntimeId() << std::endl;
+        *getFile("generated/block/data/variant.txt") << block.getVariant() << std::endl;
+        *getFile("generated/block/data/runtime_id.txt") << block.getRuntimeId() << std::endl;
 
         // Block attributes
 
@@ -120,7 +141,7 @@ void generate_block_data(Minecraft* minecraft) {
         //bool isBounceBlock() const;
         //bool isButtonBlock() const;
         //bool isCandleCakeBlock() const;
-        *getFile("generated/block/is_container.txt") << block.isContainerBlock() << std::endl;
+        *getFile("generated/block/data/is_container.txt") << block.isContainerBlock() << std::endl;
         //bool isCraftingBlock() const;
         //bool isCropBlock() const;
         //bool isDoorBlock() const;
@@ -131,16 +152,16 @@ void generate_block_data(Minecraft* minecraft) {
         //bool isFilteredOut(enum BlockRenderLayer) const;
         //bool isHeavy() const;
         //bool isHurtableBlock() const;
-        * getFile("generated/block/interactive.txt") << block.isInteractiveBlock() << std::endl;
+        * getFile("generated/block/data/interactive.txt") << block.isInteractiveBlock() << std::endl;
         //bool isLeverBlock() const;
-        * getFile("generated/block/motion_blocking.txt") << block.isMotionBlockingBlock() << std::endl;
+        * getFile("generated/block/data/motion_blocking.txt") << block.isMotionBlockingBlock() << std::endl;
         //bool isMultifaceBlock() const;
         //bool isPreservingMediumWhenPlaced(class Block const&) const;
         //bool isPreservingMediumWhenPlaced(class BlockLegacy const*) const;
         //bool isRailBlock() const;
         //bool isSignalSource() const;
         //bool isSlabBlock() const;
-        * getFile("generated/block/solid.txt") << block.isSolid() << std::endl;
+        * getFile("generated/block/data/solid.txt") << block.isSolid() << std::endl;
         //bool isSolidBlockingBlock() const;
         //bool isSolidBlockingBlockAndNotSignalSource() const;
         //bool isStairBlock() const;
@@ -148,14 +169,14 @@ void generate_block_data(Minecraft* minecraft) {
         //bool isStemBlock() const;
         //bool isStrippable(class Block const&) const;
         //bool isThinFenceBlock() const;
-        * getFile("generated/block/unbreakable.txt") << block.isUnbreakable() << std::endl;
+        * getFile("generated/block/data/unbreakable.txt") << block.isUnbreakable() << std::endl;
         //bool isValidAuxValue(int) const;
         //bool isVanilla() const;
         //bool isWallBlock() const;
-        *getFile("generated/block/water_blocking.txt") << block.isWaterBlocking() << std::endl;
+        *getFile("generated/block/data/water_blocking.txt") << block.isWaterBlocking() << std::endl;
         //bool liquidCanFlowIntoFromDirection(unsigned char, class std::function<class Block const& (class BlockPos const&)> const&, class BlockPos const&) const;
         //bool matchesStates(class BlockLegacy const&) const;
-        *getFile("generated/block/may_pick.txt") << block.mayPick() << std::endl;
+        *getFile("generated/block/data/may_pick.txt") << block.mayPick() << std::endl;
         //bool pushesOutItems() const;
         //bool pushesUpFallingBlocks() const;
         //bool shouldRandomTick() const;
@@ -191,16 +212,16 @@ void generate_block_data(Minecraft* minecraft) {
         //class WeakPtr<class BlockLegacy> createWeakPtr() const;
         //class gsl::basic_string_span<char const, -1> getCreativeGroup() const;
         block_map_colour(block);
-        *getFile("generated/block/block_entity.txt") << block.getBlockEntityType() << std::endl;
+        *getFile("generated/block/data/block_entity.txt") << block.getBlockEntityType() << std::endl;
         //enum BlockRenderLayer getRenderLayer() const;
         //enum CreativeItemCategory getCreativeCategory() const;
         //enum Flip getFaceFlip(unsigned char, class Block const&) const;
         //float calcGroundFriction(struct IMobMovementProxy const&, class BlockPos const&) const;
-        *getFile("generated/block/destroy_speed.txt") << block.getDestroySpeed() << std::endl;
-        *getFile("generated/block/friction.txt") << block.getFriction() << std::endl;
+        *getFile("generated/block/data/destroy_speed.txt") << block.getDestroySpeed() << std::endl;
+        *getFile("generated/block/data/friction.txt") << block.getFriction() << std::endl;
         //float getShadeBrightness(class Block const&) const;
         //float getThickness() const;
-        *getFile("generated/block/translucency.txt") << block.getTranslucency() << std::endl;
+        *getFile("generated/block/data/translucency.txt") << block.getTranslucency() << std::endl;
         //int getBurnOdds() const;
         //int getColor() const;
         //int getColor(class Block const&) const;

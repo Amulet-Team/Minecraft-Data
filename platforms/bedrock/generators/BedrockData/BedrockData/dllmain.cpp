@@ -24,7 +24,12 @@ public:
 };
 
 
-void generate_block_data(Minecraft*);
+void block_main(Minecraft*);
+
+
+void data_main(Minecraft* minecraft) {
+    block_main(minecraft);
+}
 
 
 DWORD WINAPI MainThread(HMODULE hModule) {
@@ -41,7 +46,7 @@ DWORD WINAPI MainThread(HMODULE hModule) {
     std::this_thread::sleep_for(std::chrono::milliseconds(1000));
     std::cout << "minecraft at: " << minecraft << std::endl;
 
-    generate_block_data(minecraft);
+    data_main(minecraft);
 
     // print to the console that we are done
     std::cout << "Data generation finished." << std::endl;
