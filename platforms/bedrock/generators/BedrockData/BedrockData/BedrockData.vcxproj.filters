@@ -19,6 +19,9 @@
     <Filter Include="Source\item">
       <UniqueIdentifier>{734da69a-0295-406a-acad-d0d36e085f55}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Source\biome">
+      <UniqueIdentifier>{12bc0780-b619-4bf4-95be-c1b79e5a4cf8}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="framework.h">
@@ -55,6 +58,9 @@
     </ClCompile>
     <ClCompile Include="get_file.cpp">
       <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="biome_map.cpp">
+      <Filter>Source\biome</Filter>
     </ClCompile>
     <ClCompile Include="block_version.cpp">
       <Filter>Source\block</Filter>
