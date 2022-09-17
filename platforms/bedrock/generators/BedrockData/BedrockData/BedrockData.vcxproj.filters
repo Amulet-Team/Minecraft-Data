@@ -22,6 +22,9 @@
     <Filter Include="Source\biome">
       <UniqueIdentifier>{12bc0780-b619-4bf4-95be-c1b79e5a4cf8}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Source\effect">
+      <UniqueIdentifier>{d7665fc5-2bc9-4b11-8572-737fa8439378}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="framework.h">
@@ -67,6 +70,9 @@
     </ClCompile>
     <ClCompile Include="item_data.cpp">
       <Filter>Source\item</Filter>
+    </ClCompile>
+    <ClCompile Include="effect_data.cpp">
+      <Filter>Source\effect</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>

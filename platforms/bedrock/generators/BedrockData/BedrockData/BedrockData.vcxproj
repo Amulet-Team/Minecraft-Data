@@ -76,6 +76,7 @@
     <ClCompile Include="block_data.cpp" />
     <ClCompile Include="block_version.cpp" />
     <ClCompile Include="dllmain.cpp" />
+    <ClCompile Include="effect_data.cpp" />
     <ClCompile Include="get_file.cpp" />
     <ClCompile Include="get_file.hpp" />
     <ClCompile Include="item_alias.cpp" />
