@@ -61,13 +61,6 @@ void block_map_colour(const Block& block) {
     *getFile("generated/block/data/map_colour.txt") << colour.r << "," << colour.g << "," << colour.b << "," << colour.a << std::endl;
 }
 
-void block_min_version(const Block& block) {
-    const BlockLegacy &legacy_block = block.getLegacyBlock();
-    const BaseGameVersion &min_version = legacy_block.getRequiredBaseGameVersion();
-    const SemVersion& sem_version = min_version.asSemVersion();
-    *getFile("generated/block/data/min_game_version.txt") << sem_version.asString() << std::endl;
-}
-
 void block_light(const Block& block) {
     Brightness light = block.getLight();
     const unsigned char* light_value = (unsigned char*) &light;
@@ -184,7 +177,7 @@ void generate_block_data(Minecraft* minecraft) {
         //class AABB const& getUIShape(class Block const&, class AABB&) const;
         //class AABB const& getVisualShape(class Block const&, class AABB&, bool) const;
         //class AABB const& getVisualShape(class AABB&, bool) const;
-        block_min_version(block);
+        *getFile("generated/block/data/min_game_version.txt") << block.getLegacyBlock().getRequiredBaseGameVersion().asSemVersion().asString() << std::endl;
         //class Block const& getDefaultState() const;
         //class Block const& getRenderBlock() const;
         //class Block const& getStrippedBlock(class Block const&) const;
