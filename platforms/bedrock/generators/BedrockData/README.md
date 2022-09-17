@@ -29,8 +29,16 @@ Clone the repository and dependencies using the following command. It will downl
 11) Run `bedrock_server_mod.exe`. The server will start and close a short while after.
 12) In `<server_dir>` there will be a new directory called `generated` within which will be the output files.
 
+## Development
+When developing the code you can set the working directory to the server directory.
+
+Right click BedrockData project -> Properties -> Configuration Properties -> Debugging -> Working Directory (set to server directory)
+
+Doing this will copy the built dll to the server plugins directory and run the server when you run the debugger after it has built.
+
 ## TODO
 - write a script to automate the above steps
+- Work out how to compile headers for each version
 
 ## Acknowledgements
 
