@@ -65,6 +65,9 @@
     <ClCompile Include="block_version.cpp">
       <Filter>Source\block</Filter>
     </ClCompile>
+    <ClCompile Include="item_data.cpp">
+      <Filter>Source\item</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ResourceCompile Include="Resource.rc">
