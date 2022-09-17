@@ -56,6 +56,9 @@
     <ClCompile Include="get_file.cpp">
       <Filter>Source</Filter>
     </ClCompile>
+    <ClCompile Include="block_version.cpp">
+      <Filter>Source\block</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ResourceCompile Include="Resource.rc">

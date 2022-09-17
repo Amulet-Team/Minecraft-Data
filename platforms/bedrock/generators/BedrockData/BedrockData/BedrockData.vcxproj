@@ -73,6 +73,7 @@
   <ItemGroup>
     <ClCompile Include="block_alias.cpp" />
     <ClCompile Include="block_data.cpp" />
+    <ClCompile Include="block_version.cpp" />
     <ClCompile Include="dllmain.cpp" />
     <ClCompile Include="get_file.cpp" />
     <ClCompile Include="get_file.hpp" />
