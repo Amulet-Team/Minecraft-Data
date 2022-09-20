@@ -26,11 +26,13 @@ public:
 
 void block_main(Minecraft*);
 void effect_main(Minecraft*);
+void game_version_main();
 
 
 void data_main(Minecraft* minecraft) {
     block_main(minecraft);
     effect_main(minecraft);
+    game_version_main();
 }
 
 

@@ -25,6 +25,9 @@
     <Filter Include="Source\effect">
       <UniqueIdentifier>{d7665fc5-2bc9-4b11-8572-737fa8439378}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Source\version">
+      <UniqueIdentifier>{e1e1e7b1-09a9-405d-b6af-b9f05bb3f033}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="framework.h">
@@ -73,6 +76,9 @@
     </ClCompile>
     <ClCompile Include="effect_data.cpp">
       <Filter>Source\effect</Filter>
+    </ClCompile>
+    <ClCompile Include="game_version.cpp">
+      <Filter>Source\version</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
