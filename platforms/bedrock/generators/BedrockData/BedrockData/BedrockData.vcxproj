@@ -37,6 +37,7 @@
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <LinkIncremental>false</LinkIncremental>
     <IncludePath>$(SolutionDir)LiteLoaderSDK\Header\third-party;$(SolutionDir)LiteLoaderSDK\Header;$(VC_IncludePath);$(WindowsSDK_IncludePath)</IncludePath>
+    <LibraryPath>$(LocalDebuggerWorkingDirectory)\Lib;$(LibraryPath)</LibraryPath>
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <ClCompile>
@@ -61,8 +62,25 @@
       <DelayLoadDLLs>bedrock_server.dll</DelayLoadDLLs>
     </Link>
     <PostBuildEvent>
-      <Command>if exist "$(LocalDebuggerWorkingDirectory)\plugins\" (copy /Y "$(TargetPath)" "$(LocalDebuggerWorkingDirectory)\plugins\")</Command>
+      <Command>if exist "$(LocalDebuggerWorkingDirectory)\" (
+    if not exist "$(LocalDebuggerWorkingDirectory)\plugins\" mkdir "$(LocalDebuggerWorkingDirectory)\plugins\"
+    copy /Y "$(TargetPath)" "$(LocalDebuggerWorkingDirectory)\plugins\"
+)
+</Command>
     </PostBuildEvent>
+    <PreBuildEvent>
+      <Command>if not exist "$(LocalDebuggerWorkingDirectory)\" (
+    echo "Server path is not valid. Set LocalDebuggerWorkingDirectory to the server directory"
+    exit 1
+)
+set generate=false
+if not exist "$(LocalDebuggerWorkingDirectory)\Lib\bedrock_server_api.lib" set generate=true
+if not exist "$(LocalDebuggerWorkingDirectory)\Lib\bedrock_server_var.lib" set generate=true
+if "%generate%" == "true" (
+    if not exist "$(LocalDebuggerWorkingDirectory)\Lib\" mkdir "$(LocalDebuggerWorkingDirectory)\Lib\"
+    $(SolutionDir)LiteLoaderSDK\Tools\LibraryBuilder.exe -o "$(LocalDebuggerWorkingDirectory)\Lib" "$(LocalDebuggerWorkingDirectory)"
+)</Command>
+    </PreBuildEvent>
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClInclude Include="framework.h" />

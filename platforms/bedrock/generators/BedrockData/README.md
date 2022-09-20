@@ -22,19 +22,12 @@ Clone the repository and dependencies using the following command. It will downl
 4) Copy `LLPreLoader.dll` from `LLPreLoader` to `<server_dir>`
 5) Copy `LLPeEditor.exe` from `LiteLoaderSDK\Tools` to `<server_dir>`
 6) Run `LLPeEditor.exe` in `<server_dir>` which will create `bedrock_server_mod.exe`
-7) Run `generate_lib.bat <server_dir>` where `<server_dir>` is the directory `bedrock_server.exe` is in. This generates `.lib` files in `Lib` from the `bedrock_server.pdb` which are used to compile the code.
-8) Open BedrockData.sln (requires Visual Studio)
-9) Right click the solution in Solution Explorer and click `Build Solution`
-10) Copy `BedrockData.dll` from `x64/Release` to `<server_dir>/plugins`
-11) Run `bedrock_server_mod.exe`. The server will start and close a short while after.
-12) In `<server_dir>` there will be a new directory called `generated` within which will be the output files.
-
-## Development
-When developing the code you can set the working directory to the server directory.
-
-Right click BedrockData project -> Properties -> Configuration Properties -> Debugging -> Working Directory (set to server directory)
-
-Doing this will copy the built dll to the server plugins directory and run the server when you run the debugger after it has built.
+7) Open BedrockData.sln (requires Visual Studio)
+8) Right click the BedrockData project in Solution Explorer and click `Properties`
+9) Set `Working Directory` to `<server_dir>` in Configuration Properties -> Debugging
+10) Close the property page
+11) Click Local Windows Debugger at the top. This will build the project, copy the dll to the server plugins directory and run the server.
+15) In `<server_dir>` there will be a new directory called `generated` within which will be the output files.
 
 ## TODO
 - write a script to automate the above steps
