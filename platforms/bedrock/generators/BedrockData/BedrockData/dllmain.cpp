@@ -11,17 +11,8 @@
 #include <iostream>
 #include <fstream>
 
-#include <MC/ServerCommand.hpp>
 #include <MC/Minecraft.hpp>
-#include <HookAPI.h>
-
-
-class Game : public ServerCommand {
-public:
-    static Minecraft* get() {
-        return ServerCommand::mGame;
-    };
-};
+#include "get_file.hpp"
 
 
 void block_main(Minecraft*);
@@ -41,16 +32,19 @@ DWORD WINAPI MainThread(HMODULE hModule) {
     std::cout << "BDSdll Injected" << std::endl;
     
     // Get the Minecraft instance
-    Minecraft* minecraft = NULL;
-    while (minecraft == NULL) {
-        // This is not set until the server is set up so wait until it is ready
-        minecraft = Game::get();
-        std::this_thread::sleep_for(std::chrono::milliseconds(30));
+    Minecraft** minecraft = (Minecraft**)dlsym("?mGame@ServerCommand@@1PEAVMinecraft@@EA");
+    if (minecraft == NULL) {
+        *getFile("generated/err.txt") << "could not find mGame" << std::endl;
+    } else {
+        while (*minecraft == NULL) {
+            // This is not set until the server is set up so wait until it is ready
+            std::this_thread::sleep_for(std::chrono::milliseconds(30));
+        }
+        std::cout << "minecraft" << minecraft << std::endl;
+        std::this_thread::sleep_for(std::chrono::milliseconds(1000));
+        std::cout << "minecraft at: " << minecraft << std::endl;
+        data_main(*minecraft);
     }
-    std::this_thread::sleep_for(std::chrono::milliseconds(1000));
-    std::cout << "minecraft at: " << minecraft << std::endl;
-
-    data_main(minecraft);
 
     // print to the console that we are done
     std::cout << "Data generation finished." << std::endl;
@@ -64,11 +58,11 @@ DWORD WINAPI MainThread(HMODULE hModule) {
 }
 
 
-BOOL APIENTRY DllMain( HMODULE hModule,
-                       DWORD  ul_reason_for_call,
-                       LPVOID lpReserved
-                     )
-{
+BOOL APIENTRY DllMain(
+    HMODULE hModule,
+    DWORD  ul_reason_for_call,
+    LPVOID lpReserved
+) {
     switch (ul_reason_for_call)
     {
     case DLL_PROCESS_ATTACH:
