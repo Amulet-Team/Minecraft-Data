@@ -6,115 +6,114 @@
 #include <memory>
 #include <iostream>
 
-#include <MC/SharedConstants.hpp>
-#include <MC/SemVersion.hpp>
-
+#include "minecraft.h"
 #include "get_file.hpp"
 
 
 void currentActorDigestFormat() {
-    std::ofstream& f = *getFile("generated/version/actor_digest_version.txt");
     enum ActorDigestFormat* v = (enum ActorDigestFormat*)dlsym("?CurrentActorDigestFormat@SharedConstants@@3W4ActorDigestFormat@@B");
     if (v != NULL) {
-        f << *v;
+        *getFile("generated/version/actor_digest_version.txt") << *v;
     }
     else {
-        f << "null";
+        *getFile("generated/err.txt") << "?CurrentActorDigestFormat@SharedConstants@@3W4ActorDigestFormat@@B" << std::endl;
     }
 }
 
 
 void currentBlendVersion() {
-    std::ofstream& f = *getFile("generated/version/blend_version.txt");
     enum BlendVersion* v = (enum BlendVersion*)dlsym("?CurrentBlendVersion@SharedConstants@@3W4BlendVersion@@B");
     if (v != NULL) {
-        f << *v;
+        *getFile("generated/version/blend_version.txt") << *v;
     }
     else {
-        f << "null";
+        *getFile("generated/err.txt") << "?CurrentBlendVersion@SharedConstants@@3W4BlendVersion@@B" << std::endl;
     }
 }
 
 
 void currentGameSemVersion() {
-    std::ofstream& f = *getFile("generated/version/game_version.txt");
     SemVersion* gameVersion = (SemVersion*)dlsym("?CurrentGameSemVersion@SharedConstants@@3VSemVersion@@B");
     if (gameVersion != NULL) {
-        f << gameVersion->asString();
+        *getFile("generated/version/game_version.txt") << gameVersion->asString();
     }
     else {
-        f << "null";
+        *getFile("generated/err.txt") << "?CurrentGameSemVersion@SharedConstants@@3VSemVersion@@B" << std::endl;
     }
 }
 
 
 void currentLevelChunkFormat() {
-    std::ofstream& f = *getFile("generated/version/level_chunk_format.txt");
     enum LevelChunkFormat* v = (enum LevelChunkFormat*)dlsym("?CurrentLevelChunkFormat@SharedConstants@@3W4LevelChunkFormat@@B");
     if (v != NULL) {
-        f << *v;
+        *getFile("generated/version/level_chunk_format.txt") << *v;
     }
     else {
-        f << "null";
+        *getFile("generated/err.txt") << "?CurrentLevelChunkFormat@SharedConstants@@3W4LevelChunkFormat@@B" << std::endl;
     }
 }
 
 
 void currentStorageVersion() {
-    std::ofstream& f = *getFile("generated/version/storage_version.txt");
     enum StorageVersion* v = (enum StorageVersion*)dlsym("?CurrentStorageVersion@SharedConstants@@3W4StorageVersion@@B");
     if (v != NULL) {
-        f << *v;
+        *getFile("generated/version/storage_version.txt") << *v;
     }
     else {
-        f << "null";
+        *getFile("generated/err.txt") << "?CurrentStorageVersion@SharedConstants@@3W4StorageVersion@@B" << std::endl;
     }
 }
 
 
 void currentSubChunkFormat() {
-    std::ofstream& f = *getFile("generated/version/sub_chunk_format.txt");
     enum SubChunkFormat* v = (enum SubChunkFormat*)dlsym("?CurrentSubChunkFormat@SharedConstants@@3W4SubChunkFormat@@B");
     if (v != NULL) {
-        f << *v;
+        *getFile("generated/version/sub_chunk_format.txt") << *v;
     }
     else {
-        f << "null";
+        *getFile("generated/err.txt") << "?CurrentSubChunkFormat@SharedConstants@@3W4SubChunkFormat@@B" << std::endl;
     }
 }
 
 
-void buildVersion() {
-    std::ofstream& f = *getFile("generated/version/build_version.txt");
+std::array<int, 4> getBuildVersion() {
+    std::array<int, 4> version = { -1, -1, -1, -1 };
     int* num;
     num = (int*)dlsym("?MajorVersion@SharedConstants@@3HB");
     if (num != NULL) {
-        f << *num << ".";
+        version[0] = *num;
     }
     else {
-        f << "null.";
+        *getFile("generated/err.txt") << "?MajorVersion@SharedConstants@@3HB" << std::endl;
     }
     num = (int*)dlsym("?MinorVersion@SharedConstants@@3HB");
     if (num != NULL) {
-        f << *num << ".";
+        version[1] = *num;
     }
     else {
-        f << "null.";
+        *getFile("generated/err.txt") << "?MinorVersion@SharedConstants@@3HB" << std::endl;
     }
     num = (int*)dlsym("?PatchVersion@SharedConstants@@3HB");
     if (num != NULL) {
-        f << *num << ".";
+        version[2] = *num;
     }
     else {
-        f << "null.";
+        *getFile("generated/err.txt") << "?PatchVersion@SharedConstants@@3HB" << std::endl;
     }
     num = (int*)dlsym("?RevisionVersion@SharedConstants@@3HB");
     if (num != NULL) {
-        f << *num;
+        version[3] = *num;
     }
     else {
-        f << "null";
+        *getFile("generated/err.txt") << "?RevisionVersion@SharedConstants@@3HB" << std::endl;
     }
+    return version;
+}
+
+
+void buildVersion() {
+    std::array<int, 4> version = getBuildVersion();
+    *getFile("generated/version/build_version.txt") << version[0] << "." << version[1] << "." << version[2] << "." << version[3];
 }
 
 

@@ -3,3 +3,8 @@
 #include <string>
 
 class Minecraft {};
+
+class SemVersion{
+public:
+	std::string const& asString() const;
+};
