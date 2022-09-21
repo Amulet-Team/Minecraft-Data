@@ -28,6 +28,9 @@
     <Filter Include="Source\version">
       <UniqueIdentifier>{e1e1e7b1-09a9-405d-b6af-b9f05bb3f033}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Source\minecraft">
+      <UniqueIdentifier>{1702608c-07ee-49e8-8653-7e6e5764e299}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="framework.h">
@@ -41,6 +44,9 @@
     </ClInclude>
     <ClInclude Include="Version.h">
       <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="minecraft.h">
+      <Filter>Source\minecraft</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
@@ -79,6 +85,9 @@
     </ClCompile>
     <ClCompile Include="game_version.cpp">
       <Filter>Source\version</Filter>
+    </ClCompile>
+    <ClCompile Include="minecraft.cpp">
+      <Filter>Source\minecraft</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>

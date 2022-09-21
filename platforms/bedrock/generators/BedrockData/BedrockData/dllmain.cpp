@@ -12,7 +12,7 @@
 #include <iostream>
 #include <fstream>
 
-#include <MC/Minecraft.hpp>
+#include "minecraft.h"
 #include "get_file.hpp"
 
 
@@ -35,7 +35,7 @@ DWORD WINAPI MainThread(HMODULE hModule) {
     // Get the Minecraft instance
     Minecraft** minecraft = (Minecraft**)dlsym("?mGame@ServerCommand@@1PEAVMinecraft@@EA");
     if (minecraft == NULL) {
-        *getFile("generated/err.txt") << "could not find mGame" << std::endl;
+        *getFile("generated/err.txt") << "?mGame@ServerCommand@@1PEAVMinecraft@@EA" << std::endl;
     } else {
         while (*minecraft == NULL) {
             // This is not set until the server is set up so wait until it is ready
