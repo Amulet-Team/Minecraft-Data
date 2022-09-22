@@ -98,7 +98,7 @@ if "%generate%" == "true" (
     <ClCompile Include="effect_data.cpp" />
     <ClCompile Include="game_version.cpp" />
     <ClCompile Include="get_file.cpp" />
-    <ClCompile Include="get_file.hpp" />
+    <ClInclude Include="get_file.hpp" />
     <ClCompile Include="item_alias.cpp" />
     <ClCompile Include="item_data.cpp" />
     <ClCompile Include="minecraft.cpp" />

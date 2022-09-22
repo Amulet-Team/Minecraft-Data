@@ -48,6 +48,8 @@
     <ClInclude Include="Version.h">
       <Filter>Source</Filter>
     </ClInclude>
+    <ClInclude Include="get_file.hpp">
+      <Filter>Source</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
@@ -55,9 +57,6 @@
       <Filter>Source</Filter>
     </ClCompile>
     <ClCompile Include="pch.cpp">
-      <Filter>Source</Filter>
-    </ClCompile>
-    <ClCompile Include="get_file.hpp">
       <Filter>Source</Filter>
     </ClCompile>
     <ClCompile Include="block_alias.cpp">
