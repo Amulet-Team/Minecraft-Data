@@ -17,12 +17,14 @@
 
 
 void block_main(Minecraft_*);
+void biome_main(Minecraft_*);
 void effect_main(Minecraft_*);
 void game_version_main();
 
 
 void data_main(Minecraft_* minecraft) {
     block_main(minecraft);
+    biome_main(minecraft);
     effect_main(minecraft);
     game_version_main();
 }
