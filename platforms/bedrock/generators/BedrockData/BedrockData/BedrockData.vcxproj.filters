@@ -113,6 +113,54 @@
     <ClCompile Include="item.cpp">
       <Filter>Source\item</Filter>
     </ClCompile>
+    <ClCompile Include="block_name.cpp">
+      <Filter>Source\block\block_data</Filter>
+    </ClCompile>
+    <ClCompile Include="block_variant.cpp">
+      <Filter>Source\block\block_data</Filter>
+    </ClCompile>
+    <ClCompile Include="block_runtime_id.cpp">
+      <Filter>Source\block\block_data</Filter>
+    </ClCompile>
+    <ClCompile Include="block_light_emission.cpp">
+      <Filter>Source\block\block_data</Filter>
+    </ClCompile>
+    <ClCompile Include="block_is_container.cpp">
+      <Filter>Source\block\block_data</Filter>
+    </ClCompile>
+    <ClCompile Include="block_is_interactive.cpp">
+      <Filter>Source\block\block_data</Filter>
+    </ClCompile>
+    <ClCompile Include="block_is_motion_blocking.cpp">
+      <Filter>Source\block\block_data</Filter>
+    </ClCompile>
+    <ClCompile Include="block_is_solid.cpp">
+      <Filter>Source\block\block_data</Filter>
+    </ClCompile>
+    <ClCompile Include="block_entity_type.cpp">
+      <Filter>Source\block\block_data</Filter>
+    </ClCompile>
+    <ClCompile Include="block_destroy_speed.cpp">
+      <Filter>Source\block\block_data</Filter>
+    </ClCompile>
+    <ClCompile Include="block_friction.cpp">
+      <Filter>Source\block\block_data</Filter>
+    </ClCompile>
+    <ClCompile Include="block_is_unbreakable.cpp">
+      <Filter>Source\block\block_data</Filter>
+    </ClCompile>
+    <ClCompile Include="block_is_water_blocking.cpp">
+      <Filter>Source\block\block_data</Filter>
+    </ClCompile>
+    <ClCompile Include="block_may_pick.cpp">
+      <Filter>Source\block\block_data</Filter>
+    </ClCompile>
+    <ClCompile Include="block_min_version.cpp">
+      <Filter>Source\block\block_data</Filter>
+    </ClCompile>
+    <ClCompile Include="block_translucency.cpp">
+      <Filter>Source\block\block_data</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ResourceCompile Include="Resource.rc">
