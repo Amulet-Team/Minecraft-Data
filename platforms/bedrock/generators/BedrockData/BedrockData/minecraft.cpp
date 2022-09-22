@@ -3,11 +3,7 @@
 #include <string>
 
 #include "get_file.hpp"
-
-class SemVersion_ {
-public:
-	std::string const& asString() const;
-};
+#include "minecraft.hpp"
 
 
 std::string const& SemVersion_::asString() const {
@@ -19,5 +15,28 @@ std::string const& SemVersion_::asString() const {
 	}
 	else {
 		return asStringOriginal(this);
+	}
+}
+
+
+void BlockPalette_::forEachBlock(blockCallbackT callback) {
+	typedef Block_& (*getBlockT)(BlockPalette_*, unsigned int&);
+	auto getBlock = (getBlockT)dlsym("?getBlock@BlockPalette@@QEBAAEBVBlock@@AEBI@Z");
+	if (getBlock != NULL) {
+		// This may cause problems
+		unsigned int palette_len = (*(unsigned int*)(this + 0x78) - *(unsigned int*)(this + 0x70)) / 8;
+		// handle error state
+		if (palette_len < 100000) {
+			for (unsigned int block_id = 0; block_id < palette_len; block_id++) {
+				Block_* block = &getBlock(this, block_id);
+				callback(block);
+			}
+		}
+		else {
+			*getFile("generated/err.txt") << "issue with block pallete length" << std::endl;
+		}
+	}
+	else {
+		*getFile("generated/err.txt") << "?getBlock@BlockPalette@@QEBAAEBVBlock@@AEBI@Z" << std::endl;
 	}
 }

@@ -3,6 +3,7 @@
 #include <string>
 
 class Minecraft_ {};
+class Level_ {};
 
 class SemVersion_{
 public:
@@ -15,4 +16,12 @@ class Biome_ {};
 class CompoundTag_ {};
 class IDataOutput_ {};
 class Block_ {};
+class BlockLegacy_ {};
+
+typedef void (*blockCallbackT)(Block_*);
+class BlockPalette_ {
+public:
+	void forEachBlock(blockCallbackT);
+};
+
 class Brightness_ {};

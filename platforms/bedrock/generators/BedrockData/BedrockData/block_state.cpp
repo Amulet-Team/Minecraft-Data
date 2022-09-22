@@ -24,8 +24,8 @@ std::string write_compound(const CompoundTag* tag) {
 }
 
 
-void block_state(const Block& block) {
-    const CompoundTag* tag = &block.getSerializationId();
+void block_state(const Block* block) {
+    const CompoundTag* tag = &block->getSerializationId();
     std::string out = write_compound(tag);
     getFile("generated/block/data/states.bin", true)->write(out.c_str(), out.size());
 }
