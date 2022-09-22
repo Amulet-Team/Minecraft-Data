@@ -9,50 +9,17 @@
 #include <MC/BlockPalette.hpp>
 #include <MC/Block.hpp>
 #include <MC/BlockLegacy.hpp>
-#include <MC/IDataOutput.hpp>
 #include <MC/HashedString.hpp>
 #include <MC/BaseGameVersion.hpp>
-#include <MC/Brightness.hpp>
-
-#include <MC/NbtIo.hpp>
-#include <MC/CompoundTag.hpp>
 
 #include "minecraft.hpp"
 #include "get_file.hpp"
+    
 
-
-std::string write_compound(const CompoundTag *tag) {
-    void* vtbl = dlsym("??_7StringByteOutput@@6B@");
-    string result = "";
-    void* iDataOutput[2] = { vtbl, &result };
-    NbtIo::write(tag, (IDataOutput&)iDataOutput);
-    return result;
-}
-
-void block_state(const Block &block) {
-    const CompoundTag* tag = &block.getSerializationId();
-    std::string out = write_compound(tag);
-    getFile("generated/block/data/states.bin", true)->write(out.c_str(), out.size());
-}
-
-void block_map_colour(const Block& block) {
-    auto colour = block.getLegacyBlock().getMapColor();
-    *getFile("generated/block/data/map_colour.txt") << colour.r << "," << colour.g << "," << colour.b << "," << colour.a << std::endl;
-}
-
-void block_light(const Block& block) {
-    Brightness light = block.getLight();
-    const unsigned char* light_value = (unsigned char*) &light;
-    const int light_value_int = *light_value;
-    *getFile("generated/block/data/light.txt") << light_value_int << std::endl;
-}
-
-void block_light_emission(const Block& block) {
-    Brightness light = block.getLightEmission();
-    const unsigned char* light_value = (unsigned char*)&light;
-    const int light_value_int = *light_value;
-    *getFile("generated/block/data/light_emission.txt") << light_value_int << std::endl;
-}
+void block_light(const Block& block);
+void block_light_emission(const Block& block);
+void block_map_colour(const Block& block);
+void block_state(const Block& block);
 
 
 void block_data(Minecraft_* minecraft) {
@@ -60,7 +27,7 @@ void block_data(Minecraft_* minecraft) {
     auto getLevel = (t_getLevel)dlsym("?getLevel@Minecraft@@QEBAPEAVLevel@@XZ");
     if (getLevel != NULL) {
         Level* level = getLevel(minecraft);
-        
+
         typedef BlockPalette& const (*t_getBlockPalette)(const Level*);
         auto getBlockPalette = (t_getBlockPalette)dlsym("?getBlockPalette@Level@@UEBAAEBVBlockPalette@@XZ");
         if (getBlockPalette != NULL) {
@@ -69,8 +36,6 @@ void block_data(Minecraft_* minecraft) {
             // handle error state
             for (unsigned int block_id = 0; block_id < palette_len; block_id++) {
                 const Block& block = block_palette->getBlock(block_id);
-                const BlockLegacy& legacy_block = block.getLegacyBlock();
-
                 // Block state info
                 *getFile("generated/block/data/name.txt") << block.getName().getString() << std::endl;
                 block_state(block);
@@ -233,10 +198,12 @@ void block_data(Minecraft_* minecraft) {
                 //void forEachItemStateInstance(class std::function<bool(class ItemStateInstance const&)>) const;
                 //void getDebugText(std::vector<std::string>&, class BlockPos const&) const;
             }
-        } else {
-         *getFile("generated/err.txt") << "getBlockPalette@Level" << std::endl;
         }
-    } else {
+        else {
+            *getFile("generated/err.txt") << "getBlockPalette@Level" << std::endl;
+        }
+    }
+    else {
         *getFile("generated/err.txt") << "getLevel@Minecraft" << std::endl;
     }
 }

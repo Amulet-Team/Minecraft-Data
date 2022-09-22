@@ -11,3 +11,8 @@ public:
 
 class BiomeRegistry_ {};
 class Biome_ {};
+
+class CompoundTag_ {};
+class IDataOutput_ {};
+class Block_ {};
+class Brightness_ {};

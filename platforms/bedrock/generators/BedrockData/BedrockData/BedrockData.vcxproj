@@ -94,6 +94,9 @@ if "%generate%" == "true" (
     <ClCompile Include="block_alias.cpp" />
     <ClCompile Include="block_data.cpp" />
     <ClCompile Include="block.cpp" />
+    <ClCompile Include="block_light.cpp" />
+    <ClCompile Include="block_map_colour.cpp" />
+    <ClCompile Include="block_state.cpp" />
     <ClCompile Include="block_version.cpp" />
     <ClCompile Include="dllmain.cpp" />
     <ClCompile Include="effect_data.cpp" />

@@ -31,6 +31,9 @@
     <Filter Include="Source\minecraft">
       <UniqueIdentifier>{1702608c-07ee-49e8-8653-7e6e5764e299}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Source\block\block_data">
+      <UniqueIdentifier>{416db1e5-3bb8-44d1-a84f-6bdf13a403c5}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="framework.h">
@@ -60,9 +63,6 @@
       <Filter>Source</Filter>
     </ClCompile>
     <ClCompile Include="block_alias.cpp">
-      <Filter>Source\block</Filter>
-    </ClCompile>
-    <ClCompile Include="block_data.cpp">
       <Filter>Source\block</Filter>
     </ClCompile>
     <ClCompile Include="item_alias.cpp">
@@ -97,6 +97,18 @@
     </ClCompile>
     <ClCompile Include="block_actor.cpp">
       <Filter>Source\block</Filter>
+    </ClCompile>
+    <ClCompile Include="block_data.cpp">
+      <Filter>Source\block\block_data</Filter>
+    </ClCompile>
+    <ClCompile Include="block_state.cpp">
+      <Filter>Source\block\block_data</Filter>
+    </ClCompile>
+    <ClCompile Include="block_map_colour.cpp">
+      <Filter>Source\block\block_data</Filter>
+    </ClCompile>
+    <ClCompile Include="block_light.cpp">
+      <Filter>Source\block\block_data</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
