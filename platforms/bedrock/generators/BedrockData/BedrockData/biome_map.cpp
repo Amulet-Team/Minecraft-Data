@@ -31,7 +31,7 @@ TInstanceHook(Biome_&, "?setName@Biome@@QEAAAEAV1@AEBV?$basic_string@DU?$char_tr
 }
 
 
-void biome_map_validate() {
+void biome_map() {
 	if (dlsym("??0Biome@@QEAA@H@Z") == NULL) {
 		*getFile("generated/err.txt") << "??0Biome@@QEAA@H@Z" << std::endl;
 	}

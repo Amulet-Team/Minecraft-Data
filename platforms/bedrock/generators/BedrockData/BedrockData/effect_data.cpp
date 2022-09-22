@@ -11,7 +11,7 @@
 #include "minecraft.hpp"
 #include "get_file.hpp"
 
-void effect_main(Minecraft_*) {
+void effect(Minecraft_*) {
 	for (auto i = 0; i < 500; i++) {
 		MobEffect* effect = MobEffect::getById(i);
 		if (effect != NULL) {

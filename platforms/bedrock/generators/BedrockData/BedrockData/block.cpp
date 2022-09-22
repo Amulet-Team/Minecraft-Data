@@ -10,7 +10,7 @@ void block_alias();
 void block_version();
 
 
-void block_main(Minecraft_* minecraft) {
+void block(Minecraft_* minecraft) {
     block_data(minecraft);
     block_actor(minecraft);
     block_alias();

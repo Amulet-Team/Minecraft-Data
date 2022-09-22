@@ -117,7 +117,7 @@ void buildVersion() {
 }
 
 
-void game_version_main() {
+void version() {
     currentActorDigestFormat();
     currentBlendVersion();
     currentGameSemVersion();

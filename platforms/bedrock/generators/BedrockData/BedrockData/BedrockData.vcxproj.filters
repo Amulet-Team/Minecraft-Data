@@ -45,7 +45,7 @@
     <ClInclude Include="minecraft.hpp">
       <Filter>Source\minecraft</Filter>
     </ClInclude>
-    <ClInclude Include="Version.h">
+    <ClInclude Include="metadata.h">
       <Filter>Source</Filter>
     </ClInclude>
     <ClInclude Include="get_file.hpp">
@@ -83,16 +83,16 @@
     <ClCompile Include="effect_data.cpp">
       <Filter>Source\effect</Filter>
     </ClCompile>
-    <ClCompile Include="game_version.cpp">
+    <ClCompile Include="version.cpp">
       <Filter>Source\version</Filter>
     </ClCompile>
     <ClCompile Include="minecraft.cpp">
       <Filter>Source\minecraft</Filter>
     </ClCompile>
-    <ClCompile Include="block_main.cpp">
+    <ClCompile Include="block.cpp">
       <Filter>Source\block</Filter>
     </ClCompile>
-    <ClCompile Include="biome_main.cpp">
+    <ClCompile Include="biome.cpp">
       <Filter>Source\biome</Filter>
     </ClCompile>
     <ClCompile Include="block_actor.cpp">

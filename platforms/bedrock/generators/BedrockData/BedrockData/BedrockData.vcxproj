@@ -31,12 +31,10 @@
     <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
   </ImportGroup>
   <PropertyGroup Label="UserMacros" />
-  <PropertyGroup>
-    <LocalDebuggerWorkingDirectory>C:\Users\james_000\Desktop\amulet_test_worlds\bedrock_server\bedrock-server-1.19.11.01 - Copy</LocalDebuggerWorkingDirectory>
-  </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <LinkIncremental>false</LinkIncremental>
     <IncludePath>$(SolutionDir)LiteLoaderSDK\Header\third-party;$(SolutionDir)LiteLoaderSDK\Header;$(VC_IncludePath);$(WindowsSDK_IncludePath)</IncludePath>
+    <LocalDebuggerWorkingDirectory>C:\Users\james_000\Desktop\amulet_test_worlds\bedrock_server\bedrock-server-1.19.30.04</LocalDebuggerWorkingDirectory>
     <LibraryPath>$(LocalDebuggerWorkingDirectory)\Lib;$(LibraryPath)</LibraryPath>
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
@@ -87,19 +85,19 @@ if "%generate%" == "true" (
     <ClInclude Include="minecraft.hpp" />
     <ClInclude Include="pch.h" />
     <ClInclude Include="resource.h" />
-    <ClInclude Include="Version.h" />
+    <ClInclude Include="metadata.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="biome_main.cpp" />
+    <ClCompile Include="biome.cpp" />
     <ClCompile Include="biome_map.cpp" />
     <ClCompile Include="block_actor.cpp" />
     <ClCompile Include="block_alias.cpp" />
     <ClCompile Include="block_data.cpp" />
-    <ClCompile Include="block_main.cpp" />
+    <ClCompile Include="block.cpp" />
     <ClCompile Include="block_version.cpp" />
     <ClCompile Include="dllmain.cpp" />
     <ClCompile Include="effect_data.cpp" />
-    <ClCompile Include="game_version.cpp" />
+    <ClCompile Include="version.cpp" />
     <ClCompile Include="get_file.cpp" />
     <ClInclude Include="get_file.hpp" />
     <ClCompile Include="item_alias.cpp" />
