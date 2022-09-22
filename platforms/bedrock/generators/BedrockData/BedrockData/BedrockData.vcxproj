@@ -100,6 +100,7 @@ if "%generate%" == "true" (
     <ClCompile Include="block_version.cpp" />
     <ClCompile Include="dllmain.cpp" />
     <ClCompile Include="effect_data.cpp" />
+    <ClCompile Include="item.cpp" />
     <ClCompile Include="version.cpp" />
     <ClCompile Include="get_file.cpp" />
     <ClInclude Include="get_file.hpp" />

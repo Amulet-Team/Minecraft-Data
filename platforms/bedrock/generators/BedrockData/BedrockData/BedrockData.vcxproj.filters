@@ -110,6 +110,9 @@
     <ClCompile Include="block_light.cpp">
       <Filter>Source\block\block_data</Filter>
     </ClCompile>
+    <ClCompile Include="item.cpp">
+      <Filter>Source\item</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ResourceCompile Include="Resource.rc">

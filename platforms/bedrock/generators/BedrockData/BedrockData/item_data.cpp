@@ -45,3 +45,10 @@ TInstanceHook(void, "?registerItem@ItemRegistry@@SAXV?$SharedPtr@VItem@@@@@Z", I
 		//MCAPI class WeakPtr<class BlockLegacy> const& getLegacyBlock() const;
 	}
 }
+
+
+void item_data() {
+	if (dlsym("?registerItem@ItemRegistry@@SAXV?$SharedPtr@VItem@@@@@Z") == NULL) {
+		*getFile("generated/err.txt") << "?registerItem@ItemRegistry@@SAXV?$SharedPtr@VItem@@@@@Z" << std::endl;
+	}
+};

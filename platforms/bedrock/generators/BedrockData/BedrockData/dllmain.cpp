@@ -16,16 +16,18 @@
 #include "get_file.hpp"
 
 
-void block(Minecraft_*);
 void biome(Minecraft_*);
+void block(Minecraft_*);
 void effect(Minecraft_*);
+void item();
 void version();
 
 
 void data_main(Minecraft_* minecraft) {
-    block(minecraft);
     biome(minecraft);
+    block(minecraft);
     effect(minecraft);
+    item();
     version();
 }
 
