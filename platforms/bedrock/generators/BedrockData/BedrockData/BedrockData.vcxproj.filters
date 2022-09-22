@@ -89,8 +89,14 @@
     <ClCompile Include="minecraft.cpp">
       <Filter>Source\minecraft</Filter>
     </ClCompile>
+    <ClCompile Include="block_main.cpp">
+      <Filter>Source\block</Filter>
+    </ClCompile>
     <ClCompile Include="biome_main.cpp">
       <Filter>Source\biome</Filter>
+    </ClCompile>
+    <ClCompile Include="block_actor.cpp">
+      <Filter>Source\block</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>

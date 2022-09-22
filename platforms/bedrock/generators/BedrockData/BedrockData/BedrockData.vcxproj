@@ -92,8 +92,10 @@ if "%generate%" == "true" (
   <ItemGroup>
     <ClCompile Include="biome_main.cpp" />
     <ClCompile Include="biome_map.cpp" />
+    <ClCompile Include="block_actor.cpp" />
     <ClCompile Include="block_alias.cpp" />
     <ClCompile Include="block_data.cpp" />
+    <ClCompile Include="block_main.cpp" />
     <ClCompile Include="block_version.cpp" />
     <ClCompile Include="dllmain.cpp" />
     <ClCompile Include="effect_data.cpp" />
