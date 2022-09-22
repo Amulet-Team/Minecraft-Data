@@ -5,12 +5,13 @@
 #include <string>
 
 #include <MC/Types.hpp>
-#include <MC/Minecraft.hpp>
 #include <MC/MobEffect.hpp>
 #include <MC/HashedString.hpp>
+
+#include "minecraft.hpp"
 #include "get_file.hpp"
 
-void effect_main(Minecraft*) {
+void effect_main(Minecraft_*) {
 	for (auto i = 0; i < 500; i++) {
 		MobEffect* effect = MobEffect::getById(i);
 		if (effect != NULL) {

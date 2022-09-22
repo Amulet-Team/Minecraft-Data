@@ -12,16 +12,16 @@
 #include <iostream>
 #include <fstream>
 
-#include "minecraft.h"
+#include "minecraft.hpp"
 #include "get_file.hpp"
 
 
-void block_main(Minecraft*);
-void effect_main(Minecraft*);
+void block_main(Minecraft_*);
+void effect_main(Minecraft_*);
 void game_version_main();
 
 
-void data_main(Minecraft* minecraft) {
+void data_main(Minecraft_* minecraft) {
     block_main(minecraft);
     effect_main(minecraft);
     game_version_main();
@@ -33,7 +33,7 @@ DWORD WINAPI MainThread(HMODULE hModule) {
     std::cout << "BDSdll Injected" << std::endl;
     
     // Get the Minecraft instance
-    Minecraft** minecraft = (Minecraft**)dlsym("?mGame@ServerCommand@@1PEAVMinecraft@@EA");
+    Minecraft_** minecraft = (Minecraft_**)dlsym("?mGame@ServerCommand@@1PEAVMinecraft@@EA");
     if (minecraft == NULL) {
         *getFile("generated/err.txt") << "?mGame@ServerCommand@@1PEAVMinecraft@@EA" << std::endl;
     } else {

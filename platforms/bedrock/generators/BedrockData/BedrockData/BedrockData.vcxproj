@@ -84,7 +84,7 @@ if "%generate%" == "true" (
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClInclude Include="framework.h" />
-    <ClInclude Include="minecraft.h" />
+    <ClInclude Include="minecraft.hpp" />
     <ClInclude Include="pch.h" />
     <ClInclude Include="resource.h" />
     <ClInclude Include="Version.h" />

@@ -2,9 +2,12 @@
 #include "pch.h"
 #include <string>
 
-class Minecraft {};
+class Minecraft_ {};
 
-class SemVersion{
+class SemVersion_{
 public:
 	std::string const& asString() const;
 };
+
+class BiomeRegistry_ {};
+class Biome_ {};

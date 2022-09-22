@@ -6,7 +6,7 @@
 #include <memory>
 #include <iostream>
 
-#include "minecraft.h"
+#include "minecraft.hpp"
 #include "get_file.hpp"
 
 
@@ -33,7 +33,7 @@ void currentBlendVersion() {
 
 
 void currentGameSemVersion() {
-    SemVersion* gameVersion = (SemVersion*)dlsym("?CurrentGameSemVersion@SharedConstants@@3VSemVersion@@B");
+    SemVersion_* gameVersion = (SemVersion_*)dlsym("?CurrentGameSemVersion@SharedConstants@@3VSemVersion@@B");
     if (gameVersion != NULL) {
         *getFile("generated/version/game_version.txt") << gameVersion->asString();
     }

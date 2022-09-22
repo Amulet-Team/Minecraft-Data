@@ -42,11 +42,12 @@
     <ClInclude Include="resource.h">
       <Filter>Resourse</Filter>
     </ClInclude>
+    <ClInclude Include="minecraft.hpp">
+      <Filter>Source\minecraft</Filter>
+    </ClInclude>
     <ClInclude Include="Version.h">
       <Filter>Source</Filter>
     </ClInclude>
-    <ClInclude Include="minecraft.h">
-      <Filter>Source\minecraft</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
