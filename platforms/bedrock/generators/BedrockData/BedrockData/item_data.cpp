@@ -1,9 +1,6 @@
 #pragma once
 #include "pch.h"
 
-#include <fstream>
-#include <string>
-
 #include <MC/BaseGameVersion.hpp>
 #include <MC/SemVersion.hpp>
 #include <MC/ItemRegistry.hpp>

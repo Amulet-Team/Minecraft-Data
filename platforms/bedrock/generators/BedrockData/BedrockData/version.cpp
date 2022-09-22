@@ -1,11 +1,6 @@
 #pragma once
 #include "pch.h"
 
-#include <fstream>
-#include <string>
-#include <memory>
-#include <iostream>
-
 #include "minecraft.hpp"
 #include "get_file.hpp"
 

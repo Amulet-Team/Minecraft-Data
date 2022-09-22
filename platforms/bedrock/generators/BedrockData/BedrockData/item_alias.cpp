@@ -1,9 +1,6 @@
 #pragma once
 #include "pch.h"
 
-#include <fstream>
-#include <string>
-
 #include <MC/HashedString.hpp>
 #include <MC/BaseGameVersion.hpp>
 #include <MC/Item.hpp>

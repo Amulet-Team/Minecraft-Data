@@ -6,12 +6,6 @@
 #pragma comment(lib, "../LiteLoaderSDK/Lib/SymDBHelper.lib")
 #pragma comment(lib, "../LLPreLoader/LLPreLoader.lib")
 
-#include <memory>
-#include <chrono>
-#include <thread>
-#include <iostream>
-#include <fstream>
-
 #include "minecraft.hpp"
 #include "get_file.hpp"
 

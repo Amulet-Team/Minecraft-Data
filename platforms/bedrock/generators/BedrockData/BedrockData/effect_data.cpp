@@ -1,9 +1,6 @@
 #pragma once
 #include "pch.h"
 
-#include <fstream>
-#include <string>
-
 #include <MC/Types.hpp>
 #include <MC/MobEffect.hpp>
 #include <MC/HashedString.hpp>
