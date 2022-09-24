@@ -39,3 +39,8 @@ void BlockPalette_::forEachBlock(blockCallbackT callback) {
 		*getFile("generated/err.txt") << "?getBlock@BlockPalette@@QEBAAEBVBlock@@AEBI@Z" << std::endl;
 	}
 }
+
+
+char Brightness_::getValue() {
+	return dAccess<char, 0>(this);
+};

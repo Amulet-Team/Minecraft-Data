@@ -24,4 +24,8 @@ public:
 	void forEachBlock(blockCallbackT);
 };
 
-class Brightness_ {};
+struct Brightness_ {
+	char _[0x80];
+public:
+	char getValue();
+};
