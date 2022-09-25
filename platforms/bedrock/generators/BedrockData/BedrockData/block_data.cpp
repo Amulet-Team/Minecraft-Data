@@ -21,7 +21,7 @@ void block_light_emission(const Block_*);
 void block_map_colour(const Block*);
 void block_may_pick(const Block_*);
 void block_min_game_version(const Block*);
-void block_name(const Block*);
+void block_name(const Block_*);
 void block_runtime_id(const Block_*);
 void block_state(const Block*);
 void block_translucency(const Block_*);
@@ -44,7 +44,7 @@ void forEachBlock(Block_* block_) {
     block_map_colour(block);
     block_may_pick(block_);
     block_min_game_version(block);
-    block_name(block);
+    block_name(block_);
     block_runtime_id(block_);
     block_state(block);
     block_translucency(block_);
