@@ -54,6 +54,9 @@
     <ClInclude Include="get_file.hpp">
       <Filter>Source</Filter>
     </ClInclude>
+    <ClInclude Include="dlsym.hpp">
+      <Filter>Source</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="dllmain.cpp">
@@ -160,6 +163,9 @@
     </ClCompile>
     <ClCompile Include="block_translucency.cpp">
       <Filter>Source\block\block_data</Filter>
+    </ClCompile>
+    <ClCompile Include="dlsym.cpp">
+      <Filter>Source</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
