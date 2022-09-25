@@ -57,6 +57,9 @@
     <ClInclude Include="dlsym.hpp">
       <Filter>Source</Filter>
     </ClInclude>
+    <ClInclude Include="nbt.hpp">
+      <Filter>Source</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="dllmain.cpp">
@@ -166,6 +169,12 @@
     </ClCompile>
     <ClCompile Include="dlsym.cpp">
       <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="nbt.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="block_actor_data.cpp">
+      <Filter>Source\block\block_data</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>

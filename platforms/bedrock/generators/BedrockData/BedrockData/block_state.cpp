@@ -5,18 +5,9 @@
 #include <MC/IDataOutput.hpp>
 #include <MC/CompoundTag.hpp>
 
-#include <MC/NbtIo.hpp>
 #include "minecraft.hpp"
 #include "get_file.hpp"
-
-
-std::string write_compound(const CompoundTag* tag) {
-    void* vtbl = dlsym("??_7StringByteOutput@@6B@");
-    string result = "";
-    void* iDataOutput[2] = { vtbl, &result };
-    NbtIo::write(tag, (IDataOutput&)iDataOutput);
-    return result;
-}
+#include "nbt.hpp"
 
 
 void block_state(const Block* block) {

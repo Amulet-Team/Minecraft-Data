@@ -2,11 +2,17 @@
 #include "pch.h"
 
 #include <MC/Block.hpp>
+#include <MC/BlockActor.hpp>
+#include <MC/BlockActorFactory.hpp>
+#include <MC/BlockPos.hpp>
+#include <MC/BlockLegacy.hpp>
 
 #include "minecraft.hpp"
 #include "get_file.hpp"
+#include "nbt.hpp"
 
 
+void block_actor_data(const Block* block);
 void block_entity_type(const Block_*);
 void block_destroy_speed(const Block_*);
 void block_friction(const Block_*);
@@ -30,6 +36,7 @@ void block_variant(const Block_*);
 
 void forEachBlock(const Block_* block_) {
     const Block* block = (const Block*)block_;
+    block_actor_data(block);
     block_entity_type(block_);
     block_destroy_speed(block_);
     block_friction(block_);

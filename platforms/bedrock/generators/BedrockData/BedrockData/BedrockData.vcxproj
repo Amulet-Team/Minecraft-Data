@@ -84,6 +84,7 @@ if "%generate%" == "true" (
     <ClInclude Include="dlsym.hpp" />
     <ClInclude Include="framework.h" />
     <ClInclude Include="minecraft.hpp" />
+    <ClInclude Include="nbt.hpp" />
     <ClInclude Include="pch.h" />
     <ClInclude Include="resource.h" />
     <ClInclude Include="metadata.h" />
@@ -92,6 +93,7 @@ if "%generate%" == "true" (
     <ClCompile Include="biome.cpp" />
     <ClCompile Include="biome_map.cpp" />
     <ClCompile Include="block_actor.cpp" />
+    <ClCompile Include="block_actor_data.cpp" />
     <ClCompile Include="block_alias.cpp" />
     <ClCompile Include="block_entity_type.cpp" />
     <ClCompile Include="block_data.cpp" />
@@ -119,6 +121,7 @@ if "%generate%" == "true" (
     <ClCompile Include="dlsym.cpp" />
     <ClCompile Include="effect_data.cpp" />
     <ClCompile Include="item.cpp" />
+    <ClCompile Include="nbt.cpp" />
     <ClCompile Include="version.cpp" />
     <ClCompile Include="get_file.cpp" />
     <ClInclude Include="get_file.hpp" />
