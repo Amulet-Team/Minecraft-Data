@@ -28,8 +28,8 @@ void block_translucency(const Block_*);
 void block_variant(const Block_*);
 
 
-void forEachBlock(Block_* block_) {
-    Block* block = (Block*)block_;
+void forEachBlock(const Block_* block_) {
+    const Block* block = (const Block*)block_;
     block_entity_type(block_);
     block_destroy_speed(block_);
     block_friction(block_);
