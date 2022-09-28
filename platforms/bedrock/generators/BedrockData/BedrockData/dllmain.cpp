@@ -4,7 +4,7 @@
 #pragma comment(lib, "bedrock_server_api.lib")
 #pragma comment(lib, "bedrock_server_var.lib")
 #pragma comment(lib, "../LiteLoaderSDK/Lib/SymDBHelper.lib")
-#pragma comment(lib, "../LLPreLoader/LLPreLoader.lib")
+#pragma comment(lib, "../../LLPreLoader/LLPreLoader.lib")
 
 #include "minecraft.hpp"
 #include "get_file.hpp"
