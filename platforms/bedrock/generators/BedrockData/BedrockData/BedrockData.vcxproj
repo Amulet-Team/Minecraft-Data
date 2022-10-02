@@ -33,9 +33,9 @@
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <LinkIncremental>false</LinkIncremental>
-    <IncludePath>$(SolutionDir)LiteLoaderSDK\Header\third-party;$(SolutionDir)LiteLoaderSDK\Header;$(VC_IncludePath);$(WindowsSDK_IncludePath)</IncludePath>
-    <LocalDebuggerWorkingDirectory>C:\Users\james_000\Desktop\amulet_test_worlds\bedrock_server\bedrock-server-1.19.30.04</LocalDebuggerWorkingDirectory>
-    <LibraryPath>$(LocalDebuggerWorkingDirectory)\Lib;$(LibraryPath)</LibraryPath>
+    <IncludePath>$(LocalDebuggerWorkingDirectory)\..\include\llapi;$(LocalDebuggerWorkingDirectory)\..\include;$(SolutionDir)..\LiteLoaderSDK\include;$(VC_IncludePath);$(WindowsSDK_IncludePath)</IncludePath>
+    <LocalDebuggerWorkingDirectory>D:\Data\GitHub\Minecraft-Data\platforms\bedrock\versions\1.19.30.04\server</LocalDebuggerWorkingDirectory>
+    <LibraryPath>$(SolutionDir)..\LLPreLoader;$(SolutionDir)..\LiteLoaderSDK\lib;$(LocalDebuggerWorkingDirectory)\Lib;$(LibraryPath)</LibraryPath>
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <ClCompile>
@@ -49,7 +49,7 @@
       <LanguageStandard>stdcpp17</LanguageStandard>
       <PreprocessorDefinitions>NDEBUG;TEMPLATE_EXPORTS;WIN32_LEAN_AND_MEAN;_CRT_SECURE_NO_WARNINGS;_WINDOWS;_USRDLL;_AMD64_;NOMINMAX;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <AdditionalOptions>/utf-8 %(AdditionalOptions)</AdditionalOptions>
-      <AdditionalIncludeDirectories>$(SolutionDir)LiteLoaderSDK\Header\third-party;$(SolutionDir)LiteLoaderSDK\Header;$(VC_IncludePath);$(WindowsSDK_IncludePath);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>$(LocalDebuggerWorkingDirectory)\..\include\llapi;$(LocalDebuggerWorkingDirectory)\..\include;$(SolutionDir)..\LiteLoaderSDK\include;$(VC_IncludePath);$(WindowsSDK_IncludePath);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Windows</SubSystem>
@@ -76,7 +76,7 @@ if not exist "$(LocalDebuggerWorkingDirectory)\Lib\bedrock_server_api.lib" set g
 if not exist "$(LocalDebuggerWorkingDirectory)\Lib\bedrock_server_var.lib" set generate=true
 if "%generate%" == "true" (
     if not exist "$(LocalDebuggerWorkingDirectory)\Lib\" mkdir "$(LocalDebuggerWorkingDirectory)\Lib\"
-    $(SolutionDir)LiteLoaderSDK\Tools\LibraryBuilder.exe -o "$(LocalDebuggerWorkingDirectory)\Lib" "$(LocalDebuggerWorkingDirectory)"
+    $(SolutionDir)..\LiteLoaderSDK\Tools\LibraryBuilder.exe -o "$(LocalDebuggerWorkingDirectory)\Lib" "$(LocalDebuggerWorkingDirectory)"
 )</Command>
     </PreBuildEvent>
   </ItemDefinitionGroup>
