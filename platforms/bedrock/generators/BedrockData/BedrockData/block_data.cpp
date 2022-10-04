@@ -1,6 +1,7 @@
 #pragma once
 #include "pch.h"
 
+#include <HookAPI.h>
 #include <MC/Block.hpp>
 #include <MC/BlockActor.hpp>
 #include <MC/BlockActorFactory.hpp>

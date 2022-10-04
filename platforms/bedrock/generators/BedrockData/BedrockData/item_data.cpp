@@ -1,11 +1,12 @@
 #pragma once
 #include "pch.h"
 
+#include <HookAPI.h>
 #include <MC/BaseGameVersion.hpp>
 #include <MC/SemVersion.hpp>
 #include <MC/ItemRegistry.hpp>
 #include <MC/Item.hpp>
-#include <MC/Types.hpp>
+#include <MC/WeakPtr.hpp>
 #include "get_file.hpp"
 
 

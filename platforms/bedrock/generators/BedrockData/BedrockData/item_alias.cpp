@@ -1,6 +1,9 @@
 #pragma once
 #include "pch.h"
 
+#include <functional>
+
+#include <HookAPI.h>
 #include <MC/HashedString.hpp>
 #include <MC/BaseGameVersion.hpp>
 #include <MC/Item.hpp>
@@ -13,13 +16,13 @@ THook(void, "?registerAlias@ItemRegistry@@SAXAEBVHashedString@@0AEBVBaseGameVers
 }
 
 
-THook(Item&, "?registerComplexAlias@ItemRegistry@@SAAEAVItem@@AEBVHashedString@@V?$function@$$A6A?AVHashedString@@F@Z@std@@@Z", const HashedString& alias, std::function<HashedString(short)> func) {
-	for (auto i = 0; i < 256; i++) {
-		HashedString name = func(i);
-		*getFile("generated/item/complex_alias.txt") << alias.getString() << "|" << i << "|" << name.getString() << std::endl;
-	}
-	return original(alias, func);
-}
+//THook(Item&, "?registerComplexAlias@ItemRegistry@@SAAEAVItem@@AEBVHashedString@@V?$function@$$A6A?AVHashedString@@F@Z@std@@@Z", const HashedString& alias, std::function<HashedString(short)> func) {
+//	for (auto i = 0; i < 256; i++) {
+//		HashedString name = func(i);
+//		*getFile("generated/item/complex_alias.txt") << alias.getString() << "|" << i << "|" << name.getString() << std::endl;
+//	}
+//	return original(alias, func);
+//}
 
 
 THook(void, "?registerLegacyID@ItemRegistry@@SAXAEBVHashedString@@F@Z", const HashedString& name, short id) {

@@ -6,6 +6,9 @@
 #pragma comment(lib, "SymDBHelper.lib")
 #pragma comment(lib, "LLPreLoader.lib")
 
+#include <Windows.h>
+
+#include <HookAPI.h>
 #include "minecraft.hpp"
 #include "get_file.hpp"
 
@@ -47,6 +50,7 @@ DWORD WINAPI MainThread(HMODULE hModule) {
 
     // print to the console that we are done
     std::cout << "Data generation finished." << std::endl;
+    *getFile("generated/done.txt");
 
     // run normal termination by closing the window
     auto window = GetConsoleWindow();

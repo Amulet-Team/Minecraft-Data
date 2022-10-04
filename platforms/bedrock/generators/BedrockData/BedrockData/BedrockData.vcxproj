@@ -33,7 +33,7 @@
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <LinkIncremental>false</LinkIncremental>
-    <IncludePath>$(LocalDebuggerWorkingDirectory)\..\include\llapi;$(LocalDebuggerWorkingDirectory)\..\include;$(SolutionDir)..\LiteLoaderSDK\include;$(VC_IncludePath);$(WindowsSDK_IncludePath)</IncludePath>
+    <IncludePath>$(SolutionDir)..\SDK\include;$(VC_IncludePath);$(WindowsSDK_IncludePath)</IncludePath>
     <LocalDebuggerWorkingDirectory>D:\Data\GitHub\Minecraft-Data\platforms\bedrock\versions\1.19.30.04\server</LocalDebuggerWorkingDirectory>
     <LibraryPath>$(SolutionDir)..\LLPreLoader;$(SolutionDir)..\LiteLoaderSDK\lib;$(LocalDebuggerWorkingDirectory)\Lib;$(LibraryPath)</LibraryPath>
   </PropertyGroup>
@@ -49,7 +49,7 @@
       <LanguageStandard>stdcpp17</LanguageStandard>
       <PreprocessorDefinitions>NDEBUG;TEMPLATE_EXPORTS;WIN32_LEAN_AND_MEAN;_CRT_SECURE_NO_WARNINGS;_WINDOWS;_USRDLL;_AMD64_;NOMINMAX;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <AdditionalOptions>/utf-8 %(AdditionalOptions)</AdditionalOptions>
-      <AdditionalIncludeDirectories>$(LocalDebuggerWorkingDirectory)\..\include\llapi;$(LocalDebuggerWorkingDirectory)\..\include;$(SolutionDir)..\LiteLoaderSDK\include;$(VC_IncludePath);$(WindowsSDK_IncludePath);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>$(SolutionDir)..\SDK\include;$(VC_IncludePath);$(WindowsSDK_IncludePath);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Windows</SubSystem>
@@ -90,6 +90,7 @@ if "%generate%" == "true" (
     <ClInclude Include="metadata.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="..\..\SDK\src\CompoundTag.cpp" />
     <ClCompile Include="biome.cpp" />
     <ClCompile Include="biome_map.cpp" />
     <ClCompile Include="block_actor.cpp" />

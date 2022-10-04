@@ -1,6 +1,9 @@
 #pragma once
 #include "pch.h"
 
+#include <map>
+
+#include <HookAPI.h>
 #include "minecraft.hpp"
 #include "get_file.hpp"
 

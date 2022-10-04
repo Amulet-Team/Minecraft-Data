@@ -34,6 +34,9 @@
     <Filter Include="Source\block\block_data">
       <UniqueIdentifier>{416db1e5-3bb8-44d1-a84f-6bdf13a403c5}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Source\MC">
+      <UniqueIdentifier>{66a7a9d3-dd06-4542-bd38-5e9b28bfa9ed}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="framework.h">
@@ -175,6 +178,9 @@
     </ClCompile>
     <ClCompile Include="block_actor_data.cpp">
       <Filter>Source\block\block_data</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\SDK\src\CompoundTag.cpp">
+      <Filter>Source\MC</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
