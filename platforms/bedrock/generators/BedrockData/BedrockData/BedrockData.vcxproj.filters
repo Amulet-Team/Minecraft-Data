@@ -1,191 +1,45 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <Filter Include="Header">
-      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
-      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
-    </Filter>
-    <Filter Include="Source">
+    <Filter Include="Source Files">
       <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
       <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
     </Filter>
-    <Filter Include="Resourse">
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
-    <Filter Include="Source\block">
-      <UniqueIdentifier>{57ea1d32-1f97-41fb-a0fb-5327e05eddb8}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Source\item">
-      <UniqueIdentifier>{734da69a-0295-406a-acad-d0d36e085f55}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Source\biome">
-      <UniqueIdentifier>{12bc0780-b619-4bf4-95be-c1b79e5a4cf8}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Source\effect">
-      <UniqueIdentifier>{d7665fc5-2bc9-4b11-8572-737fa8439378}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Source\version">
-      <UniqueIdentifier>{e1e1e7b1-09a9-405d-b6af-b9f05bb3f033}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Source\minecraft">
-      <UniqueIdentifier>{1702608c-07ee-49e8-8653-7e6e5764e299}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Source\block\block_data">
-      <UniqueIdentifier>{416db1e5-3bb8-44d1-a84f-6bdf13a403c5}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Source\MC">
-      <UniqueIdentifier>{66a7a9d3-dd06-4542-bd38-5e9b28bfa9ed}</UniqueIdentifier>
-    </Filter>
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="framework.h">
-      <Filter>Header</Filter>
-    </ClInclude>
-    <ClInclude Include="pch.h">
-      <Filter>Header</Filter>
-    </ClInclude>
-    <ClInclude Include="resource.h">
-      <Filter>Resourse</Filter>
-    </ClInclude>
-    <ClInclude Include="minecraft.hpp">
-      <Filter>Source\minecraft</Filter>
-    </ClInclude>
-    <ClInclude Include="metadata.h">
-      <Filter>Source</Filter>
-    </ClInclude>
-    <ClInclude Include="get_file.hpp">
-      <Filter>Source</Filter>
-    </ClInclude>
-    <ClInclude Include="dlsym.hpp">
-      <Filter>Source</Filter>
-    </ClInclude>
-    <ClInclude Include="nbt.hpp">
-      <Filter>Source</Filter>
-    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="dllmain.cpp">
-      <Filter>Source</Filter>
+      <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="pch.cpp">
-      <Filter>Source</Filter>
+    <ClCompile Include="generators\effect.cpp">
+      <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="block_alias.cpp">
-      <Filter>Source\block</Filter>
+    <ClCompile Include="generators\generators.cpp">
+      <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="item_alias.cpp">
-      <Filter>Source\item</Filter>
+    <ClCompile Include="util\get_file.cpp">
+      <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="get_file.cpp">
-      <Filter>Source</Filter>
+    <ClCompile Include="generators\game_version.cpp">
+      <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="biome_map.cpp">
-      <Filter>Source\biome</Filter>
-    </ClCompile>
-    <ClCompile Include="block_version.cpp">
-      <Filter>Source\block</Filter>
-    </ClCompile>
-    <ClCompile Include="item_data.cpp">
-      <Filter>Source\item</Filter>
-    </ClCompile>
-    <ClCompile Include="effect_data.cpp">
-      <Filter>Source\effect</Filter>
-    </ClCompile>
-    <ClCompile Include="version.cpp">
-      <Filter>Source\version</Filter>
-    </ClCompile>
-    <ClCompile Include="minecraft.cpp">
-      <Filter>Source\minecraft</Filter>
-    </ClCompile>
-    <ClCompile Include="block.cpp">
-      <Filter>Source\block</Filter>
-    </ClCompile>
-    <ClCompile Include="biome.cpp">
-      <Filter>Source\biome</Filter>
-    </ClCompile>
-    <ClCompile Include="block_actor.cpp">
-      <Filter>Source\block</Filter>
-    </ClCompile>
-    <ClCompile Include="block_data.cpp">
-      <Filter>Source\block\block_data</Filter>
-    </ClCompile>
-    <ClCompile Include="block_state.cpp">
-      <Filter>Source\block\block_data</Filter>
-    </ClCompile>
-    <ClCompile Include="block_map_colour.cpp">
-      <Filter>Source\block\block_data</Filter>
-    </ClCompile>
-    <ClCompile Include="block_light.cpp">
-      <Filter>Source\block\block_data</Filter>
-    </ClCompile>
-    <ClCompile Include="item.cpp">
-      <Filter>Source\item</Filter>
-    </ClCompile>
-    <ClCompile Include="block_name.cpp">
-      <Filter>Source\block\block_data</Filter>
-    </ClCompile>
-    <ClCompile Include="block_variant.cpp">
-      <Filter>Source\block\block_data</Filter>
-    </ClCompile>
-    <ClCompile Include="block_runtime_id.cpp">
-      <Filter>Source\block\block_data</Filter>
-    </ClCompile>
-    <ClCompile Include="block_light_emission.cpp">
-      <Filter>Source\block\block_data</Filter>
-    </ClCompile>
-    <ClCompile Include="block_is_container.cpp">
-      <Filter>Source\block\block_data</Filter>
-    </ClCompile>
-    <ClCompile Include="block_is_interactive.cpp">
-      <Filter>Source\block\block_data</Filter>
-    </ClCompile>
-    <ClCompile Include="block_is_motion_blocking.cpp">
-      <Filter>Source\block\block_data</Filter>
-    </ClCompile>
-    <ClCompile Include="block_is_solid.cpp">
-      <Filter>Source\block\block_data</Filter>
-    </ClCompile>
-    <ClCompile Include="block_entity_type.cpp">
-      <Filter>Source\block\block_data</Filter>
-    </ClCompile>
-    <ClCompile Include="block_destroy_speed.cpp">
-      <Filter>Source\block\block_data</Filter>
-    </ClCompile>
-    <ClCompile Include="block_friction.cpp">
-      <Filter>Source\block\block_data</Filter>
-    </ClCompile>
-    <ClCompile Include="block_is_unbreakable.cpp">
-      <Filter>Source\block\block_data</Filter>
-    </ClCompile>
-    <ClCompile Include="block_is_water_blocking.cpp">
-      <Filter>Source\block\block_data</Filter>
-    </ClCompile>
-    <ClCompile Include="block_may_pick.cpp">
-      <Filter>Source\block\block_data</Filter>
-    </ClCompile>
-    <ClCompile Include="block_min_version.cpp">
-      <Filter>Source\block\block_data</Filter>
-    </ClCompile>
-    <ClCompile Include="block_translucency.cpp">
-      <Filter>Source\block\block_data</Filter>
-    </ClCompile>
-    <ClCompile Include="dlsym.cpp">
-      <Filter>Source</Filter>
-    </ClCompile>
-    <ClCompile Include="nbt.cpp">
-      <Filter>Source</Filter>
-    </ClCompile>
-    <ClCompile Include="block_actor_data.cpp">
-      <Filter>Source\block\block_data</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\SDK\src\CompoundTag.cpp">
-      <Filter>Source\MC</Filter>
+    <ClCompile Include="generators\data_version.cpp">
+      <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ResourceCompile Include="Resource.rc">
-      <Filter>Resourse</Filter>
-    </ResourceCompile>
+    <ClInclude Include="util\get_file.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="generators\generators.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
