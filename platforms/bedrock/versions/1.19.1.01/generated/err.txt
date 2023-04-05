@@ -1,0 +1,1 @@
+The Minecraft instance was not set after 30 seconds.
