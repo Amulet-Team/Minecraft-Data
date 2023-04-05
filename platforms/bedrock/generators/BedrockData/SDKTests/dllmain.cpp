@@ -4,7 +4,7 @@
 #include <Windows.h>
 #include <iostream>
 
-#include "get_file.hpp"
+#include "logging.hpp"
 #include "tests/tests.hpp"
 
 
@@ -14,10 +14,10 @@ DWORD WINAPI MainThread(HMODULE hModule) {
 
     try {
         Test::main();
-        *getFile("generated/pass.txt") << "Passed all tests" << std::endl;
+        logToFile("generated/pass.txt", "Passed all tests");
     }
     catch (const char* error) {
-        *getFile("generated/fail.txt") << error << std::endl;
+        logToFile("generated/fail.txt", error);
     }
 
     // print to the console that we are done

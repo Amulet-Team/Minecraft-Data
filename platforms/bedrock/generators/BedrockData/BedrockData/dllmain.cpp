@@ -5,7 +5,7 @@
 #include <iostream>
 #include <string>
 
-#include "util/get_file.hpp"
+#include "logging.hpp"
 #include "generators/generators.hpp"
 
 
@@ -15,14 +15,16 @@ DWORD WINAPI MainThread(HMODULE hModule) {
 
     try {
         Data::main();
-        *getFile("generated/success.txt") << "success" << std::endl;
+        logToFile("generated/success.txt", "success");
     }
     catch (const std::string error) {
-        *getFile("generated/err.txt") << error << std::endl;
+        logToFile("generated/err.txt", error);
     }
 
     // print to the console that we are done
     std::cout << "Data generation finished." << std::endl;
+
+    exit(0);
 
     // return because the function declarion requires it
     return 0;

@@ -24,18 +24,18 @@
     <ClCompile Include="generators\generators.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="util\get_file.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="generators\game_version.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="generators\data_version.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="logging.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="util\get_file.hpp">
+    <ClInclude Include="logging.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="generators\generators.hpp">

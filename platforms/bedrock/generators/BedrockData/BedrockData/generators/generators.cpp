@@ -1,6 +1,6 @@
 #include <iostream>
 
-#include "util/get_file.hpp"
+#include "logging.hpp"
 #include "MC/Minecraft.hpp"
 
 #include "generators.hpp"
