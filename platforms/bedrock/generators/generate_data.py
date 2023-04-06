@@ -8,13 +8,20 @@ from urllib.request import urlopen
 from concurrent.futures import ThreadPoolExecutor
 import shutil
 import subprocess
+import re
+from threading import RLock
+import logging
 
 PluginPath = os.path.join("BedrockData", "BedrockData.dll")
 VersionsPath = os.path.join("..", "versions")
 BinPath = os.path.join("LL", "bin")
 
+_exit = False
 
-def get_modded_server(path: str, server_dir: str) -> str:
+logging.basicConfig(level=logging.INFO)
+
+
+def get_modded_server(identifier: str, path: str, server_dir: str) -> str:
     """
     Download and mod the Bedrock server if it does not exist.
 
@@ -23,16 +30,16 @@ def get_modded_server(path: str, server_dir: str) -> str:
         server_url.txt - a txt file containing the url to the server zip
         server - a directory where the modded server will be placed
 
+    :param identifier: An identifier to use in logging. Use the server version number.
     :param path: The path to the directory
     :param server_dir: The path to the server directory
     :return: The path to the modded exe
     """
-    print(f"Processing {path}")
-
+    logging.info(f"Processing {path}")
 
     # Check if the server directory already exists
     if not os.path.isdir(server_dir):
-        print(f"Downloading {path}")
+        logging.info(f"Downloading {path}")
         # Get the server URL
         with open(os.path.join(path, "server_url.txt")) as f:
             server_url = f.read()
@@ -57,7 +64,7 @@ def get_modded_server(path: str, server_dir: str) -> str:
 
     modded_server = os.path.join(server_dir, "bedrock_server_mod.exe")
     if not os.path.isfile(modded_server):
-        print(f"Modding {path}")
+        logging.info(f"Modding {path}")
         # If it has not been modded
         if not os.path.isfile(os.path.join(server_dir, "bedrock_server.pdb")):
             raise Exception(f"The pdb file is missing for {server_dir}")
@@ -68,16 +75,45 @@ def get_modded_server(path: str, server_dir: str) -> str:
         shutil.copyfile(os.path.join(BinPath, "LLPreLoader.dll"), os.path.join(server_dir, "LLPreLoader.dll"))
 
         # Run the editor
-        subprocess.run([editor_path, "-m", "--pause=false"], cwd=server_dir)
+        process = subprocess.Popen([editor_path, "-m", "--pause=false"], cwd=server_dir, stdout=subprocess.PIPE, stderr=subprocess.STDOUT)
+        with process.stdout:
+            for line in iter(process.stdout.readline, b""):
+                logging.info(f"\x1b[0m{identifier}: {line.decode().strip()}\x1b[0m")
         assert os.path.isfile(modded_server)
         os.remove(editor_path)
 
     return modded_server
 
 
+_port = 19135
+_port_lock = RLock()
+PortPattern = re.compile(r"server-port=\d+")
+Port6Pattern = re.compile(r"server-portv6=\d+")
+
+def set_unique_port(path: str):
+    """
+    Modify the server.properties file to have a unique port.
+
+    :param path: The path to the server.properties file.
+    """
+    global _port
+    with open(path, "r+") as f:
+        config = f.read()
+        f.seek(0)
+        f.truncate(0)
+        with _port_lock:
+            this_port = _port
+            _port += 2
+        config = PortPattern.sub(f"server-port={this_port}", config)
+        config = Port6Pattern.sub(f"server-portv6={this_port+1}", config)
+
+        f.write(config)
+
+
 def process_version(path: str):
+    identifier = os.path.basename(path)
     server_dir = os.path.join(path, "server")
-    modded_server = get_modded_server(path, server_dir)
+    modded_server = get_modded_server(identifier, path, server_dir)
 
     # Copy the plugin
     plugin_dir = os.path.join(server_dir, "plugins")
@@ -92,8 +128,13 @@ def process_version(path: str):
         shutil.rmtree(generated_dir)
     os.makedirs(generated_dir)
 
+    set_unique_port(os.path.join(server_dir, "server.properties"))
+
     # Run the server
-    subprocess.run(modded_server, cwd=server_dir)
+    process = subprocess.Popen([modded_server], cwd=server_dir, stdout=subprocess.PIPE, stderr=subprocess.STDOUT)
+    with process.stdout:
+        for line in iter(process.stdout.readline, b""):
+            logging.info(f"\x1b[0m{identifier}: {line.decode().strip()}\x1b[0m")
 
     generated_out_dir = os.path.join(path, "generated")
     if os.path.isdir(generated_out_dir):
@@ -101,13 +142,24 @@ def process_version(path: str):
     shutil.copytree(generated_dir, generated_out_dir)
 
 
-def main():
-    # with ThreadPoolExecutor(1) as e:
-    #     for url_txt_path in glob.glob(os.path.join(glob.escape(VersionsPath), "*", "server_url.txt")):
-    #         e.submit(process_version, os.path.dirname(url_txt_path))
+def safely_process_version(path: str):
+    global _exit
+    if _exit:
+        return
+    try:
+        process_version(path)
+    except SystemExit:
+        _exit = True
+    except Exception as e:
+        logging.exception(e)
 
-    for url_txt_path in glob.glob(os.path.join(glob.escape(VersionsPath), "*", "server_url.txt")):
-        process_version(os.path.dirname(url_txt_path))
+
+def main():
+    with ThreadPoolExecutor(5) as e:
+        e.map(
+            safely_process_version,
+            map(os.path.dirname, glob.glob(os.path.join(glob.escape(VersionsPath), "*", "server_url.txt")))
+        )
 
 
 if __name__ == '__main__':
