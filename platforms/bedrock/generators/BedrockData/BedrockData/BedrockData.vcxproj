@@ -161,7 +161,7 @@
   <ItemGroup>
     <ClCompile Include="generators\data_version.cpp" />
     <ClCompile Include="generators\generators.cpp" />
-    <ClCompile Include="generators\effect.cpp" />
+    <ClCompile Include="generators\mob_effect.cpp" />
     <ClCompile Include="generators\game_version.cpp" />
     <ClCompile Include="dllmain.cpp" />
     <ClCompile Include="logging.cpp" />
