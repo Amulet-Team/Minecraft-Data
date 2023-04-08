@@ -5,6 +5,7 @@
 
 using namespace MinecraftAPI;
 
+// Added 1.9.0.15
 Minecraft** Minecraft::Ptr = (Minecraft**)dlsym("?mGame@ServerCommand@@1PEAVMinecraft@@EA");
 
 int state = 0;  // 0=unchecked, -1=error, 1=success
