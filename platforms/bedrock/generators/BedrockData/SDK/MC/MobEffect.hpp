@@ -8,6 +8,9 @@ namespace MinecraftAPI {
 		typedef MobEffect* (*_getByIdT)(int);
 		static _getByIdT _getById;
 
+		typedef MobEffect* (*_getById1940T)(unsigned int);
+		static _getById1940T _getById1940;
+
 		typedef std::string const& (*_getResourceNameT)(const MobEffect*);
 		static _getResourceNameT _getResourceName;
 
@@ -19,7 +22,10 @@ namespace MinecraftAPI {
 
 	public:
 		static MobEffect* getById(int id) {
-			if (_getById != nullptr) {
+			if (_getById1940 != nullptr) {
+				return _getById1940(id);
+			}
+			else if (_getById != nullptr) {
 				return _getById(id);
 			}
 			return nullptr;

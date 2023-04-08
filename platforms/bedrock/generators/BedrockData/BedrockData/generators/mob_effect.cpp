@@ -1,6 +1,5 @@
 #pragma once
 #include "generators.hpp"
-
 #include <MC/MobEffect.hpp>
 #include "logging.hpp"
 
@@ -10,7 +9,6 @@ using namespace MinecraftAPI;
 void Data::effect() {
 	for (auto i = 0; i < 500; i++) {
 		MobEffect* effect = MobEffect::getById(i);
-		std::cout << i << " " << (effect == nullptr) << std::endl;
 		if (effect != nullptr) {
 			logToFile("generated/effect/input_id.txt", i);
 			logToFile("generated/effect/name.txt", effect->getResourceName());
