@@ -18,13 +18,21 @@ def get_symbols(pdb_path: str):
             yield line_s.split(",", 2)[-1].strip()
 
 
+# Names with alternative names.
+Alts = {
+    "class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >": "std::string"
+}
+
+
 def generate_header_from_symbols(header_path: str, decorated_symbols: Iterable[str]):
     """Generate a header file from an iterable of decorated symbols."""
     symbols: list[tuple[bool, str, str, str]] = []
     for decorated_symbol in decorated_symbols:
         try:
             qualname = undname(decorated_symbol, name_only=True)
-            undecorated_symbol = undname(decorated_symbol)
+            undecorated_symbol = undname(decorated_symbol, ms_keywords=False, access_specifiers=False)
+            for a, b in Alts.items():
+                undecorated_symbol = undecorated_symbol.replace(a, b)
         except:
             symbols.append((True, "", "", decorated_symbol))
         else:
@@ -65,8 +73,9 @@ def generate_diff(path: str):
         server_dir = os.path.join(path, version_s, "server")
         pdb_path = os.path.join(server_dir, "bedrock_server.pdb")
         symbols = set(get_symbols(pdb_path))
-        generate_header_from_symbols(os.path.join(path, "..", "headers", f"{version_s}_added.hpp"), symbols.difference(previous_symbols))
-        generate_header_from_symbols(os.path.join(path, "..", "headers", f"{version_s}_removed.hpp"), previous_symbols.difference(symbols))
+        padded_version_s = ".".join("0" * (3-len(s)) + s for s in version_s.split("."))
+        generate_header_from_symbols(os.path.join(path, "..", "headers", f"{padded_version_s}_added.hpp"), symbols.difference(previous_symbols))
+        generate_header_from_symbols(os.path.join(path, "..", "headers", f"{padded_version_s}_removed.hpp"), previous_symbols.difference(symbols))
         previous_symbols = symbols
 
 
