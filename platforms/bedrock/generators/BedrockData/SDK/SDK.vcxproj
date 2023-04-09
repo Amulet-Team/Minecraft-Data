@@ -22,9 +22,11 @@
     <ClInclude Include="Global.h" />
     <ClInclude Include="HookAPI.h" />
     <ClInclude Include="logging.hpp" />
+    <ClInclude Include="MC\BlockPalette.hpp" />
     <ClInclude Include="MC\DataVersion.hpp" />
     <ClInclude Include="MC\GameVersion.hpp" />
     <ClInclude Include="MC\HashedString.hpp" />
+    <ClInclude Include="MC\Level.hpp" />
     <ClInclude Include="MC\Minecraft.hpp" />
     <ClInclude Include="MC\MobEffect.hpp" />
     <ClInclude Include="utils\Hash.h" />
@@ -34,6 +36,7 @@
     <ClCompile Include="logging.cpp" />
     <ClCompile Include="MC\DataVersion.cpp" />
     <ClCompile Include="MC\GameVersion.cpp" />
+    <ClCompile Include="MC\Level.cpp" />
     <ClCompile Include="MC\Minecraft.cpp" />
     <ClCompile Include="MC\MobEffect.cpp" />
   </ItemGroup>

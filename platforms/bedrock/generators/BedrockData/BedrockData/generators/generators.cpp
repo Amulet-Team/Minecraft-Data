@@ -10,8 +10,9 @@ using namespace MinecraftAPI;
 
 
 void Data::main() {
-    Minecraft::waitForPtr();
+    Minecraft::get();
     Data::game_version();
     Data::data_version();
     Data::effect();
+    Data::block();
 }

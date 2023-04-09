@@ -1,12 +1,23 @@
 #pragma once
 
+#include "Level.hpp"
+
 
 namespace MinecraftAPI {
 	class Minecraft {
-	public:
 		static Minecraft** Ptr;
-		static void waitForPtr();
-	};
 
-	class Level {};
+		typedef Level* (*_getLevelT)(const Minecraft*);
+		static _getLevelT _getLevel;
+
+	public:
+		static Minecraft* get();
+
+		Level* getLevel() {
+			if (_getLevel != nullptr) {
+				return _getLevel(this);
+			}
+			return nullptr;
+		}
+	};
 }

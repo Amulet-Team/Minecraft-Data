@@ -30,6 +30,7 @@
     <ClCompile Include="generators\data_version.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="generators\block.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>

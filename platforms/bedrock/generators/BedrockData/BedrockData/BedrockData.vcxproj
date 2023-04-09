@@ -159,6 +159,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="generators\block.cpp" />
     <ClCompile Include="generators\data_version.cpp" />
     <ClCompile Include="generators\generators.cpp" />
     <ClCompile Include="generators\mob_effect.cpp" />
