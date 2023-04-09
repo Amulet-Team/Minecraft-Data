@@ -3,7 +3,6 @@
 
 
 namespace MinecraftAPI {
-	class MobEffect;
 	class MobEffect {
 		typedef MobEffect* (*_getByIdT)(int);
 		static _getByIdT _getById;
