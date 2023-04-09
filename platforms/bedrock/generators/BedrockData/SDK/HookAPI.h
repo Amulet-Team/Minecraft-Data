@@ -19,6 +19,21 @@ LIAPI uintptr_t findSig(const char* szSignature);
 } // namespace ll::Hook
 extern std::vector<std::string> dlsym_reverse(int addr);
 
+// Get a pointer to a virtual function
+// _this    This pointer
+// off      Virtual Table offset
+// symbol   The expected symbol to validate
+template <typename FuncT, typename ClsT>
+FuncT getVirtual(ClsT* _this, uintptr_t off, std::string symbol) {
+    uintptr_t vattr = *(*(uintptr_t**)_this + off);
+    for (std::string s : dlsym_reverse((int)vattr)) {
+        if (s == symbol) {
+            return (FuncT)vattr;
+        }
+    }
+    return nullptr;
+}
+
 template <typename RTN = void, typename... Args>
 RTN inline VirtualCall(void const* _this, uintptr_t off, Args... args) {
     return (*(RTN(**)(void const*, Args...))(*(uintptr_t*)_this + off))(_this, args...);
