@@ -2,7 +2,6 @@
 #pragma comment(lib, "LLPreLoader.lib")
 #pragma comment(lib, "SDK.lib")
 #include <Windows.h>
-#include <iostream>
 #include <string>
 
 #include "logging.hpp"
@@ -11,18 +10,20 @@
 
 DWORD WINAPI MainThread(HMODULE hModule) {
     // print to the console that the DLL is running
-    std::cout << "BedrockData.dll Injected" << std::endl;
+    debug("BedrockData.dll Injected");
 
     try {
         Data::main();
+        debug("success");
         logToFile("generated/success.txt", "success");
     }
     catch (const std::string error) {
+        debug(error);
         logToFile("generated/err.txt", error);
     }
 
     // print to the console that we are done
-    std::cout << "Data generation finished." << std::endl;
+    debug("Data generation finished.");
 
     exit(0);
 

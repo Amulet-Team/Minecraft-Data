@@ -10,18 +10,20 @@
 
 DWORD WINAPI MainThread(HMODULE hModule) {
     // print to the console that the DLL is running
-    std::cout << "SDKTests.dll Injected." << std::endl;
+    debug("SDKTests.dll Injected.");
 
     try {
         Test::main();
+        debug("Passed all tests");
         logToFile("generated/pass.txt", "Passed all tests");
     }
     catch (const char* error) {
+        debug(error);
         logToFile("generated/fail.txt", error);
     }
 
     // print to the console that we are done
-    std::cout << "Tests finished." << std::endl;
+    debug("Tests finished.");
 
     exit(0);
 

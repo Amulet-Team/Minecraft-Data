@@ -7,6 +7,7 @@ using namespace MinecraftAPI;
 
 
 void Data::effect() {
+	debug("mob effect");
 	for (auto i = 0; i < 500; i++) {
 		MobEffect* effect = MobEffect::getById(i);
 		if (effect != nullptr) {
@@ -19,4 +20,5 @@ void Data::effect() {
 //			*getFile("generated/effect/data/colour.txt") << colour.r << "," << colour.g << "," << colour.b << "," << colour.a << std::endl;
 		}
 	}
+	debug("finished effect");
 }

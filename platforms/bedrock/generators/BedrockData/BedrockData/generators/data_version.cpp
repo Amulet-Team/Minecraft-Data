@@ -7,6 +7,7 @@ using namespace MinecraftAPI;
 
 
 void Data::data_version() {
+	debug("data version");
 	logToFile("generated/version/actor_digest_version.txt", DataVersion::actorDigestFormat());
 	logToFile("generated/version/blend_version.txt", DataVersion::blendVersion());
 	logToFile("generated/version/level_chunk_format.txt", DataVersion::levelChunkFormat());
