@@ -30,14 +30,10 @@
     <ClCompile Include="generators\data_version.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="logging.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="logging.hpp">
-      <Filter>Header Files</Filter>
-    </ClInclude>
     <ClInclude Include="generators\generators.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>

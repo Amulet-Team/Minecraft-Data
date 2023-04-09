@@ -21,6 +21,7 @@
   <ItemGroup>
     <ClInclude Include="Global.h" />
     <ClInclude Include="HookAPI.h" />
+    <ClInclude Include="logging.hpp" />
     <ClInclude Include="MC\DataVersion.hpp" />
     <ClInclude Include="MC\GameVersion.hpp" />
     <ClInclude Include="MC\HashedString.hpp" />
@@ -30,6 +31,7 @@
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="dllmain.cpp" />
+    <ClCompile Include="logging.cpp" />
     <ClCompile Include="MC\DataVersion.cpp" />
     <ClCompile Include="MC\GameVersion.cpp" />
     <ClCompile Include="MC\Minecraft.cpp" />

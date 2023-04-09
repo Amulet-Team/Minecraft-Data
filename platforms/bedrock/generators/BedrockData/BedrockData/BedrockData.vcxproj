@@ -164,11 +164,9 @@
     <ClCompile Include="generators\mob_effect.cpp" />
     <ClCompile Include="generators\game_version.cpp" />
     <ClCompile Include="dllmain.cpp" />
-    <ClCompile Include="logging.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="generators\generators.hpp" />
-    <ClInclude Include="logging.hpp" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\SDK\SDK.vcxproj">

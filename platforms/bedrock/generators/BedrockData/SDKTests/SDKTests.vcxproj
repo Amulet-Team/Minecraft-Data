@@ -160,14 +160,12 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="dllmain.cpp" />
-    <ClCompile Include="logging.cpp" />
     <ClCompile Include="tests\tests.cpp" />
     <ClCompile Include="tests\test_DataVersion.cpp" />
     <ClCompile Include="tests\test_GameVersion.cpp" />
     <ClCompile Include="tests\test_Minecraft.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="logging.hpp" />
     <ClInclude Include="tests\tests.hpp" />
   </ItemGroup>
   <ItemGroup>

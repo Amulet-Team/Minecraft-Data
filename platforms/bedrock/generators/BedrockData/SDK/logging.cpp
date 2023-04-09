@@ -35,3 +35,9 @@ void logToFile(std::string path, std::string msg) {
     file << msg << std::endl;
     file.close();
 }
+
+
+void debug(std::string msg) {
+    std::cout << msg << std::endl;
+    logToFile("log/debug.txt", msg);
+}

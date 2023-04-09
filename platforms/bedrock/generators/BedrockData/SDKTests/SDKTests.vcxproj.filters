@@ -30,15 +30,9 @@
     <ClCompile Include="tests\test_DataVersion.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="logging.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="tests\tests.hpp">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="logging.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
