@@ -21,31 +21,31 @@ namespace MinecraftAPI {
 
 	public:
 		static MobEffect* getById(int id) {
-			if (_getById1940 != nullptr) {
+			if (_getById1940) {
 				return _getById1940(id);
 			}
-			else if (_getById != nullptr) {
+			else if (_getById) {
 				return _getById(id);
 			}
 			return nullptr;
 		}
 
 		std::string const& getResourceName() {
-			if (_getResourceName != nullptr) {
+			if (_getResourceName) {
 				return _getResourceName(this);
 			}
 			return "";
 		};
 
 		unsigned int getId() const {
-			if (_getId != nullptr) {
+			if (_getId) {
 				return _getId(this);
 			}
 			return -1;
 		};
 
 		std::string const& getDescriptionId() {
-			if (_getDescriptionId != nullptr) {
+			if (_getDescriptionId) {
 				return _getDescriptionId(this);
 			}
 			return "";
