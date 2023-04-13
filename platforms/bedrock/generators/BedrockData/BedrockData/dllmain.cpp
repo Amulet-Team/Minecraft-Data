@@ -25,7 +25,8 @@ DWORD WINAPI MainThread(HMODULE hModule) {
     // print to the console that we are done
     debug("Data generation finished.");
 
-    exit(0);
+    HWND hwnd = GetConsoleWindow();
+    SendMessage(hwnd, WM_CLOSE, 0, 0);
 
     // return because the function declarion requires it
     return 0;
