@@ -39,6 +39,9 @@
     <ClInclude Include="MC\DataVersion.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="MC\Block.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
     <ClInclude Include="MC\Level.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
@@ -65,10 +68,16 @@
     <ClCompile Include="MC\DataVersion.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="MC\Block.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
     <ClCompile Include="MC\Level.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="logging.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MC\BlockPalette.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="HookAPI.cpp">
