@@ -36,6 +36,7 @@
     <ClCompile Include="logging.cpp" />
     <ClCompile Include="MC\DataVersion.cpp" />
     <ClCompile Include="MC\GameVersion.cpp" />
+    <ClCompile Include="HookAPI.cpp" />
     <ClCompile Include="MC\Level.cpp" />
     <ClCompile Include="MC\Minecraft.cpp" />
     <ClCompile Include="MC\MobEffect.cpp" />

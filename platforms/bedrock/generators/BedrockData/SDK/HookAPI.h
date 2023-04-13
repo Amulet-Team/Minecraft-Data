@@ -5,6 +5,7 @@
 #include <string>
 #include <thread>
 #include <sstream>
+#include <Windows.h>
 
 // The core api of the hook function
 //__declspec(dllimport) int HookFunction(void* oldfunc, void** poutold, void* newfunc);
@@ -19,14 +20,22 @@ LIAPI uintptr_t findSig(const char* szSignature);
 } // namespace ll::Hook
 extern std::vector<std::string> dlsym_reverse(int addr);
 
+bool isBadReadPtr(void* p);
+bool isGoodReadPtr(void* p);
+
 // Get a pointer to a virtual function
 // _this    This pointer
 // off      Virtual Table offset
 // symbol   The expected symbol to validate
 template <typename FuncT, typename ClsT>
 FuncT getVirtual(ClsT* _this, uintptr_t off, std::string symbol) {
-    uintptr_t vattr = *(*(uintptr_t**)_this + off);
-    for (std::string s : dlsym_reverse((int)vattr)) {
+    void** vtable_attr_ptr = *(void***)_this + off;
+    if (isBadReadPtr(vtable_attr_ptr)) {
+        // Validate the vtable attribute pointer
+        return nullptr;
+    }
+    void* vattr = *vtable_attr_ptr;
+    for (std::string s : dlsym_reverse((int)(uintptr_t)vattr)) {
         if (s == symbol) {
             return (FuncT)vattr;
         }
