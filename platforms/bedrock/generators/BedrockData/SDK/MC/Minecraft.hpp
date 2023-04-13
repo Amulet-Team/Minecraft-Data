@@ -14,7 +14,7 @@ namespace MinecraftAPI {
 		static Minecraft* get();
 
 		Level* getLevel() {
-			if (_getLevel != nullptr) {
+			if (_getLevel) {
 				return _getLevel(this);
 			}
 			return nullptr;

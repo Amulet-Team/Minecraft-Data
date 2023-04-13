@@ -11,7 +11,7 @@ namespace MinecraftAPI {
 
 	public:
 		static int major() {
-			if (_major != nullptr) {
+			if (_major) {
 				return *_major;
 			}
 			else {
@@ -19,7 +19,7 @@ namespace MinecraftAPI {
 			}
 		};
 		static int minor() {
-			if (_major != nullptr) {
+			if (_major) {
 				return *_minor;
 			}
 			else {
@@ -27,7 +27,7 @@ namespace MinecraftAPI {
 			}
 		};
 		static int patch() {
-			if (_major != nullptr) {
+			if (_major) {
 				return *_patch;
 			}
 			else {
@@ -35,7 +35,7 @@ namespace MinecraftAPI {
 			}
 		};
 		static int revision() {
-			if (_major != nullptr) {
+			if (_major) {
 				return *_revision;
 			}
 			else {

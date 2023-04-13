@@ -12,7 +12,7 @@ namespace MinecraftAPI {
 
 	public:
 		static int actorDigestFormat() {
-			if (_ActorDigestFormat != nullptr) {
+			if (_ActorDigestFormat) {
 				return *_ActorDigestFormat;
 			}
 			else {
@@ -20,7 +20,7 @@ namespace MinecraftAPI {
 			}
 		};
 		static int blendVersion() {
-			if (_BlendVersion != nullptr) {
+			if (_BlendVersion) {
 				return *_BlendVersion;
 			}
 			else {
@@ -28,7 +28,7 @@ namespace MinecraftAPI {
 			}
 		};
 		static int levelChunkFormat() {
-			if (_LevelChunkFormat != nullptr) {
+			if (_LevelChunkFormat) {
 				return *_LevelChunkFormat;
 			}
 			else {
@@ -36,7 +36,7 @@ namespace MinecraftAPI {
 			}
 		};
 		static int storageVersion() {
-			if (_StorageVersion != nullptr) {
+			if (_StorageVersion) {
 				return *_StorageVersion;
 			}
 			else {
@@ -45,7 +45,7 @@ namespace MinecraftAPI {
 		};
 
 		static int subChunkFormat() {
-			if (_SubChunkFormat != nullptr) {
+			if (_SubChunkFormat) {
 				return *_SubChunkFormat;
 			}
 			else {
