@@ -11,9 +11,10 @@ using namespace MinecraftAPI;
 
 
 BlockPalette* Level::getBlockPalette() {
-	_getBlockPaletteT _getBlockPalette = getVirtual<_getBlockPaletteT, Level>(this, 68, "?getBlockPalette@Level@@UEAAAEAVBlockPalette@@XZ");
-	if (_getBlockPalette != nullptr) {
-		return &_getBlockPalette(this);
+	for (int off = 0; off < 100; off++) {
+		if (_getBlockPaletteT _getBlockPalette = getVirtual<_getBlockPaletteT, Level>(this, off, "?getBlockPalette@Level@@UEAAAEAVBlockPalette@@XZ")) {
+			return &_getBlockPalette(this);
+		}
 	}
 	return nullptr;
 
