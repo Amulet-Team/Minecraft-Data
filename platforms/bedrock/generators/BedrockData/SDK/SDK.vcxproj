@@ -19,6 +19,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="CrawlObj.hpp" />
     <ClInclude Include="Global.h" />
     <ClInclude Include="HookAPI.h" />
     <ClInclude Include="logging.hpp" />
@@ -33,6 +34,7 @@
     <ClInclude Include="utils\Hash.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="CrawlObj.cpp" />
     <ClCompile Include="dllmain.cpp" />
     <ClCompile Include="logging.cpp" />
     <ClCompile Include="MC\Block.cpp" />
