@@ -25,8 +25,12 @@ DWORD WINAPI MainThread(HMODULE hModule) {
     // print to the console that we are done
     debug("Data generation finished.");
 
-    HWND hwnd = GetConsoleWindow();
-    SendMessage(hwnd, WM_CLOSE, 0, 0);
+    // Exit will cause a crash but is good enough for what we need.
+    exit(0);
+    // The following will close gracefully but does not work if running servers as subprocesses.
+    //HWND hwnd = GetConsoleWindow();
+    //SendMessage(hwnd, WM_CLOSE, 0, 0);
+    
 
     // return because the function declarion requires it
     return 0;
