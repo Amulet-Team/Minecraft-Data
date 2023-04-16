@@ -51,6 +51,15 @@
     <ClInclude Include="logging.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="MC\nbt\CompoundTag.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MC\nbt\NbtIo.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MC\nbt\IDataOutput.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
     <ClInclude Include="CrawlObj.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
@@ -84,6 +93,9 @@
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="HookAPI.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MC\nbt\NbtIo.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="CrawlObj.cpp">

@@ -31,6 +31,9 @@
     <ClInclude Include="MC\Level.hpp" />
     <ClInclude Include="MC\Minecraft.hpp" />
     <ClInclude Include="MC\MobEffect.hpp" />
+    <ClInclude Include="MC\nbt\CompoundTag.hpp" />
+    <ClInclude Include="MC\nbt\IDataOutput.hpp" />
+    <ClInclude Include="MC\nbt\NbtIo.hpp" />
     <ClInclude Include="utils\Hash.h" />
   </ItemGroup>
   <ItemGroup>
@@ -45,6 +48,7 @@
     <ClCompile Include="MC\Level.cpp" />
     <ClCompile Include="MC\Minecraft.cpp" />
     <ClCompile Include="MC\MobEffect.cpp" />
+    <ClCompile Include="MC\nbt\NbtIo.cpp" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
