@@ -43,6 +43,20 @@ FuncT getVirtual(ClsT* _this, uintptr_t off, std::string symbol) {
     return nullptr;
 }
 
+// Find and get a pointer to a virtual function
+// _this    This pointer
+// symbol   The expected symbol to validate
+// vtableSize The maximum vtable offset to look up to
+template <typename FuncT, typename ClsT>
+FuncT findVirtual(ClsT* _this, std::string symbol, uintptr_t vtableSize) {
+    for (uintptr_t off = 0; off < vtableSize; off++) {
+        if (FuncT ptr = getVirtual<FuncT, ClsT>(_this, off, symbol)) {
+            return ptr;
+        }
+    }
+    return nullptr;
+}
+
 template <typename RTN = void, typename... Args>
 RTN inline VirtualCall(void const* _this, uintptr_t off, Args... args) {
     return (*(RTN(**)(void const*, Args...))(*(uintptr_t*)_this + off))(_this, args...);
