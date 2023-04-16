@@ -11,6 +11,7 @@
 #include <type_traits>
 
 
+void logToBinaryFile(std::string path, std::string data);
 void logToFile(std::string path, std::string msg);
 
 
