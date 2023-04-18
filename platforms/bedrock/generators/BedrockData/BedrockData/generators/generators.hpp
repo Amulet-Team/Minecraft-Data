@@ -6,4 +6,5 @@ namespace Data {
 	void data_version();
 	void block();
 	void effect();
+	void biome();
 }

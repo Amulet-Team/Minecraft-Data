@@ -3,6 +3,7 @@
 
 #include "HookAPI.h"
 #include <iostream>
+#include <string>
 
 using namespace MinecraftAPI;
 
@@ -15,14 +16,15 @@ BlockPalette* Level::getBlockPalette() {
 		return &_getBlockPalette(this);
 	}
 	return nullptr;
+};
 
-	/*for (uintptr_t i = 0; i < 100; i++) {
-		debug(i);
-		std::vector<std::string> symbols = dlsym_reverse(*(* (uintptr_t**)this + i));
-		if (symbols.size() < 50) {
-			for (std::string symbol : symbols) {
-				debug(symbol);
-			}
+
+BiomeRegistry const* Level::getBiomeRegistry() const {
+	if (_getBiomeRegistryT _getBiomeRegistry = findVirtual<_getBiomeRegistryT, const Level>(this, "?getBiomeRegistry@Level@@UEBAAEBVBiomeRegistry@@XZ", 100)) {
+		BiomeRegistry const& biome_registry = _getBiomeRegistry(this);
+		if ((unsigned long long) & biome_registry > 0xFFFF) {
+			return &biome_registry;
 		}
-	}*/
+	}
+	return nullptr;
 };

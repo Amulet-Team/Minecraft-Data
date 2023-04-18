@@ -1,7 +1,7 @@
 #pragma once
 
 #include "BlockPalette.hpp"
-
+#include "BiomeRegistry.hpp"
 
 
 namespace MinecraftAPI {
@@ -11,8 +11,10 @@ namespace MinecraftAPI {
 		// ?getBlockPalette@Level@@UEBAAEBVBlockPalette@@XZ
 		//typedef BlockPalette const& _getBlockPaletteT(const Level*);
 
+		typedef BiomeRegistry const& (*_getBiomeRegistryT)(const Level*);
+
 	public:
 		BlockPalette* getBlockPalette();
-		//BlockPalette const& getBlockPalette() const;
+		const BiomeRegistry* getBiomeRegistry() const;
 	};
 }

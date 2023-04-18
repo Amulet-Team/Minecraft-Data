@@ -33,6 +33,9 @@
     <ClCompile Include="generators\block.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="generators\biome.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="generators\generators.hpp">

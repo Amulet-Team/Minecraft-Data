@@ -15,4 +15,5 @@ void Data::main() {
     Data::data_version();
     Data::effect();
     Data::block();
+    Data::biome();
 }

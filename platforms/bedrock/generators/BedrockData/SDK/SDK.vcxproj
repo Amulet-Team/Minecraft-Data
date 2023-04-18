@@ -23,6 +23,8 @@
     <ClInclude Include="Global.h" />
     <ClInclude Include="HookAPI.h" />
     <ClInclude Include="logging.hpp" />
+    <ClInclude Include="MC\Biome.hpp" />
+    <ClInclude Include="MC\BiomeRegistry.hpp" />
     <ClInclude Include="MC\Block.hpp" />
     <ClInclude Include="MC\BlockPalette.hpp" />
     <ClInclude Include="MC\DataVersion.hpp" />
@@ -40,6 +42,8 @@
     <ClCompile Include="CrawlObj.cpp" />
     <ClCompile Include="dllmain.cpp" />
     <ClCompile Include="logging.cpp" />
+    <ClCompile Include="MC\Biome.cpp" />
+    <ClCompile Include="MC\BiomeRegistry.cpp" />
     <ClCompile Include="MC\Block.cpp" />
     <ClCompile Include="MC\BlockPalette.cpp" />
     <ClCompile Include="MC\DataVersion.cpp" />
