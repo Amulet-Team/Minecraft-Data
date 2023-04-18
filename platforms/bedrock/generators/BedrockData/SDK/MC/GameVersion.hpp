@@ -44,3 +44,14 @@ namespace MinecraftAPI {
 		};
 	};
 }
+
+
+enum VersionComparison {
+	Equal = 1,
+	Greater = 2,
+	GreaterEqual = 3,
+	Less = 4,
+	LessEqual = 5
+};
+
+VersionComparison compareVersions(int v1[4], int v2[4]);
