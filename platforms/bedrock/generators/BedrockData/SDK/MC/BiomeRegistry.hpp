@@ -14,9 +14,6 @@ namespace MinecraftAPI {
 	public:
 		void forEachBiome(std::function<void(Biome&)> callback) const {
 			if (_forEachBiome){
-				debug(std::to_string((unsigned long long) this));
-				debug(std::to_string((unsigned long long) &callback));
-				debug(std::to_string((unsigned long long) _forEachBiome));
 				_forEachBiome(this, callback);
 			}
 		};

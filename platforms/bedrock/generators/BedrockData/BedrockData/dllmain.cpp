@@ -14,23 +14,19 @@ DWORD WINAPI MainThread(HMODULE hModule) {
 
     try {
         Data::main();
-        debug("success");
+        debug("Data generation finished successfully.");
         logToFile("generated/success.txt", "success");
     }
     catch (const std::string error) {
-        debug(error);
+        debug("Data generation failed. " + error);
         logToFile("generated/err.txt", error);
     }
-
-    // print to the console that we are done
-    debug("Data generation finished.");
 
     // Exit will cause a crash but is good enough for what we need.
     exit(0);
     // The following will close gracefully but does not work if running servers as subprocesses.
     //HWND hwnd = GetConsoleWindow();
     //SendMessage(hwnd, WM_CLOSE, 0, 0);
-    
 
     // return because the function declarion requires it
     return 0;

@@ -11,8 +11,6 @@ using namespace MinecraftAPI;
 
 
 void saveBiome(Biome& biome) {
-	debug("biome");
-	debug(std::to_string((unsigned long long) & biome));
 	if (std::string* name = biome.getName()) {
 		logToFile("generated/biome/biome_map.txt", *name);
 	}

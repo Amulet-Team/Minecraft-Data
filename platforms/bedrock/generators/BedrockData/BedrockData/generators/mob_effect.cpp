@@ -8,7 +8,7 @@ using namespace MinecraftAPI;
 
 
 void Data::effect() {
-	debug("mob effect");
+	debug("Running data generator: Mob Effect");
 	for (int i = 0; i < 500; i++) {
 		if (MobEffect* effect = MobEffect::getById(i)) {
 			logToFile("generated/effect/input_id.txt", i);
@@ -21,5 +21,4 @@ void Data::effect() {
 //			*getFile("generated/effect/data/colour.txt") << colour.r << "," << colour.g << "," << colour.b << "," << colour.a << std::endl;
 		}
 	}
-	debug("finished effect");
 }

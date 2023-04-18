@@ -12,15 +12,12 @@ using namespace MinecraftAPI;
 
 namespace Data {
 	void block() {
-		debug("block generator");
+		debug("Running data generator: Block");
 		Minecraft* minecraft = Minecraft::get();
-		debug("got minecraft ptr");
 		if (Level* level = minecraft->getLevel()) {
-			debug("got level ptr");
 			if (BlockPalette* block_palette = level->getBlockPalette()) {
-				debug("got block palette ptr");
 				unsigned int palette_len = block_palette->len();
-				debug(std::to_string(palette_len));
+				debug("There are " + std::to_string(palette_len) + " blocks in the palette.");
 				for (unsigned int i = 0; i < palette_len; i++) {
 					const Block* block = block_palette->getBlock(i);
 					//logToFile("generated/block/data/friction.txt", block->getFriction());
@@ -32,6 +29,12 @@ namespace Data {
 					logToFile("generated/block/variant.txt", block->getVariant());
 				}
 			}
+			else {
+				debug("Could not find block palette");
+			}
+		}
+		else {
+			debug("Could not find level");
 		}
 	}
 }

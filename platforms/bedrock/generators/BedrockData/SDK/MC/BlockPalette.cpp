@@ -34,11 +34,11 @@ unsigned int BlockPalette::len() {
 		}
 		unsigned int palette_len = (unsigned int)(*block_arr_end_ptr - *block_arr_start_ptr);
 		if (palette_len > 100000) {
-			debug("Palette len too large. Probably an offset error.");
+			debug("Block palette is too large. Probably an offset error.");
 			return 0;
 		}
 		return palette_len;
 	}
-	debug("Could not find palette");
+	debug("Could not find block palette");
 	return 0;
 }
