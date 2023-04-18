@@ -19,6 +19,9 @@ namespace MinecraftAPI {
 		typedef enum BlockActorType(*_getBlockEntityTypeT)(const Block*);
 		static _getBlockEntityTypeT _getBlockEntityType;
 
+		typedef int (*_getVariantT)(const Block*);
+		static _getVariantT _getVariant;
+
 
 	public:
 		static void* vftable;
@@ -47,6 +50,13 @@ namespace MinecraftAPI {
 		int getBlockEntityType() const {
 			if (_getBlockEntityType) {
 				return _getBlockEntityType(this);
+			}
+			return -1;
+		}
+
+		int getVariant() const {
+			if (_getVariant) {
+				return _getVariant(this);
 			}
 			return -1;
 		}
