@@ -23,7 +23,7 @@ namespace Data {
 					//logToFile("generated/block/data/friction.txt", block->getFriction());
 					const CompoundTag* tag = block->getSerializationId();
 					std::string tag_data = NbtIo::serialise(tag);
-					logToBinaryFile("generated/block/states.bin", tag_data);
+					logToBinaryFile("generated/block/states.nbtarr", tag_data);
 					logToFile("generated/block/is_container.txt", block->isContainerBlock());
 					logToFile("generated/block/block_entity.txt", block->getBlockEntityType());
 					logToFile("generated/block/variant.txt", block->getVariant());
