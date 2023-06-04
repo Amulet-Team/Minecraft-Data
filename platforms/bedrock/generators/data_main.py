@@ -197,7 +197,10 @@ class DataGenerator:
                 for line in iter(process.stdout.readline, b""):
                     logging.info(f"\x1b[0m{identifier}: {line.decode().strip()}\x1b[0m")
             assert os.path.isfile(modded_server)
-            os.remove(editor_path)
+            try:
+                os.remove(editor_path)
+            except OSError:
+                pass
 
         return modded_server
 
