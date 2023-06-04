@@ -9,6 +9,5 @@ enum BlockActorType;
 
 class BlockActor {
 public:
-	// ?save@BlockActor@@UEBA_NAEAVCompoundTag@@@Z
-	virtual bool save(class CompoundTag&) const;
+	bool callSave(CompoundTag&) const;
 };

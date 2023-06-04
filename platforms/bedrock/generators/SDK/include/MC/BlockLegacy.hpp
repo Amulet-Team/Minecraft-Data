@@ -10,8 +10,7 @@ class ItemStack;
 
 class BlockLegacy {
 public:
-	// ?getMapColor@BlockLegacy@@MEBA?AVColor@mce@@XZ
-	virtual mce::Color getMapColor() const;
+	mce::Color callGetMapColor() const;
 	// ?getBlockEntityType@BlockLegacy@@QEBA?AW4BlockActorType@@XZ
 	MCAPI BlockActorType getBlockEntityType() const;
 	// ?getRequiredBaseGameVersion@BlockLegacy@@QEBAAEBVBaseGameVersion@@XZ

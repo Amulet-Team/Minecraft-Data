@@ -5,6 +5,6 @@
 
 class CompoundTag : public Tag {
 public:
-	LIAPI static std::unique_ptr<CompoundTag> create();
-	LIAPI static std::unique_ptr<CompoundTag> fromBlockActor(BlockActor* ble);
+	static std::unique_ptr<CompoundTag> create();
+	static std::unique_ptr<CompoundTag> fromBlockActor(BlockActor* ble);
 };

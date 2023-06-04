@@ -12,7 +12,7 @@ import re
 from threading import RLock
 import logging
 
-PluginPath = os.path.join("BedrockData", "BedrockData.dll")
+PluginPath = os.path.join("BedrockData", "x64", "Release", "BedrockData.dll")
 VersionsPath = os.path.join("..", "versions")
 BinPath = os.path.join("LL", "bin")
 
@@ -155,7 +155,7 @@ def safely_process_version(path: str):
 
 
 def main():
-    with ThreadPoolExecutor(5) as e:
+    with ThreadPoolExecutor(2) as e:
         e.map(
             safely_process_version,
             map(os.path.dirname, glob.glob(os.path.join(glob.escape(VersionsPath), "*", "server_url.txt")))
