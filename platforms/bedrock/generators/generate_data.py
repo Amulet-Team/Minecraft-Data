@@ -1,6 +1,7 @@
 """
 A script to automate the downloading of server files and generating data from the servers.
 """
+from typing import Optional, NamedTuple
 import os
 import glob
 from zipfile import ZipFile
@@ -11,17 +12,40 @@ import subprocess
 import re
 from threading import RLock
 import logging
+import argparse
 
-PluginPath = os.path.join("BedrockData", "x64", "Release", "BedrockData.dll")
-VersionsPath = os.path.join("..", "versions")
-BinPath = os.path.join("LL", "bin")
-
-_exit = False
 
 logging.basicConfig(level=logging.INFO)
 
 
-def get_modded_server(identifier: str, path: str, server_dir: str) -> str:
+class Args(NamedTuple):
+    min_version: Optional[tuple[int, int, int, int]]
+    max_version: Optional[tuple[int, int, int, int]]
+    dll_path: str
+    versions_path: str
+    ll_bin_path: str
+
+
+def parse_args() -> Args:
+    parser = argparse.ArgumentParser()
+    parser.add_argument("--min_version", type=str, default="0.0.0.0")
+    parser.add_argument("--max_version", type=str, default="9.9.9.9")
+    parser.add_argument("--dll_path", type=str, default=os.path.join("BedrockData", "x64", "Release", "BedrockData.dll"))
+    parser.add_argument("--versions_path", type=str, default=os.path.join("..", "versions"))
+    parser.add_argument("--ll_bin_path", type=str, default=os.path.join("LL", "bin"))
+
+    args = parser.parse_args()
+
+    return Args(
+        tuple(map(int, args.min_version.split("."))),
+        tuple(map(int, args.max_version.split("."))),
+        args.dll_path,
+        args.versions_path,
+        args.ll_bin_path
+    )
+
+
+def get_modded_server(identifier: str, path: str, server_dir: str, args: Args) -> str:
     """
     Download and mod the Bedrock server if it does not exist.
 
@@ -33,6 +57,7 @@ def get_modded_server(identifier: str, path: str, server_dir: str) -> str:
     :param identifier: An identifier to use in logging. Use the server version number.
     :param path: The path to the directory
     :param server_dir: The path to the server directory
+    :param args: The command line arguments
     :return: The path to the modded exe
     """
     logging.info(f"Processing {path}")
@@ -71,8 +96,8 @@ def get_modded_server(identifier: str, path: str, server_dir: str) -> str:
 
         # Copy the mod binaries
         editor_path = os.path.join(server_dir, "LLPeEditor.exe")
-        shutil.copyfile(os.path.join(BinPath, "LLPeEditor.exe"), editor_path)
-        shutil.copyfile(os.path.join(BinPath, "LLPreLoader.dll"), os.path.join(server_dir, "LLPreLoader.dll"))
+        shutil.copyfile(os.path.join(args.ll_bin_path, "LLPeEditor.exe"), editor_path)
+        shutil.copyfile(os.path.join(args.ll_bin_path, "LLPreLoader.dll"), os.path.join(server_dir, "LLPreLoader.dll"))
 
         # Run the editor
         process = subprocess.Popen([editor_path, "-m", "--pause=false"], cwd=server_dir, stdout=subprocess.PIPE, stderr=subprocess.STDOUT)
@@ -110,17 +135,17 @@ def set_unique_port(path: str):
         f.write(config)
 
 
-def process_version(path: str):
+def process_version(path: str, args: Args):
     identifier = os.path.basename(path)
     server_dir = os.path.join(path, "server")
-    modded_server = get_modded_server(identifier, path, server_dir)
+    modded_server = get_modded_server(identifier, path, server_dir, args)
 
     # Copy the plugin
     plugin_dir = os.path.join(server_dir, "plugins")
     if os.path.isdir(plugin_dir):
         shutil.rmtree(plugin_dir)
     os.makedirs(plugin_dir)
-    shutil.copyfile(PluginPath, os.path.join(plugin_dir, os.path.basename(PluginPath)))
+    shutil.copyfile(args.dll_path, os.path.join(plugin_dir, os.path.basename(args.dll_path)))
 
     # Remove any generated data
     generated_dir = os.path.join(server_dir, "generated")
@@ -142,24 +167,12 @@ def process_version(path: str):
     shutil.copytree(generated_dir, generated_out_dir)
 
 
-def safely_process_version(path: str):
-    global _exit
-    if _exit:
-        return
-    try:
-        process_version(path)
-    except SystemExit:
-        _exit = True
-    except Exception as e:
-        logging.exception(e)
-
-
 def main():
-    with ThreadPoolExecutor(2) as e:
-        e.map(
-            safely_process_version,
-            map(os.path.dirname, glob.glob(os.path.join(glob.escape(VersionsPath), "*", "server_url.txt")))
-        )
+    args = parse_args()
+    for server_path in map(os.path.dirname, glob.glob(os.path.join(glob.escape(args.versions_path), "*", "server_url.txt"))):
+        version = tuple(map(int, os.path.basename(server_path).split(".")))
+        if args.min_version <= version <= args.max_version:
+            process_version(server_path, args)
 
 
 if __name__ == '__main__':
