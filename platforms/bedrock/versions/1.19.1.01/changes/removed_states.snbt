@@ -1,0 +1,1498 @@
+[
+	{
+		"name": "minecraft:sculk_shrieker",
+		"states": {
+			"active": 0b
+		}
+	},
+	{
+		"name": "minecraft:sculk_shrieker",
+		"states": {
+			"active": 1b
+		}
+	},
+	{
+		"name": "minecraft:stone_slab",
+		"states": {
+			"stone_slab_type": "smooth_stone",
+			"top_slot_bit": 0b
+		}
+	},
+	{
+		"name": "minecraft:stone_slab",
+		"states": {
+			"stone_slab_type": "sandstone",
+			"top_slot_bit": 0b
+		}
+	},
+	{
+		"name": "minecraft:stone_slab",
+		"states": {
+			"stone_slab_type": "wood",
+			"top_slot_bit": 0b
+		}
+	},
+	{
+		"name": "minecraft:stone_slab",
+		"states": {
+			"stone_slab_type": "cobblestone",
+			"top_slot_bit": 0b
+		}
+	},
+	{
+		"name": "minecraft:stone_slab",
+		"states": {
+			"stone_slab_type": "brick",
+			"top_slot_bit": 0b
+		}
+	},
+	{
+		"name": "minecraft:stone_slab",
+		"states": {
+			"stone_slab_type": "stone_brick",
+			"top_slot_bit": 0b
+		}
+	},
+	{
+		"name": "minecraft:stone_slab",
+		"states": {
+			"stone_slab_type": "quartz",
+			"top_slot_bit": 0b
+		}
+	},
+	{
+		"name": "minecraft:stone_slab",
+		"states": {
+			"stone_slab_type": "nether_brick",
+			"top_slot_bit": 0b
+		}
+	},
+	{
+		"name": "minecraft:stone_slab",
+		"states": {
+			"stone_slab_type": "smooth_stone",
+			"top_slot_bit": 1b
+		}
+	},
+	{
+		"name": "minecraft:stone_slab",
+		"states": {
+			"stone_slab_type": "sandstone",
+			"top_slot_bit": 1b
+		}
+	},
+	{
+		"name": "minecraft:stone_slab",
+		"states": {
+			"stone_slab_type": "wood",
+			"top_slot_bit": 1b
+		}
+	},
+	{
+		"name": "minecraft:stone_slab",
+		"states": {
+			"stone_slab_type": "cobblestone",
+			"top_slot_bit": 1b
+		}
+	},
+	{
+		"name": "minecraft:stone_slab",
+		"states": {
+			"stone_slab_type": "brick",
+			"top_slot_bit": 1b
+		}
+	},
+	{
+		"name": "minecraft:stone_slab",
+		"states": {
+			"stone_slab_type": "stone_brick",
+			"top_slot_bit": 1b
+		}
+	},
+	{
+		"name": "minecraft:stone_slab",
+		"states": {
+			"stone_slab_type": "quartz",
+			"top_slot_bit": 1b
+		}
+	},
+	{
+		"name": "minecraft:stone_slab",
+		"states": {
+			"stone_slab_type": "nether_brick",
+			"top_slot_bit": 1b
+		}
+	},
+	{
+		"name": "minecraft:mangrove_propagule_hanging",
+		"states": {
+			"facing_direction": 0,
+			"growth": 0
+		}
+	},
+	{
+		"name": "minecraft:mangrove_propagule_hanging",
+		"states": {
+			"facing_direction": 0,
+			"growth": 1
+		}
+	},
+	{
+		"name": "minecraft:mangrove_propagule_hanging",
+		"states": {
+			"facing_direction": 0,
+			"growth": 2
+		}
+	},
+	{
+		"name": "minecraft:mangrove_propagule_hanging",
+		"states": {
+			"facing_direction": 0,
+			"growth": 3
+		}
+	},
+	{
+		"name": "minecraft:mangrove_propagule_hanging",
+		"states": {
+			"facing_direction": 0,
+			"growth": 4
+		}
+	},
+	{
+		"name": "minecraft:mangrove_propagule_hanging",
+		"states": {
+			"facing_direction": 0,
+			"growth": 5
+		}
+	},
+	{
+		"name": "minecraft:mangrove_propagule_hanging",
+		"states": {
+			"facing_direction": 0,
+			"growth": 6
+		}
+	},
+	{
+		"name": "minecraft:mangrove_propagule_hanging",
+		"states": {
+			"facing_direction": 0,
+			"growth": 7
+		}
+	},
+	{
+		"name": "minecraft:mangrove_propagule_hanging",
+		"states": {
+			"facing_direction": 1,
+			"growth": 0
+		}
+	},
+	{
+		"name": "minecraft:mangrove_propagule_hanging",
+		"states": {
+			"facing_direction": 1,
+			"growth": 1
+		}
+	},
+	{
+		"name": "minecraft:mangrove_propagule_hanging",
+		"states": {
+			"facing_direction": 1,
+			"growth": 2
+		}
+	},
+	{
+		"name": "minecraft:mangrove_propagule_hanging",
+		"states": {
+			"facing_direction": 1,
+			"growth": 3
+		}
+	},
+	{
+		"name": "minecraft:mangrove_propagule_hanging",
+		"states": {
+			"facing_direction": 1,
+			"growth": 4
+		}
+	},
+	{
+		"name": "minecraft:mangrove_propagule_hanging",
+		"states": {
+			"facing_direction": 1,
+			"growth": 5
+		}
+	},
+	{
+		"name": "minecraft:mangrove_propagule_hanging",
+		"states": {
+			"facing_direction": 1,
+			"growth": 6
+		}
+	},
+	{
+		"name": "minecraft:mangrove_propagule_hanging",
+		"states": {
+			"facing_direction": 1,
+			"growth": 7
+		}
+	},
+	{
+		"name": "minecraft:mangrove_propagule_hanging",
+		"states": {
+			"facing_direction": 2,
+			"growth": 0
+		}
+	},
+	{
+		"name": "minecraft:mangrove_propagule_hanging",
+		"states": {
+			"facing_direction": 2,
+			"growth": 1
+		}
+	},
+	{
+		"name": "minecraft:mangrove_propagule_hanging",
+		"states": {
+			"facing_direction": 2,
+			"growth": 2
+		}
+	},
+	{
+		"name": "minecraft:mangrove_propagule_hanging",
+		"states": {
+			"facing_direction": 2,
+			"growth": 3
+		}
+	},
+	{
+		"name": "minecraft:mangrove_propagule_hanging",
+		"states": {
+			"facing_direction": 2,
+			"growth": 4
+		}
+	},
+	{
+		"name": "minecraft:mangrove_propagule_hanging",
+		"states": {
+			"facing_direction": 2,
+			"growth": 5
+		}
+	},
+	{
+		"name": "minecraft:mangrove_propagule_hanging",
+		"states": {
+			"facing_direction": 2,
+			"growth": 6
+		}
+	},
+	{
+		"name": "minecraft:mangrove_propagule_hanging",
+		"states": {
+			"facing_direction": 2,
+			"growth": 7
+		}
+	},
+	{
+		"name": "minecraft:mangrove_propagule_hanging",
+		"states": {
+			"facing_direction": 3,
+			"growth": 0
+		}
+	},
+	{
+		"name": "minecraft:mangrove_propagule_hanging",
+		"states": {
+			"facing_direction": 3,
+			"growth": 1
+		}
+	},
+	{
+		"name": "minecraft:mangrove_propagule_hanging",
+		"states": {
+			"facing_direction": 3,
+			"growth": 2
+		}
+	},
+	{
+		"name": "minecraft:mangrove_propagule_hanging",
+		"states": {
+			"facing_direction": 3,
+			"growth": 3
+		}
+	},
+	{
+		"name": "minecraft:mangrove_propagule_hanging",
+		"states": {
+			"facing_direction": 3,
+			"growth": 4
+		}
+	},
+	{
+		"name": "minecraft:mangrove_propagule_hanging",
+		"states": {
+			"facing_direction": 3,
+			"growth": 5
+		}
+	},
+	{
+		"name": "minecraft:mangrove_propagule_hanging",
+		"states": {
+			"facing_direction": 3,
+			"growth": 6
+		}
+	},
+	{
+		"name": "minecraft:mangrove_propagule_hanging",
+		"states": {
+			"facing_direction": 3,
+			"growth": 7
+		}
+	},
+	{
+		"name": "minecraft:mangrove_propagule_hanging",
+		"states": {
+			"facing_direction": 4,
+			"growth": 0
+		}
+	},
+	{
+		"name": "minecraft:mangrove_propagule_hanging",
+		"states": {
+			"facing_direction": 4,
+			"growth": 1
+		}
+	},
+	{
+		"name": "minecraft:mangrove_propagule_hanging",
+		"states": {
+			"facing_direction": 4,
+			"growth": 2
+		}
+	},
+	{
+		"name": "minecraft:mangrove_propagule_hanging",
+		"states": {
+			"facing_direction": 4,
+			"growth": 3
+		}
+	},
+	{
+		"name": "minecraft:mangrove_propagule_hanging",
+		"states": {
+			"facing_direction": 4,
+			"growth": 4
+		}
+	},
+	{
+		"name": "minecraft:mangrove_propagule_hanging",
+		"states": {
+			"facing_direction": 4,
+			"growth": 5
+		}
+	},
+	{
+		"name": "minecraft:mangrove_propagule_hanging",
+		"states": {
+			"facing_direction": 4,
+			"growth": 6
+		}
+	},
+	{
+		"name": "minecraft:mangrove_propagule_hanging",
+		"states": {
+			"facing_direction": 4,
+			"growth": 7
+		}
+	},
+	{
+		"name": "minecraft:mangrove_propagule_hanging",
+		"states": {
+			"facing_direction": 5,
+			"growth": 0
+		}
+	},
+	{
+		"name": "minecraft:mangrove_propagule_hanging",
+		"states": {
+			"facing_direction": 5,
+			"growth": 1
+		}
+	},
+	{
+		"name": "minecraft:mangrove_propagule_hanging",
+		"states": {
+			"facing_direction": 5,
+			"growth": 2
+		}
+	},
+	{
+		"name": "minecraft:mangrove_propagule_hanging",
+		"states": {
+			"facing_direction": 5,
+			"growth": 3
+		}
+	},
+	{
+		"name": "minecraft:mangrove_propagule_hanging",
+		"states": {
+			"facing_direction": 5,
+			"growth": 4
+		}
+	},
+	{
+		"name": "minecraft:mangrove_propagule_hanging",
+		"states": {
+			"facing_direction": 5,
+			"growth": 5
+		}
+	},
+	{
+		"name": "minecraft:mangrove_propagule_hanging",
+		"states": {
+			"facing_direction": 5,
+			"growth": 6
+		}
+	},
+	{
+		"name": "minecraft:mangrove_propagule_hanging",
+		"states": {
+			"facing_direction": 5,
+			"growth": 7
+		}
+	},
+	{
+		"name": "minecraft:double_stone_slab",
+		"states": {
+			"stone_slab_type": "smooth_stone",
+			"top_slot_bit": 0b
+		}
+	},
+	{
+		"name": "minecraft:double_stone_slab",
+		"states": {
+			"stone_slab_type": "sandstone",
+			"top_slot_bit": 0b
+		}
+	},
+	{
+		"name": "minecraft:double_stone_slab",
+		"states": {
+			"stone_slab_type": "wood",
+			"top_slot_bit": 0b
+		}
+	},
+	{
+		"name": "minecraft:double_stone_slab",
+		"states": {
+			"stone_slab_type": "cobblestone",
+			"top_slot_bit": 0b
+		}
+	},
+	{
+		"name": "minecraft:double_stone_slab",
+		"states": {
+			"stone_slab_type": "brick",
+			"top_slot_bit": 0b
+		}
+	},
+	{
+		"name": "minecraft:double_stone_slab",
+		"states": {
+			"stone_slab_type": "stone_brick",
+			"top_slot_bit": 0b
+		}
+	},
+	{
+		"name": "minecraft:double_stone_slab",
+		"states": {
+			"stone_slab_type": "quartz",
+			"top_slot_bit": 0b
+		}
+	},
+	{
+		"name": "minecraft:double_stone_slab",
+		"states": {
+			"stone_slab_type": "nether_brick",
+			"top_slot_bit": 0b
+		}
+	},
+	{
+		"name": "minecraft:double_stone_slab",
+		"states": {
+			"stone_slab_type": "smooth_stone",
+			"top_slot_bit": 1b
+		}
+	},
+	{
+		"name": "minecraft:double_stone_slab",
+		"states": {
+			"stone_slab_type": "sandstone",
+			"top_slot_bit": 1b
+		}
+	},
+	{
+		"name": "minecraft:double_stone_slab",
+		"states": {
+			"stone_slab_type": "wood",
+			"top_slot_bit": 1b
+		}
+	},
+	{
+		"name": "minecraft:double_stone_slab",
+		"states": {
+			"stone_slab_type": "cobblestone",
+			"top_slot_bit": 1b
+		}
+	},
+	{
+		"name": "minecraft:double_stone_slab",
+		"states": {
+			"stone_slab_type": "brick",
+			"top_slot_bit": 1b
+		}
+	},
+	{
+		"name": "minecraft:double_stone_slab",
+		"states": {
+			"stone_slab_type": "stone_brick",
+			"top_slot_bit": 1b
+		}
+	},
+	{
+		"name": "minecraft:double_stone_slab",
+		"states": {
+			"stone_slab_type": "quartz",
+			"top_slot_bit": 1b
+		}
+	},
+	{
+		"name": "minecraft:double_stone_slab",
+		"states": {
+			"stone_slab_type": "nether_brick",
+			"top_slot_bit": 1b
+		}
+	},
+	{
+		"name": "minecraft:double_stone_slab2",
+		"states": {
+			"stone_slab_type_2": "red_sandstone",
+			"top_slot_bit": 0b
+		}
+	},
+	{
+		"name": "minecraft:double_stone_slab2",
+		"states": {
+			"stone_slab_type_2": "purpur",
+			"top_slot_bit": 0b
+		}
+	},
+	{
+		"name": "minecraft:double_stone_slab2",
+		"states": {
+			"stone_slab_type_2": "prismarine_rough",
+			"top_slot_bit": 0b
+		}
+	},
+	{
+		"name": "minecraft:double_stone_slab2",
+		"states": {
+			"stone_slab_type_2": "prismarine_dark",
+			"top_slot_bit": 0b
+		}
+	},
+	{
+		"name": "minecraft:double_stone_slab2",
+		"states": {
+			"stone_slab_type_2": "prismarine_brick",
+			"top_slot_bit": 0b
+		}
+	},
+	{
+		"name": "minecraft:double_stone_slab2",
+		"states": {
+			"stone_slab_type_2": "mossy_cobblestone",
+			"top_slot_bit": 0b
+		}
+	},
+	{
+		"name": "minecraft:double_stone_slab2",
+		"states": {
+			"stone_slab_type_2": "smooth_sandstone",
+			"top_slot_bit": 0b
+		}
+	},
+	{
+		"name": "minecraft:double_stone_slab2",
+		"states": {
+			"stone_slab_type_2": "red_nether_brick",
+			"top_slot_bit": 0b
+		}
+	},
+	{
+		"name": "minecraft:double_stone_slab2",
+		"states": {
+			"stone_slab_type_2": "red_sandstone",
+			"top_slot_bit": 1b
+		}
+	},
+	{
+		"name": "minecraft:double_stone_slab2",
+		"states": {
+			"stone_slab_type_2": "purpur",
+			"top_slot_bit": 1b
+		}
+	},
+	{
+		"name": "minecraft:double_stone_slab2",
+		"states": {
+			"stone_slab_type_2": "prismarine_rough",
+			"top_slot_bit": 1b
+		}
+	},
+	{
+		"name": "minecraft:double_stone_slab2",
+		"states": {
+			"stone_slab_type_2": "prismarine_dark",
+			"top_slot_bit": 1b
+		}
+	},
+	{
+		"name": "minecraft:double_stone_slab2",
+		"states": {
+			"stone_slab_type_2": "prismarine_brick",
+			"top_slot_bit": 1b
+		}
+	},
+	{
+		"name": "minecraft:double_stone_slab2",
+		"states": {
+			"stone_slab_type_2": "mossy_cobblestone",
+			"top_slot_bit": 1b
+		}
+	},
+	{
+		"name": "minecraft:double_stone_slab2",
+		"states": {
+			"stone_slab_type_2": "smooth_sandstone",
+			"top_slot_bit": 1b
+		}
+	},
+	{
+		"name": "minecraft:double_stone_slab2",
+		"states": {
+			"stone_slab_type_2": "red_nether_brick",
+			"top_slot_bit": 1b
+		}
+	},
+	{
+		"name": "minecraft:double_stone_slab3",
+		"states": {
+			"stone_slab_type_3": "end_stone_brick",
+			"top_slot_bit": 0b
+		}
+	},
+	{
+		"name": "minecraft:double_stone_slab3",
+		"states": {
+			"stone_slab_type_3": "smooth_red_sandstone",
+			"top_slot_bit": 0b
+		}
+	},
+	{
+		"name": "minecraft:double_stone_slab3",
+		"states": {
+			"stone_slab_type_3": "polished_andesite",
+			"top_slot_bit": 0b
+		}
+	},
+	{
+		"name": "minecraft:double_stone_slab3",
+		"states": {
+			"stone_slab_type_3": "andesite",
+			"top_slot_bit": 0b
+		}
+	},
+	{
+		"name": "minecraft:double_stone_slab3",
+		"states": {
+			"stone_slab_type_3": "diorite",
+			"top_slot_bit": 0b
+		}
+	},
+	{
+		"name": "minecraft:double_stone_slab3",
+		"states": {
+			"stone_slab_type_3": "polished_diorite",
+			"top_slot_bit": 0b
+		}
+	},
+	{
+		"name": "minecraft:double_stone_slab3",
+		"states": {
+			"stone_slab_type_3": "granite",
+			"top_slot_bit": 0b
+		}
+	},
+	{
+		"name": "minecraft:double_stone_slab3",
+		"states": {
+			"stone_slab_type_3": "polished_granite",
+			"top_slot_bit": 0b
+		}
+	},
+	{
+		"name": "minecraft:double_stone_slab3",
+		"states": {
+			"stone_slab_type_3": "end_stone_brick",
+			"top_slot_bit": 1b
+		}
+	},
+	{
+		"name": "minecraft:double_stone_slab3",
+		"states": {
+			"stone_slab_type_3": "smooth_red_sandstone",
+			"top_slot_bit": 1b
+		}
+	},
+	{
+		"name": "minecraft:double_stone_slab3",
+		"states": {
+			"stone_slab_type_3": "polished_andesite",
+			"top_slot_bit": 1b
+		}
+	},
+	{
+		"name": "minecraft:double_stone_slab3",
+		"states": {
+			"stone_slab_type_3": "andesite",
+			"top_slot_bit": 1b
+		}
+	},
+	{
+		"name": "minecraft:double_stone_slab3",
+		"states": {
+			"stone_slab_type_3": "diorite",
+			"top_slot_bit": 1b
+		}
+	},
+	{
+		"name": "minecraft:double_stone_slab3",
+		"states": {
+			"stone_slab_type_3": "polished_diorite",
+			"top_slot_bit": 1b
+		}
+	},
+	{
+		"name": "minecraft:double_stone_slab3",
+		"states": {
+			"stone_slab_type_3": "granite",
+			"top_slot_bit": 1b
+		}
+	},
+	{
+		"name": "minecraft:double_stone_slab3",
+		"states": {
+			"stone_slab_type_3": "polished_granite",
+			"top_slot_bit": 1b
+		}
+	},
+	{
+		"name": "minecraft:double_stone_slab4",
+		"states": {
+			"stone_slab_type_4": "mossy_stone_brick",
+			"top_slot_bit": 0b
+		}
+	},
+	{
+		"name": "minecraft:double_stone_slab4",
+		"states": {
+			"stone_slab_type_4": "smooth_quartz",
+			"top_slot_bit": 0b
+		}
+	},
+	{
+		"name": "minecraft:double_stone_slab4",
+		"states": {
+			"stone_slab_type_4": "stone",
+			"top_slot_bit": 0b
+		}
+	},
+	{
+		"name": "minecraft:double_stone_slab4",
+		"states": {
+			"stone_slab_type_4": "cut_sandstone",
+			"top_slot_bit": 0b
+		}
+	},
+	{
+		"name": "minecraft:double_stone_slab4",
+		"states": {
+			"stone_slab_type_4": "cut_red_sandstone",
+			"top_slot_bit": 0b
+		}
+	},
+	{
+		"name": "minecraft:double_stone_slab4",
+		"states": {
+			"stone_slab_type_4": "mossy_stone_brick",
+			"top_slot_bit": 1b
+		}
+	},
+	{
+		"name": "minecraft:double_stone_slab4",
+		"states": {
+			"stone_slab_type_4": "smooth_quartz",
+			"top_slot_bit": 1b
+		}
+	},
+	{
+		"name": "minecraft:double_stone_slab4",
+		"states": {
+			"stone_slab_type_4": "stone",
+			"top_slot_bit": 1b
+		}
+	},
+	{
+		"name": "minecraft:double_stone_slab4",
+		"states": {
+			"stone_slab_type_4": "cut_sandstone",
+			"top_slot_bit": 1b
+		}
+	},
+	{
+		"name": "minecraft:double_stone_slab4",
+		"states": {
+			"stone_slab_type_4": "cut_red_sandstone",
+			"top_slot_bit": 1b
+		}
+	},
+	{
+		"name": "minecraft:stone_slab2",
+		"states": {
+			"stone_slab_type_2": "red_sandstone",
+			"top_slot_bit": 0b
+		}
+	},
+	{
+		"name": "minecraft:stone_slab2",
+		"states": {
+			"stone_slab_type_2": "purpur",
+			"top_slot_bit": 0b
+		}
+	},
+	{
+		"name": "minecraft:stone_slab2",
+		"states": {
+			"stone_slab_type_2": "prismarine_rough",
+			"top_slot_bit": 0b
+		}
+	},
+	{
+		"name": "minecraft:stone_slab2",
+		"states": {
+			"stone_slab_type_2": "prismarine_dark",
+			"top_slot_bit": 0b
+		}
+	},
+	{
+		"name": "minecraft:stone_slab2",
+		"states": {
+			"stone_slab_type_2": "prismarine_brick",
+			"top_slot_bit": 0b
+		}
+	},
+	{
+		"name": "minecraft:stone_slab2",
+		"states": {
+			"stone_slab_type_2": "mossy_cobblestone",
+			"top_slot_bit": 0b
+		}
+	},
+	{
+		"name": "minecraft:stone_slab2",
+		"states": {
+			"stone_slab_type_2": "smooth_sandstone",
+			"top_slot_bit": 0b
+		}
+	},
+	{
+		"name": "minecraft:stone_slab2",
+		"states": {
+			"stone_slab_type_2": "red_nether_brick",
+			"top_slot_bit": 0b
+		}
+	},
+	{
+		"name": "minecraft:stone_slab2",
+		"states": {
+			"stone_slab_type_2": "red_sandstone",
+			"top_slot_bit": 1b
+		}
+	},
+	{
+		"name": "minecraft:stone_slab2",
+		"states": {
+			"stone_slab_type_2": "purpur",
+			"top_slot_bit": 1b
+		}
+	},
+	{
+		"name": "minecraft:stone_slab2",
+		"states": {
+			"stone_slab_type_2": "prismarine_rough",
+			"top_slot_bit": 1b
+		}
+	},
+	{
+		"name": "minecraft:stone_slab2",
+		"states": {
+			"stone_slab_type_2": "prismarine_dark",
+			"top_slot_bit": 1b
+		}
+	},
+	{
+		"name": "minecraft:stone_slab2",
+		"states": {
+			"stone_slab_type_2": "prismarine_brick",
+			"top_slot_bit": 1b
+		}
+	},
+	{
+		"name": "minecraft:stone_slab2",
+		"states": {
+			"stone_slab_type_2": "mossy_cobblestone",
+			"top_slot_bit": 1b
+		}
+	},
+	{
+		"name": "minecraft:stone_slab2",
+		"states": {
+			"stone_slab_type_2": "smooth_sandstone",
+			"top_slot_bit": 1b
+		}
+	},
+	{
+		"name": "minecraft:stone_slab2",
+		"states": {
+			"stone_slab_type_2": "red_nether_brick",
+			"top_slot_bit": 1b
+		}
+	},
+	{
+		"name": "minecraft:stone_slab3",
+		"states": {
+			"stone_slab_type_3": "end_stone_brick",
+			"top_slot_bit": 0b
+		}
+	},
+	{
+		"name": "minecraft:stone_slab3",
+		"states": {
+			"stone_slab_type_3": "smooth_red_sandstone",
+			"top_slot_bit": 0b
+		}
+	},
+	{
+		"name": "minecraft:stone_slab3",
+		"states": {
+			"stone_slab_type_3": "polished_andesite",
+			"top_slot_bit": 0b
+		}
+	},
+	{
+		"name": "minecraft:stone_slab3",
+		"states": {
+			"stone_slab_type_3": "andesite",
+			"top_slot_bit": 0b
+		}
+	},
+	{
+		"name": "minecraft:stone_slab3",
+		"states": {
+			"stone_slab_type_3": "diorite",
+			"top_slot_bit": 0b
+		}
+	},
+	{
+		"name": "minecraft:stone_slab3",
+		"states": {
+			"stone_slab_type_3": "polished_diorite",
+			"top_slot_bit": 0b
+		}
+	},
+	{
+		"name": "minecraft:stone_slab3",
+		"states": {
+			"stone_slab_type_3": "granite",
+			"top_slot_bit": 0b
+		}
+	},
+	{
+		"name": "minecraft:stone_slab3",
+		"states": {
+			"stone_slab_type_3": "polished_granite",
+			"top_slot_bit": 0b
+		}
+	},
+	{
+		"name": "minecraft:stone_slab3",
+		"states": {
+			"stone_slab_type_3": "end_stone_brick",
+			"top_slot_bit": 1b
+		}
+	},
+	{
+		"name": "minecraft:stone_slab3",
+		"states": {
+			"stone_slab_type_3": "smooth_red_sandstone",
+			"top_slot_bit": 1b
+		}
+	},
+	{
+		"name": "minecraft:stone_slab3",
+		"states": {
+			"stone_slab_type_3": "polished_andesite",
+			"top_slot_bit": 1b
+		}
+	},
+	{
+		"name": "minecraft:stone_slab3",
+		"states": {
+			"stone_slab_type_3": "andesite",
+			"top_slot_bit": 1b
+		}
+	},
+	{
+		"name": "minecraft:stone_slab3",
+		"states": {
+			"stone_slab_type_3": "diorite",
+			"top_slot_bit": 1b
+		}
+	},
+	{
+		"name": "minecraft:stone_slab3",
+		"states": {
+			"stone_slab_type_3": "polished_diorite",
+			"top_slot_bit": 1b
+		}
+	},
+	{
+		"name": "minecraft:stone_slab3",
+		"states": {
+			"stone_slab_type_3": "granite",
+			"top_slot_bit": 1b
+		}
+	},
+	{
+		"name": "minecraft:stone_slab3",
+		"states": {
+			"stone_slab_type_3": "polished_granite",
+			"top_slot_bit": 1b
+		}
+	},
+	{
+		"name": "minecraft:stone_slab4",
+		"states": {
+			"stone_slab_type_4": "mossy_stone_brick",
+			"top_slot_bit": 0b
+		}
+	},
+	{
+		"name": "minecraft:stone_slab4",
+		"states": {
+			"stone_slab_type_4": "smooth_quartz",
+			"top_slot_bit": 0b
+		}
+	},
+	{
+		"name": "minecraft:stone_slab4",
+		"states": {
+			"stone_slab_type_4": "stone",
+			"top_slot_bit": 0b
+		}
+	},
+	{
+		"name": "minecraft:stone_slab4",
+		"states": {
+			"stone_slab_type_4": "cut_sandstone",
+			"top_slot_bit": 0b
+		}
+	},
+	{
+		"name": "minecraft:stone_slab4",
+		"states": {
+			"stone_slab_type_4": "cut_red_sandstone",
+			"top_slot_bit": 0b
+		}
+	},
+	{
+		"name": "minecraft:stone_slab4",
+		"states": {
+			"stone_slab_type_4": "mossy_stone_brick",
+			"top_slot_bit": 1b
+		}
+	},
+	{
+		"name": "minecraft:stone_slab4",
+		"states": {
+			"stone_slab_type_4": "smooth_quartz",
+			"top_slot_bit": 1b
+		}
+	},
+	{
+		"name": "minecraft:stone_slab4",
+		"states": {
+			"stone_slab_type_4": "stone",
+			"top_slot_bit": 1b
+		}
+	},
+	{
+		"name": "minecraft:stone_slab4",
+		"states": {
+			"stone_slab_type_4": "cut_sandstone",
+			"top_slot_bit": 1b
+		}
+	},
+	{
+		"name": "minecraft:stone_slab4",
+		"states": {
+			"stone_slab_type_4": "cut_red_sandstone",
+			"top_slot_bit": 1b
+		}
+	},
+	{
+		"name": "minecraft:mangrove_propagule",
+		"states": {
+			"facing_direction": 0,
+			"growth": 0
+		}
+	},
+	{
+		"name": "minecraft:mangrove_propagule",
+		"states": {
+			"facing_direction": 0,
+			"growth": 1
+		}
+	},
+	{
+		"name": "minecraft:mangrove_propagule",
+		"states": {
+			"facing_direction": 0,
+			"growth": 2
+		}
+	},
+	{
+		"name": "minecraft:mangrove_propagule",
+		"states": {
+			"facing_direction": 0,
+			"growth": 3
+		}
+	},
+	{
+		"name": "minecraft:mangrove_propagule",
+		"states": {
+			"facing_direction": 0,
+			"growth": 4
+		}
+	},
+	{
+		"name": "minecraft:mangrove_propagule",
+		"states": {
+			"facing_direction": 0,
+			"growth": 5
+		}
+	},
+	{
+		"name": "minecraft:mangrove_propagule",
+		"states": {
+			"facing_direction": 0,
+			"growth": 6
+		}
+	},
+	{
+		"name": "minecraft:mangrove_propagule",
+		"states": {
+			"facing_direction": 0,
+			"growth": 7
+		}
+	},
+	{
+		"name": "minecraft:mangrove_propagule",
+		"states": {
+			"facing_direction": 1,
+			"growth": 0
+		}
+	},
+	{
+		"name": "minecraft:mangrove_propagule",
+		"states": {
+			"facing_direction": 1,
+			"growth": 1
+		}
+	},
+	{
+		"name": "minecraft:mangrove_propagule",
+		"states": {
+			"facing_direction": 1,
+			"growth": 2
+		}
+	},
+	{
+		"name": "minecraft:mangrove_propagule",
+		"states": {
+			"facing_direction": 1,
+			"growth": 3
+		}
+	},
+	{
+		"name": "minecraft:mangrove_propagule",
+		"states": {
+			"facing_direction": 1,
+			"growth": 4
+		}
+	},
+	{
+		"name": "minecraft:mangrove_propagule",
+		"states": {
+			"facing_direction": 1,
+			"growth": 5
+		}
+	},
+	{
+		"name": "minecraft:mangrove_propagule",
+		"states": {
+			"facing_direction": 1,
+			"growth": 6
+		}
+	},
+	{
+		"name": "minecraft:mangrove_propagule",
+		"states": {
+			"facing_direction": 1,
+			"growth": 7
+		}
+	},
+	{
+		"name": "minecraft:mangrove_propagule",
+		"states": {
+			"facing_direction": 2,
+			"growth": 0
+		}
+	},
+	{
+		"name": "minecraft:mangrove_propagule",
+		"states": {
+			"facing_direction": 2,
+			"growth": 1
+		}
+	},
+	{
+		"name": "minecraft:mangrove_propagule",
+		"states": {
+			"facing_direction": 2,
+			"growth": 2
+		}
+	},
+	{
+		"name": "minecraft:mangrove_propagule",
+		"states": {
+			"facing_direction": 2,
+			"growth": 3
+		}
+	},
+	{
+		"name": "minecraft:mangrove_propagule",
+		"states": {
+			"facing_direction": 2,
+			"growth": 4
+		}
+	},
+	{
+		"name": "minecraft:mangrove_propagule",
+		"states": {
+			"facing_direction": 2,
+			"growth": 5
+		}
+	},
+	{
+		"name": "minecraft:mangrove_propagule",
+		"states": {
+			"facing_direction": 2,
+			"growth": 6
+		}
+	},
+	{
+		"name": "minecraft:mangrove_propagule",
+		"states": {
+			"facing_direction": 2,
+			"growth": 7
+		}
+	},
+	{
+		"name": "minecraft:mangrove_propagule",
+		"states": {
+			"facing_direction": 3,
+			"growth": 0
+		}
+	},
+	{
+		"name": "minecraft:mangrove_propagule",
+		"states": {
+			"facing_direction": 3,
+			"growth": 1
+		}
+	},
+	{
+		"name": "minecraft:mangrove_propagule",
+		"states": {
+			"facing_direction": 3,
+			"growth": 2
+		}
+	},
+	{
+		"name": "minecraft:mangrove_propagule",
+		"states": {
+			"facing_direction": 3,
+			"growth": 3
+		}
+	},
+	{
+		"name": "minecraft:mangrove_propagule",
+		"states": {
+			"facing_direction": 3,
+			"growth": 4
+		}
+	},
+	{
+		"name": "minecraft:mangrove_propagule",
+		"states": {
+			"facing_direction": 3,
+			"growth": 5
+		}
+	},
+	{
+		"name": "minecraft:mangrove_propagule",
+		"states": {
+			"facing_direction": 3,
+			"growth": 6
+		}
+	},
+	{
+		"name": "minecraft:mangrove_propagule",
+		"states": {
+			"facing_direction": 3,
+			"growth": 7
+		}
+	},
+	{
+		"name": "minecraft:mangrove_propagule",
+		"states": {
+			"facing_direction": 4,
+			"growth": 0
+		}
+	},
+	{
+		"name": "minecraft:mangrove_propagule",
+		"states": {
+			"facing_direction": 4,
+			"growth": 1
+		}
+	},
+	{
+		"name": "minecraft:mangrove_propagule",
+		"states": {
+			"facing_direction": 4,
+			"growth": 2
+		}
+	},
+	{
+		"name": "minecraft:mangrove_propagule",
+		"states": {
+			"facing_direction": 4,
+			"growth": 3
+		}
+	},
+	{
+		"name": "minecraft:mangrove_propagule",
+		"states": {
+			"facing_direction": 4,
+			"growth": 4
+		}
+	},
+	{
+		"name": "minecraft:mangrove_propagule",
+		"states": {
+			"facing_direction": 4,
+			"growth": 5
+		}
+	},
+	{
+		"name": "minecraft:mangrove_propagule",
+		"states": {
+			"facing_direction": 4,
+			"growth": 6
+		}
+	},
+	{
+		"name": "minecraft:mangrove_propagule",
+		"states": {
+			"facing_direction": 4,
+			"growth": 7
+		}
+	},
+	{
+		"name": "minecraft:mangrove_propagule",
+		"states": {
+			"facing_direction": 5,
+			"growth": 0
+		}
+	},
+	{
+		"name": "minecraft:mangrove_propagule",
+		"states": {
+			"facing_direction": 5,
+			"growth": 1
+		}
+	},
+	{
+		"name": "minecraft:mangrove_propagule",
+		"states": {
+			"facing_direction": 5,
+			"growth": 2
+		}
+	},
+	{
+		"name": "minecraft:mangrove_propagule",
+		"states": {
+			"facing_direction": 5,
+			"growth": 3
+		}
+	},
+	{
+		"name": "minecraft:mangrove_propagule",
+		"states": {
+			"facing_direction": 5,
+			"growth": 4
+		}
+	},
+	{
+		"name": "minecraft:mangrove_propagule",
+		"states": {
+			"facing_direction": 5,
+			"growth": 5
+		}
+	},
+	{
+		"name": "minecraft:mangrove_propagule",
+		"states": {
+			"facing_direction": 5,
+			"growth": 6
+		}
+	},
+	{
+		"name": "minecraft:mangrove_propagule",
+		"states": {
+			"facing_direction": 5,
+			"growth": 7
+		}
+	}
+]

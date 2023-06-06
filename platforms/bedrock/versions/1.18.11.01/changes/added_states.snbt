@@ -1,0 +1,54 @@
+[
+	{
+		"name": "minecraft:frog_egg",
+		"states": {}
+	},
+	{
+		"name": "minecraft:ochre_froglight",
+		"states": {}
+	},
+	{
+		"name": "minecraft:pearlescent_froglight",
+		"states": {}
+	},
+	{
+		"name": "minecraft:skull",
+		"states": {
+			"facing_direction": 0
+		}
+	},
+	{
+		"name": "minecraft:skull",
+		"states": {
+			"facing_direction": 1
+		}
+	},
+	{
+		"name": "minecraft:skull",
+		"states": {
+			"facing_direction": 2
+		}
+	},
+	{
+		"name": "minecraft:skull",
+		"states": {
+			"facing_direction": 3
+		}
+	},
+	{
+		"name": "minecraft:skull",
+		"states": {
+			"facing_direction": 4
+		}
+	},
+	{
+		"name": "minecraft:skull",
+		"states": {
+			"facing_direction": 5
+		}
+	},
+	{
+		"name": "minecraft:verdant_froglight",
+		"states": {}
+	}
+]

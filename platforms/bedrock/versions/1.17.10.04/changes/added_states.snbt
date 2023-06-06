@@ -1,0 +1,1158 @@
+[
+	{
+		"name": "minecraft:black_candle",
+		"states": {
+			"candles": 0,
+			"lit": 0b
+		}
+	},
+	{
+		"name": "minecraft:black_candle",
+		"states": {
+			"candles": 1,
+			"lit": 0b
+		}
+	},
+	{
+		"name": "minecraft:black_candle",
+		"states": {
+			"candles": 2,
+			"lit": 0b
+		}
+	},
+	{
+		"name": "minecraft:black_candle",
+		"states": {
+			"candles": 3,
+			"lit": 0b
+		}
+	},
+	{
+		"name": "minecraft:black_candle",
+		"states": {
+			"candles": 0,
+			"lit": 1b
+		}
+	},
+	{
+		"name": "minecraft:black_candle",
+		"states": {
+			"candles": 1,
+			"lit": 1b
+		}
+	},
+	{
+		"name": "minecraft:black_candle",
+		"states": {
+			"candles": 2,
+			"lit": 1b
+		}
+	},
+	{
+		"name": "minecraft:black_candle",
+		"states": {
+			"candles": 3,
+			"lit": 1b
+		}
+	},
+	{
+		"name": "minecraft:black_candle_cake",
+		"states": {
+			"lit": 0b
+		}
+	},
+	{
+		"name": "minecraft:black_candle_cake",
+		"states": {
+			"lit": 1b
+		}
+	},
+	{
+		"name": "minecraft:blue_candle",
+		"states": {
+			"candles": 0,
+			"lit": 0b
+		}
+	},
+	{
+		"name": "minecraft:blue_candle",
+		"states": {
+			"candles": 1,
+			"lit": 0b
+		}
+	},
+	{
+		"name": "minecraft:blue_candle",
+		"states": {
+			"candles": 2,
+			"lit": 0b
+		}
+	},
+	{
+		"name": "minecraft:blue_candle",
+		"states": {
+			"candles": 3,
+			"lit": 0b
+		}
+	},
+	{
+		"name": "minecraft:blue_candle",
+		"states": {
+			"candles": 0,
+			"lit": 1b
+		}
+	},
+	{
+		"name": "minecraft:blue_candle",
+		"states": {
+			"candles": 1,
+			"lit": 1b
+		}
+	},
+	{
+		"name": "minecraft:blue_candle",
+		"states": {
+			"candles": 2,
+			"lit": 1b
+		}
+	},
+	{
+		"name": "minecraft:blue_candle",
+		"states": {
+			"candles": 3,
+			"lit": 1b
+		}
+	},
+	{
+		"name": "minecraft:blue_candle_cake",
+		"states": {
+			"lit": 0b
+		}
+	},
+	{
+		"name": "minecraft:blue_candle_cake",
+		"states": {
+			"lit": 1b
+		}
+	},
+	{
+		"name": "minecraft:brown_candle",
+		"states": {
+			"candles": 0,
+			"lit": 0b
+		}
+	},
+	{
+		"name": "minecraft:brown_candle",
+		"states": {
+			"candles": 1,
+			"lit": 0b
+		}
+	},
+	{
+		"name": "minecraft:brown_candle",
+		"states": {
+			"candles": 2,
+			"lit": 0b
+		}
+	},
+	{
+		"name": "minecraft:brown_candle",
+		"states": {
+			"candles": 3,
+			"lit": 0b
+		}
+	},
+	{
+		"name": "minecraft:brown_candle",
+		"states": {
+			"candles": 0,
+			"lit": 1b
+		}
+	},
+	{
+		"name": "minecraft:brown_candle",
+		"states": {
+			"candles": 1,
+			"lit": 1b
+		}
+	},
+	{
+		"name": "minecraft:brown_candle",
+		"states": {
+			"candles": 2,
+			"lit": 1b
+		}
+	},
+	{
+		"name": "minecraft:brown_candle",
+		"states": {
+			"candles": 3,
+			"lit": 1b
+		}
+	},
+	{
+		"name": "minecraft:brown_candle_cake",
+		"states": {
+			"lit": 0b
+		}
+	},
+	{
+		"name": "minecraft:brown_candle_cake",
+		"states": {
+			"lit": 1b
+		}
+	},
+	{
+		"name": "minecraft:candle",
+		"states": {
+			"candles": 0,
+			"lit": 0b
+		}
+	},
+	{
+		"name": "minecraft:candle",
+		"states": {
+			"candles": 1,
+			"lit": 0b
+		}
+	},
+	{
+		"name": "minecraft:candle",
+		"states": {
+			"candles": 2,
+			"lit": 0b
+		}
+	},
+	{
+		"name": "minecraft:candle",
+		"states": {
+			"candles": 3,
+			"lit": 0b
+		}
+	},
+	{
+		"name": "minecraft:candle",
+		"states": {
+			"candles": 0,
+			"lit": 1b
+		}
+	},
+	{
+		"name": "minecraft:candle",
+		"states": {
+			"candles": 1,
+			"lit": 1b
+		}
+	},
+	{
+		"name": "minecraft:candle",
+		"states": {
+			"candles": 2,
+			"lit": 1b
+		}
+	},
+	{
+		"name": "minecraft:candle",
+		"states": {
+			"candles": 3,
+			"lit": 1b
+		}
+	},
+	{
+		"name": "minecraft:candle_cake",
+		"states": {
+			"lit": 0b
+		}
+	},
+	{
+		"name": "minecraft:candle_cake",
+		"states": {
+			"lit": 1b
+		}
+	},
+	{
+		"name": "minecraft:cyan_candle",
+		"states": {
+			"candles": 0,
+			"lit": 0b
+		}
+	},
+	{
+		"name": "minecraft:cyan_candle",
+		"states": {
+			"candles": 1,
+			"lit": 0b
+		}
+	},
+	{
+		"name": "minecraft:cyan_candle",
+		"states": {
+			"candles": 2,
+			"lit": 0b
+		}
+	},
+	{
+		"name": "minecraft:cyan_candle",
+		"states": {
+			"candles": 3,
+			"lit": 0b
+		}
+	},
+	{
+		"name": "minecraft:cyan_candle",
+		"states": {
+			"candles": 0,
+			"lit": 1b
+		}
+	},
+	{
+		"name": "minecraft:cyan_candle",
+		"states": {
+			"candles": 1,
+			"lit": 1b
+		}
+	},
+	{
+		"name": "minecraft:cyan_candle",
+		"states": {
+			"candles": 2,
+			"lit": 1b
+		}
+	},
+	{
+		"name": "minecraft:cyan_candle",
+		"states": {
+			"candles": 3,
+			"lit": 1b
+		}
+	},
+	{
+		"name": "minecraft:cyan_candle_cake",
+		"states": {
+			"lit": 0b
+		}
+	},
+	{
+		"name": "minecraft:cyan_candle_cake",
+		"states": {
+			"lit": 1b
+		}
+	},
+	{
+		"name": "minecraft:gray_candle",
+		"states": {
+			"candles": 0,
+			"lit": 0b
+		}
+	},
+	{
+		"name": "minecraft:gray_candle",
+		"states": {
+			"candles": 1,
+			"lit": 0b
+		}
+	},
+	{
+		"name": "minecraft:gray_candle",
+		"states": {
+			"candles": 2,
+			"lit": 0b
+		}
+	},
+	{
+		"name": "minecraft:gray_candle",
+		"states": {
+			"candles": 3,
+			"lit": 0b
+		}
+	},
+	{
+		"name": "minecraft:gray_candle",
+		"states": {
+			"candles": 0,
+			"lit": 1b
+		}
+	},
+	{
+		"name": "minecraft:gray_candle",
+		"states": {
+			"candles": 1,
+			"lit": 1b
+		}
+	},
+	{
+		"name": "minecraft:gray_candle",
+		"states": {
+			"candles": 2,
+			"lit": 1b
+		}
+	},
+	{
+		"name": "minecraft:gray_candle",
+		"states": {
+			"candles": 3,
+			"lit": 1b
+		}
+	},
+	{
+		"name": "minecraft:gray_candle_cake",
+		"states": {
+			"lit": 0b
+		}
+	},
+	{
+		"name": "minecraft:gray_candle_cake",
+		"states": {
+			"lit": 1b
+		}
+	},
+	{
+		"name": "minecraft:green_candle",
+		"states": {
+			"candles": 0,
+			"lit": 0b
+		}
+	},
+	{
+		"name": "minecraft:green_candle",
+		"states": {
+			"candles": 1,
+			"lit": 0b
+		}
+	},
+	{
+		"name": "minecraft:green_candle",
+		"states": {
+			"candles": 2,
+			"lit": 0b
+		}
+	},
+	{
+		"name": "minecraft:green_candle",
+		"states": {
+			"candles": 3,
+			"lit": 0b
+		}
+	},
+	{
+		"name": "minecraft:green_candle",
+		"states": {
+			"candles": 0,
+			"lit": 1b
+		}
+	},
+	{
+		"name": "minecraft:green_candle",
+		"states": {
+			"candles": 1,
+			"lit": 1b
+		}
+	},
+	{
+		"name": "minecraft:green_candle",
+		"states": {
+			"candles": 2,
+			"lit": 1b
+		}
+	},
+	{
+		"name": "minecraft:green_candle",
+		"states": {
+			"candles": 3,
+			"lit": 1b
+		}
+	},
+	{
+		"name": "minecraft:green_candle_cake",
+		"states": {
+			"lit": 0b
+		}
+	},
+	{
+		"name": "minecraft:green_candle_cake",
+		"states": {
+			"lit": 1b
+		}
+	},
+	{
+		"name": "minecraft:light_blue_candle",
+		"states": {
+			"candles": 0,
+			"lit": 0b
+		}
+	},
+	{
+		"name": "minecraft:light_blue_candle",
+		"states": {
+			"candles": 1,
+			"lit": 0b
+		}
+	},
+	{
+		"name": "minecraft:light_blue_candle",
+		"states": {
+			"candles": 2,
+			"lit": 0b
+		}
+	},
+	{
+		"name": "minecraft:light_blue_candle",
+		"states": {
+			"candles": 3,
+			"lit": 0b
+		}
+	},
+	{
+		"name": "minecraft:light_blue_candle",
+		"states": {
+			"candles": 0,
+			"lit": 1b
+		}
+	},
+	{
+		"name": "minecraft:light_blue_candle",
+		"states": {
+			"candles": 1,
+			"lit": 1b
+		}
+	},
+	{
+		"name": "minecraft:light_blue_candle",
+		"states": {
+			"candles": 2,
+			"lit": 1b
+		}
+	},
+	{
+		"name": "minecraft:light_blue_candle",
+		"states": {
+			"candles": 3,
+			"lit": 1b
+		}
+	},
+	{
+		"name": "minecraft:light_blue_candle_cake",
+		"states": {
+			"lit": 0b
+		}
+	},
+	{
+		"name": "minecraft:light_blue_candle_cake",
+		"states": {
+			"lit": 1b
+		}
+	},
+	{
+		"name": "minecraft:light_gray_candle",
+		"states": {
+			"candles": 0,
+			"lit": 0b
+		}
+	},
+	{
+		"name": "minecraft:light_gray_candle",
+		"states": {
+			"candles": 1,
+			"lit": 0b
+		}
+	},
+	{
+		"name": "minecraft:light_gray_candle",
+		"states": {
+			"candles": 2,
+			"lit": 0b
+		}
+	},
+	{
+		"name": "minecraft:light_gray_candle",
+		"states": {
+			"candles": 3,
+			"lit": 0b
+		}
+	},
+	{
+		"name": "minecraft:light_gray_candle",
+		"states": {
+			"candles": 0,
+			"lit": 1b
+		}
+	},
+	{
+		"name": "minecraft:light_gray_candle",
+		"states": {
+			"candles": 1,
+			"lit": 1b
+		}
+	},
+	{
+		"name": "minecraft:light_gray_candle",
+		"states": {
+			"candles": 2,
+			"lit": 1b
+		}
+	},
+	{
+		"name": "minecraft:light_gray_candle",
+		"states": {
+			"candles": 3,
+			"lit": 1b
+		}
+	},
+	{
+		"name": "minecraft:light_gray_candle_cake",
+		"states": {
+			"lit": 0b
+		}
+	},
+	{
+		"name": "minecraft:light_gray_candle_cake",
+		"states": {
+			"lit": 1b
+		}
+	},
+	{
+		"name": "minecraft:lime_candle",
+		"states": {
+			"candles": 0,
+			"lit": 0b
+		}
+	},
+	{
+		"name": "minecraft:lime_candle",
+		"states": {
+			"candles": 1,
+			"lit": 0b
+		}
+	},
+	{
+		"name": "minecraft:lime_candle",
+		"states": {
+			"candles": 2,
+			"lit": 0b
+		}
+	},
+	{
+		"name": "minecraft:lime_candle",
+		"states": {
+			"candles": 3,
+			"lit": 0b
+		}
+	},
+	{
+		"name": "minecraft:lime_candle",
+		"states": {
+			"candles": 0,
+			"lit": 1b
+		}
+	},
+	{
+		"name": "minecraft:lime_candle",
+		"states": {
+			"candles": 1,
+			"lit": 1b
+		}
+	},
+	{
+		"name": "minecraft:lime_candle",
+		"states": {
+			"candles": 2,
+			"lit": 1b
+		}
+	},
+	{
+		"name": "minecraft:lime_candle",
+		"states": {
+			"candles": 3,
+			"lit": 1b
+		}
+	},
+	{
+		"name": "minecraft:lime_candle_cake",
+		"states": {
+			"lit": 0b
+		}
+	},
+	{
+		"name": "minecraft:lime_candle_cake",
+		"states": {
+			"lit": 1b
+		}
+	},
+	{
+		"name": "minecraft:magenta_candle",
+		"states": {
+			"candles": 0,
+			"lit": 0b
+		}
+	},
+	{
+		"name": "minecraft:magenta_candle",
+		"states": {
+			"candles": 1,
+			"lit": 0b
+		}
+	},
+	{
+		"name": "minecraft:magenta_candle",
+		"states": {
+			"candles": 2,
+			"lit": 0b
+		}
+	},
+	{
+		"name": "minecraft:magenta_candle",
+		"states": {
+			"candles": 3,
+			"lit": 0b
+		}
+	},
+	{
+		"name": "minecraft:magenta_candle",
+		"states": {
+			"candles": 0,
+			"lit": 1b
+		}
+	},
+	{
+		"name": "minecraft:magenta_candle",
+		"states": {
+			"candles": 1,
+			"lit": 1b
+		}
+	},
+	{
+		"name": "minecraft:magenta_candle",
+		"states": {
+			"candles": 2,
+			"lit": 1b
+		}
+	},
+	{
+		"name": "minecraft:magenta_candle",
+		"states": {
+			"candles": 3,
+			"lit": 1b
+		}
+	},
+	{
+		"name": "minecraft:magenta_candle_cake",
+		"states": {
+			"lit": 0b
+		}
+	},
+	{
+		"name": "minecraft:magenta_candle_cake",
+		"states": {
+			"lit": 1b
+		}
+	},
+	{
+		"name": "minecraft:orange_candle",
+		"states": {
+			"candles": 0,
+			"lit": 0b
+		}
+	},
+	{
+		"name": "minecraft:orange_candle",
+		"states": {
+			"candles": 1,
+			"lit": 0b
+		}
+	},
+	{
+		"name": "minecraft:orange_candle",
+		"states": {
+			"candles": 2,
+			"lit": 0b
+		}
+	},
+	{
+		"name": "minecraft:orange_candle",
+		"states": {
+			"candles": 3,
+			"lit": 0b
+		}
+	},
+	{
+		"name": "minecraft:orange_candle",
+		"states": {
+			"candles": 0,
+			"lit": 1b
+		}
+	},
+	{
+		"name": "minecraft:orange_candle",
+		"states": {
+			"candles": 1,
+			"lit": 1b
+		}
+	},
+	{
+		"name": "minecraft:orange_candle",
+		"states": {
+			"candles": 2,
+			"lit": 1b
+		}
+	},
+	{
+		"name": "minecraft:orange_candle",
+		"states": {
+			"candles": 3,
+			"lit": 1b
+		}
+	},
+	{
+		"name": "minecraft:orange_candle_cake",
+		"states": {
+			"lit": 0b
+		}
+	},
+	{
+		"name": "minecraft:orange_candle_cake",
+		"states": {
+			"lit": 1b
+		}
+	},
+	{
+		"name": "minecraft:pink_candle",
+		"states": {
+			"candles": 0,
+			"lit": 0b
+		}
+	},
+	{
+		"name": "minecraft:pink_candle",
+		"states": {
+			"candles": 1,
+			"lit": 0b
+		}
+	},
+	{
+		"name": "minecraft:pink_candle",
+		"states": {
+			"candles": 2,
+			"lit": 0b
+		}
+	},
+	{
+		"name": "minecraft:pink_candle",
+		"states": {
+			"candles": 3,
+			"lit": 0b
+		}
+	},
+	{
+		"name": "minecraft:pink_candle",
+		"states": {
+			"candles": 0,
+			"lit": 1b
+		}
+	},
+	{
+		"name": "minecraft:pink_candle",
+		"states": {
+			"candles": 1,
+			"lit": 1b
+		}
+	},
+	{
+		"name": "minecraft:pink_candle",
+		"states": {
+			"candles": 2,
+			"lit": 1b
+		}
+	},
+	{
+		"name": "minecraft:pink_candle",
+		"states": {
+			"candles": 3,
+			"lit": 1b
+		}
+	},
+	{
+		"name": "minecraft:pink_candle_cake",
+		"states": {
+			"lit": 0b
+		}
+	},
+	{
+		"name": "minecraft:pink_candle_cake",
+		"states": {
+			"lit": 1b
+		}
+	},
+	{
+		"name": "minecraft:purple_candle",
+		"states": {
+			"candles": 0,
+			"lit": 0b
+		}
+	},
+	{
+		"name": "minecraft:purple_candle",
+		"states": {
+			"candles": 1,
+			"lit": 0b
+		}
+	},
+	{
+		"name": "minecraft:purple_candle",
+		"states": {
+			"candles": 2,
+			"lit": 0b
+		}
+	},
+	{
+		"name": "minecraft:purple_candle",
+		"states": {
+			"candles": 3,
+			"lit": 0b
+		}
+	},
+	{
+		"name": "minecraft:purple_candle",
+		"states": {
+			"candles": 0,
+			"lit": 1b
+		}
+	},
+	{
+		"name": "minecraft:purple_candle",
+		"states": {
+			"candles": 1,
+			"lit": 1b
+		}
+	},
+	{
+		"name": "minecraft:purple_candle",
+		"states": {
+			"candles": 2,
+			"lit": 1b
+		}
+	},
+	{
+		"name": "minecraft:purple_candle",
+		"states": {
+			"candles": 3,
+			"lit": 1b
+		}
+	},
+	{
+		"name": "minecraft:purple_candle_cake",
+		"states": {
+			"lit": 0b
+		}
+	},
+	{
+		"name": "minecraft:purple_candle_cake",
+		"states": {
+			"lit": 1b
+		}
+	},
+	{
+		"name": "minecraft:red_candle",
+		"states": {
+			"candles": 0,
+			"lit": 0b
+		}
+	},
+	{
+		"name": "minecraft:red_candle",
+		"states": {
+			"candles": 1,
+			"lit": 0b
+		}
+	},
+	{
+		"name": "minecraft:red_candle",
+		"states": {
+			"candles": 2,
+			"lit": 0b
+		}
+	},
+	{
+		"name": "minecraft:red_candle",
+		"states": {
+			"candles": 3,
+			"lit": 0b
+		}
+	},
+	{
+		"name": "minecraft:red_candle",
+		"states": {
+			"candles": 0,
+			"lit": 1b
+		}
+	},
+	{
+		"name": "minecraft:red_candle",
+		"states": {
+			"candles": 1,
+			"lit": 1b
+		}
+	},
+	{
+		"name": "minecraft:red_candle",
+		"states": {
+			"candles": 2,
+			"lit": 1b
+		}
+	},
+	{
+		"name": "minecraft:red_candle",
+		"states": {
+			"candles": 3,
+			"lit": 1b
+		}
+	},
+	{
+		"name": "minecraft:red_candle_cake",
+		"states": {
+			"lit": 0b
+		}
+	},
+	{
+		"name": "minecraft:red_candle_cake",
+		"states": {
+			"lit": 1b
+		}
+	},
+	{
+		"name": "minecraft:white_candle",
+		"states": {
+			"candles": 0,
+			"lit": 0b
+		}
+	},
+	{
+		"name": "minecraft:white_candle",
+		"states": {
+			"candles": 1,
+			"lit": 0b
+		}
+	},
+	{
+		"name": "minecraft:white_candle",
+		"states": {
+			"candles": 2,
+			"lit": 0b
+		}
+	},
+	{
+		"name": "minecraft:white_candle",
+		"states": {
+			"candles": 3,
+			"lit": 0b
+		}
+	},
+	{
+		"name": "minecraft:white_candle",
+		"states": {
+			"candles": 0,
+			"lit": 1b
+		}
+	},
+	{
+		"name": "minecraft:white_candle",
+		"states": {
+			"candles": 1,
+			"lit": 1b
+		}
+	},
+	{
+		"name": "minecraft:white_candle",
+		"states": {
+			"candles": 2,
+			"lit": 1b
+		}
+	},
+	{
+		"name": "minecraft:white_candle",
+		"states": {
+			"candles": 3,
+			"lit": 1b
+		}
+	},
+	{
+		"name": "minecraft:white_candle_cake",
+		"states": {
+			"lit": 0b
+		}
+	},
+	{
+		"name": "minecraft:white_candle_cake",
+		"states": {
+			"lit": 1b
+		}
+	},
+	{
+		"name": "minecraft:yellow_candle",
+		"states": {
+			"candles": 0,
+			"lit": 0b
+		}
+	},
+	{
+		"name": "minecraft:yellow_candle",
+		"states": {
+			"candles": 1,
+			"lit": 0b
+		}
+	},
+	{
+		"name": "minecraft:yellow_candle",
+		"states": {
+			"candles": 2,
+			"lit": 0b
+		}
+	},
+	{
+		"name": "minecraft:yellow_candle",
+		"states": {
+			"candles": 3,
+			"lit": 0b
+		}
+	},
+	{
+		"name": "minecraft:yellow_candle",
+		"states": {
+			"candles": 0,
+			"lit": 1b
+		}
+	},
+	{
+		"name": "minecraft:yellow_candle",
+		"states": {
+			"candles": 1,
+			"lit": 1b
+		}
+	},
+	{
+		"name": "minecraft:yellow_candle",
+		"states": {
+			"candles": 2,
+			"lit": 1b
+		}
+	},
+	{
+		"name": "minecraft:yellow_candle",
+		"states": {
+			"candles": 3,
+			"lit": 1b
+		}
+	},
+	{
+		"name": "minecraft:yellow_candle_cake",
+		"states": {
+			"lit": 0b
+		}
+	},
+	{
+		"name": "minecraft:yellow_candle_cake",
+		"states": {
+			"lit": 1b
+		}
+	}
+]
