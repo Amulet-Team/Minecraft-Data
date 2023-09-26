@@ -1,0 +1,214 @@
+[
+	{
+		"name": "minecraft:yellow_shulker_box",
+		"states": {}
+	},
+	{
+		"name": "minecraft:magenta_shulker_box",
+		"states": {}
+	},
+	{
+		"name": "minecraft:lime_shulker_box",
+		"states": {}
+	},
+	{
+		"name": "minecraft:white_shulker_box",
+		"states": {}
+	},
+	{
+		"name": "minecraft:light_gray_concrete",
+		"states": {}
+	},
+	{
+		"name": "minecraft:observer",
+		"states": {
+			"minecraft:facing_direction": "down",
+			"powered_bit": 0b
+		}
+	},
+	{
+		"name": "minecraft:observer",
+		"states": {
+			"minecraft:facing_direction": "up",
+			"powered_bit": 0b
+		}
+	},
+	{
+		"name": "minecraft:observer",
+		"states": {
+			"minecraft:facing_direction": "north",
+			"powered_bit": 0b
+		}
+	},
+	{
+		"name": "minecraft:observer",
+		"states": {
+			"minecraft:facing_direction": "south",
+			"powered_bit": 0b
+		}
+	},
+	{
+		"name": "minecraft:observer",
+		"states": {
+			"minecraft:facing_direction": "west",
+			"powered_bit": 0b
+		}
+	},
+	{
+		"name": "minecraft:observer",
+		"states": {
+			"minecraft:facing_direction": "east",
+			"powered_bit": 0b
+		}
+	},
+	{
+		"name": "minecraft:observer",
+		"states": {
+			"minecraft:facing_direction": "down",
+			"powered_bit": 1b
+		}
+	},
+	{
+		"name": "minecraft:observer",
+		"states": {
+			"minecraft:facing_direction": "up",
+			"powered_bit": 1b
+		}
+	},
+	{
+		"name": "minecraft:observer",
+		"states": {
+			"minecraft:facing_direction": "north",
+			"powered_bit": 1b
+		}
+	},
+	{
+		"name": "minecraft:observer",
+		"states": {
+			"minecraft:facing_direction": "south",
+			"powered_bit": 1b
+		}
+	},
+	{
+		"name": "minecraft:observer",
+		"states": {
+			"minecraft:facing_direction": "west",
+			"powered_bit": 1b
+		}
+	},
+	{
+		"name": "minecraft:observer",
+		"states": {
+			"minecraft:facing_direction": "east",
+			"powered_bit": 1b
+		}
+	},
+	{
+		"name": "minecraft:pink_concrete",
+		"states": {}
+	},
+	{
+		"name": "minecraft:yellow_concrete",
+		"states": {}
+	},
+	{
+		"name": "minecraft:purple_concrete",
+		"states": {}
+	},
+	{
+		"name": "minecraft:magenta_concrete",
+		"states": {}
+	},
+	{
+		"name": "minecraft:pink_shulker_box",
+		"states": {}
+	},
+	{
+		"name": "minecraft:red_shulker_box",
+		"states": {}
+	},
+	{
+		"name": "minecraft:lime_concrete",
+		"states": {}
+	},
+	{
+		"name": "minecraft:gray_shulker_box",
+		"states": {}
+	},
+	{
+		"name": "minecraft:green_concrete",
+		"states": {}
+	},
+	{
+		"name": "minecraft:light_gray_shulker_box",
+		"states": {}
+	},
+	{
+		"name": "minecraft:black_shulker_box",
+		"states": {}
+	},
+	{
+		"name": "minecraft:brown_concrete",
+		"states": {}
+	},
+	{
+		"name": "minecraft:orange_shulker_box",
+		"states": {}
+	},
+	{
+		"name": "minecraft:blue_shulker_box",
+		"states": {}
+	},
+	{
+		"name": "minecraft:green_shulker_box",
+		"states": {}
+	},
+	{
+		"name": "minecraft:black_concrete",
+		"states": {}
+	},
+	{
+		"name": "minecraft:orange_concrete",
+		"states": {}
+	},
+	{
+		"name": "minecraft:brown_shulker_box",
+		"states": {}
+	},
+	{
+		"name": "minecraft:light_blue_shulker_box",
+		"states": {}
+	},
+	{
+		"name": "minecraft:cyan_shulker_box",
+		"states": {}
+	},
+	{
+		"name": "minecraft:cyan_concrete",
+		"states": {}
+	},
+	{
+		"name": "minecraft:blue_concrete",
+		"states": {}
+	},
+	{
+		"name": "minecraft:gray_concrete",
+		"states": {}
+	},
+	{
+		"name": "minecraft:purple_shulker_box",
+		"states": {}
+	},
+	{
+		"name": "minecraft:light_blue_concrete",
+		"states": {}
+	},
+	{
+		"name": "minecraft:red_concrete",
+		"states": {}
+	},
+	{
+		"name": "minecraft:white_concrete",
+		"states": {}
+	}
+]
