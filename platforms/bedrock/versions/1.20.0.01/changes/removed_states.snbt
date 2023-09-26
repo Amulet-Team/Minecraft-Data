@@ -1,0 +1,455 @@
+[
+	{
+		"name": "minecraft:lava_cauldron",
+		"states": {
+			"cauldron_liquid": "water",
+			"fill_level": 0
+		}
+	},
+	{
+		"name": "minecraft:lava_cauldron",
+		"states": {
+			"cauldron_liquid": "water",
+			"fill_level": 1
+		}
+	},
+	{
+		"name": "minecraft:lava_cauldron",
+		"states": {
+			"cauldron_liquid": "water",
+			"fill_level": 2
+		}
+	},
+	{
+		"name": "minecraft:lava_cauldron",
+		"states": {
+			"cauldron_liquid": "water",
+			"fill_level": 3
+		}
+	},
+	{
+		"name": "minecraft:lava_cauldron",
+		"states": {
+			"cauldron_liquid": "water",
+			"fill_level": 4
+		}
+	},
+	{
+		"name": "minecraft:lava_cauldron",
+		"states": {
+			"cauldron_liquid": "water",
+			"fill_level": 5
+		}
+	},
+	{
+		"name": "minecraft:lava_cauldron",
+		"states": {
+			"cauldron_liquid": "water",
+			"fill_level": 6
+		}
+	},
+	{
+		"name": "minecraft:lava_cauldron",
+		"states": {
+			"cauldron_liquid": "lava",
+			"fill_level": 0
+		}
+	},
+	{
+		"name": "minecraft:lava_cauldron",
+		"states": {
+			"cauldron_liquid": "lava",
+			"fill_level": 1
+		}
+	},
+	{
+		"name": "minecraft:lava_cauldron",
+		"states": {
+			"cauldron_liquid": "lava",
+			"fill_level": 2
+		}
+	},
+	{
+		"name": "minecraft:lava_cauldron",
+		"states": {
+			"cauldron_liquid": "lava",
+			"fill_level": 3
+		}
+	},
+	{
+		"name": "minecraft:lava_cauldron",
+		"states": {
+			"cauldron_liquid": "lava",
+			"fill_level": 4
+		}
+	},
+	{
+		"name": "minecraft:lava_cauldron",
+		"states": {
+			"cauldron_liquid": "lava",
+			"fill_level": 5
+		}
+	},
+	{
+		"name": "minecraft:lava_cauldron",
+		"states": {
+			"cauldron_liquid": "lava",
+			"fill_level": 6
+		}
+	},
+	{
+		"name": "minecraft:lava_cauldron",
+		"states": {
+			"cauldron_liquid": "powder_snow",
+			"fill_level": 0
+		}
+	},
+	{
+		"name": "minecraft:lava_cauldron",
+		"states": {
+			"cauldron_liquid": "powder_snow",
+			"fill_level": 1
+		}
+	},
+	{
+		"name": "minecraft:lava_cauldron",
+		"states": {
+			"cauldron_liquid": "powder_snow",
+			"fill_level": 2
+		}
+	},
+	{
+		"name": "minecraft:lava_cauldron",
+		"states": {
+			"cauldron_liquid": "powder_snow",
+			"fill_level": 3
+		}
+	},
+	{
+		"name": "minecraft:lava_cauldron",
+		"states": {
+			"cauldron_liquid": "powder_snow",
+			"fill_level": 4
+		}
+	},
+	{
+		"name": "minecraft:lava_cauldron",
+		"states": {
+			"cauldron_liquid": "powder_snow",
+			"fill_level": 5
+		}
+	},
+	{
+		"name": "minecraft:lava_cauldron",
+		"states": {
+			"cauldron_liquid": "powder_snow",
+			"fill_level": 6
+		}
+	},
+	{
+		"name": "minecraft:carpet",
+		"states": {
+			"color": "white"
+		}
+	},
+	{
+		"name": "minecraft:carpet",
+		"states": {
+			"color": "orange"
+		}
+	},
+	{
+		"name": "minecraft:carpet",
+		"states": {
+			"color": "magenta"
+		}
+	},
+	{
+		"name": "minecraft:carpet",
+		"states": {
+			"color": "light_blue"
+		}
+	},
+	{
+		"name": "minecraft:carpet",
+		"states": {
+			"color": "yellow"
+		}
+	},
+	{
+		"name": "minecraft:carpet",
+		"states": {
+			"color": "lime"
+		}
+	},
+	{
+		"name": "minecraft:carpet",
+		"states": {
+			"color": "pink"
+		}
+	},
+	{
+		"name": "minecraft:carpet",
+		"states": {
+			"color": "gray"
+		}
+	},
+	{
+		"name": "minecraft:carpet",
+		"states": {
+			"color": "silver"
+		}
+	},
+	{
+		"name": "minecraft:carpet",
+		"states": {
+			"color": "cyan"
+		}
+	},
+	{
+		"name": "minecraft:carpet",
+		"states": {
+			"color": "purple"
+		}
+	},
+	{
+		"name": "minecraft:carpet",
+		"states": {
+			"color": "blue"
+		}
+	},
+	{
+		"name": "minecraft:carpet",
+		"states": {
+			"color": "brown"
+		}
+	},
+	{
+		"name": "minecraft:carpet",
+		"states": {
+			"color": "green"
+		}
+	},
+	{
+		"name": "minecraft:carpet",
+		"states": {
+			"color": "red"
+		}
+	},
+	{
+		"name": "minecraft:carpet",
+		"states": {
+			"color": "black"
+		}
+	},
+	{
+		"name": "minecraft:sculk_sensor",
+		"states": {
+			"powered_bit": 0b
+		}
+	},
+	{
+		"name": "minecraft:sculk_sensor",
+		"states": {
+			"powered_bit": 1b
+		}
+	},
+	{
+		"name": "minecraft:pumpkin",
+		"states": {
+			"direction": 0
+		}
+	},
+	{
+		"name": "minecraft:pumpkin",
+		"states": {
+			"direction": 1
+		}
+	},
+	{
+		"name": "minecraft:pumpkin",
+		"states": {
+			"direction": 2
+		}
+	},
+	{
+		"name": "minecraft:pumpkin",
+		"states": {
+			"direction": 3
+		}
+	},
+	{
+		"name": "minecraft:calibrated_sculk_sensor",
+		"states": {
+			"direction": 0,
+			"powered_bit": 0b
+		}
+	},
+	{
+		"name": "minecraft:calibrated_sculk_sensor",
+		"states": {
+			"direction": 0,
+			"powered_bit": 1b
+		}
+	},
+	{
+		"name": "minecraft:calibrated_sculk_sensor",
+		"states": {
+			"direction": 1,
+			"powered_bit": 0b
+		}
+	},
+	{
+		"name": "minecraft:calibrated_sculk_sensor",
+		"states": {
+			"direction": 1,
+			"powered_bit": 1b
+		}
+	},
+	{
+		"name": "minecraft:calibrated_sculk_sensor",
+		"states": {
+			"direction": 2,
+			"powered_bit": 0b
+		}
+	},
+	{
+		"name": "minecraft:calibrated_sculk_sensor",
+		"states": {
+			"direction": 2,
+			"powered_bit": 1b
+		}
+	},
+	{
+		"name": "minecraft:calibrated_sculk_sensor",
+		"states": {
+			"direction": 3,
+			"powered_bit": 0b
+		}
+	},
+	{
+		"name": "minecraft:calibrated_sculk_sensor",
+		"states": {
+			"direction": 3,
+			"powered_bit": 1b
+		}
+	},
+	{
+		"name": "minecraft:coral",
+		"states": {
+			"coral_color": "blue",
+			"dead_bit": 0b
+		}
+	},
+	{
+		"name": "minecraft:coral",
+		"states": {
+			"coral_color": "pink",
+			"dead_bit": 0b
+		}
+	},
+	{
+		"name": "minecraft:coral",
+		"states": {
+			"coral_color": "purple",
+			"dead_bit": 0b
+		}
+	},
+	{
+		"name": "minecraft:coral",
+		"states": {
+			"coral_color": "red",
+			"dead_bit": 0b
+		}
+	},
+	{
+		"name": "minecraft:coral",
+		"states": {
+			"coral_color": "yellow",
+			"dead_bit": 0b
+		}
+	},
+	{
+		"name": "minecraft:coral",
+		"states": {
+			"coral_color": "blue",
+			"dead_bit": 1b
+		}
+	},
+	{
+		"name": "minecraft:coral",
+		"states": {
+			"coral_color": "pink",
+			"dead_bit": 1b
+		}
+	},
+	{
+		"name": "minecraft:coral",
+		"states": {
+			"coral_color": "purple",
+			"dead_bit": 1b
+		}
+	},
+	{
+		"name": "minecraft:coral",
+		"states": {
+			"coral_color": "red",
+			"dead_bit": 1b
+		}
+	},
+	{
+		"name": "minecraft:coral",
+		"states": {
+			"coral_color": "yellow",
+			"dead_bit": 1b
+		}
+	},
+	{
+		"name": "minecraft:lit_pumpkin",
+		"states": {
+			"direction": 0
+		}
+	},
+	{
+		"name": "minecraft:lit_pumpkin",
+		"states": {
+			"direction": 1
+		}
+	},
+	{
+		"name": "minecraft:lit_pumpkin",
+		"states": {
+			"direction": 2
+		}
+	},
+	{
+		"name": "minecraft:lit_pumpkin",
+		"states": {
+			"direction": 3
+		}
+	},
+	{
+		"name": "minecraft:carved_pumpkin",
+		"states": {
+			"direction": 0
+		}
+	},
+	{
+		"name": "minecraft:carved_pumpkin",
+		"states": {
+			"direction": 1
+		}
+	},
+	{
+		"name": "minecraft:carved_pumpkin",
+		"states": {
+			"direction": 2
+		}
+	},
+	{
+		"name": "minecraft:carved_pumpkin",
+		"states": {
+			"direction": 3
+		}
+	}
+]
