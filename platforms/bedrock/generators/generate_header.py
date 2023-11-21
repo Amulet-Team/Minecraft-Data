@@ -73,6 +73,7 @@ def generate_diff(path: str):
         server_dir = os.path.join(path, version_s, "server")
         pdb_path = os.path.join(server_dir, "bedrock_server.pdb")
         symbols = set(get_symbols(pdb_path))
+        generate_header_from_symbols(os.path.join(server_dir, "bedrock_server.hpp"), symbols)
         padded_version_s = ".".join("0" * (3-len(s)) + s for s in version_s.split("."))
         generate_header_from_symbols(os.path.join(path, "..", "headers", f"{padded_version_s}_added.hpp"), symbols.difference(previous_symbols))
         generate_header_from_symbols(os.path.join(path, "..", "headers", f"{padded_version_s}_removed.hpp"), previous_symbols.difference(symbols))
