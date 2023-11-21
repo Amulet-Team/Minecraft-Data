@@ -26,22 +26,18 @@ Alts = {
 
 def generate_header_from_symbols(header_path: str, decorated_symbols: Iterable[str]):
     """Generate a header file from an iterable of decorated symbols."""
-    symbols: list[tuple[bool, str, str, str]] = []
-    for decorated_symbol in decorated_symbols:
-        try:
-            qualname = undname(decorated_symbol, name_only=True)
-            undecorated_symbol = undname(decorated_symbol, ms_keywords=False, access_specifiers=False)
-            for a, b in Alts.items():
-                undecorated_symbol = undecorated_symbol.replace(a, b)
-        except:
-            symbols.append((True, "", "", decorated_symbol))
-        else:
-            symbols.append((qualname == undecorated_symbol, qualname, undecorated_symbol, decorated_symbol))
-
     os.makedirs(os.path.dirname(header_path), exist_ok=True)
     with open(header_path, "w") as f:
-        for odd, _, undecorated_symbol, decorated_symbol in sorted(symbols):
-            if odd:
+        for decorated_symbol in decorated_symbols:
+            try:
+                qualname = undname(decorated_symbol, name_only=True)
+                undecorated_symbol = undname(decorated_symbol, ms_keywords=False, access_specifiers=False)
+                for a, b in Alts.items():
+                    undecorated_symbol = undecorated_symbol.replace(a, b)
+            except:
+                qualname = undecorated_symbol = ""
+            
+            if qualname == undecorated_symbol:
                 f.write(f"// {decorated_symbol}\n// {undecorated_symbol}\n")
             else:
                 f.write(f"// {decorated_symbol}\n{undecorated_symbol}\n")
