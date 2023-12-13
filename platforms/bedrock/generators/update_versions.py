@@ -73,11 +73,7 @@ def main_cli() -> None:
     parser.add_argument(
         "--dll_path",
         type=str,
-        default=os.path.realpath(
-            os.path.join(
-                current_dir, "BedrockData", "x64", "Release", "BedrockData.dll"
-            )
-        ),
+        default=os.path.realpath(os.path.join(current_dir, "BedrockData.dll")),
     )
     parser.add_argument(
         "--versions_path",
