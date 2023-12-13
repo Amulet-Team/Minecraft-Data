@@ -23,10 +23,13 @@
     <ClInclude Include="Global.h" />
     <ClInclude Include="HookAPI.h" />
     <ClInclude Include="logging.hpp" />
+    <ClInclude Include="MC\AutomaticID.hpp" />
     <ClInclude Include="MC\Biome.hpp" />
     <ClInclude Include="MC\BiomeRegistry.hpp" />
     <ClInclude Include="MC\Block.hpp" />
+    <ClInclude Include="MC\BlockActor.hpp" />
     <ClInclude Include="MC\BlockPalette.hpp" />
+    <ClInclude Include="MC\BlockSource.hpp" />
     <ClInclude Include="MC\DataVersion.hpp" />
     <ClInclude Include="MC\Dimension.hpp" />
     <ClInclude Include="MC\GameVersion.hpp" />
@@ -37,6 +40,8 @@
     <ClInclude Include="MC\nbt\CompoundTag.hpp" />
     <ClInclude Include="MC\nbt\IDataOutput.hpp" />
     <ClInclude Include="MC\nbt\NbtIo.hpp" />
+    <ClInclude Include="MC\nbt\Tag.hpp" />
+    <ClInclude Include="MC\Ref.hpp" />
     <ClInclude Include="utils\Hash.h" />
   </ItemGroup>
   <ItemGroup>
@@ -46,7 +51,9 @@
     <ClCompile Include="MC\Biome.cpp" />
     <ClCompile Include="MC\BiomeRegistry.cpp" />
     <ClCompile Include="MC\Block.cpp" />
+    <ClCompile Include="MC\BlockActor.cpp" />
     <ClCompile Include="MC\BlockPalette.cpp" />
+    <ClCompile Include="MC\BlockSource.cpp" />
     <ClCompile Include="MC\DataVersion.cpp" />
     <ClCompile Include="MC\Dimension.cpp" />
     <ClCompile Include="MC\GameVersion.cpp" />
@@ -54,7 +61,9 @@
     <ClCompile Include="MC\Level.cpp" />
     <ClCompile Include="MC\Minecraft.cpp" />
     <ClCompile Include="MC\MobEffect.cpp" />
+    <ClCompile Include="MC\nbt\CompoundTag.cpp" />
     <ClCompile Include="MC\nbt\NbtIo.cpp" />
+    <ClCompile Include="MC\nbt\Tag.cpp" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>

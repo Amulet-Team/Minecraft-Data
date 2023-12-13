@@ -1,8 +1,10 @@
 #pragma once
-#include <string>
-#include "HookAPI.h"
+#include <memory>
 
 
 namespace MinecraftAPI {
-	class CompoundTag {};
+	class CompoundTag {
+	public:
+		static std::unique_ptr<CompoundTag> create();
+	};
 }

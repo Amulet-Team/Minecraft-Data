@@ -8,6 +8,9 @@
 using namespace MinecraftAPI;
 
 
+Level::_getDimensionT Level::_getDimension = (Level::_getDimensionT)dlsym("?getDimension@Level@@QEBAPEAVDimension@@V?$AutomaticID@VDimension@@H@@@Z");
+
+
 // 66/67 - getBiomeRegistry
 
 

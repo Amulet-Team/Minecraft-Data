@@ -72,6 +72,21 @@
     <ClInclude Include="MC\Dimension.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="MC\nbt\Tag.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MC\BlockActor.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MC\AutomaticID.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MC\BlockSource.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MC\Ref.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="dllmain.cpp">
@@ -117,6 +132,18 @@
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="MC\Dimension.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MC\nbt\CompoundTag.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MC\nbt\Tag.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MC\BlockActor.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MC\BlockSource.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
