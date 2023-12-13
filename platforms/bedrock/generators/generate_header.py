@@ -8,7 +8,9 @@ from undname import undname
 
 def get_symbols(pdb_path: str):
     """Get a list of symbols from a pdb file"""
-    process = subprocess.Popen(["cvdump.exe", "-p", pdb_path], stdout=subprocess.PIPE, stderr=subprocess.STDOUT)
+    process = subprocess.Popen(
+        ["cvdump.exe", "-p", pdb_path], stdout=subprocess.PIPE, stderr=subprocess.STDOUT
+    )
     with process.stdout:
         line: bytes
         for line in iter(process.stdout.readline, b""):
@@ -31,12 +33,14 @@ def generate_header_from_symbols(header_path: str, decorated_symbols: Iterable[s
         for decorated_symbol in decorated_symbols:
             try:
                 qualname = undname(decorated_symbol, name_only=True)
-                undecorated_symbol = undname(decorated_symbol, ms_keywords=False, access_specifiers=False)
+                undecorated_symbol = undname(
+                    decorated_symbol, ms_keywords=False, access_specifiers=False
+                )
                 for a, b in Alts.items():
                     undecorated_symbol = undecorated_symbol.replace(a, b)
             except:
                 qualname = undecorated_symbol = ""
-            
+
             if qualname == undecorated_symbol:
                 f.write(f"// {decorated_symbol}\n// {undecorated_symbol}\n")
             else:
@@ -46,7 +50,9 @@ def generate_header_from_symbols(header_path: str, decorated_symbols: Iterable[s
 def generate_header(pdb_path: str):
     """Generate a header file for all symbols in a pdb file."""
     server_dir = os.path.dirname(pdb_path)
-    generate_header_from_symbols(os.path.join(server_dir, "symbols.hpp"), get_symbols(pdb_path))
+    generate_header_from_symbols(
+        os.path.join(server_dir, "symbols.hpp"), get_symbols(pdb_path)
+    )
 
 
 def generate_diff(path: str):
@@ -57,7 +63,9 @@ def generate_diff(path: str):
 
     :param path: A path to a directory containing a server version per directory
     """
-    pdb_files = glob.glob(os.path.join(glob.escape(path), "*", "server", "bedrock_server.pdb"))
+    pdb_files = glob.glob(
+        os.path.join(glob.escape(path), "*", "server", "bedrock_server.pdb")
+    )
     versions: list[tuple[tuple[int, ...], str]] = []
     for pdb_path in pdb_files:
         *_, version_s, _, _ = pdb_path.split(os.sep)
@@ -69,15 +77,26 @@ def generate_diff(path: str):
         server_dir = os.path.join(path, version_s, "server")
         pdb_path = os.path.join(server_dir, "bedrock_server.pdb")
         symbols = set(get_symbols(pdb_path))
-        generate_header_from_symbols(os.path.join(server_dir, "bedrock_server.hpp"), symbols)
-        padded_version_s = ".".join("0" * (3-len(s)) + s for s in version_s.split("."))
-        generate_header_from_symbols(os.path.join(path, "..", "headers", f"{padded_version_s}_added.hpp"), symbols.difference(previous_symbols))
-        generate_header_from_symbols(os.path.join(path, "..", "headers", f"{padded_version_s}_removed.hpp"), previous_symbols.difference(symbols))
+        generate_header_from_symbols(
+            os.path.join(server_dir, "bedrock_server.hpp"), symbols
+        )
+        padded_version_s = ".".join(
+            "0" * (3 - len(s)) + s for s in version_s.split(".")
+        )
+        generate_header_from_symbols(
+            os.path.join(path, "..", "headers", f"{padded_version_s}_added.hpp"),
+            symbols.difference(previous_symbols),
+        )
+        generate_header_from_symbols(
+            os.path.join(path, "..", "headers", f"{padded_version_s}_removed.hpp"),
+            previous_symbols.difference(symbols),
+        )
         previous_symbols = symbols
 
 
 def main():
     generate_diff(os.path.join("..", "versions"))
 
-if __name__ == '__main__':
+
+if __name__ == "__main__":
     main()

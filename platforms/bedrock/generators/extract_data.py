@@ -9,13 +9,18 @@ import subprocess
 import zipfile
 
 
-ServerURLPattern = re.compile(r"https://minecraft\.azureedge\.net/bin-win/bedrock-server-(?P<version>.*)\.zip")
+ServerURLPattern = re.compile(
+    r"https://minecraft\.azureedge\.net/bin-win/bedrock-server-(?P<version>.*)\.zip"
+)
 
 GeneratorsDir = os.path.dirname(__file__)
 DataGeneratorPath = os.path.join(GeneratorsDir, "BedrockData", "BedrockData")
 BedrockDir = os.path.dirname(GeneratorsDir)
 BedrockVersionsDir = os.path.join(BedrockDir, "versions")
-HeaderGenerator = next(glob.iglob(os.path.join(GeneratorsDir, "HeaderGenerator", "HeaderGenerator*.jar")), None)
+HeaderGenerator = next(
+    glob.iglob(os.path.join(GeneratorsDir, "HeaderGenerator", "HeaderGenerator*.jar")),
+    None,
+)
 
 
 def get_generator_hash() -> str:
@@ -24,7 +29,9 @@ def get_generator_hash() -> str:
     This is used to check if the code changed between runs.
     """
     hashes = []
-    for path in sorted(glob.glob(os.path.join(DataGeneratorPath, "**", "*.[ch]pp"), recursive=True)):
+    for path in sorted(
+        glob.glob(os.path.join(DataGeneratorPath, "**", "*.[ch]pp"), recursive=True)
+    ):
         fname = os.path.relpath(path, DataGeneratorPath)
         if not os.path.isfile(path):
             continue
@@ -53,11 +60,11 @@ def get_current_server_url() -> str:
                 "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:105.0) Gecko/20100101 Firefox/105.0",
                 "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8",
                 "Accept-Encoding": "gzip, deflate, br",
-            }
+            },
         ),
-        timeout=5
+        timeout=5,
     ) as f:
-        match = ServerURLPattern.search(zlib.decompress(f.read(), 15+32).decode())
+        match = ServerURLPattern.search(zlib.decompress(f.read(), 15 + 32).decode())
     if match is None:
         raise RuntimeError("Could not find server URL")
     return match.group()
@@ -81,7 +88,10 @@ def create_headers(version_dir: str):
     with zipfile.ZipFile(os.path.join(version_dir, "originalData.zip")) as zip_ref:
         zip_ref.extractall(os.path.join(version_dir, "originalData"))
 
-    json_paths = glob.glob(os.path.join(version_dir, "originalData", "**", "originalData.json"), recursive=True)
+    json_paths = glob.glob(
+        os.path.join(version_dir, "originalData", "**", "originalData.json"),
+        recursive=True,
+    )
     if len(json_paths) != 1:
         raise RuntimeError("Expected exactly 1 json file in the zip")
 
@@ -89,13 +99,21 @@ def create_headers(version_dir: str):
         # Generate the headers
         header_path = os.path.join(version_dir, "include", "MC")
         os.makedirs(header_path, exist_ok=True)
-        subprocess.run([
-            "java", "-jar", HeaderGenerator,
-            "--config", os.path.join(GeneratorsDir, "HeaderGenerator", "config.json"),
-            "--json", json_paths[0],
-            "--generate", header_path,
-            "--old", header_path,
-        ])
+        subprocess.run(
+            [
+                "java",
+                "-jar",
+                HeaderGenerator,
+                "--config",
+                os.path.join(GeneratorsDir, "HeaderGenerator", "config.json"),
+                "--json",
+                json_paths[0],
+                "--generate",
+                header_path,
+                "--old",
+                header_path,
+            ]
+        )
     finally:
         # Delete the JSON file
         shutil.rmtree(os.path.join(version_dir, "originalData"), ignore_errors=True)
@@ -124,5 +142,5 @@ def main():
     extract_data("1.19.30.04")
 
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     main()

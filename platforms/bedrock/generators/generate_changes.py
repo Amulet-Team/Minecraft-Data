@@ -31,41 +31,75 @@ def load_nbt_array(path: str) -> list[NamedTag]:
     tags = []
     context = ReadContext()
     while data:
-        tags.append(load_nbt(data, compressed=False, little_endian=True, read_context=context, string_decoder=bytes.decode))
-        data = data[context.offset:]
+        tags.append(
+            load_nbt(
+                data,
+                compressed=False,
+                little_endian=True,
+                read_context=context,
+                string_decoder=bytes.decode,
+            )
+        )
+        data = data[context.offset :]
     return tags
 
 
 class BlockData:
     def __init__(self, path: str):
-        self.entity = load_lined_file(os.path.join(path, "generated", "block", "block_entity.txt"))
-        self.is_container = load_lined_file(os.path.join(path, "generated", "block", "is_container.txt"))
-        self.variant = load_lined_file(os.path.join(path, "generated", "block", "variant.txt"))
-        self.states = load_nbt_array(os.path.join(path, "generated", "block", "states.nbtarr"))
+        self.entity = load_lined_file(
+            os.path.join(path, "generated", "block", "block_entity.txt")
+        )
+        self.is_container = load_lined_file(
+            os.path.join(path, "generated", "block", "is_container.txt")
+        )
+        self.variant = load_lined_file(
+            os.path.join(path, "generated", "block", "variant.txt")
+        )
+        self.states = load_nbt_array(
+            os.path.join(path, "generated", "block", "states.nbtarr")
+        )
 
 
 class VersionData:
     def __init__(self, path: str):
-        self.actor_digest_version = load_single_line_file(os.path.join(path, "generated", "version", "actor_digest_version.txt"))
-        self.blend_version = load_single_line_file(os.path.join(path, "generated", "version", "blend_version.txt"))
-        self.build_version = load_single_line_file(os.path.join(path, "generated", "version", "build_version.txt"))
-        self.level_chunk_format = load_single_line_file(os.path.join(path, "generated", "version", "level_chunk_format.txt"))
-        self.storage_version = load_single_line_file(os.path.join(path, "generated", "version", "storage_version.txt"))
-        self.sub_chunk_format = load_single_line_file(os.path.join(path, "generated", "version", "sub_chunk_format.txt"))
+        self.actor_digest_version = load_single_line_file(
+            os.path.join(path, "generated", "version", "actor_digest_version.txt")
+        )
+        self.blend_version = load_single_line_file(
+            os.path.join(path, "generated", "version", "blend_version.txt")
+        )
+        self.build_version = load_single_line_file(
+            os.path.join(path, "generated", "version", "build_version.txt")
+        )
+        self.level_chunk_format = load_single_line_file(
+            os.path.join(path, "generated", "version", "level_chunk_format.txt")
+        )
+        self.storage_version = load_single_line_file(
+            os.path.join(path, "generated", "version", "storage_version.txt")
+        )
+        self.sub_chunk_format = load_single_line_file(
+            os.path.join(path, "generated", "version", "sub_chunk_format.txt")
+        )
 
 
 class GameData:
     def __init__(self, path: str):
         self.version_string = os.path.basename(path)
         self.versions = VersionData(path)
-        self.biomes = load_lined_file(os.path.join(path, "generated", "biome", "biome_map.txt"))
+        self.biomes = load_lined_file(
+            os.path.join(path, "generated", "biome", "biome_map.txt")
+        )
         self.blocks = BlockData(path)
 
 
 def main():
     last_game_data: Optional[GameData] = GameData("null")
 
-    for version_number, version_string in sorted((tuple(map(int, version_string.split("."))), version_string) for version_string in os.listdir(VersionsPath) if os.path.isdir(os.path.join(VersionsPath, version_string))):
+    for version_number, version_string in sorted(
+        (tuple(map(int, version_string.split("."))), version_string)
+        for version_string in os.listdir(VersionsPath)
+        if os.path.isdir(os.path.join(VersionsPath, version_string))
+    ):
         path = os.path.join(VersionsPath, version_string)
         os.makedirs(os.path.join(path, "changes"), exist_ok=True)
         print(version_string)
@@ -107,7 +141,9 @@ def main():
         #         f.write(game_data.versions.sub_chunk_format)
 
         # block state changes
-        last_states = deepcopy([state.compound for state in last_game_data.blocks.states])
+        last_states = deepcopy(
+            [state.compound for state in last_game_data.blocks.states]
+        )
         for state in last_states:
             del state["version"]
         this_states = deepcopy([state.compound for state in game_data.blocks.states])
@@ -133,5 +169,5 @@ def main():
         last_game_data = game_data
 
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     main()
