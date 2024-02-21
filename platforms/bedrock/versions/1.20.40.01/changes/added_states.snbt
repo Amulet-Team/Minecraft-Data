@@ -1,0 +1,18 @@
+[
+	{name: "minecraft:chest", states: {"minecraft:cardinal_direction": "east"}},
+	{name: "minecraft:chest", states: {"minecraft:cardinal_direction": "north"}},
+	{name: "minecraft:chest", states: {"minecraft:cardinal_direction": "south"}},
+	{name: "minecraft:chest", states: {"minecraft:cardinal_direction": "west"}},
+	{name: "minecraft:ender_chest", states: {"minecraft:cardinal_direction": "east"}},
+	{name: "minecraft:ender_chest", states: {"minecraft:cardinal_direction": "north"}},
+	{name: "minecraft:ender_chest", states: {"minecraft:cardinal_direction": "south"}},
+	{name: "minecraft:ender_chest", states: {"minecraft:cardinal_direction": "west"}},
+	{name: "minecraft:stonecutter_block", states: {"minecraft:cardinal_direction": "east"}},
+	{name: "minecraft:stonecutter_block", states: {"minecraft:cardinal_direction": "north"}},
+	{name: "minecraft:stonecutter_block", states: {"minecraft:cardinal_direction": "south"}},
+	{name: "minecraft:stonecutter_block", states: {"minecraft:cardinal_direction": "west"}},
+	{name: "minecraft:trapped_chest", states: {"minecraft:cardinal_direction": "east"}},
+	{name: "minecraft:trapped_chest", states: {"minecraft:cardinal_direction": "north"}},
+	{name: "minecraft:trapped_chest", states: {"minecraft:cardinal_direction": "south"}},
+	{name: "minecraft:trapped_chest", states: {"minecraft:cardinal_direction": "west"}}
+]

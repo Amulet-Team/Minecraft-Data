@@ -1,0 +1,7 @@
+added 75: jagged_peaks
+added 76: frozen_peaks
+added 77: snowy_slopes
+added 78: grove
+added 79: meadow
+added 80: lush_caves
+added 81: dripstone_caves

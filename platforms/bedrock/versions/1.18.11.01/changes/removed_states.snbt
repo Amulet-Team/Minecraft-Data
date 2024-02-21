@@ -1,0 +1,14 @@
+[
+	{name: "minecraft:skull", states: {facing_direction: 0, no_drop_bit: 0b}},
+	{name: "minecraft:skull", states: {facing_direction: 0, no_drop_bit: 1b}},
+	{name: "minecraft:skull", states: {facing_direction: 1, no_drop_bit: 0b}},
+	{name: "minecraft:skull", states: {facing_direction: 1, no_drop_bit: 1b}},
+	{name: "minecraft:skull", states: {facing_direction: 2, no_drop_bit: 0b}},
+	{name: "minecraft:skull", states: {facing_direction: 2, no_drop_bit: 1b}},
+	{name: "minecraft:skull", states: {facing_direction: 3, no_drop_bit: 0b}},
+	{name: "minecraft:skull", states: {facing_direction: 3, no_drop_bit: 1b}},
+	{name: "minecraft:skull", states: {facing_direction: 4, no_drop_bit: 0b}},
+	{name: "minecraft:skull", states: {facing_direction: 4, no_drop_bit: 1b}},
+	{name: "minecraft:skull", states: {facing_direction: 5, no_drop_bit: 0b}},
+	{name: "minecraft:skull", states: {facing_direction: 5, no_drop_bit: 1b}}
+]

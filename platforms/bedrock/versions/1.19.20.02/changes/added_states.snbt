@@ -1,0 +1,5 @@
+[
+	{name: "minecraft:muddy_mangrove_roots", states: {pillar_axis: "x"}},
+	{name: "minecraft:muddy_mangrove_roots", states: {pillar_axis: "y"}},
+	{name: "minecraft:muddy_mangrove_roots", states: {pillar_axis: "z"}}
+]
