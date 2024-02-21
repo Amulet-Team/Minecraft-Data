@@ -1,6 +1,5 @@
 import os
-from typing import Optional
-from copy import deepcopy
+from typing import Optional, Hashable
 from amulet_nbt import AbstractBaseTag, AbstractBaseArrayTag, NamedTag, load as load_nbt, ReadOffset, ListTag, CompoundTag, AbstractBaseImmutableTag, ByteArrayTag, IntArrayTag, LongArrayTag, bedrock_encoding
 
 VersionsPath = "../versions"
@@ -91,6 +90,19 @@ class GameData:
         self.blocks = BlockData(path)
 
 
+def freeze_nbt(value: AbstractBaseTag) -> Hashable:
+    if isinstance(value, AbstractBaseImmutableTag):
+        return (value.tag_id, value)
+    elif isinstance(value, CompoundTag):
+        return (value.tag_id, frozenset(((k, freeze_nbt(v)) for k, v in value.items())))
+    elif isinstance(value, ListTag):
+        return (value.tag_id, (freeze_nbt(v) for v in value))
+    elif isinstance(value, AbstractBaseArrayTag):
+        return (value.tag_id, tuple(value))
+    else:
+        raise RuntimeError
+
+
 def main():
     last_game_data: Optional[GameData] = GameData("null")
 
@@ -140,30 +152,33 @@ def main():
         #         f.write(game_data.versions.sub_chunk_format)
 
         # block state changes
-        last_states = deepcopy(
-            [state.compound for state in last_game_data.blocks.states]
-        )
-        for state in last_states:
+        last_states = []
+        for state in last_game_data.blocks.states:
+            state = state.compound.copy()
             del state["version"]
-        this_states = deepcopy([state.compound for state in game_data.blocks.states])
-        for state in this_states:
+            last_states.append(state)
+        this_states = []
+        for state in game_data.blocks.states:
+            state = state.compound.copy()
             del state["version"]
+            this_states.append(state)
 
-        added_states = ListTag()
-        removed_states = ListTag()
-        for state in this_states:
-            if state not in last_states:
-                added_states.append(state)
-        for state in last_states:
-            if state not in this_states:
-                removed_states.append(state)
+        last_frozen_states = {freeze_nbt(state): state for state in last_states}
+        this_frozen_states = {freeze_nbt(state): state for state in this_states}
 
-        if added_states:
-            with open(os.path.join(path, "changes", "added_states.snbt"), "w") as f:
-                f.write(added_states.to_snbt("\t"))
+        removed_states = [v.to_snbt() for k, v in last_frozen_states.items() if k not in this_frozen_states]
+        added_states = [v.to_snbt() for k, v in this_frozen_states.items() if k not in last_frozen_states]
+
         if removed_states:
             with open(os.path.join(path, "changes", "removed_states.snbt"), "w") as f:
-                f.write(removed_states.to_snbt("\t"))
+                f.write(f"[\n\t")
+                f.write(",\n\t".join(sorted(removed_states)))
+                f.write(f"\n]")
+        if added_states:
+            with open(os.path.join(path, "changes", "added_states.snbt"), "w") as f:
+                f.write(f"[\n\t")
+                f.write(",\n\t".join(sorted(added_states)))
+                f.write(f"\n]")
 
         last_game_data = game_data
 

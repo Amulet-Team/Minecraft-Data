@@ -1,5006 +1,607 @@
 [
-	{
-		"name": "minecraft:cherry_pressure_plate",
-		"states": {
-			"redstone_signal": 0
-		}
-	},
-	{
-		"name": "minecraft:cherry_pressure_plate",
-		"states": {
-			"redstone_signal": 1
-		}
-	},
-	{
-		"name": "minecraft:cherry_pressure_plate",
-		"states": {
-			"redstone_signal": 2
-		}
-	},
-	{
-		"name": "minecraft:cherry_pressure_plate",
-		"states": {
-			"redstone_signal": 3
-		}
-	},
-	{
-		"name": "minecraft:cherry_pressure_plate",
-		"states": {
-			"redstone_signal": 4
-		}
-	},
-	{
-		"name": "minecraft:cherry_pressure_plate",
-		"states": {
-			"redstone_signal": 5
-		}
-	},
-	{
-		"name": "minecraft:cherry_pressure_plate",
-		"states": {
-			"redstone_signal": 6
-		}
-	},
-	{
-		"name": "minecraft:cherry_pressure_plate",
-		"states": {
-			"redstone_signal": 7
-		}
-	},
-	{
-		"name": "minecraft:cherry_pressure_plate",
-		"states": {
-			"redstone_signal": 8
-		}
-	},
-	{
-		"name": "minecraft:cherry_pressure_plate",
-		"states": {
-			"redstone_signal": 9
-		}
-	},
-	{
-		"name": "minecraft:cherry_pressure_plate",
-		"states": {
-			"redstone_signal": 10
-		}
-	},
-	{
-		"name": "minecraft:cherry_pressure_plate",
-		"states": {
-			"redstone_signal": 11
-		}
-	},
-	{
-		"name": "minecraft:cherry_pressure_plate",
-		"states": {
-			"redstone_signal": 12
-		}
-	},
-	{
-		"name": "minecraft:cherry_pressure_plate",
-		"states": {
-			"redstone_signal": 13
-		}
-	},
-	{
-		"name": "minecraft:cherry_pressure_plate",
-		"states": {
-			"redstone_signal": 14
-		}
-	},
-	{
-		"name": "minecraft:cherry_pressure_plate",
-		"states": {
-			"redstone_signal": 15
-		}
-	},
-	{
-		"name": "minecraft:cherry_hanging_sign",
-		"states": {
-			"attached_bit": 0b,
-			"facing_direction": 0,
-			"ground_sign_direction": 0,
-			"hanging": 0b
-		}
-	},
-	{
-		"name": "minecraft:cherry_hanging_sign",
-		"states": {
-			"attached_bit": 0b,
-			"facing_direction": 1,
-			"ground_sign_direction": 0,
-			"hanging": 0b
-		}
-	},
-	{
-		"name": "minecraft:cherry_hanging_sign",
-		"states": {
-			"attached_bit": 0b,
-			"facing_direction": 2,
-			"ground_sign_direction": 0,
-			"hanging": 0b
-		}
-	},
-	{
-		"name": "minecraft:cherry_hanging_sign",
-		"states": {
-			"attached_bit": 0b,
-			"facing_direction": 3,
-			"ground_sign_direction": 0,
-			"hanging": 0b
-		}
-	},
-	{
-		"name": "minecraft:cherry_hanging_sign",
-		"states": {
-			"attached_bit": 0b,
-			"facing_direction": 4,
-			"ground_sign_direction": 0,
-			"hanging": 0b
-		}
-	},
-	{
-		"name": "minecraft:cherry_hanging_sign",
-		"states": {
-			"attached_bit": 0b,
-			"facing_direction": 5,
-			"ground_sign_direction": 0,
-			"hanging": 0b
-		}
-	},
-	{
-		"name": "minecraft:cherry_hanging_sign",
-		"states": {
-			"attached_bit": 0b,
-			"facing_direction": 0,
-			"ground_sign_direction": 1,
-			"hanging": 0b
-		}
-	},
-	{
-		"name": "minecraft:cherry_hanging_sign",
-		"states": {
-			"attached_bit": 0b,
-			"facing_direction": 1,
-			"ground_sign_direction": 1,
-			"hanging": 0b
-		}
-	},
-	{
-		"name": "minecraft:cherry_hanging_sign",
-		"states": {
-			"attached_bit": 0b,
-			"facing_direction": 2,
-			"ground_sign_direction": 1,
-			"hanging": 0b
-		}
-	},
-	{
-		"name": "minecraft:cherry_hanging_sign",
-		"states": {
-			"attached_bit": 0b,
-			"facing_direction": 3,
-			"ground_sign_direction": 1,
-			"hanging": 0b
-		}
-	},
-	{
-		"name": "minecraft:cherry_hanging_sign",
-		"states": {
-			"attached_bit": 0b,
-			"facing_direction": 4,
-			"ground_sign_direction": 1,
-			"hanging": 0b
-		}
-	},
-	{
-		"name": "minecraft:cherry_hanging_sign",
-		"states": {
-			"attached_bit": 0b,
-			"facing_direction": 5,
-			"ground_sign_direction": 1,
-			"hanging": 0b
-		}
-	},
-	{
-		"name": "minecraft:cherry_hanging_sign",
-		"states": {
-			"attached_bit": 0b,
-			"facing_direction": 0,
-			"ground_sign_direction": 2,
-			"hanging": 0b
-		}
-	},
-	{
-		"name": "minecraft:cherry_hanging_sign",
-		"states": {
-			"attached_bit": 0b,
-			"facing_direction": 1,
-			"ground_sign_direction": 2,
-			"hanging": 0b
-		}
-	},
-	{
-		"name": "minecraft:cherry_hanging_sign",
-		"states": {
-			"attached_bit": 0b,
-			"facing_direction": 2,
-			"ground_sign_direction": 2,
-			"hanging": 0b
-		}
-	},
-	{
-		"name": "minecraft:cherry_hanging_sign",
-		"states": {
-			"attached_bit": 0b,
-			"facing_direction": 3,
-			"ground_sign_direction": 2,
-			"hanging": 0b
-		}
-	},
-	{
-		"name": "minecraft:cherry_hanging_sign",
-		"states": {
-			"attached_bit": 0b,
-			"facing_direction": 4,
-			"ground_sign_direction": 2,
-			"hanging": 0b
-		}
-	},
-	{
-		"name": "minecraft:cherry_hanging_sign",
-		"states": {
-			"attached_bit": 0b,
-			"facing_direction": 5,
-			"ground_sign_direction": 2,
-			"hanging": 0b
-		}
-	},
-	{
-		"name": "minecraft:cherry_hanging_sign",
-		"states": {
-			"attached_bit": 0b,
-			"facing_direction": 0,
-			"ground_sign_direction": 3,
-			"hanging": 0b
-		}
-	},
-	{
-		"name": "minecraft:cherry_hanging_sign",
-		"states": {
-			"attached_bit": 0b,
-			"facing_direction": 1,
-			"ground_sign_direction": 3,
-			"hanging": 0b
-		}
-	},
-	{
-		"name": "minecraft:cherry_hanging_sign",
-		"states": {
-			"attached_bit": 0b,
-			"facing_direction": 2,
-			"ground_sign_direction": 3,
-			"hanging": 0b
-		}
-	},
-	{
-		"name": "minecraft:cherry_hanging_sign",
-		"states": {
-			"attached_bit": 0b,
-			"facing_direction": 3,
-			"ground_sign_direction": 3,
-			"hanging": 0b
-		}
-	},
-	{
-		"name": "minecraft:cherry_hanging_sign",
-		"states": {
-			"attached_bit": 0b,
-			"facing_direction": 4,
-			"ground_sign_direction": 3,
-			"hanging": 0b
-		}
-	},
-	{
-		"name": "minecraft:cherry_hanging_sign",
-		"states": {
-			"attached_bit": 0b,
-			"facing_direction": 5,
-			"ground_sign_direction": 3,
-			"hanging": 0b
-		}
-	},
-	{
-		"name": "minecraft:cherry_hanging_sign",
-		"states": {
-			"attached_bit": 0b,
-			"facing_direction": 0,
-			"ground_sign_direction": 4,
-			"hanging": 0b
-		}
-	},
-	{
-		"name": "minecraft:cherry_hanging_sign",
-		"states": {
-			"attached_bit": 0b,
-			"facing_direction": 1,
-			"ground_sign_direction": 4,
-			"hanging": 0b
-		}
-	},
-	{
-		"name": "minecraft:cherry_hanging_sign",
-		"states": {
-			"attached_bit": 0b,
-			"facing_direction": 2,
-			"ground_sign_direction": 4,
-			"hanging": 0b
-		}
-	},
-	{
-		"name": "minecraft:cherry_hanging_sign",
-		"states": {
-			"attached_bit": 0b,
-			"facing_direction": 3,
-			"ground_sign_direction": 4,
-			"hanging": 0b
-		}
-	},
-	{
-		"name": "minecraft:cherry_hanging_sign",
-		"states": {
-			"attached_bit": 0b,
-			"facing_direction": 4,
-			"ground_sign_direction": 4,
-			"hanging": 0b
-		}
-	},
-	{
-		"name": "minecraft:cherry_hanging_sign",
-		"states": {
-			"attached_bit": 0b,
-			"facing_direction": 5,
-			"ground_sign_direction": 4,
-			"hanging": 0b
-		}
-	},
-	{
-		"name": "minecraft:cherry_hanging_sign",
-		"states": {
-			"attached_bit": 0b,
-			"facing_direction": 0,
-			"ground_sign_direction": 5,
-			"hanging": 0b
-		}
-	},
-	{
-		"name": "minecraft:cherry_hanging_sign",
-		"states": {
-			"attached_bit": 0b,
-			"facing_direction": 1,
-			"ground_sign_direction": 5,
-			"hanging": 0b
-		}
-	},
-	{
-		"name": "minecraft:cherry_hanging_sign",
-		"states": {
-			"attached_bit": 0b,
-			"facing_direction": 2,
-			"ground_sign_direction": 5,
-			"hanging": 0b
-		}
-	},
-	{
-		"name": "minecraft:cherry_hanging_sign",
-		"states": {
-			"attached_bit": 0b,
-			"facing_direction": 3,
-			"ground_sign_direction": 5,
-			"hanging": 0b
-		}
-	},
-	{
-		"name": "minecraft:cherry_hanging_sign",
-		"states": {
-			"attached_bit": 0b,
-			"facing_direction": 4,
-			"ground_sign_direction": 5,
-			"hanging": 0b
-		}
-	},
-	{
-		"name": "minecraft:cherry_hanging_sign",
-		"states": {
-			"attached_bit": 0b,
-			"facing_direction": 5,
-			"ground_sign_direction": 5,
-			"hanging": 0b
-		}
-	},
-	{
-		"name": "minecraft:cherry_hanging_sign",
-		"states": {
-			"attached_bit": 0b,
-			"facing_direction": 0,
-			"ground_sign_direction": 6,
-			"hanging": 0b
-		}
-	},
-	{
-		"name": "minecraft:cherry_hanging_sign",
-		"states": {
-			"attached_bit": 0b,
-			"facing_direction": 1,
-			"ground_sign_direction": 6,
-			"hanging": 0b
-		}
-	},
-	{
-		"name": "minecraft:cherry_hanging_sign",
-		"states": {
-			"attached_bit": 0b,
-			"facing_direction": 2,
-			"ground_sign_direction": 6,
-			"hanging": 0b
-		}
-	},
-	{
-		"name": "minecraft:cherry_hanging_sign",
-		"states": {
-			"attached_bit": 0b,
-			"facing_direction": 3,
-			"ground_sign_direction": 6,
-			"hanging": 0b
-		}
-	},
-	{
-		"name": "minecraft:cherry_hanging_sign",
-		"states": {
-			"attached_bit": 0b,
-			"facing_direction": 4,
-			"ground_sign_direction": 6,
-			"hanging": 0b
-		}
-	},
-	{
-		"name": "minecraft:cherry_hanging_sign",
-		"states": {
-			"attached_bit": 0b,
-			"facing_direction": 5,
-			"ground_sign_direction": 6,
-			"hanging": 0b
-		}
-	},
-	{
-		"name": "minecraft:cherry_hanging_sign",
-		"states": {
-			"attached_bit": 0b,
-			"facing_direction": 0,
-			"ground_sign_direction": 7,
-			"hanging": 0b
-		}
-	},
-	{
-		"name": "minecraft:cherry_hanging_sign",
-		"states": {
-			"attached_bit": 0b,
-			"facing_direction": 1,
-			"ground_sign_direction": 7,
-			"hanging": 0b
-		}
-	},
-	{
-		"name": "minecraft:cherry_hanging_sign",
-		"states": {
-			"attached_bit": 0b,
-			"facing_direction": 2,
-			"ground_sign_direction": 7,
-			"hanging": 0b
-		}
-	},
-	{
-		"name": "minecraft:cherry_hanging_sign",
-		"states": {
-			"attached_bit": 0b,
-			"facing_direction": 3,
-			"ground_sign_direction": 7,
-			"hanging": 0b
-		}
-	},
-	{
-		"name": "minecraft:cherry_hanging_sign",
-		"states": {
-			"attached_bit": 0b,
-			"facing_direction": 4,
-			"ground_sign_direction": 7,
-			"hanging": 0b
-		}
-	},
-	{
-		"name": "minecraft:cherry_hanging_sign",
-		"states": {
-			"attached_bit": 0b,
-			"facing_direction": 5,
-			"ground_sign_direction": 7,
-			"hanging": 0b
-		}
-	},
-	{
-		"name": "minecraft:cherry_hanging_sign",
-		"states": {
-			"attached_bit": 0b,
-			"facing_direction": 0,
-			"ground_sign_direction": 8,
-			"hanging": 0b
-		}
-	},
-	{
-		"name": "minecraft:cherry_hanging_sign",
-		"states": {
-			"attached_bit": 0b,
-			"facing_direction": 1,
-			"ground_sign_direction": 8,
-			"hanging": 0b
-		}
-	},
-	{
-		"name": "minecraft:cherry_hanging_sign",
-		"states": {
-			"attached_bit": 0b,
-			"facing_direction": 2,
-			"ground_sign_direction": 8,
-			"hanging": 0b
-		}
-	},
-	{
-		"name": "minecraft:cherry_hanging_sign",
-		"states": {
-			"attached_bit": 0b,
-			"facing_direction": 3,
-			"ground_sign_direction": 8,
-			"hanging": 0b
-		}
-	},
-	{
-		"name": "minecraft:cherry_hanging_sign",
-		"states": {
-			"attached_bit": 0b,
-			"facing_direction": 4,
-			"ground_sign_direction": 8,
-			"hanging": 0b
-		}
-	},
-	{
-		"name": "minecraft:cherry_hanging_sign",
-		"states": {
-			"attached_bit": 0b,
-			"facing_direction": 5,
-			"ground_sign_direction": 8,
-			"hanging": 0b
-		}
-	},
-	{
-		"name": "minecraft:cherry_hanging_sign",
-		"states": {
-			"attached_bit": 0b,
-			"facing_direction": 0,
-			"ground_sign_direction": 9,
-			"hanging": 0b
-		}
-	},
-	{
-		"name": "minecraft:cherry_hanging_sign",
-		"states": {
-			"attached_bit": 0b,
-			"facing_direction": 1,
-			"ground_sign_direction": 9,
-			"hanging": 0b
-		}
-	},
-	{
-		"name": "minecraft:cherry_hanging_sign",
-		"states": {
-			"attached_bit": 0b,
-			"facing_direction": 2,
-			"ground_sign_direction": 9,
-			"hanging": 0b
-		}
-	},
-	{
-		"name": "minecraft:cherry_hanging_sign",
-		"states": {
-			"attached_bit": 0b,
-			"facing_direction": 3,
-			"ground_sign_direction": 9,
-			"hanging": 0b
-		}
-	},
-	{
-		"name": "minecraft:cherry_hanging_sign",
-		"states": {
-			"attached_bit": 0b,
-			"facing_direction": 4,
-			"ground_sign_direction": 9,
-			"hanging": 0b
-		}
-	},
-	{
-		"name": "minecraft:cherry_hanging_sign",
-		"states": {
-			"attached_bit": 0b,
-			"facing_direction": 5,
-			"ground_sign_direction": 9,
-			"hanging": 0b
-		}
-	},
-	{
-		"name": "minecraft:cherry_hanging_sign",
-		"states": {
-			"attached_bit": 0b,
-			"facing_direction": 0,
-			"ground_sign_direction": 10,
-			"hanging": 0b
-		}
-	},
-	{
-		"name": "minecraft:cherry_hanging_sign",
-		"states": {
-			"attached_bit": 0b,
-			"facing_direction": 1,
-			"ground_sign_direction": 10,
-			"hanging": 0b
-		}
-	},
-	{
-		"name": "minecraft:cherry_hanging_sign",
-		"states": {
-			"attached_bit": 0b,
-			"facing_direction": 2,
-			"ground_sign_direction": 10,
-			"hanging": 0b
-		}
-	},
-	{
-		"name": "minecraft:cherry_hanging_sign",
-		"states": {
-			"attached_bit": 0b,
-			"facing_direction": 3,
-			"ground_sign_direction": 10,
-			"hanging": 0b
-		}
-	},
-	{
-		"name": "minecraft:cherry_hanging_sign",
-		"states": {
-			"attached_bit": 0b,
-			"facing_direction": 4,
-			"ground_sign_direction": 10,
-			"hanging": 0b
-		}
-	},
-	{
-		"name": "minecraft:cherry_hanging_sign",
-		"states": {
-			"attached_bit": 0b,
-			"facing_direction": 5,
-			"ground_sign_direction": 10,
-			"hanging": 0b
-		}
-	},
-	{
-		"name": "minecraft:cherry_hanging_sign",
-		"states": {
-			"attached_bit": 0b,
-			"facing_direction": 0,
-			"ground_sign_direction": 11,
-			"hanging": 0b
-		}
-	},
-	{
-		"name": "minecraft:cherry_hanging_sign",
-		"states": {
-			"attached_bit": 0b,
-			"facing_direction": 1,
-			"ground_sign_direction": 11,
-			"hanging": 0b
-		}
-	},
-	{
-		"name": "minecraft:cherry_hanging_sign",
-		"states": {
-			"attached_bit": 0b,
-			"facing_direction": 2,
-			"ground_sign_direction": 11,
-			"hanging": 0b
-		}
-	},
-	{
-		"name": "minecraft:cherry_hanging_sign",
-		"states": {
-			"attached_bit": 0b,
-			"facing_direction": 3,
-			"ground_sign_direction": 11,
-			"hanging": 0b
-		}
-	},
-	{
-		"name": "minecraft:cherry_hanging_sign",
-		"states": {
-			"attached_bit": 0b,
-			"facing_direction": 4,
-			"ground_sign_direction": 11,
-			"hanging": 0b
-		}
-	},
-	{
-		"name": "minecraft:cherry_hanging_sign",
-		"states": {
-			"attached_bit": 0b,
-			"facing_direction": 5,
-			"ground_sign_direction": 11,
-			"hanging": 0b
-		}
-	},
-	{
-		"name": "minecraft:cherry_hanging_sign",
-		"states": {
-			"attached_bit": 0b,
-			"facing_direction": 0,
-			"ground_sign_direction": 12,
-			"hanging": 0b
-		}
-	},
-	{
-		"name": "minecraft:cherry_hanging_sign",
-		"states": {
-			"attached_bit": 0b,
-			"facing_direction": 1,
-			"ground_sign_direction": 12,
-			"hanging": 0b
-		}
-	},
-	{
-		"name": "minecraft:cherry_hanging_sign",
-		"states": {
-			"attached_bit": 0b,
-			"facing_direction": 2,
-			"ground_sign_direction": 12,
-			"hanging": 0b
-		}
-	},
-	{
-		"name": "minecraft:cherry_hanging_sign",
-		"states": {
-			"attached_bit": 0b,
-			"facing_direction": 3,
-			"ground_sign_direction": 12,
-			"hanging": 0b
-		}
-	},
-	{
-		"name": "minecraft:cherry_hanging_sign",
-		"states": {
-			"attached_bit": 0b,
-			"facing_direction": 4,
-			"ground_sign_direction": 12,
-			"hanging": 0b
-		}
-	},
-	{
-		"name": "minecraft:cherry_hanging_sign",
-		"states": {
-			"attached_bit": 0b,
-			"facing_direction": 5,
-			"ground_sign_direction": 12,
-			"hanging": 0b
-		}
-	},
-	{
-		"name": "minecraft:cherry_hanging_sign",
-		"states": {
-			"attached_bit": 0b,
-			"facing_direction": 0,
-			"ground_sign_direction": 13,
-			"hanging": 0b
-		}
-	},
-	{
-		"name": "minecraft:cherry_hanging_sign",
-		"states": {
-			"attached_bit": 0b,
-			"facing_direction": 1,
-			"ground_sign_direction": 13,
-			"hanging": 0b
-		}
-	},
-	{
-		"name": "minecraft:cherry_hanging_sign",
-		"states": {
-			"attached_bit": 0b,
-			"facing_direction": 2,
-			"ground_sign_direction": 13,
-			"hanging": 0b
-		}
-	},
-	{
-		"name": "minecraft:cherry_hanging_sign",
-		"states": {
-			"attached_bit": 0b,
-			"facing_direction": 3,
-			"ground_sign_direction": 13,
-			"hanging": 0b
-		}
-	},
-	{
-		"name": "minecraft:cherry_hanging_sign",
-		"states": {
-			"attached_bit": 0b,
-			"facing_direction": 4,
-			"ground_sign_direction": 13,
-			"hanging": 0b
-		}
-	},
-	{
-		"name": "minecraft:cherry_hanging_sign",
-		"states": {
-			"attached_bit": 0b,
-			"facing_direction": 5,
-			"ground_sign_direction": 13,
-			"hanging": 0b
-		}
-	},
-	{
-		"name": "minecraft:cherry_hanging_sign",
-		"states": {
-			"attached_bit": 0b,
-			"facing_direction": 0,
-			"ground_sign_direction": 14,
-			"hanging": 0b
-		}
-	},
-	{
-		"name": "minecraft:cherry_hanging_sign",
-		"states": {
-			"attached_bit": 0b,
-			"facing_direction": 1,
-			"ground_sign_direction": 14,
-			"hanging": 0b
-		}
-	},
-	{
-		"name": "minecraft:cherry_hanging_sign",
-		"states": {
-			"attached_bit": 0b,
-			"facing_direction": 2,
-			"ground_sign_direction": 14,
-			"hanging": 0b
-		}
-	},
-	{
-		"name": "minecraft:cherry_hanging_sign",
-		"states": {
-			"attached_bit": 0b,
-			"facing_direction": 3,
-			"ground_sign_direction": 14,
-			"hanging": 0b
-		}
-	},
-	{
-		"name": "minecraft:cherry_hanging_sign",
-		"states": {
-			"attached_bit": 0b,
-			"facing_direction": 4,
-			"ground_sign_direction": 14,
-			"hanging": 0b
-		}
-	},
-	{
-		"name": "minecraft:cherry_hanging_sign",
-		"states": {
-			"attached_bit": 0b,
-			"facing_direction": 5,
-			"ground_sign_direction": 14,
-			"hanging": 0b
-		}
-	},
-	{
-		"name": "minecraft:cherry_hanging_sign",
-		"states": {
-			"attached_bit": 0b,
-			"facing_direction": 0,
-			"ground_sign_direction": 15,
-			"hanging": 0b
-		}
-	},
-	{
-		"name": "minecraft:cherry_hanging_sign",
-		"states": {
-			"attached_bit": 0b,
-			"facing_direction": 1,
-			"ground_sign_direction": 15,
-			"hanging": 0b
-		}
-	},
-	{
-		"name": "minecraft:cherry_hanging_sign",
-		"states": {
-			"attached_bit": 0b,
-			"facing_direction": 2,
-			"ground_sign_direction": 15,
-			"hanging": 0b
-		}
-	},
-	{
-		"name": "minecraft:cherry_hanging_sign",
-		"states": {
-			"attached_bit": 0b,
-			"facing_direction": 3,
-			"ground_sign_direction": 15,
-			"hanging": 0b
-		}
-	},
-	{
-		"name": "minecraft:cherry_hanging_sign",
-		"states": {
-			"attached_bit": 0b,
-			"facing_direction": 4,
-			"ground_sign_direction": 15,
-			"hanging": 0b
-		}
-	},
-	{
-		"name": "minecraft:cherry_hanging_sign",
-		"states": {
-			"attached_bit": 0b,
-			"facing_direction": 5,
-			"ground_sign_direction": 15,
-			"hanging": 0b
-		}
-	},
-	{
-		"name": "minecraft:cherry_hanging_sign",
-		"states": {
-			"attached_bit": 0b,
-			"facing_direction": 0,
-			"ground_sign_direction": 0,
-			"hanging": 1b
-		}
-	},
-	{
-		"name": "minecraft:cherry_hanging_sign",
-		"states": {
-			"attached_bit": 0b,
-			"facing_direction": 1,
-			"ground_sign_direction": 0,
-			"hanging": 1b
-		}
-	},
-	{
-		"name": "minecraft:cherry_hanging_sign",
-		"states": {
-			"attached_bit": 0b,
-			"facing_direction": 2,
-			"ground_sign_direction": 0,
-			"hanging": 1b
-		}
-	},
-	{
-		"name": "minecraft:cherry_hanging_sign",
-		"states": {
-			"attached_bit": 0b,
-			"facing_direction": 3,
-			"ground_sign_direction": 0,
-			"hanging": 1b
-		}
-	},
-	{
-		"name": "minecraft:cherry_hanging_sign",
-		"states": {
-			"attached_bit": 0b,
-			"facing_direction": 4,
-			"ground_sign_direction": 0,
-			"hanging": 1b
-		}
-	},
-	{
-		"name": "minecraft:cherry_hanging_sign",
-		"states": {
-			"attached_bit": 0b,
-			"facing_direction": 5,
-			"ground_sign_direction": 0,
-			"hanging": 1b
-		}
-	},
-	{
-		"name": "minecraft:cherry_hanging_sign",
-		"states": {
-			"attached_bit": 0b,
-			"facing_direction": 0,
-			"ground_sign_direction": 1,
-			"hanging": 1b
-		}
-	},
-	{
-		"name": "minecraft:cherry_hanging_sign",
-		"states": {
-			"attached_bit": 0b,
-			"facing_direction": 1,
-			"ground_sign_direction": 1,
-			"hanging": 1b
-		}
-	},
-	{
-		"name": "minecraft:cherry_hanging_sign",
-		"states": {
-			"attached_bit": 0b,
-			"facing_direction": 2,
-			"ground_sign_direction": 1,
-			"hanging": 1b
-		}
-	},
-	{
-		"name": "minecraft:cherry_hanging_sign",
-		"states": {
-			"attached_bit": 0b,
-			"facing_direction": 3,
-			"ground_sign_direction": 1,
-			"hanging": 1b
-		}
-	},
-	{
-		"name": "minecraft:cherry_hanging_sign",
-		"states": {
-			"attached_bit": 0b,
-			"facing_direction": 4,
-			"ground_sign_direction": 1,
-			"hanging": 1b
-		}
-	},
-	{
-		"name": "minecraft:cherry_hanging_sign",
-		"states": {
-			"attached_bit": 0b,
-			"facing_direction": 5,
-			"ground_sign_direction": 1,
-			"hanging": 1b
-		}
-	},
-	{
-		"name": "minecraft:cherry_hanging_sign",
-		"states": {
-			"attached_bit": 0b,
-			"facing_direction": 0,
-			"ground_sign_direction": 2,
-			"hanging": 1b
-		}
-	},
-	{
-		"name": "minecraft:cherry_hanging_sign",
-		"states": {
-			"attached_bit": 0b,
-			"facing_direction": 1,
-			"ground_sign_direction": 2,
-			"hanging": 1b
-		}
-	},
-	{
-		"name": "minecraft:cherry_hanging_sign",
-		"states": {
-			"attached_bit": 0b,
-			"facing_direction": 2,
-			"ground_sign_direction": 2,
-			"hanging": 1b
-		}
-	},
-	{
-		"name": "minecraft:cherry_hanging_sign",
-		"states": {
-			"attached_bit": 0b,
-			"facing_direction": 3,
-			"ground_sign_direction": 2,
-			"hanging": 1b
-		}
-	},
-	{
-		"name": "minecraft:cherry_hanging_sign",
-		"states": {
-			"attached_bit": 0b,
-			"facing_direction": 4,
-			"ground_sign_direction": 2,
-			"hanging": 1b
-		}
-	},
-	{
-		"name": "minecraft:cherry_hanging_sign",
-		"states": {
-			"attached_bit": 0b,
-			"facing_direction": 5,
-			"ground_sign_direction": 2,
-			"hanging": 1b
-		}
-	},
-	{
-		"name": "minecraft:cherry_hanging_sign",
-		"states": {
-			"attached_bit": 0b,
-			"facing_direction": 0,
-			"ground_sign_direction": 3,
-			"hanging": 1b
-		}
-	},
-	{
-		"name": "minecraft:cherry_hanging_sign",
-		"states": {
-			"attached_bit": 0b,
-			"facing_direction": 1,
-			"ground_sign_direction": 3,
-			"hanging": 1b
-		}
-	},
-	{
-		"name": "minecraft:cherry_hanging_sign",
-		"states": {
-			"attached_bit": 0b,
-			"facing_direction": 2,
-			"ground_sign_direction": 3,
-			"hanging": 1b
-		}
-	},
-	{
-		"name": "minecraft:cherry_hanging_sign",
-		"states": {
-			"attached_bit": 0b,
-			"facing_direction": 3,
-			"ground_sign_direction": 3,
-			"hanging": 1b
-		}
-	},
-	{
-		"name": "minecraft:cherry_hanging_sign",
-		"states": {
-			"attached_bit": 0b,
-			"facing_direction": 4,
-			"ground_sign_direction": 3,
-			"hanging": 1b
-		}
-	},
-	{
-		"name": "minecraft:cherry_hanging_sign",
-		"states": {
-			"attached_bit": 0b,
-			"facing_direction": 5,
-			"ground_sign_direction": 3,
-			"hanging": 1b
-		}
-	},
-	{
-		"name": "minecraft:cherry_hanging_sign",
-		"states": {
-			"attached_bit": 0b,
-			"facing_direction": 0,
-			"ground_sign_direction": 4,
-			"hanging": 1b
-		}
-	},
-	{
-		"name": "minecraft:cherry_hanging_sign",
-		"states": {
-			"attached_bit": 0b,
-			"facing_direction": 1,
-			"ground_sign_direction": 4,
-			"hanging": 1b
-		}
-	},
-	{
-		"name": "minecraft:cherry_hanging_sign",
-		"states": {
-			"attached_bit": 0b,
-			"facing_direction": 2,
-			"ground_sign_direction": 4,
-			"hanging": 1b
-		}
-	},
-	{
-		"name": "minecraft:cherry_hanging_sign",
-		"states": {
-			"attached_bit": 0b,
-			"facing_direction": 3,
-			"ground_sign_direction": 4,
-			"hanging": 1b
-		}
-	},
-	{
-		"name": "minecraft:cherry_hanging_sign",
-		"states": {
-			"attached_bit": 0b,
-			"facing_direction": 4,
-			"ground_sign_direction": 4,
-			"hanging": 1b
-		}
-	},
-	{
-		"name": "minecraft:cherry_hanging_sign",
-		"states": {
-			"attached_bit": 0b,
-			"facing_direction": 5,
-			"ground_sign_direction": 4,
-			"hanging": 1b
-		}
-	},
-	{
-		"name": "minecraft:cherry_hanging_sign",
-		"states": {
-			"attached_bit": 0b,
-			"facing_direction": 0,
-			"ground_sign_direction": 5,
-			"hanging": 1b
-		}
-	},
-	{
-		"name": "minecraft:cherry_hanging_sign",
-		"states": {
-			"attached_bit": 0b,
-			"facing_direction": 1,
-			"ground_sign_direction": 5,
-			"hanging": 1b
-		}
-	},
-	{
-		"name": "minecraft:cherry_hanging_sign",
-		"states": {
-			"attached_bit": 0b,
-			"facing_direction": 2,
-			"ground_sign_direction": 5,
-			"hanging": 1b
-		}
-	},
-	{
-		"name": "minecraft:cherry_hanging_sign",
-		"states": {
-			"attached_bit": 0b,
-			"facing_direction": 3,
-			"ground_sign_direction": 5,
-			"hanging": 1b
-		}
-	},
-	{
-		"name": "minecraft:cherry_hanging_sign",
-		"states": {
-			"attached_bit": 0b,
-			"facing_direction": 4,
-			"ground_sign_direction": 5,
-			"hanging": 1b
-		}
-	},
-	{
-		"name": "minecraft:cherry_hanging_sign",
-		"states": {
-			"attached_bit": 0b,
-			"facing_direction": 5,
-			"ground_sign_direction": 5,
-			"hanging": 1b
-		}
-	},
-	{
-		"name": "minecraft:cherry_hanging_sign",
-		"states": {
-			"attached_bit": 0b,
-			"facing_direction": 0,
-			"ground_sign_direction": 6,
-			"hanging": 1b
-		}
-	},
-	{
-		"name": "minecraft:cherry_hanging_sign",
-		"states": {
-			"attached_bit": 0b,
-			"facing_direction": 1,
-			"ground_sign_direction": 6,
-			"hanging": 1b
-		}
-	},
-	{
-		"name": "minecraft:cherry_hanging_sign",
-		"states": {
-			"attached_bit": 0b,
-			"facing_direction": 2,
-			"ground_sign_direction": 6,
-			"hanging": 1b
-		}
-	},
-	{
-		"name": "minecraft:cherry_hanging_sign",
-		"states": {
-			"attached_bit": 0b,
-			"facing_direction": 3,
-			"ground_sign_direction": 6,
-			"hanging": 1b
-		}
-	},
-	{
-		"name": "minecraft:cherry_hanging_sign",
-		"states": {
-			"attached_bit": 0b,
-			"facing_direction": 4,
-			"ground_sign_direction": 6,
-			"hanging": 1b
-		}
-	},
-	{
-		"name": "minecraft:cherry_hanging_sign",
-		"states": {
-			"attached_bit": 0b,
-			"facing_direction": 5,
-			"ground_sign_direction": 6,
-			"hanging": 1b
-		}
-	},
-	{
-		"name": "minecraft:cherry_hanging_sign",
-		"states": {
-			"attached_bit": 0b,
-			"facing_direction": 0,
-			"ground_sign_direction": 7,
-			"hanging": 1b
-		}
-	},
-	{
-		"name": "minecraft:cherry_hanging_sign",
-		"states": {
-			"attached_bit": 0b,
-			"facing_direction": 1,
-			"ground_sign_direction": 7,
-			"hanging": 1b
-		}
-	},
-	{
-		"name": "minecraft:cherry_hanging_sign",
-		"states": {
-			"attached_bit": 0b,
-			"facing_direction": 2,
-			"ground_sign_direction": 7,
-			"hanging": 1b
-		}
-	},
-	{
-		"name": "minecraft:cherry_hanging_sign",
-		"states": {
-			"attached_bit": 0b,
-			"facing_direction": 3,
-			"ground_sign_direction": 7,
-			"hanging": 1b
-		}
-	},
-	{
-		"name": "minecraft:cherry_hanging_sign",
-		"states": {
-			"attached_bit": 0b,
-			"facing_direction": 4,
-			"ground_sign_direction": 7,
-			"hanging": 1b
-		}
-	},
-	{
-		"name": "minecraft:cherry_hanging_sign",
-		"states": {
-			"attached_bit": 0b,
-			"facing_direction": 5,
-			"ground_sign_direction": 7,
-			"hanging": 1b
-		}
-	},
-	{
-		"name": "minecraft:cherry_hanging_sign",
-		"states": {
-			"attached_bit": 0b,
-			"facing_direction": 0,
-			"ground_sign_direction": 8,
-			"hanging": 1b
-		}
-	},
-	{
-		"name": "minecraft:cherry_hanging_sign",
-		"states": {
-			"attached_bit": 0b,
-			"facing_direction": 1,
-			"ground_sign_direction": 8,
-			"hanging": 1b
-		}
-	},
-	{
-		"name": "minecraft:cherry_hanging_sign",
-		"states": {
-			"attached_bit": 0b,
-			"facing_direction": 2,
-			"ground_sign_direction": 8,
-			"hanging": 1b
-		}
-	},
-	{
-		"name": "minecraft:cherry_hanging_sign",
-		"states": {
-			"attached_bit": 0b,
-			"facing_direction": 3,
-			"ground_sign_direction": 8,
-			"hanging": 1b
-		}
-	},
-	{
-		"name": "minecraft:cherry_hanging_sign",
-		"states": {
-			"attached_bit": 0b,
-			"facing_direction": 4,
-			"ground_sign_direction": 8,
-			"hanging": 1b
-		}
-	},
-	{
-		"name": "minecraft:cherry_hanging_sign",
-		"states": {
-			"attached_bit": 0b,
-			"facing_direction": 5,
-			"ground_sign_direction": 8,
-			"hanging": 1b
-		}
-	},
-	{
-		"name": "minecraft:cherry_hanging_sign",
-		"states": {
-			"attached_bit": 0b,
-			"facing_direction": 0,
-			"ground_sign_direction": 9,
-			"hanging": 1b
-		}
-	},
-	{
-		"name": "minecraft:cherry_hanging_sign",
-		"states": {
-			"attached_bit": 0b,
-			"facing_direction": 1,
-			"ground_sign_direction": 9,
-			"hanging": 1b
-		}
-	},
-	{
-		"name": "minecraft:cherry_hanging_sign",
-		"states": {
-			"attached_bit": 0b,
-			"facing_direction": 2,
-			"ground_sign_direction": 9,
-			"hanging": 1b
-		}
-	},
-	{
-		"name": "minecraft:cherry_hanging_sign",
-		"states": {
-			"attached_bit": 0b,
-			"facing_direction": 3,
-			"ground_sign_direction": 9,
-			"hanging": 1b
-		}
-	},
-	{
-		"name": "minecraft:cherry_hanging_sign",
-		"states": {
-			"attached_bit": 0b,
-			"facing_direction": 4,
-			"ground_sign_direction": 9,
-			"hanging": 1b
-		}
-	},
-	{
-		"name": "minecraft:cherry_hanging_sign",
-		"states": {
-			"attached_bit": 0b,
-			"facing_direction": 5,
-			"ground_sign_direction": 9,
-			"hanging": 1b
-		}
-	},
-	{
-		"name": "minecraft:cherry_hanging_sign",
-		"states": {
-			"attached_bit": 0b,
-			"facing_direction": 0,
-			"ground_sign_direction": 10,
-			"hanging": 1b
-		}
-	},
-	{
-		"name": "minecraft:cherry_hanging_sign",
-		"states": {
-			"attached_bit": 0b,
-			"facing_direction": 1,
-			"ground_sign_direction": 10,
-			"hanging": 1b
-		}
-	},
-	{
-		"name": "minecraft:cherry_hanging_sign",
-		"states": {
-			"attached_bit": 0b,
-			"facing_direction": 2,
-			"ground_sign_direction": 10,
-			"hanging": 1b
-		}
-	},
-	{
-		"name": "minecraft:cherry_hanging_sign",
-		"states": {
-			"attached_bit": 0b,
-			"facing_direction": 3,
-			"ground_sign_direction": 10,
-			"hanging": 1b
-		}
-	},
-	{
-		"name": "minecraft:cherry_hanging_sign",
-		"states": {
-			"attached_bit": 0b,
-			"facing_direction": 4,
-			"ground_sign_direction": 10,
-			"hanging": 1b
-		}
-	},
-	{
-		"name": "minecraft:cherry_hanging_sign",
-		"states": {
-			"attached_bit": 0b,
-			"facing_direction": 5,
-			"ground_sign_direction": 10,
-			"hanging": 1b
-		}
-	},
-	{
-		"name": "minecraft:cherry_hanging_sign",
-		"states": {
-			"attached_bit": 0b,
-			"facing_direction": 0,
-			"ground_sign_direction": 11,
-			"hanging": 1b
-		}
-	},
-	{
-		"name": "minecraft:cherry_hanging_sign",
-		"states": {
-			"attached_bit": 0b,
-			"facing_direction": 1,
-			"ground_sign_direction": 11,
-			"hanging": 1b
-		}
-	},
-	{
-		"name": "minecraft:cherry_hanging_sign",
-		"states": {
-			"attached_bit": 0b,
-			"facing_direction": 2,
-			"ground_sign_direction": 11,
-			"hanging": 1b
-		}
-	},
-	{
-		"name": "minecraft:cherry_hanging_sign",
-		"states": {
-			"attached_bit": 0b,
-			"facing_direction": 3,
-			"ground_sign_direction": 11,
-			"hanging": 1b
-		}
-	},
-	{
-		"name": "minecraft:cherry_hanging_sign",
-		"states": {
-			"attached_bit": 0b,
-			"facing_direction": 4,
-			"ground_sign_direction": 11,
-			"hanging": 1b
-		}
-	},
-	{
-		"name": "minecraft:cherry_hanging_sign",
-		"states": {
-			"attached_bit": 0b,
-			"facing_direction": 5,
-			"ground_sign_direction": 11,
-			"hanging": 1b
-		}
-	},
-	{
-		"name": "minecraft:cherry_hanging_sign",
-		"states": {
-			"attached_bit": 0b,
-			"facing_direction": 0,
-			"ground_sign_direction": 12,
-			"hanging": 1b
-		}
-	},
-	{
-		"name": "minecraft:cherry_hanging_sign",
-		"states": {
-			"attached_bit": 0b,
-			"facing_direction": 1,
-			"ground_sign_direction": 12,
-			"hanging": 1b
-		}
-	},
-	{
-		"name": "minecraft:cherry_hanging_sign",
-		"states": {
-			"attached_bit": 0b,
-			"facing_direction": 2,
-			"ground_sign_direction": 12,
-			"hanging": 1b
-		}
-	},
-	{
-		"name": "minecraft:cherry_hanging_sign",
-		"states": {
-			"attached_bit": 0b,
-			"facing_direction": 3,
-			"ground_sign_direction": 12,
-			"hanging": 1b
-		}
-	},
-	{
-		"name": "minecraft:cherry_hanging_sign",
-		"states": {
-			"attached_bit": 0b,
-			"facing_direction": 4,
-			"ground_sign_direction": 12,
-			"hanging": 1b
-		}
-	},
-	{
-		"name": "minecraft:cherry_hanging_sign",
-		"states": {
-			"attached_bit": 0b,
-			"facing_direction": 5,
-			"ground_sign_direction": 12,
-			"hanging": 1b
-		}
-	},
-	{
-		"name": "minecraft:cherry_hanging_sign",
-		"states": {
-			"attached_bit": 0b,
-			"facing_direction": 0,
-			"ground_sign_direction": 13,
-			"hanging": 1b
-		}
-	},
-	{
-		"name": "minecraft:cherry_hanging_sign",
-		"states": {
-			"attached_bit": 0b,
-			"facing_direction": 1,
-			"ground_sign_direction": 13,
-			"hanging": 1b
-		}
-	},
-	{
-		"name": "minecraft:cherry_hanging_sign",
-		"states": {
-			"attached_bit": 0b,
-			"facing_direction": 2,
-			"ground_sign_direction": 13,
-			"hanging": 1b
-		}
-	},
-	{
-		"name": "minecraft:cherry_hanging_sign",
-		"states": {
-			"attached_bit": 0b,
-			"facing_direction": 3,
-			"ground_sign_direction": 13,
-			"hanging": 1b
-		}
-	},
-	{
-		"name": "minecraft:cherry_hanging_sign",
-		"states": {
-			"attached_bit": 0b,
-			"facing_direction": 4,
-			"ground_sign_direction": 13,
-			"hanging": 1b
-		}
-	},
-	{
-		"name": "minecraft:cherry_hanging_sign",
-		"states": {
-			"attached_bit": 0b,
-			"facing_direction": 5,
-			"ground_sign_direction": 13,
-			"hanging": 1b
-		}
-	},
-	{
-		"name": "minecraft:cherry_hanging_sign",
-		"states": {
-			"attached_bit": 0b,
-			"facing_direction": 0,
-			"ground_sign_direction": 14,
-			"hanging": 1b
-		}
-	},
-	{
-		"name": "minecraft:cherry_hanging_sign",
-		"states": {
-			"attached_bit": 0b,
-			"facing_direction": 1,
-			"ground_sign_direction": 14,
-			"hanging": 1b
-		}
-	},
-	{
-		"name": "minecraft:cherry_hanging_sign",
-		"states": {
-			"attached_bit": 0b,
-			"facing_direction": 2,
-			"ground_sign_direction": 14,
-			"hanging": 1b
-		}
-	},
-	{
-		"name": "minecraft:cherry_hanging_sign",
-		"states": {
-			"attached_bit": 0b,
-			"facing_direction": 3,
-			"ground_sign_direction": 14,
-			"hanging": 1b
-		}
-	},
-	{
-		"name": "minecraft:cherry_hanging_sign",
-		"states": {
-			"attached_bit": 0b,
-			"facing_direction": 4,
-			"ground_sign_direction": 14,
-			"hanging": 1b
-		}
-	},
-	{
-		"name": "minecraft:cherry_hanging_sign",
-		"states": {
-			"attached_bit": 0b,
-			"facing_direction": 5,
-			"ground_sign_direction": 14,
-			"hanging": 1b
-		}
-	},
-	{
-		"name": "minecraft:cherry_hanging_sign",
-		"states": {
-			"attached_bit": 0b,
-			"facing_direction": 0,
-			"ground_sign_direction": 15,
-			"hanging": 1b
-		}
-	},
-	{
-		"name": "minecraft:cherry_hanging_sign",
-		"states": {
-			"attached_bit": 0b,
-			"facing_direction": 1,
-			"ground_sign_direction": 15,
-			"hanging": 1b
-		}
-	},
-	{
-		"name": "minecraft:cherry_hanging_sign",
-		"states": {
-			"attached_bit": 0b,
-			"facing_direction": 2,
-			"ground_sign_direction": 15,
-			"hanging": 1b
-		}
-	},
-	{
-		"name": "minecraft:cherry_hanging_sign",
-		"states": {
-			"attached_bit": 0b,
-			"facing_direction": 3,
-			"ground_sign_direction": 15,
-			"hanging": 1b
-		}
-	},
-	{
-		"name": "minecraft:cherry_hanging_sign",
-		"states": {
-			"attached_bit": 0b,
-			"facing_direction": 4,
-			"ground_sign_direction": 15,
-			"hanging": 1b
-		}
-	},
-	{
-		"name": "minecraft:cherry_hanging_sign",
-		"states": {
-			"attached_bit": 0b,
-			"facing_direction": 5,
-			"ground_sign_direction": 15,
-			"hanging": 1b
-		}
-	},
-	{
-		"name": "minecraft:cherry_hanging_sign",
-		"states": {
-			"attached_bit": 1b,
-			"facing_direction": 0,
-			"ground_sign_direction": 0,
-			"hanging": 0b
-		}
-	},
-	{
-		"name": "minecraft:cherry_hanging_sign",
-		"states": {
-			"attached_bit": 1b,
-			"facing_direction": 1,
-			"ground_sign_direction": 0,
-			"hanging": 0b
-		}
-	},
-	{
-		"name": "minecraft:cherry_hanging_sign",
-		"states": {
-			"attached_bit": 1b,
-			"facing_direction": 2,
-			"ground_sign_direction": 0,
-			"hanging": 0b
-		}
-	},
-	{
-		"name": "minecraft:cherry_hanging_sign",
-		"states": {
-			"attached_bit": 1b,
-			"facing_direction": 3,
-			"ground_sign_direction": 0,
-			"hanging": 0b
-		}
-	},
-	{
-		"name": "minecraft:cherry_hanging_sign",
-		"states": {
-			"attached_bit": 1b,
-			"facing_direction": 4,
-			"ground_sign_direction": 0,
-			"hanging": 0b
-		}
-	},
-	{
-		"name": "minecraft:cherry_hanging_sign",
-		"states": {
-			"attached_bit": 1b,
-			"facing_direction": 5,
-			"ground_sign_direction": 0,
-			"hanging": 0b
-		}
-	},
-	{
-		"name": "minecraft:cherry_hanging_sign",
-		"states": {
-			"attached_bit": 1b,
-			"facing_direction": 0,
-			"ground_sign_direction": 1,
-			"hanging": 0b
-		}
-	},
-	{
-		"name": "minecraft:cherry_hanging_sign",
-		"states": {
-			"attached_bit": 1b,
-			"facing_direction": 1,
-			"ground_sign_direction": 1,
-			"hanging": 0b
-		}
-	},
-	{
-		"name": "minecraft:cherry_hanging_sign",
-		"states": {
-			"attached_bit": 1b,
-			"facing_direction": 2,
-			"ground_sign_direction": 1,
-			"hanging": 0b
-		}
-	},
-	{
-		"name": "minecraft:cherry_hanging_sign",
-		"states": {
-			"attached_bit": 1b,
-			"facing_direction": 3,
-			"ground_sign_direction": 1,
-			"hanging": 0b
-		}
-	},
-	{
-		"name": "minecraft:cherry_hanging_sign",
-		"states": {
-			"attached_bit": 1b,
-			"facing_direction": 4,
-			"ground_sign_direction": 1,
-			"hanging": 0b
-		}
-	},
-	{
-		"name": "minecraft:cherry_hanging_sign",
-		"states": {
-			"attached_bit": 1b,
-			"facing_direction": 5,
-			"ground_sign_direction": 1,
-			"hanging": 0b
-		}
-	},
-	{
-		"name": "minecraft:cherry_hanging_sign",
-		"states": {
-			"attached_bit": 1b,
-			"facing_direction": 0,
-			"ground_sign_direction": 2,
-			"hanging": 0b
-		}
-	},
-	{
-		"name": "minecraft:cherry_hanging_sign",
-		"states": {
-			"attached_bit": 1b,
-			"facing_direction": 1,
-			"ground_sign_direction": 2,
-			"hanging": 0b
-		}
-	},
-	{
-		"name": "minecraft:cherry_hanging_sign",
-		"states": {
-			"attached_bit": 1b,
-			"facing_direction": 2,
-			"ground_sign_direction": 2,
-			"hanging": 0b
-		}
-	},
-	{
-		"name": "minecraft:cherry_hanging_sign",
-		"states": {
-			"attached_bit": 1b,
-			"facing_direction": 3,
-			"ground_sign_direction": 2,
-			"hanging": 0b
-		}
-	},
-	{
-		"name": "minecraft:cherry_hanging_sign",
-		"states": {
-			"attached_bit": 1b,
-			"facing_direction": 4,
-			"ground_sign_direction": 2,
-			"hanging": 0b
-		}
-	},
-	{
-		"name": "minecraft:cherry_hanging_sign",
-		"states": {
-			"attached_bit": 1b,
-			"facing_direction": 5,
-			"ground_sign_direction": 2,
-			"hanging": 0b
-		}
-	},
-	{
-		"name": "minecraft:cherry_hanging_sign",
-		"states": {
-			"attached_bit": 1b,
-			"facing_direction": 0,
-			"ground_sign_direction": 3,
-			"hanging": 0b
-		}
-	},
-	{
-		"name": "minecraft:cherry_hanging_sign",
-		"states": {
-			"attached_bit": 1b,
-			"facing_direction": 1,
-			"ground_sign_direction": 3,
-			"hanging": 0b
-		}
-	},
-	{
-		"name": "minecraft:cherry_hanging_sign",
-		"states": {
-			"attached_bit": 1b,
-			"facing_direction": 2,
-			"ground_sign_direction": 3,
-			"hanging": 0b
-		}
-	},
-	{
-		"name": "minecraft:cherry_hanging_sign",
-		"states": {
-			"attached_bit": 1b,
-			"facing_direction": 3,
-			"ground_sign_direction": 3,
-			"hanging": 0b
-		}
-	},
-	{
-		"name": "minecraft:cherry_hanging_sign",
-		"states": {
-			"attached_bit": 1b,
-			"facing_direction": 4,
-			"ground_sign_direction": 3,
-			"hanging": 0b
-		}
-	},
-	{
-		"name": "minecraft:cherry_hanging_sign",
-		"states": {
-			"attached_bit": 1b,
-			"facing_direction": 5,
-			"ground_sign_direction": 3,
-			"hanging": 0b
-		}
-	},
-	{
-		"name": "minecraft:cherry_hanging_sign",
-		"states": {
-			"attached_bit": 1b,
-			"facing_direction": 0,
-			"ground_sign_direction": 4,
-			"hanging": 0b
-		}
-	},
-	{
-		"name": "minecraft:cherry_hanging_sign",
-		"states": {
-			"attached_bit": 1b,
-			"facing_direction": 1,
-			"ground_sign_direction": 4,
-			"hanging": 0b
-		}
-	},
-	{
-		"name": "minecraft:cherry_hanging_sign",
-		"states": {
-			"attached_bit": 1b,
-			"facing_direction": 2,
-			"ground_sign_direction": 4,
-			"hanging": 0b
-		}
-	},
-	{
-		"name": "minecraft:cherry_hanging_sign",
-		"states": {
-			"attached_bit": 1b,
-			"facing_direction": 3,
-			"ground_sign_direction": 4,
-			"hanging": 0b
-		}
-	},
-	{
-		"name": "minecraft:cherry_hanging_sign",
-		"states": {
-			"attached_bit": 1b,
-			"facing_direction": 4,
-			"ground_sign_direction": 4,
-			"hanging": 0b
-		}
-	},
-	{
-		"name": "minecraft:cherry_hanging_sign",
-		"states": {
-			"attached_bit": 1b,
-			"facing_direction": 5,
-			"ground_sign_direction": 4,
-			"hanging": 0b
-		}
-	},
-	{
-		"name": "minecraft:cherry_hanging_sign",
-		"states": {
-			"attached_bit": 1b,
-			"facing_direction": 0,
-			"ground_sign_direction": 5,
-			"hanging": 0b
-		}
-	},
-	{
-		"name": "minecraft:cherry_hanging_sign",
-		"states": {
-			"attached_bit": 1b,
-			"facing_direction": 1,
-			"ground_sign_direction": 5,
-			"hanging": 0b
-		}
-	},
-	{
-		"name": "minecraft:cherry_hanging_sign",
-		"states": {
-			"attached_bit": 1b,
-			"facing_direction": 2,
-			"ground_sign_direction": 5,
-			"hanging": 0b
-		}
-	},
-	{
-		"name": "minecraft:cherry_hanging_sign",
-		"states": {
-			"attached_bit": 1b,
-			"facing_direction": 3,
-			"ground_sign_direction": 5,
-			"hanging": 0b
-		}
-	},
-	{
-		"name": "minecraft:cherry_hanging_sign",
-		"states": {
-			"attached_bit": 1b,
-			"facing_direction": 4,
-			"ground_sign_direction": 5,
-			"hanging": 0b
-		}
-	},
-	{
-		"name": "minecraft:cherry_hanging_sign",
-		"states": {
-			"attached_bit": 1b,
-			"facing_direction": 5,
-			"ground_sign_direction": 5,
-			"hanging": 0b
-		}
-	},
-	{
-		"name": "minecraft:cherry_hanging_sign",
-		"states": {
-			"attached_bit": 1b,
-			"facing_direction": 0,
-			"ground_sign_direction": 6,
-			"hanging": 0b
-		}
-	},
-	{
-		"name": "minecraft:cherry_hanging_sign",
-		"states": {
-			"attached_bit": 1b,
-			"facing_direction": 1,
-			"ground_sign_direction": 6,
-			"hanging": 0b
-		}
-	},
-	{
-		"name": "minecraft:cherry_hanging_sign",
-		"states": {
-			"attached_bit": 1b,
-			"facing_direction": 2,
-			"ground_sign_direction": 6,
-			"hanging": 0b
-		}
-	},
-	{
-		"name": "minecraft:cherry_hanging_sign",
-		"states": {
-			"attached_bit": 1b,
-			"facing_direction": 3,
-			"ground_sign_direction": 6,
-			"hanging": 0b
-		}
-	},
-	{
-		"name": "minecraft:cherry_hanging_sign",
-		"states": {
-			"attached_bit": 1b,
-			"facing_direction": 4,
-			"ground_sign_direction": 6,
-			"hanging": 0b
-		}
-	},
-	{
-		"name": "minecraft:cherry_hanging_sign",
-		"states": {
-			"attached_bit": 1b,
-			"facing_direction": 5,
-			"ground_sign_direction": 6,
-			"hanging": 0b
-		}
-	},
-	{
-		"name": "minecraft:cherry_hanging_sign",
-		"states": {
-			"attached_bit": 1b,
-			"facing_direction": 0,
-			"ground_sign_direction": 7,
-			"hanging": 0b
-		}
-	},
-	{
-		"name": "minecraft:cherry_hanging_sign",
-		"states": {
-			"attached_bit": 1b,
-			"facing_direction": 1,
-			"ground_sign_direction": 7,
-			"hanging": 0b
-		}
-	},
-	{
-		"name": "minecraft:cherry_hanging_sign",
-		"states": {
-			"attached_bit": 1b,
-			"facing_direction": 2,
-			"ground_sign_direction": 7,
-			"hanging": 0b
-		}
-	},
-	{
-		"name": "minecraft:cherry_hanging_sign",
-		"states": {
-			"attached_bit": 1b,
-			"facing_direction": 3,
-			"ground_sign_direction": 7,
-			"hanging": 0b
-		}
-	},
-	{
-		"name": "minecraft:cherry_hanging_sign",
-		"states": {
-			"attached_bit": 1b,
-			"facing_direction": 4,
-			"ground_sign_direction": 7,
-			"hanging": 0b
-		}
-	},
-	{
-		"name": "minecraft:cherry_hanging_sign",
-		"states": {
-			"attached_bit": 1b,
-			"facing_direction": 5,
-			"ground_sign_direction": 7,
-			"hanging": 0b
-		}
-	},
-	{
-		"name": "minecraft:cherry_hanging_sign",
-		"states": {
-			"attached_bit": 1b,
-			"facing_direction": 0,
-			"ground_sign_direction": 8,
-			"hanging": 0b
-		}
-	},
-	{
-		"name": "minecraft:cherry_hanging_sign",
-		"states": {
-			"attached_bit": 1b,
-			"facing_direction": 1,
-			"ground_sign_direction": 8,
-			"hanging": 0b
-		}
-	},
-	{
-		"name": "minecraft:cherry_hanging_sign",
-		"states": {
-			"attached_bit": 1b,
-			"facing_direction": 2,
-			"ground_sign_direction": 8,
-			"hanging": 0b
-		}
-	},
-	{
-		"name": "minecraft:cherry_hanging_sign",
-		"states": {
-			"attached_bit": 1b,
-			"facing_direction": 3,
-			"ground_sign_direction": 8,
-			"hanging": 0b
-		}
-	},
-	{
-		"name": "minecraft:cherry_hanging_sign",
-		"states": {
-			"attached_bit": 1b,
-			"facing_direction": 4,
-			"ground_sign_direction": 8,
-			"hanging": 0b
-		}
-	},
-	{
-		"name": "minecraft:cherry_hanging_sign",
-		"states": {
-			"attached_bit": 1b,
-			"facing_direction": 5,
-			"ground_sign_direction": 8,
-			"hanging": 0b
-		}
-	},
-	{
-		"name": "minecraft:cherry_hanging_sign",
-		"states": {
-			"attached_bit": 1b,
-			"facing_direction": 0,
-			"ground_sign_direction": 9,
-			"hanging": 0b
-		}
-	},
-	{
-		"name": "minecraft:cherry_hanging_sign",
-		"states": {
-			"attached_bit": 1b,
-			"facing_direction": 1,
-			"ground_sign_direction": 9,
-			"hanging": 0b
-		}
-	},
-	{
-		"name": "minecraft:cherry_hanging_sign",
-		"states": {
-			"attached_bit": 1b,
-			"facing_direction": 2,
-			"ground_sign_direction": 9,
-			"hanging": 0b
-		}
-	},
-	{
-		"name": "minecraft:cherry_hanging_sign",
-		"states": {
-			"attached_bit": 1b,
-			"facing_direction": 3,
-			"ground_sign_direction": 9,
-			"hanging": 0b
-		}
-	},
-	{
-		"name": "minecraft:cherry_hanging_sign",
-		"states": {
-			"attached_bit": 1b,
-			"facing_direction": 4,
-			"ground_sign_direction": 9,
-			"hanging": 0b
-		}
-	},
-	{
-		"name": "minecraft:cherry_hanging_sign",
-		"states": {
-			"attached_bit": 1b,
-			"facing_direction": 5,
-			"ground_sign_direction": 9,
-			"hanging": 0b
-		}
-	},
-	{
-		"name": "minecraft:cherry_hanging_sign",
-		"states": {
-			"attached_bit": 1b,
-			"facing_direction": 0,
-			"ground_sign_direction": 10,
-			"hanging": 0b
-		}
-	},
-	{
-		"name": "minecraft:cherry_hanging_sign",
-		"states": {
-			"attached_bit": 1b,
-			"facing_direction": 1,
-			"ground_sign_direction": 10,
-			"hanging": 0b
-		}
-	},
-	{
-		"name": "minecraft:cherry_hanging_sign",
-		"states": {
-			"attached_bit": 1b,
-			"facing_direction": 2,
-			"ground_sign_direction": 10,
-			"hanging": 0b
-		}
-	},
-	{
-		"name": "minecraft:cherry_hanging_sign",
-		"states": {
-			"attached_bit": 1b,
-			"facing_direction": 3,
-			"ground_sign_direction": 10,
-			"hanging": 0b
-		}
-	},
-	{
-		"name": "minecraft:cherry_hanging_sign",
-		"states": {
-			"attached_bit": 1b,
-			"facing_direction": 4,
-			"ground_sign_direction": 10,
-			"hanging": 0b
-		}
-	},
-	{
-		"name": "minecraft:cherry_hanging_sign",
-		"states": {
-			"attached_bit": 1b,
-			"facing_direction": 5,
-			"ground_sign_direction": 10,
-			"hanging": 0b
-		}
-	},
-	{
-		"name": "minecraft:cherry_hanging_sign",
-		"states": {
-			"attached_bit": 1b,
-			"facing_direction": 0,
-			"ground_sign_direction": 11,
-			"hanging": 0b
-		}
-	},
-	{
-		"name": "minecraft:cherry_hanging_sign",
-		"states": {
-			"attached_bit": 1b,
-			"facing_direction": 1,
-			"ground_sign_direction": 11,
-			"hanging": 0b
-		}
-	},
-	{
-		"name": "minecraft:cherry_hanging_sign",
-		"states": {
-			"attached_bit": 1b,
-			"facing_direction": 2,
-			"ground_sign_direction": 11,
-			"hanging": 0b
-		}
-	},
-	{
-		"name": "minecraft:cherry_hanging_sign",
-		"states": {
-			"attached_bit": 1b,
-			"facing_direction": 3,
-			"ground_sign_direction": 11,
-			"hanging": 0b
-		}
-	},
-	{
-		"name": "minecraft:cherry_hanging_sign",
-		"states": {
-			"attached_bit": 1b,
-			"facing_direction": 4,
-			"ground_sign_direction": 11,
-			"hanging": 0b
-		}
-	},
-	{
-		"name": "minecraft:cherry_hanging_sign",
-		"states": {
-			"attached_bit": 1b,
-			"facing_direction": 5,
-			"ground_sign_direction": 11,
-			"hanging": 0b
-		}
-	},
-	{
-		"name": "minecraft:cherry_hanging_sign",
-		"states": {
-			"attached_bit": 1b,
-			"facing_direction": 0,
-			"ground_sign_direction": 12,
-			"hanging": 0b
-		}
-	},
-	{
-		"name": "minecraft:cherry_hanging_sign",
-		"states": {
-			"attached_bit": 1b,
-			"facing_direction": 1,
-			"ground_sign_direction": 12,
-			"hanging": 0b
-		}
-	},
-	{
-		"name": "minecraft:cherry_hanging_sign",
-		"states": {
-			"attached_bit": 1b,
-			"facing_direction": 2,
-			"ground_sign_direction": 12,
-			"hanging": 0b
-		}
-	},
-	{
-		"name": "minecraft:cherry_hanging_sign",
-		"states": {
-			"attached_bit": 1b,
-			"facing_direction": 3,
-			"ground_sign_direction": 12,
-			"hanging": 0b
-		}
-	},
-	{
-		"name": "minecraft:cherry_hanging_sign",
-		"states": {
-			"attached_bit": 1b,
-			"facing_direction": 4,
-			"ground_sign_direction": 12,
-			"hanging": 0b
-		}
-	},
-	{
-		"name": "minecraft:cherry_hanging_sign",
-		"states": {
-			"attached_bit": 1b,
-			"facing_direction": 5,
-			"ground_sign_direction": 12,
-			"hanging": 0b
-		}
-	},
-	{
-		"name": "minecraft:cherry_hanging_sign",
-		"states": {
-			"attached_bit": 1b,
-			"facing_direction": 0,
-			"ground_sign_direction": 13,
-			"hanging": 0b
-		}
-	},
-	{
-		"name": "minecraft:cherry_hanging_sign",
-		"states": {
-			"attached_bit": 1b,
-			"facing_direction": 1,
-			"ground_sign_direction": 13,
-			"hanging": 0b
-		}
-	},
-	{
-		"name": "minecraft:cherry_hanging_sign",
-		"states": {
-			"attached_bit": 1b,
-			"facing_direction": 2,
-			"ground_sign_direction": 13,
-			"hanging": 0b
-		}
-	},
-	{
-		"name": "minecraft:cherry_hanging_sign",
-		"states": {
-			"attached_bit": 1b,
-			"facing_direction": 3,
-			"ground_sign_direction": 13,
-			"hanging": 0b
-		}
-	},
-	{
-		"name": "minecraft:cherry_hanging_sign",
-		"states": {
-			"attached_bit": 1b,
-			"facing_direction": 4,
-			"ground_sign_direction": 13,
-			"hanging": 0b
-		}
-	},
-	{
-		"name": "minecraft:cherry_hanging_sign",
-		"states": {
-			"attached_bit": 1b,
-			"facing_direction": 5,
-			"ground_sign_direction": 13,
-			"hanging": 0b
-		}
-	},
-	{
-		"name": "minecraft:cherry_hanging_sign",
-		"states": {
-			"attached_bit": 1b,
-			"facing_direction": 0,
-			"ground_sign_direction": 14,
-			"hanging": 0b
-		}
-	},
-	{
-		"name": "minecraft:cherry_hanging_sign",
-		"states": {
-			"attached_bit": 1b,
-			"facing_direction": 1,
-			"ground_sign_direction": 14,
-			"hanging": 0b
-		}
-	},
-	{
-		"name": "minecraft:cherry_hanging_sign",
-		"states": {
-			"attached_bit": 1b,
-			"facing_direction": 2,
-			"ground_sign_direction": 14,
-			"hanging": 0b
-		}
-	},
-	{
-		"name": "minecraft:cherry_hanging_sign",
-		"states": {
-			"attached_bit": 1b,
-			"facing_direction": 3,
-			"ground_sign_direction": 14,
-			"hanging": 0b
-		}
-	},
-	{
-		"name": "minecraft:cherry_hanging_sign",
-		"states": {
-			"attached_bit": 1b,
-			"facing_direction": 4,
-			"ground_sign_direction": 14,
-			"hanging": 0b
-		}
-	},
-	{
-		"name": "minecraft:cherry_hanging_sign",
-		"states": {
-			"attached_bit": 1b,
-			"facing_direction": 5,
-			"ground_sign_direction": 14,
-			"hanging": 0b
-		}
-	},
-	{
-		"name": "minecraft:cherry_hanging_sign",
-		"states": {
-			"attached_bit": 1b,
-			"facing_direction": 0,
-			"ground_sign_direction": 15,
-			"hanging": 0b
-		}
-	},
-	{
-		"name": "minecraft:cherry_hanging_sign",
-		"states": {
-			"attached_bit": 1b,
-			"facing_direction": 1,
-			"ground_sign_direction": 15,
-			"hanging": 0b
-		}
-	},
-	{
-		"name": "minecraft:cherry_hanging_sign",
-		"states": {
-			"attached_bit": 1b,
-			"facing_direction": 2,
-			"ground_sign_direction": 15,
-			"hanging": 0b
-		}
-	},
-	{
-		"name": "minecraft:cherry_hanging_sign",
-		"states": {
-			"attached_bit": 1b,
-			"facing_direction": 3,
-			"ground_sign_direction": 15,
-			"hanging": 0b
-		}
-	},
-	{
-		"name": "minecraft:cherry_hanging_sign",
-		"states": {
-			"attached_bit": 1b,
-			"facing_direction": 4,
-			"ground_sign_direction": 15,
-			"hanging": 0b
-		}
-	},
-	{
-		"name": "minecraft:cherry_hanging_sign",
-		"states": {
-			"attached_bit": 1b,
-			"facing_direction": 5,
-			"ground_sign_direction": 15,
-			"hanging": 0b
-		}
-	},
-	{
-		"name": "minecraft:cherry_hanging_sign",
-		"states": {
-			"attached_bit": 1b,
-			"facing_direction": 0,
-			"ground_sign_direction": 0,
-			"hanging": 1b
-		}
-	},
-	{
-		"name": "minecraft:cherry_hanging_sign",
-		"states": {
-			"attached_bit": 1b,
-			"facing_direction": 1,
-			"ground_sign_direction": 0,
-			"hanging": 1b
-		}
-	},
-	{
-		"name": "minecraft:cherry_hanging_sign",
-		"states": {
-			"attached_bit": 1b,
-			"facing_direction": 2,
-			"ground_sign_direction": 0,
-			"hanging": 1b
-		}
-	},
-	{
-		"name": "minecraft:cherry_hanging_sign",
-		"states": {
-			"attached_bit": 1b,
-			"facing_direction": 3,
-			"ground_sign_direction": 0,
-			"hanging": 1b
-		}
-	},
-	{
-		"name": "minecraft:cherry_hanging_sign",
-		"states": {
-			"attached_bit": 1b,
-			"facing_direction": 4,
-			"ground_sign_direction": 0,
-			"hanging": 1b
-		}
-	},
-	{
-		"name": "minecraft:cherry_hanging_sign",
-		"states": {
-			"attached_bit": 1b,
-			"facing_direction": 5,
-			"ground_sign_direction": 0,
-			"hanging": 1b
-		}
-	},
-	{
-		"name": "minecraft:cherry_hanging_sign",
-		"states": {
-			"attached_bit": 1b,
-			"facing_direction": 0,
-			"ground_sign_direction": 1,
-			"hanging": 1b
-		}
-	},
-	{
-		"name": "minecraft:cherry_hanging_sign",
-		"states": {
-			"attached_bit": 1b,
-			"facing_direction": 1,
-			"ground_sign_direction": 1,
-			"hanging": 1b
-		}
-	},
-	{
-		"name": "minecraft:cherry_hanging_sign",
-		"states": {
-			"attached_bit": 1b,
-			"facing_direction": 2,
-			"ground_sign_direction": 1,
-			"hanging": 1b
-		}
-	},
-	{
-		"name": "minecraft:cherry_hanging_sign",
-		"states": {
-			"attached_bit": 1b,
-			"facing_direction": 3,
-			"ground_sign_direction": 1,
-			"hanging": 1b
-		}
-	},
-	{
-		"name": "minecraft:cherry_hanging_sign",
-		"states": {
-			"attached_bit": 1b,
-			"facing_direction": 4,
-			"ground_sign_direction": 1,
-			"hanging": 1b
-		}
-	},
-	{
-		"name": "minecraft:cherry_hanging_sign",
-		"states": {
-			"attached_bit": 1b,
-			"facing_direction": 5,
-			"ground_sign_direction": 1,
-			"hanging": 1b
-		}
-	},
-	{
-		"name": "minecraft:cherry_hanging_sign",
-		"states": {
-			"attached_bit": 1b,
-			"facing_direction": 0,
-			"ground_sign_direction": 2,
-			"hanging": 1b
-		}
-	},
-	{
-		"name": "minecraft:cherry_hanging_sign",
-		"states": {
-			"attached_bit": 1b,
-			"facing_direction": 1,
-			"ground_sign_direction": 2,
-			"hanging": 1b
-		}
-	},
-	{
-		"name": "minecraft:cherry_hanging_sign",
-		"states": {
-			"attached_bit": 1b,
-			"facing_direction": 2,
-			"ground_sign_direction": 2,
-			"hanging": 1b
-		}
-	},
-	{
-		"name": "minecraft:cherry_hanging_sign",
-		"states": {
-			"attached_bit": 1b,
-			"facing_direction": 3,
-			"ground_sign_direction": 2,
-			"hanging": 1b
-		}
-	},
-	{
-		"name": "minecraft:cherry_hanging_sign",
-		"states": {
-			"attached_bit": 1b,
-			"facing_direction": 4,
-			"ground_sign_direction": 2,
-			"hanging": 1b
-		}
-	},
-	{
-		"name": "minecraft:cherry_hanging_sign",
-		"states": {
-			"attached_bit": 1b,
-			"facing_direction": 5,
-			"ground_sign_direction": 2,
-			"hanging": 1b
-		}
-	},
-	{
-		"name": "minecraft:cherry_hanging_sign",
-		"states": {
-			"attached_bit": 1b,
-			"facing_direction": 0,
-			"ground_sign_direction": 3,
-			"hanging": 1b
-		}
-	},
-	{
-		"name": "minecraft:cherry_hanging_sign",
-		"states": {
-			"attached_bit": 1b,
-			"facing_direction": 1,
-			"ground_sign_direction": 3,
-			"hanging": 1b
-		}
-	},
-	{
-		"name": "minecraft:cherry_hanging_sign",
-		"states": {
-			"attached_bit": 1b,
-			"facing_direction": 2,
-			"ground_sign_direction": 3,
-			"hanging": 1b
-		}
-	},
-	{
-		"name": "minecraft:cherry_hanging_sign",
-		"states": {
-			"attached_bit": 1b,
-			"facing_direction": 3,
-			"ground_sign_direction": 3,
-			"hanging": 1b
-		}
-	},
-	{
-		"name": "minecraft:cherry_hanging_sign",
-		"states": {
-			"attached_bit": 1b,
-			"facing_direction": 4,
-			"ground_sign_direction": 3,
-			"hanging": 1b
-		}
-	},
-	{
-		"name": "minecraft:cherry_hanging_sign",
-		"states": {
-			"attached_bit": 1b,
-			"facing_direction": 5,
-			"ground_sign_direction": 3,
-			"hanging": 1b
-		}
-	},
-	{
-		"name": "minecraft:cherry_hanging_sign",
-		"states": {
-			"attached_bit": 1b,
-			"facing_direction": 0,
-			"ground_sign_direction": 4,
-			"hanging": 1b
-		}
-	},
-	{
-		"name": "minecraft:cherry_hanging_sign",
-		"states": {
-			"attached_bit": 1b,
-			"facing_direction": 1,
-			"ground_sign_direction": 4,
-			"hanging": 1b
-		}
-	},
-	{
-		"name": "minecraft:cherry_hanging_sign",
-		"states": {
-			"attached_bit": 1b,
-			"facing_direction": 2,
-			"ground_sign_direction": 4,
-			"hanging": 1b
-		}
-	},
-	{
-		"name": "minecraft:cherry_hanging_sign",
-		"states": {
-			"attached_bit": 1b,
-			"facing_direction": 3,
-			"ground_sign_direction": 4,
-			"hanging": 1b
-		}
-	},
-	{
-		"name": "minecraft:cherry_hanging_sign",
-		"states": {
-			"attached_bit": 1b,
-			"facing_direction": 4,
-			"ground_sign_direction": 4,
-			"hanging": 1b
-		}
-	},
-	{
-		"name": "minecraft:cherry_hanging_sign",
-		"states": {
-			"attached_bit": 1b,
-			"facing_direction": 5,
-			"ground_sign_direction": 4,
-			"hanging": 1b
-		}
-	},
-	{
-		"name": "minecraft:cherry_hanging_sign",
-		"states": {
-			"attached_bit": 1b,
-			"facing_direction": 0,
-			"ground_sign_direction": 5,
-			"hanging": 1b
-		}
-	},
-	{
-		"name": "minecraft:cherry_hanging_sign",
-		"states": {
-			"attached_bit": 1b,
-			"facing_direction": 1,
-			"ground_sign_direction": 5,
-			"hanging": 1b
-		}
-	},
-	{
-		"name": "minecraft:cherry_hanging_sign",
-		"states": {
-			"attached_bit": 1b,
-			"facing_direction": 2,
-			"ground_sign_direction": 5,
-			"hanging": 1b
-		}
-	},
-	{
-		"name": "minecraft:cherry_hanging_sign",
-		"states": {
-			"attached_bit": 1b,
-			"facing_direction": 3,
-			"ground_sign_direction": 5,
-			"hanging": 1b
-		}
-	},
-	{
-		"name": "minecraft:cherry_hanging_sign",
-		"states": {
-			"attached_bit": 1b,
-			"facing_direction": 4,
-			"ground_sign_direction": 5,
-			"hanging": 1b
-		}
-	},
-	{
-		"name": "minecraft:cherry_hanging_sign",
-		"states": {
-			"attached_bit": 1b,
-			"facing_direction": 5,
-			"ground_sign_direction": 5,
-			"hanging": 1b
-		}
-	},
-	{
-		"name": "minecraft:cherry_hanging_sign",
-		"states": {
-			"attached_bit": 1b,
-			"facing_direction": 0,
-			"ground_sign_direction": 6,
-			"hanging": 1b
-		}
-	},
-	{
-		"name": "minecraft:cherry_hanging_sign",
-		"states": {
-			"attached_bit": 1b,
-			"facing_direction": 1,
-			"ground_sign_direction": 6,
-			"hanging": 1b
-		}
-	},
-	{
-		"name": "minecraft:cherry_hanging_sign",
-		"states": {
-			"attached_bit": 1b,
-			"facing_direction": 2,
-			"ground_sign_direction": 6,
-			"hanging": 1b
-		}
-	},
-	{
-		"name": "minecraft:cherry_hanging_sign",
-		"states": {
-			"attached_bit": 1b,
-			"facing_direction": 3,
-			"ground_sign_direction": 6,
-			"hanging": 1b
-		}
-	},
-	{
-		"name": "minecraft:cherry_hanging_sign",
-		"states": {
-			"attached_bit": 1b,
-			"facing_direction": 4,
-			"ground_sign_direction": 6,
-			"hanging": 1b
-		}
-	},
-	{
-		"name": "minecraft:cherry_hanging_sign",
-		"states": {
-			"attached_bit": 1b,
-			"facing_direction": 5,
-			"ground_sign_direction": 6,
-			"hanging": 1b
-		}
-	},
-	{
-		"name": "minecraft:cherry_hanging_sign",
-		"states": {
-			"attached_bit": 1b,
-			"facing_direction": 0,
-			"ground_sign_direction": 7,
-			"hanging": 1b
-		}
-	},
-	{
-		"name": "minecraft:cherry_hanging_sign",
-		"states": {
-			"attached_bit": 1b,
-			"facing_direction": 1,
-			"ground_sign_direction": 7,
-			"hanging": 1b
-		}
-	},
-	{
-		"name": "minecraft:cherry_hanging_sign",
-		"states": {
-			"attached_bit": 1b,
-			"facing_direction": 2,
-			"ground_sign_direction": 7,
-			"hanging": 1b
-		}
-	},
-	{
-		"name": "minecraft:cherry_hanging_sign",
-		"states": {
-			"attached_bit": 1b,
-			"facing_direction": 3,
-			"ground_sign_direction": 7,
-			"hanging": 1b
-		}
-	},
-	{
-		"name": "minecraft:cherry_hanging_sign",
-		"states": {
-			"attached_bit": 1b,
-			"facing_direction": 4,
-			"ground_sign_direction": 7,
-			"hanging": 1b
-		}
-	},
-	{
-		"name": "minecraft:cherry_hanging_sign",
-		"states": {
-			"attached_bit": 1b,
-			"facing_direction": 5,
-			"ground_sign_direction": 7,
-			"hanging": 1b
-		}
-	},
-	{
-		"name": "minecraft:cherry_hanging_sign",
-		"states": {
-			"attached_bit": 1b,
-			"facing_direction": 0,
-			"ground_sign_direction": 8,
-			"hanging": 1b
-		}
-	},
-	{
-		"name": "minecraft:cherry_hanging_sign",
-		"states": {
-			"attached_bit": 1b,
-			"facing_direction": 1,
-			"ground_sign_direction": 8,
-			"hanging": 1b
-		}
-	},
-	{
-		"name": "minecraft:cherry_hanging_sign",
-		"states": {
-			"attached_bit": 1b,
-			"facing_direction": 2,
-			"ground_sign_direction": 8,
-			"hanging": 1b
-		}
-	},
-	{
-		"name": "minecraft:cherry_hanging_sign",
-		"states": {
-			"attached_bit": 1b,
-			"facing_direction": 3,
-			"ground_sign_direction": 8,
-			"hanging": 1b
-		}
-	},
-	{
-		"name": "minecraft:cherry_hanging_sign",
-		"states": {
-			"attached_bit": 1b,
-			"facing_direction": 4,
-			"ground_sign_direction": 8,
-			"hanging": 1b
-		}
-	},
-	{
-		"name": "minecraft:cherry_hanging_sign",
-		"states": {
-			"attached_bit": 1b,
-			"facing_direction": 5,
-			"ground_sign_direction": 8,
-			"hanging": 1b
-		}
-	},
-	{
-		"name": "minecraft:cherry_hanging_sign",
-		"states": {
-			"attached_bit": 1b,
-			"facing_direction": 0,
-			"ground_sign_direction": 9,
-			"hanging": 1b
-		}
-	},
-	{
-		"name": "minecraft:cherry_hanging_sign",
-		"states": {
-			"attached_bit": 1b,
-			"facing_direction": 1,
-			"ground_sign_direction": 9,
-			"hanging": 1b
-		}
-	},
-	{
-		"name": "minecraft:cherry_hanging_sign",
-		"states": {
-			"attached_bit": 1b,
-			"facing_direction": 2,
-			"ground_sign_direction": 9,
-			"hanging": 1b
-		}
-	},
-	{
-		"name": "minecraft:cherry_hanging_sign",
-		"states": {
-			"attached_bit": 1b,
-			"facing_direction": 3,
-			"ground_sign_direction": 9,
-			"hanging": 1b
-		}
-	},
-	{
-		"name": "minecraft:cherry_hanging_sign",
-		"states": {
-			"attached_bit": 1b,
-			"facing_direction": 4,
-			"ground_sign_direction": 9,
-			"hanging": 1b
-		}
-	},
-	{
-		"name": "minecraft:cherry_hanging_sign",
-		"states": {
-			"attached_bit": 1b,
-			"facing_direction": 5,
-			"ground_sign_direction": 9,
-			"hanging": 1b
-		}
-	},
-	{
-		"name": "minecraft:cherry_hanging_sign",
-		"states": {
-			"attached_bit": 1b,
-			"facing_direction": 0,
-			"ground_sign_direction": 10,
-			"hanging": 1b
-		}
-	},
-	{
-		"name": "minecraft:cherry_hanging_sign",
-		"states": {
-			"attached_bit": 1b,
-			"facing_direction": 1,
-			"ground_sign_direction": 10,
-			"hanging": 1b
-		}
-	},
-	{
-		"name": "minecraft:cherry_hanging_sign",
-		"states": {
-			"attached_bit": 1b,
-			"facing_direction": 2,
-			"ground_sign_direction": 10,
-			"hanging": 1b
-		}
-	},
-	{
-		"name": "minecraft:cherry_hanging_sign",
-		"states": {
-			"attached_bit": 1b,
-			"facing_direction": 3,
-			"ground_sign_direction": 10,
-			"hanging": 1b
-		}
-	},
-	{
-		"name": "minecraft:cherry_hanging_sign",
-		"states": {
-			"attached_bit": 1b,
-			"facing_direction": 4,
-			"ground_sign_direction": 10,
-			"hanging": 1b
-		}
-	},
-	{
-		"name": "minecraft:cherry_hanging_sign",
-		"states": {
-			"attached_bit": 1b,
-			"facing_direction": 5,
-			"ground_sign_direction": 10,
-			"hanging": 1b
-		}
-	},
-	{
-		"name": "minecraft:cherry_hanging_sign",
-		"states": {
-			"attached_bit": 1b,
-			"facing_direction": 0,
-			"ground_sign_direction": 11,
-			"hanging": 1b
-		}
-	},
-	{
-		"name": "minecraft:cherry_hanging_sign",
-		"states": {
-			"attached_bit": 1b,
-			"facing_direction": 1,
-			"ground_sign_direction": 11,
-			"hanging": 1b
-		}
-	},
-	{
-		"name": "minecraft:cherry_hanging_sign",
-		"states": {
-			"attached_bit": 1b,
-			"facing_direction": 2,
-			"ground_sign_direction": 11,
-			"hanging": 1b
-		}
-	},
-	{
-		"name": "minecraft:cherry_hanging_sign",
-		"states": {
-			"attached_bit": 1b,
-			"facing_direction": 3,
-			"ground_sign_direction": 11,
-			"hanging": 1b
-		}
-	},
-	{
-		"name": "minecraft:cherry_hanging_sign",
-		"states": {
-			"attached_bit": 1b,
-			"facing_direction": 4,
-			"ground_sign_direction": 11,
-			"hanging": 1b
-		}
-	},
-	{
-		"name": "minecraft:cherry_hanging_sign",
-		"states": {
-			"attached_bit": 1b,
-			"facing_direction": 5,
-			"ground_sign_direction": 11,
-			"hanging": 1b
-		}
-	},
-	{
-		"name": "minecraft:cherry_hanging_sign",
-		"states": {
-			"attached_bit": 1b,
-			"facing_direction": 0,
-			"ground_sign_direction": 12,
-			"hanging": 1b
-		}
-	},
-	{
-		"name": "minecraft:cherry_hanging_sign",
-		"states": {
-			"attached_bit": 1b,
-			"facing_direction": 1,
-			"ground_sign_direction": 12,
-			"hanging": 1b
-		}
-	},
-	{
-		"name": "minecraft:cherry_hanging_sign",
-		"states": {
-			"attached_bit": 1b,
-			"facing_direction": 2,
-			"ground_sign_direction": 12,
-			"hanging": 1b
-		}
-	},
-	{
-		"name": "minecraft:cherry_hanging_sign",
-		"states": {
-			"attached_bit": 1b,
-			"facing_direction": 3,
-			"ground_sign_direction": 12,
-			"hanging": 1b
-		}
-	},
-	{
-		"name": "minecraft:cherry_hanging_sign",
-		"states": {
-			"attached_bit": 1b,
-			"facing_direction": 4,
-			"ground_sign_direction": 12,
-			"hanging": 1b
-		}
-	},
-	{
-		"name": "minecraft:cherry_hanging_sign",
-		"states": {
-			"attached_bit": 1b,
-			"facing_direction": 5,
-			"ground_sign_direction": 12,
-			"hanging": 1b
-		}
-	},
-	{
-		"name": "minecraft:cherry_hanging_sign",
-		"states": {
-			"attached_bit": 1b,
-			"facing_direction": 0,
-			"ground_sign_direction": 13,
-			"hanging": 1b
-		}
-	},
-	{
-		"name": "minecraft:cherry_hanging_sign",
-		"states": {
-			"attached_bit": 1b,
-			"facing_direction": 1,
-			"ground_sign_direction": 13,
-			"hanging": 1b
-		}
-	},
-	{
-		"name": "minecraft:cherry_hanging_sign",
-		"states": {
-			"attached_bit": 1b,
-			"facing_direction": 2,
-			"ground_sign_direction": 13,
-			"hanging": 1b
-		}
-	},
-	{
-		"name": "minecraft:cherry_hanging_sign",
-		"states": {
-			"attached_bit": 1b,
-			"facing_direction": 3,
-			"ground_sign_direction": 13,
-			"hanging": 1b
-		}
-	},
-	{
-		"name": "minecraft:cherry_hanging_sign",
-		"states": {
-			"attached_bit": 1b,
-			"facing_direction": 4,
-			"ground_sign_direction": 13,
-			"hanging": 1b
-		}
-	},
-	{
-		"name": "minecraft:cherry_hanging_sign",
-		"states": {
-			"attached_bit": 1b,
-			"facing_direction": 5,
-			"ground_sign_direction": 13,
-			"hanging": 1b
-		}
-	},
-	{
-		"name": "minecraft:cherry_hanging_sign",
-		"states": {
-			"attached_bit": 1b,
-			"facing_direction": 0,
-			"ground_sign_direction": 14,
-			"hanging": 1b
-		}
-	},
-	{
-		"name": "minecraft:cherry_hanging_sign",
-		"states": {
-			"attached_bit": 1b,
-			"facing_direction": 1,
-			"ground_sign_direction": 14,
-			"hanging": 1b
-		}
-	},
-	{
-		"name": "minecraft:cherry_hanging_sign",
-		"states": {
-			"attached_bit": 1b,
-			"facing_direction": 2,
-			"ground_sign_direction": 14,
-			"hanging": 1b
-		}
-	},
-	{
-		"name": "minecraft:cherry_hanging_sign",
-		"states": {
-			"attached_bit": 1b,
-			"facing_direction": 3,
-			"ground_sign_direction": 14,
-			"hanging": 1b
-		}
-	},
-	{
-		"name": "minecraft:cherry_hanging_sign",
-		"states": {
-			"attached_bit": 1b,
-			"facing_direction": 4,
-			"ground_sign_direction": 14,
-			"hanging": 1b
-		}
-	},
-	{
-		"name": "minecraft:cherry_hanging_sign",
-		"states": {
-			"attached_bit": 1b,
-			"facing_direction": 5,
-			"ground_sign_direction": 14,
-			"hanging": 1b
-		}
-	},
-	{
-		"name": "minecraft:cherry_hanging_sign",
-		"states": {
-			"attached_bit": 1b,
-			"facing_direction": 0,
-			"ground_sign_direction": 15,
-			"hanging": 1b
-		}
-	},
-	{
-		"name": "minecraft:cherry_hanging_sign",
-		"states": {
-			"attached_bit": 1b,
-			"facing_direction": 1,
-			"ground_sign_direction": 15,
-			"hanging": 1b
-		}
-	},
-	{
-		"name": "minecraft:cherry_hanging_sign",
-		"states": {
-			"attached_bit": 1b,
-			"facing_direction": 2,
-			"ground_sign_direction": 15,
-			"hanging": 1b
-		}
-	},
-	{
-		"name": "minecraft:cherry_hanging_sign",
-		"states": {
-			"attached_bit": 1b,
-			"facing_direction": 3,
-			"ground_sign_direction": 15,
-			"hanging": 1b
-		}
-	},
-	{
-		"name": "minecraft:cherry_hanging_sign",
-		"states": {
-			"attached_bit": 1b,
-			"facing_direction": 4,
-			"ground_sign_direction": 15,
-			"hanging": 1b
-		}
-	},
-	{
-		"name": "minecraft:cherry_hanging_sign",
-		"states": {
-			"attached_bit": 1b,
-			"facing_direction": 5,
-			"ground_sign_direction": 15,
-			"hanging": 1b
-		}
-	},
-	{
-		"name": "minecraft:jungle_log",
-		"states": {
-			"pillar_axis": "y"
-		}
-	},
-	{
-		"name": "minecraft:jungle_log",
-		"states": {
-			"pillar_axis": "x"
-		}
-	},
-	{
-		"name": "minecraft:jungle_log",
-		"states": {
-			"pillar_axis": "z"
-		}
-	},
-	{
-		"name": "minecraft:oak_log",
-		"states": {
-			"pillar_axis": "y"
-		}
-	},
-	{
-		"name": "minecraft:oak_log",
-		"states": {
-			"pillar_axis": "x"
-		}
-	},
-	{
-		"name": "minecraft:oak_log",
-		"states": {
-			"pillar_axis": "z"
-		}
-	},
-	{
-		"name": "minecraft:jungle_fence",
-		"states": {}
-	},
-	{
-		"name": "minecraft:spruce_fence",
-		"states": {}
-	},
-	{
-		"name": "minecraft:birch_log",
-		"states": {
-			"pillar_axis": "y"
-		}
-	},
-	{
-		"name": "minecraft:birch_log",
-		"states": {
-			"pillar_axis": "x"
-		}
-	},
-	{
-		"name": "minecraft:birch_log",
-		"states": {
-			"pillar_axis": "z"
-		}
-	},
-	{
-		"name": "minecraft:cherry_trapdoor",
-		"states": {
-			"direction": 0,
-			"open_bit": 0b,
-			"upside_down_bit": 0b
-		}
-	},
-	{
-		"name": "minecraft:cherry_trapdoor",
-		"states": {
-			"direction": 1,
-			"open_bit": 0b,
-			"upside_down_bit": 0b
-		}
-	},
-	{
-		"name": "minecraft:cherry_trapdoor",
-		"states": {
-			"direction": 2,
-			"open_bit": 0b,
-			"upside_down_bit": 0b
-		}
-	},
-	{
-		"name": "minecraft:cherry_trapdoor",
-		"states": {
-			"direction": 3,
-			"open_bit": 0b,
-			"upside_down_bit": 0b
-		}
-	},
-	{
-		"name": "minecraft:cherry_trapdoor",
-		"states": {
-			"direction": 0,
-			"open_bit": 0b,
-			"upside_down_bit": 1b
-		}
-	},
-	{
-		"name": "minecraft:cherry_trapdoor",
-		"states": {
-			"direction": 1,
-			"open_bit": 0b,
-			"upside_down_bit": 1b
-		}
-	},
-	{
-		"name": "minecraft:cherry_trapdoor",
-		"states": {
-			"direction": 2,
-			"open_bit": 0b,
-			"upside_down_bit": 1b
-		}
-	},
-	{
-		"name": "minecraft:cherry_trapdoor",
-		"states": {
-			"direction": 3,
-			"open_bit": 0b,
-			"upside_down_bit": 1b
-		}
-	},
-	{
-		"name": "minecraft:cherry_trapdoor",
-		"states": {
-			"direction": 0,
-			"open_bit": 1b,
-			"upside_down_bit": 0b
-		}
-	},
-	{
-		"name": "minecraft:cherry_trapdoor",
-		"states": {
-			"direction": 1,
-			"open_bit": 1b,
-			"upside_down_bit": 0b
-		}
-	},
-	{
-		"name": "minecraft:cherry_trapdoor",
-		"states": {
-			"direction": 2,
-			"open_bit": 1b,
-			"upside_down_bit": 0b
-		}
-	},
-	{
-		"name": "minecraft:cherry_trapdoor",
-		"states": {
-			"direction": 3,
-			"open_bit": 1b,
-			"upside_down_bit": 0b
-		}
-	},
-	{
-		"name": "minecraft:cherry_trapdoor",
-		"states": {
-			"direction": 0,
-			"open_bit": 1b,
-			"upside_down_bit": 1b
-		}
-	},
-	{
-		"name": "minecraft:cherry_trapdoor",
-		"states": {
-			"direction": 1,
-			"open_bit": 1b,
-			"upside_down_bit": 1b
-		}
-	},
-	{
-		"name": "minecraft:cherry_trapdoor",
-		"states": {
-			"direction": 2,
-			"open_bit": 1b,
-			"upside_down_bit": 1b
-		}
-	},
-	{
-		"name": "minecraft:cherry_trapdoor",
-		"states": {
-			"direction": 3,
-			"open_bit": 1b,
-			"upside_down_bit": 1b
-		}
-	},
-	{
-		"name": "minecraft:cherry_fence",
-		"states": {}
-	},
-	{
-		"name": "minecraft:dark_oak_log",
-		"states": {
-			"pillar_axis": "y"
-		}
-	},
-	{
-		"name": "minecraft:dark_oak_log",
-		"states": {
-			"pillar_axis": "x"
-		}
-	},
-	{
-		"name": "minecraft:dark_oak_log",
-		"states": {
-			"pillar_axis": "z"
-		}
-	},
-	{
-		"name": "minecraft:spruce_log",
-		"states": {
-			"pillar_axis": "y"
-		}
-	},
-	{
-		"name": "minecraft:spruce_log",
-		"states": {
-			"pillar_axis": "x"
-		}
-	},
-	{
-		"name": "minecraft:spruce_log",
-		"states": {
-			"pillar_axis": "z"
-		}
-	},
-	{
-		"name": "minecraft:cherry_door",
-		"states": {
-			"direction": 0,
-			"door_hinge_bit": 0b,
-			"open_bit": 0b,
-			"upper_block_bit": 0b
-		}
-	},
-	{
-		"name": "minecraft:cherry_door",
-		"states": {
-			"direction": 1,
-			"door_hinge_bit": 0b,
-			"open_bit": 0b,
-			"upper_block_bit": 0b
-		}
-	},
-	{
-		"name": "minecraft:cherry_door",
-		"states": {
-			"direction": 2,
-			"door_hinge_bit": 0b,
-			"open_bit": 0b,
-			"upper_block_bit": 0b
-		}
-	},
-	{
-		"name": "minecraft:cherry_door",
-		"states": {
-			"direction": 3,
-			"door_hinge_bit": 0b,
-			"open_bit": 0b,
-			"upper_block_bit": 0b
-		}
-	},
-	{
-		"name": "minecraft:cherry_door",
-		"states": {
-			"direction": 0,
-			"door_hinge_bit": 0b,
-			"open_bit": 1b,
-			"upper_block_bit": 0b
-		}
-	},
-	{
-		"name": "minecraft:cherry_door",
-		"states": {
-			"direction": 1,
-			"door_hinge_bit": 0b,
-			"open_bit": 1b,
-			"upper_block_bit": 0b
-		}
-	},
-	{
-		"name": "minecraft:cherry_door",
-		"states": {
-			"direction": 2,
-			"door_hinge_bit": 0b,
-			"open_bit": 1b,
-			"upper_block_bit": 0b
-		}
-	},
-	{
-		"name": "minecraft:cherry_door",
-		"states": {
-			"direction": 3,
-			"door_hinge_bit": 0b,
-			"open_bit": 1b,
-			"upper_block_bit": 0b
-		}
-	},
-	{
-		"name": "minecraft:cherry_door",
-		"states": {
-			"direction": 0,
-			"door_hinge_bit": 0b,
-			"open_bit": 0b,
-			"upper_block_bit": 1b
-		}
-	},
-	{
-		"name": "minecraft:cherry_door",
-		"states": {
-			"direction": 1,
-			"door_hinge_bit": 0b,
-			"open_bit": 0b,
-			"upper_block_bit": 1b
-		}
-	},
-	{
-		"name": "minecraft:cherry_door",
-		"states": {
-			"direction": 2,
-			"door_hinge_bit": 0b,
-			"open_bit": 0b,
-			"upper_block_bit": 1b
-		}
-	},
-	{
-		"name": "minecraft:cherry_door",
-		"states": {
-			"direction": 3,
-			"door_hinge_bit": 0b,
-			"open_bit": 0b,
-			"upper_block_bit": 1b
-		}
-	},
-	{
-		"name": "minecraft:cherry_door",
-		"states": {
-			"direction": 0,
-			"door_hinge_bit": 0b,
-			"open_bit": 1b,
-			"upper_block_bit": 1b
-		}
-	},
-	{
-		"name": "minecraft:cherry_door",
-		"states": {
-			"direction": 1,
-			"door_hinge_bit": 0b,
-			"open_bit": 1b,
-			"upper_block_bit": 1b
-		}
-	},
-	{
-		"name": "minecraft:cherry_door",
-		"states": {
-			"direction": 2,
-			"door_hinge_bit": 0b,
-			"open_bit": 1b,
-			"upper_block_bit": 1b
-		}
-	},
-	{
-		"name": "minecraft:cherry_door",
-		"states": {
-			"direction": 3,
-			"door_hinge_bit": 0b,
-			"open_bit": 1b,
-			"upper_block_bit": 1b
-		}
-	},
-	{
-		"name": "minecraft:cherry_door",
-		"states": {
-			"direction": 0,
-			"door_hinge_bit": 1b,
-			"open_bit": 0b,
-			"upper_block_bit": 0b
-		}
-	},
-	{
-		"name": "minecraft:cherry_door",
-		"states": {
-			"direction": 1,
-			"door_hinge_bit": 1b,
-			"open_bit": 0b,
-			"upper_block_bit": 0b
-		}
-	},
-	{
-		"name": "minecraft:cherry_door",
-		"states": {
-			"direction": 2,
-			"door_hinge_bit": 1b,
-			"open_bit": 0b,
-			"upper_block_bit": 0b
-		}
-	},
-	{
-		"name": "minecraft:cherry_door",
-		"states": {
-			"direction": 3,
-			"door_hinge_bit": 1b,
-			"open_bit": 0b,
-			"upper_block_bit": 0b
-		}
-	},
-	{
-		"name": "minecraft:cherry_door",
-		"states": {
-			"direction": 0,
-			"door_hinge_bit": 1b,
-			"open_bit": 1b,
-			"upper_block_bit": 0b
-		}
-	},
-	{
-		"name": "minecraft:cherry_door",
-		"states": {
-			"direction": 1,
-			"door_hinge_bit": 1b,
-			"open_bit": 1b,
-			"upper_block_bit": 0b
-		}
-	},
-	{
-		"name": "minecraft:cherry_door",
-		"states": {
-			"direction": 2,
-			"door_hinge_bit": 1b,
-			"open_bit": 1b,
-			"upper_block_bit": 0b
-		}
-	},
-	{
-		"name": "minecraft:cherry_door",
-		"states": {
-			"direction": 3,
-			"door_hinge_bit": 1b,
-			"open_bit": 1b,
-			"upper_block_bit": 0b
-		}
-	},
-	{
-		"name": "minecraft:cherry_door",
-		"states": {
-			"direction": 0,
-			"door_hinge_bit": 1b,
-			"open_bit": 0b,
-			"upper_block_bit": 1b
-		}
-	},
-	{
-		"name": "minecraft:cherry_door",
-		"states": {
-			"direction": 1,
-			"door_hinge_bit": 1b,
-			"open_bit": 0b,
-			"upper_block_bit": 1b
-		}
-	},
-	{
-		"name": "minecraft:cherry_door",
-		"states": {
-			"direction": 2,
-			"door_hinge_bit": 1b,
-			"open_bit": 0b,
-			"upper_block_bit": 1b
-		}
-	},
-	{
-		"name": "minecraft:cherry_door",
-		"states": {
-			"direction": 3,
-			"door_hinge_bit": 1b,
-			"open_bit": 0b,
-			"upper_block_bit": 1b
-		}
-	},
-	{
-		"name": "minecraft:cherry_door",
-		"states": {
-			"direction": 0,
-			"door_hinge_bit": 1b,
-			"open_bit": 1b,
-			"upper_block_bit": 1b
-		}
-	},
-	{
-		"name": "minecraft:cherry_door",
-		"states": {
-			"direction": 1,
-			"door_hinge_bit": 1b,
-			"open_bit": 1b,
-			"upper_block_bit": 1b
-		}
-	},
-	{
-		"name": "minecraft:cherry_door",
-		"states": {
-			"direction": 2,
-			"door_hinge_bit": 1b,
-			"open_bit": 1b,
-			"upper_block_bit": 1b
-		}
-	},
-	{
-		"name": "minecraft:cherry_door",
-		"states": {
-			"direction": 3,
-			"door_hinge_bit": 1b,
-			"open_bit": 1b,
-			"upper_block_bit": 1b
-		}
-	},
-	{
-		"name": "minecraft:acacia_log",
-		"states": {
-			"pillar_axis": "y"
-		}
-	},
-	{
-		"name": "minecraft:acacia_log",
-		"states": {
-			"pillar_axis": "x"
-		}
-	},
-	{
-		"name": "minecraft:acacia_log",
-		"states": {
-			"pillar_axis": "z"
-		}
-	},
-	{
-		"name": "minecraft:stripped_cherry_log",
-		"states": {
-			"pillar_axis": "y"
-		}
-	},
-	{
-		"name": "minecraft:stripped_cherry_log",
-		"states": {
-			"pillar_axis": "x"
-		}
-	},
-	{
-		"name": "minecraft:stripped_cherry_log",
-		"states": {
-			"pillar_axis": "z"
-		}
-	},
-	{
-		"name": "minecraft:cherry_button",
-		"states": {
-			"button_pressed_bit": 0b,
-			"facing_direction": 0
-		}
-	},
-	{
-		"name": "minecraft:cherry_button",
-		"states": {
-			"button_pressed_bit": 0b,
-			"facing_direction": 1
-		}
-	},
-	{
-		"name": "minecraft:cherry_button",
-		"states": {
-			"button_pressed_bit": 0b,
-			"facing_direction": 2
-		}
-	},
-	{
-		"name": "minecraft:cherry_button",
-		"states": {
-			"button_pressed_bit": 0b,
-			"facing_direction": 3
-		}
-	},
-	{
-		"name": "minecraft:cherry_button",
-		"states": {
-			"button_pressed_bit": 0b,
-			"facing_direction": 4
-		}
-	},
-	{
-		"name": "minecraft:cherry_button",
-		"states": {
-			"button_pressed_bit": 0b,
-			"facing_direction": 5
-		}
-	},
-	{
-		"name": "minecraft:cherry_button",
-		"states": {
-			"button_pressed_bit": 1b,
-			"facing_direction": 0
-		}
-	},
-	{
-		"name": "minecraft:cherry_button",
-		"states": {
-			"button_pressed_bit": 1b,
-			"facing_direction": 1
-		}
-	},
-	{
-		"name": "minecraft:cherry_button",
-		"states": {
-			"button_pressed_bit": 1b,
-			"facing_direction": 2
-		}
-	},
-	{
-		"name": "minecraft:cherry_button",
-		"states": {
-			"button_pressed_bit": 1b,
-			"facing_direction": 3
-		}
-	},
-	{
-		"name": "minecraft:cherry_button",
-		"states": {
-			"button_pressed_bit": 1b,
-			"facing_direction": 4
-		}
-	},
-	{
-		"name": "minecraft:cherry_button",
-		"states": {
-			"button_pressed_bit": 1b,
-			"facing_direction": 5
-		}
-	},
-	{
-		"name": "minecraft:pink_petals",
-		"states": {
-			"direction": 0,
-			"growth": 0
-		}
-	},
-	{
-		"name": "minecraft:pink_petals",
-		"states": {
-			"direction": 0,
-			"growth": 1
-		}
-	},
-	{
-		"name": "minecraft:pink_petals",
-		"states": {
-			"direction": 0,
-			"growth": 2
-		}
-	},
-	{
-		"name": "minecraft:pink_petals",
-		"states": {
-			"direction": 0,
-			"growth": 3
-		}
-	},
-	{
-		"name": "minecraft:pink_petals",
-		"states": {
-			"direction": 0,
-			"growth": 4
-		}
-	},
-	{
-		"name": "minecraft:pink_petals",
-		"states": {
-			"direction": 0,
-			"growth": 5
-		}
-	},
-	{
-		"name": "minecraft:pink_petals",
-		"states": {
-			"direction": 0,
-			"growth": 6
-		}
-	},
-	{
-		"name": "minecraft:pink_petals",
-		"states": {
-			"direction": 0,
-			"growth": 7
-		}
-	},
-	{
-		"name": "minecraft:pink_petals",
-		"states": {
-			"direction": 1,
-			"growth": 0
-		}
-	},
-	{
-		"name": "minecraft:pink_petals",
-		"states": {
-			"direction": 1,
-			"growth": 1
-		}
-	},
-	{
-		"name": "minecraft:pink_petals",
-		"states": {
-			"direction": 1,
-			"growth": 2
-		}
-	},
-	{
-		"name": "minecraft:pink_petals",
-		"states": {
-			"direction": 1,
-			"growth": 3
-		}
-	},
-	{
-		"name": "minecraft:pink_petals",
-		"states": {
-			"direction": 1,
-			"growth": 4
-		}
-	},
-	{
-		"name": "minecraft:pink_petals",
-		"states": {
-			"direction": 1,
-			"growth": 5
-		}
-	},
-	{
-		"name": "minecraft:pink_petals",
-		"states": {
-			"direction": 1,
-			"growth": 6
-		}
-	},
-	{
-		"name": "minecraft:pink_petals",
-		"states": {
-			"direction": 1,
-			"growth": 7
-		}
-	},
-	{
-		"name": "minecraft:pink_petals",
-		"states": {
-			"direction": 2,
-			"growth": 0
-		}
-	},
-	{
-		"name": "minecraft:pink_petals",
-		"states": {
-			"direction": 2,
-			"growth": 1
-		}
-	},
-	{
-		"name": "minecraft:pink_petals",
-		"states": {
-			"direction": 2,
-			"growth": 2
-		}
-	},
-	{
-		"name": "minecraft:pink_petals",
-		"states": {
-			"direction": 2,
-			"growth": 3
-		}
-	},
-	{
-		"name": "minecraft:pink_petals",
-		"states": {
-			"direction": 2,
-			"growth": 4
-		}
-	},
-	{
-		"name": "minecraft:pink_petals",
-		"states": {
-			"direction": 2,
-			"growth": 5
-		}
-	},
-	{
-		"name": "minecraft:pink_petals",
-		"states": {
-			"direction": 2,
-			"growth": 6
-		}
-	},
-	{
-		"name": "minecraft:pink_petals",
-		"states": {
-			"direction": 2,
-			"growth": 7
-		}
-	},
-	{
-		"name": "minecraft:pink_petals",
-		"states": {
-			"direction": 3,
-			"growth": 0
-		}
-	},
-	{
-		"name": "minecraft:pink_petals",
-		"states": {
-			"direction": 3,
-			"growth": 1
-		}
-	},
-	{
-		"name": "minecraft:pink_petals",
-		"states": {
-			"direction": 3,
-			"growth": 2
-		}
-	},
-	{
-		"name": "minecraft:pink_petals",
-		"states": {
-			"direction": 3,
-			"growth": 3
-		}
-	},
-	{
-		"name": "minecraft:pink_petals",
-		"states": {
-			"direction": 3,
-			"growth": 4
-		}
-	},
-	{
-		"name": "minecraft:pink_petals",
-		"states": {
-			"direction": 3,
-			"growth": 5
-		}
-	},
-	{
-		"name": "minecraft:pink_petals",
-		"states": {
-			"direction": 3,
-			"growth": 6
-		}
-	},
-	{
-		"name": "minecraft:pink_petals",
-		"states": {
-			"direction": 3,
-			"growth": 7
-		}
-	},
-	{
-		"name": "minecraft:suspicious_gravel",
-		"states": {
-			"brushed_progress": 0,
-			"hanging": 0b
-		}
-	},
-	{
-		"name": "minecraft:suspicious_gravel",
-		"states": {
-			"brushed_progress": 0,
-			"hanging": 1b
-		}
-	},
-	{
-		"name": "minecraft:suspicious_gravel",
-		"states": {
-			"brushed_progress": 1,
-			"hanging": 0b
-		}
-	},
-	{
-		"name": "minecraft:suspicious_gravel",
-		"states": {
-			"brushed_progress": 1,
-			"hanging": 1b
-		}
-	},
-	{
-		"name": "minecraft:suspicious_gravel",
-		"states": {
-			"brushed_progress": 2,
-			"hanging": 0b
-		}
-	},
-	{
-		"name": "minecraft:suspicious_gravel",
-		"states": {
-			"brushed_progress": 2,
-			"hanging": 1b
-		}
-	},
-	{
-		"name": "minecraft:suspicious_gravel",
-		"states": {
-			"brushed_progress": 3,
-			"hanging": 0b
-		}
-	},
-	{
-		"name": "minecraft:suspicious_gravel",
-		"states": {
-			"brushed_progress": 3,
-			"hanging": 1b
-		}
-	},
-	{
-		"name": "minecraft:stripped_cherry_wood",
-		"states": {
-			"pillar_axis": "y"
-		}
-	},
-	{
-		"name": "minecraft:stripped_cherry_wood",
-		"states": {
-			"pillar_axis": "x"
-		}
-	},
-	{
-		"name": "minecraft:stripped_cherry_wood",
-		"states": {
-			"pillar_axis": "z"
-		}
-	},
-	{
-		"name": "minecraft:oak_fence",
-		"states": {}
-	},
-	{
-		"name": "minecraft:cherry_leaves",
-		"states": {
-			"persistent_bit": 0b,
-			"update_bit": 0b
-		}
-	},
-	{
-		"name": "minecraft:cherry_leaves",
-		"states": {
-			"persistent_bit": 0b,
-			"update_bit": 1b
-		}
-	},
-	{
-		"name": "minecraft:cherry_leaves",
-		"states": {
-			"persistent_bit": 1b,
-			"update_bit": 0b
-		}
-	},
-	{
-		"name": "minecraft:cherry_leaves",
-		"states": {
-			"persistent_bit": 1b,
-			"update_bit": 1b
-		}
-	},
-	{
-		"name": "minecraft:calibrated_sculk_sensor",
-		"states": {
-			"direction": 0,
-			"powered_bit": 0b
-		}
-	},
-	{
-		"name": "minecraft:calibrated_sculk_sensor",
-		"states": {
-			"direction": 0,
-			"powered_bit": 1b
-		}
-	},
-	{
-		"name": "minecraft:calibrated_sculk_sensor",
-		"states": {
-			"direction": 1,
-			"powered_bit": 0b
-		}
-	},
-	{
-		"name": "minecraft:calibrated_sculk_sensor",
-		"states": {
-			"direction": 1,
-			"powered_bit": 1b
-		}
-	},
-	{
-		"name": "minecraft:calibrated_sculk_sensor",
-		"states": {
-			"direction": 2,
-			"powered_bit": 0b
-		}
-	},
-	{
-		"name": "minecraft:calibrated_sculk_sensor",
-		"states": {
-			"direction": 2,
-			"powered_bit": 1b
-		}
-	},
-	{
-		"name": "minecraft:calibrated_sculk_sensor",
-		"states": {
-			"direction": 3,
-			"powered_bit": 0b
-		}
-	},
-	{
-		"name": "minecraft:calibrated_sculk_sensor",
-		"states": {
-			"direction": 3,
-			"powered_bit": 1b
-		}
-	},
-	{
-		"name": "minecraft:cherry_standing_sign",
-		"states": {
-			"ground_sign_direction": 0
-		}
-	},
-	{
-		"name": "minecraft:cherry_standing_sign",
-		"states": {
-			"ground_sign_direction": 1
-		}
-	},
-	{
-		"name": "minecraft:cherry_standing_sign",
-		"states": {
-			"ground_sign_direction": 2
-		}
-	},
-	{
-		"name": "minecraft:cherry_standing_sign",
-		"states": {
-			"ground_sign_direction": 3
-		}
-	},
-	{
-		"name": "minecraft:cherry_standing_sign",
-		"states": {
-			"ground_sign_direction": 4
-		}
-	},
-	{
-		"name": "minecraft:cherry_standing_sign",
-		"states": {
-			"ground_sign_direction": 5
-		}
-	},
-	{
-		"name": "minecraft:cherry_standing_sign",
-		"states": {
-			"ground_sign_direction": 6
-		}
-	},
-	{
-		"name": "minecraft:cherry_standing_sign",
-		"states": {
-			"ground_sign_direction": 7
-		}
-	},
-	{
-		"name": "minecraft:cherry_standing_sign",
-		"states": {
-			"ground_sign_direction": 8
-		}
-	},
-	{
-		"name": "minecraft:cherry_standing_sign",
-		"states": {
-			"ground_sign_direction": 9
-		}
-	},
-	{
-		"name": "minecraft:cherry_standing_sign",
-		"states": {
-			"ground_sign_direction": 10
-		}
-	},
-	{
-		"name": "minecraft:cherry_standing_sign",
-		"states": {
-			"ground_sign_direction": 11
-		}
-	},
-	{
-		"name": "minecraft:cherry_standing_sign",
-		"states": {
-			"ground_sign_direction": 12
-		}
-	},
-	{
-		"name": "minecraft:cherry_standing_sign",
-		"states": {
-			"ground_sign_direction": 13
-		}
-	},
-	{
-		"name": "minecraft:cherry_standing_sign",
-		"states": {
-			"ground_sign_direction": 14
-		}
-	},
-	{
-		"name": "minecraft:cherry_standing_sign",
-		"states": {
-			"ground_sign_direction": 15
-		}
-	},
-	{
-		"name": "minecraft:cherry_double_slab",
-		"states": {
-			"top_slot_bit": 0b
-		}
-	},
-	{
-		"name": "minecraft:cherry_double_slab",
-		"states": {
-			"top_slot_bit": 1b
-		}
-	},
-	{
-		"name": "minecraft:cherry_slab",
-		"states": {
-			"top_slot_bit": 0b
-		}
-	},
-	{
-		"name": "minecraft:cherry_slab",
-		"states": {
-			"top_slot_bit": 1b
-		}
-	},
-	{
-		"name": "minecraft:dark_oak_fence",
-		"states": {}
-	},
-	{
-		"name": "minecraft:cherry_wood",
-		"states": {
-			"pillar_axis": "y",
-			"stripped_bit": 0b
-		}
-	},
-	{
-		"name": "minecraft:cherry_wood",
-		"states": {
-			"pillar_axis": "y",
-			"stripped_bit": 1b
-		}
-	},
-	{
-		"name": "minecraft:cherry_wood",
-		"states": {
-			"pillar_axis": "x",
-			"stripped_bit": 0b
-		}
-	},
-	{
-		"name": "minecraft:cherry_wood",
-		"states": {
-			"pillar_axis": "x",
-			"stripped_bit": 1b
-		}
-	},
-	{
-		"name": "minecraft:cherry_wood",
-		"states": {
-			"pillar_axis": "z",
-			"stripped_bit": 0b
-		}
-	},
-	{
-		"name": "minecraft:cherry_wood",
-		"states": {
-			"pillar_axis": "z",
-			"stripped_bit": 1b
-		}
-	},
-	{
-		"name": "minecraft:cherry_stairs",
-		"states": {
-			"upside_down_bit": 0b,
-			"weirdo_direction": 0
-		}
-	},
-	{
-		"name": "minecraft:cherry_stairs",
-		"states": {
-			"upside_down_bit": 0b,
-			"weirdo_direction": 1
-		}
-	},
-	{
-		"name": "minecraft:cherry_stairs",
-		"states": {
-			"upside_down_bit": 0b,
-			"weirdo_direction": 2
-		}
-	},
-	{
-		"name": "minecraft:cherry_stairs",
-		"states": {
-			"upside_down_bit": 0b,
-			"weirdo_direction": 3
-		}
-	},
-	{
-		"name": "minecraft:cherry_stairs",
-		"states": {
-			"upside_down_bit": 1b,
-			"weirdo_direction": 0
-		}
-	},
-	{
-		"name": "minecraft:cherry_stairs",
-		"states": {
-			"upside_down_bit": 1b,
-			"weirdo_direction": 1
-		}
-	},
-	{
-		"name": "minecraft:cherry_stairs",
-		"states": {
-			"upside_down_bit": 1b,
-			"weirdo_direction": 2
-		}
-	},
-	{
-		"name": "minecraft:cherry_stairs",
-		"states": {
-			"upside_down_bit": 1b,
-			"weirdo_direction": 3
-		}
-	},
-	{
-		"name": "minecraft:cherry_sapling",
-		"states": {
-			"age_bit": 0b
-		}
-	},
-	{
-		"name": "minecraft:cherry_sapling",
-		"states": {
-			"age_bit": 1b
-		}
-	},
-	{
-		"name": "minecraft:cherry_log",
-		"states": {
-			"pillar_axis": "y"
-		}
-	},
-	{
-		"name": "minecraft:cherry_log",
-		"states": {
-			"pillar_axis": "x"
-		}
-	},
-	{
-		"name": "minecraft:cherry_log",
-		"states": {
-			"pillar_axis": "z"
-		}
-	},
-	{
-		"name": "minecraft:cherry_wall_sign",
-		"states": {
-			"facing_direction": 0
-		}
-	},
-	{
-		"name": "minecraft:cherry_wall_sign",
-		"states": {
-			"facing_direction": 1
-		}
-	},
-	{
-		"name": "minecraft:cherry_wall_sign",
-		"states": {
-			"facing_direction": 2
-		}
-	},
-	{
-		"name": "minecraft:cherry_wall_sign",
-		"states": {
-			"facing_direction": 3
-		}
-	},
-	{
-		"name": "minecraft:cherry_wall_sign",
-		"states": {
-			"facing_direction": 4
-		}
-	},
-	{
-		"name": "minecraft:cherry_wall_sign",
-		"states": {
-			"facing_direction": 5
-		}
-	},
-	{
-		"name": "minecraft:cherry_planks",
-		"states": {}
-	},
-	{
-		"name": "minecraft:birch_fence",
-		"states": {}
-	},
-	{
-		"name": "minecraft:acacia_fence",
-		"states": {}
-	},
-	{
-		"name": "minecraft:cherry_fence_gate",
-		"states": {
-			"direction": 0,
-			"in_wall_bit": 0b,
-			"open_bit": 0b
-		}
-	},
-	{
-		"name": "minecraft:cherry_fence_gate",
-		"states": {
-			"direction": 1,
-			"in_wall_bit": 0b,
-			"open_bit": 0b
-		}
-	},
-	{
-		"name": "minecraft:cherry_fence_gate",
-		"states": {
-			"direction": 2,
-			"in_wall_bit": 0b,
-			"open_bit": 0b
-		}
-	},
-	{
-		"name": "minecraft:cherry_fence_gate",
-		"states": {
-			"direction": 3,
-			"in_wall_bit": 0b,
-			"open_bit": 0b
-		}
-	},
-	{
-		"name": "minecraft:cherry_fence_gate",
-		"states": {
-			"direction": 0,
-			"in_wall_bit": 0b,
-			"open_bit": 1b
-		}
-	},
-	{
-		"name": "minecraft:cherry_fence_gate",
-		"states": {
-			"direction": 1,
-			"in_wall_bit": 0b,
-			"open_bit": 1b
-		}
-	},
-	{
-		"name": "minecraft:cherry_fence_gate",
-		"states": {
-			"direction": 2,
-			"in_wall_bit": 0b,
-			"open_bit": 1b
-		}
-	},
-	{
-		"name": "minecraft:cherry_fence_gate",
-		"states": {
-			"direction": 3,
-			"in_wall_bit": 0b,
-			"open_bit": 1b
-		}
-	},
-	{
-		"name": "minecraft:cherry_fence_gate",
-		"states": {
-			"direction": 0,
-			"in_wall_bit": 1b,
-			"open_bit": 0b
-		}
-	},
-	{
-		"name": "minecraft:cherry_fence_gate",
-		"states": {
-			"direction": 1,
-			"in_wall_bit": 1b,
-			"open_bit": 0b
-		}
-	},
-	{
-		"name": "minecraft:cherry_fence_gate",
-		"states": {
-			"direction": 2,
-			"in_wall_bit": 1b,
-			"open_bit": 0b
-		}
-	},
-	{
-		"name": "minecraft:cherry_fence_gate",
-		"states": {
-			"direction": 3,
-			"in_wall_bit": 1b,
-			"open_bit": 0b
-		}
-	},
-	{
-		"name": "minecraft:cherry_fence_gate",
-		"states": {
-			"direction": 0,
-			"in_wall_bit": 1b,
-			"open_bit": 1b
-		}
-	},
-	{
-		"name": "minecraft:cherry_fence_gate",
-		"states": {
-			"direction": 1,
-			"in_wall_bit": 1b,
-			"open_bit": 1b
-		}
-	},
-	{
-		"name": "minecraft:cherry_fence_gate",
-		"states": {
-			"direction": 2,
-			"in_wall_bit": 1b,
-			"open_bit": 1b
-		}
-	},
-	{
-		"name": "minecraft:cherry_fence_gate",
-		"states": {
-			"direction": 3,
-			"in_wall_bit": 1b,
-			"open_bit": 1b
-		}
-	}
+	{name: "minecraft:acacia_fence", states: {}},
+	{name: "minecraft:acacia_log", states: {pillar_axis: "x"}},
+	{name: "minecraft:acacia_log", states: {pillar_axis: "y"}},
+	{name: "minecraft:acacia_log", states: {pillar_axis: "z"}},
+	{name: "minecraft:birch_fence", states: {}},
+	{name: "minecraft:birch_log", states: {pillar_axis: "x"}},
+	{name: "minecraft:birch_log", states: {pillar_axis: "y"}},
+	{name: "minecraft:birch_log", states: {pillar_axis: "z"}},
+	{name: "minecraft:calibrated_sculk_sensor", states: {direction: 0, powered_bit: 0b}},
+	{name: "minecraft:calibrated_sculk_sensor", states: {direction: 0, powered_bit: 1b}},
+	{name: "minecraft:calibrated_sculk_sensor", states: {direction: 1, powered_bit: 0b}},
+	{name: "minecraft:calibrated_sculk_sensor", states: {direction: 1, powered_bit: 1b}},
+	{name: "minecraft:calibrated_sculk_sensor", states: {direction: 2, powered_bit: 0b}},
+	{name: "minecraft:calibrated_sculk_sensor", states: {direction: 2, powered_bit: 1b}},
+	{name: "minecraft:calibrated_sculk_sensor", states: {direction: 3, powered_bit: 0b}},
+	{name: "minecraft:calibrated_sculk_sensor", states: {direction: 3, powered_bit: 1b}},
+	{name: "minecraft:cherry_button", states: {button_pressed_bit: 0b, facing_direction: 0}},
+	{name: "minecraft:cherry_button", states: {button_pressed_bit: 0b, facing_direction: 1}},
+	{name: "minecraft:cherry_button", states: {button_pressed_bit: 0b, facing_direction: 2}},
+	{name: "minecraft:cherry_button", states: {button_pressed_bit: 0b, facing_direction: 3}},
+	{name: "minecraft:cherry_button", states: {button_pressed_bit: 0b, facing_direction: 4}},
+	{name: "minecraft:cherry_button", states: {button_pressed_bit: 0b, facing_direction: 5}},
+	{name: "minecraft:cherry_button", states: {button_pressed_bit: 1b, facing_direction: 0}},
+	{name: "minecraft:cherry_button", states: {button_pressed_bit: 1b, facing_direction: 1}},
+	{name: "minecraft:cherry_button", states: {button_pressed_bit: 1b, facing_direction: 2}},
+	{name: "minecraft:cherry_button", states: {button_pressed_bit: 1b, facing_direction: 3}},
+	{name: "minecraft:cherry_button", states: {button_pressed_bit: 1b, facing_direction: 4}},
+	{name: "minecraft:cherry_button", states: {button_pressed_bit: 1b, facing_direction: 5}},
+	{name: "minecraft:cherry_door", states: {direction: 0, door_hinge_bit: 0b, open_bit: 0b, upper_block_bit: 0b}},
+	{name: "minecraft:cherry_door", states: {direction: 0, door_hinge_bit: 0b, open_bit: 0b, upper_block_bit: 1b}},
+	{name: "minecraft:cherry_door", states: {direction: 0, door_hinge_bit: 0b, open_bit: 1b, upper_block_bit: 0b}},
+	{name: "minecraft:cherry_door", states: {direction: 0, door_hinge_bit: 0b, open_bit: 1b, upper_block_bit: 1b}},
+	{name: "minecraft:cherry_door", states: {direction: 0, door_hinge_bit: 1b, open_bit: 0b, upper_block_bit: 0b}},
+	{name: "minecraft:cherry_door", states: {direction: 0, door_hinge_bit: 1b, open_bit: 0b, upper_block_bit: 1b}},
+	{name: "minecraft:cherry_door", states: {direction: 0, door_hinge_bit: 1b, open_bit: 1b, upper_block_bit: 0b}},
+	{name: "minecraft:cherry_door", states: {direction: 0, door_hinge_bit: 1b, open_bit: 1b, upper_block_bit: 1b}},
+	{name: "minecraft:cherry_door", states: {direction: 1, door_hinge_bit: 0b, open_bit: 0b, upper_block_bit: 0b}},
+	{name: "minecraft:cherry_door", states: {direction: 1, door_hinge_bit: 0b, open_bit: 0b, upper_block_bit: 1b}},
+	{name: "minecraft:cherry_door", states: {direction: 1, door_hinge_bit: 0b, open_bit: 1b, upper_block_bit: 0b}},
+	{name: "minecraft:cherry_door", states: {direction: 1, door_hinge_bit: 0b, open_bit: 1b, upper_block_bit: 1b}},
+	{name: "minecraft:cherry_door", states: {direction: 1, door_hinge_bit: 1b, open_bit: 0b, upper_block_bit: 0b}},
+	{name: "minecraft:cherry_door", states: {direction: 1, door_hinge_bit: 1b, open_bit: 0b, upper_block_bit: 1b}},
+	{name: "minecraft:cherry_door", states: {direction: 1, door_hinge_bit: 1b, open_bit: 1b, upper_block_bit: 0b}},
+	{name: "minecraft:cherry_door", states: {direction: 1, door_hinge_bit: 1b, open_bit: 1b, upper_block_bit: 1b}},
+	{name: "minecraft:cherry_door", states: {direction: 2, door_hinge_bit: 0b, open_bit: 0b, upper_block_bit: 0b}},
+	{name: "minecraft:cherry_door", states: {direction: 2, door_hinge_bit: 0b, open_bit: 0b, upper_block_bit: 1b}},
+	{name: "minecraft:cherry_door", states: {direction: 2, door_hinge_bit: 0b, open_bit: 1b, upper_block_bit: 0b}},
+	{name: "minecraft:cherry_door", states: {direction: 2, door_hinge_bit: 0b, open_bit: 1b, upper_block_bit: 1b}},
+	{name: "minecraft:cherry_door", states: {direction: 2, door_hinge_bit: 1b, open_bit: 0b, upper_block_bit: 0b}},
+	{name: "minecraft:cherry_door", states: {direction: 2, door_hinge_bit: 1b, open_bit: 0b, upper_block_bit: 1b}},
+	{name: "minecraft:cherry_door", states: {direction: 2, door_hinge_bit: 1b, open_bit: 1b, upper_block_bit: 0b}},
+	{name: "minecraft:cherry_door", states: {direction: 2, door_hinge_bit: 1b, open_bit: 1b, upper_block_bit: 1b}},
+	{name: "minecraft:cherry_door", states: {direction: 3, door_hinge_bit: 0b, open_bit: 0b, upper_block_bit: 0b}},
+	{name: "minecraft:cherry_door", states: {direction: 3, door_hinge_bit: 0b, open_bit: 0b, upper_block_bit: 1b}},
+	{name: "minecraft:cherry_door", states: {direction: 3, door_hinge_bit: 0b, open_bit: 1b, upper_block_bit: 0b}},
+	{name: "minecraft:cherry_door", states: {direction: 3, door_hinge_bit: 0b, open_bit: 1b, upper_block_bit: 1b}},
+	{name: "minecraft:cherry_door", states: {direction: 3, door_hinge_bit: 1b, open_bit: 0b, upper_block_bit: 0b}},
+	{name: "minecraft:cherry_door", states: {direction: 3, door_hinge_bit: 1b, open_bit: 0b, upper_block_bit: 1b}},
+	{name: "minecraft:cherry_door", states: {direction: 3, door_hinge_bit: 1b, open_bit: 1b, upper_block_bit: 0b}},
+	{name: "minecraft:cherry_door", states: {direction: 3, door_hinge_bit: 1b, open_bit: 1b, upper_block_bit: 1b}},
+	{name: "minecraft:cherry_double_slab", states: {top_slot_bit: 0b}},
+	{name: "minecraft:cherry_double_slab", states: {top_slot_bit: 1b}},
+	{name: "minecraft:cherry_fence", states: {}},
+	{name: "minecraft:cherry_fence_gate", states: {direction: 0, in_wall_bit: 0b, open_bit: 0b}},
+	{name: "minecraft:cherry_fence_gate", states: {direction: 0, in_wall_bit: 0b, open_bit: 1b}},
+	{name: "minecraft:cherry_fence_gate", states: {direction: 0, in_wall_bit: 1b, open_bit: 0b}},
+	{name: "minecraft:cherry_fence_gate", states: {direction: 0, in_wall_bit: 1b, open_bit: 1b}},
+	{name: "minecraft:cherry_fence_gate", states: {direction: 1, in_wall_bit: 0b, open_bit: 0b}},
+	{name: "minecraft:cherry_fence_gate", states: {direction: 1, in_wall_bit: 0b, open_bit: 1b}},
+	{name: "minecraft:cherry_fence_gate", states: {direction: 1, in_wall_bit: 1b, open_bit: 0b}},
+	{name: "minecraft:cherry_fence_gate", states: {direction: 1, in_wall_bit: 1b, open_bit: 1b}},
+	{name: "minecraft:cherry_fence_gate", states: {direction: 2, in_wall_bit: 0b, open_bit: 0b}},
+	{name: "minecraft:cherry_fence_gate", states: {direction: 2, in_wall_bit: 0b, open_bit: 1b}},
+	{name: "minecraft:cherry_fence_gate", states: {direction: 2, in_wall_bit: 1b, open_bit: 0b}},
+	{name: "minecraft:cherry_fence_gate", states: {direction: 2, in_wall_bit: 1b, open_bit: 1b}},
+	{name: "minecraft:cherry_fence_gate", states: {direction: 3, in_wall_bit: 0b, open_bit: 0b}},
+	{name: "minecraft:cherry_fence_gate", states: {direction: 3, in_wall_bit: 0b, open_bit: 1b}},
+	{name: "minecraft:cherry_fence_gate", states: {direction: 3, in_wall_bit: 1b, open_bit: 0b}},
+	{name: "minecraft:cherry_fence_gate", states: {direction: 3, in_wall_bit: 1b, open_bit: 1b}},
+	{name: "minecraft:cherry_hanging_sign", states: {attached_bit: 0b, facing_direction: 0, ground_sign_direction: 0, hanging: 0b}},
+	{name: "minecraft:cherry_hanging_sign", states: {attached_bit: 0b, facing_direction: 0, ground_sign_direction: 0, hanging: 1b}},
+	{name: "minecraft:cherry_hanging_sign", states: {attached_bit: 0b, facing_direction: 0, ground_sign_direction: 1, hanging: 0b}},
+	{name: "minecraft:cherry_hanging_sign", states: {attached_bit: 0b, facing_direction: 0, ground_sign_direction: 1, hanging: 1b}},
+	{name: "minecraft:cherry_hanging_sign", states: {attached_bit: 0b, facing_direction: 0, ground_sign_direction: 10, hanging: 0b}},
+	{name: "minecraft:cherry_hanging_sign", states: {attached_bit: 0b, facing_direction: 0, ground_sign_direction: 10, hanging: 1b}},
+	{name: "minecraft:cherry_hanging_sign", states: {attached_bit: 0b, facing_direction: 0, ground_sign_direction: 11, hanging: 0b}},
+	{name: "minecraft:cherry_hanging_sign", states: {attached_bit: 0b, facing_direction: 0, ground_sign_direction: 11, hanging: 1b}},
+	{name: "minecraft:cherry_hanging_sign", states: {attached_bit: 0b, facing_direction: 0, ground_sign_direction: 12, hanging: 0b}},
+	{name: "minecraft:cherry_hanging_sign", states: {attached_bit: 0b, facing_direction: 0, ground_sign_direction: 12, hanging: 1b}},
+	{name: "minecraft:cherry_hanging_sign", states: {attached_bit: 0b, facing_direction: 0, ground_sign_direction: 13, hanging: 0b}},
+	{name: "minecraft:cherry_hanging_sign", states: {attached_bit: 0b, facing_direction: 0, ground_sign_direction: 13, hanging: 1b}},
+	{name: "minecraft:cherry_hanging_sign", states: {attached_bit: 0b, facing_direction: 0, ground_sign_direction: 14, hanging: 0b}},
+	{name: "minecraft:cherry_hanging_sign", states: {attached_bit: 0b, facing_direction: 0, ground_sign_direction: 14, hanging: 1b}},
+	{name: "minecraft:cherry_hanging_sign", states: {attached_bit: 0b, facing_direction: 0, ground_sign_direction: 15, hanging: 0b}},
+	{name: "minecraft:cherry_hanging_sign", states: {attached_bit: 0b, facing_direction: 0, ground_sign_direction: 15, hanging: 1b}},
+	{name: "minecraft:cherry_hanging_sign", states: {attached_bit: 0b, facing_direction: 0, ground_sign_direction: 2, hanging: 0b}},
+	{name: "minecraft:cherry_hanging_sign", states: {attached_bit: 0b, facing_direction: 0, ground_sign_direction: 2, hanging: 1b}},
+	{name: "minecraft:cherry_hanging_sign", states: {attached_bit: 0b, facing_direction: 0, ground_sign_direction: 3, hanging: 0b}},
+	{name: "minecraft:cherry_hanging_sign", states: {attached_bit: 0b, facing_direction: 0, ground_sign_direction: 3, hanging: 1b}},
+	{name: "minecraft:cherry_hanging_sign", states: {attached_bit: 0b, facing_direction: 0, ground_sign_direction: 4, hanging: 0b}},
+	{name: "minecraft:cherry_hanging_sign", states: {attached_bit: 0b, facing_direction: 0, ground_sign_direction: 4, hanging: 1b}},
+	{name: "minecraft:cherry_hanging_sign", states: {attached_bit: 0b, facing_direction: 0, ground_sign_direction: 5, hanging: 0b}},
+	{name: "minecraft:cherry_hanging_sign", states: {attached_bit: 0b, facing_direction: 0, ground_sign_direction: 5, hanging: 1b}},
+	{name: "minecraft:cherry_hanging_sign", states: {attached_bit: 0b, facing_direction: 0, ground_sign_direction: 6, hanging: 0b}},
+	{name: "minecraft:cherry_hanging_sign", states: {attached_bit: 0b, facing_direction: 0, ground_sign_direction: 6, hanging: 1b}},
+	{name: "minecraft:cherry_hanging_sign", states: {attached_bit: 0b, facing_direction: 0, ground_sign_direction: 7, hanging: 0b}},
+	{name: "minecraft:cherry_hanging_sign", states: {attached_bit: 0b, facing_direction: 0, ground_sign_direction: 7, hanging: 1b}},
+	{name: "minecraft:cherry_hanging_sign", states: {attached_bit: 0b, facing_direction: 0, ground_sign_direction: 8, hanging: 0b}},
+	{name: "minecraft:cherry_hanging_sign", states: {attached_bit: 0b, facing_direction: 0, ground_sign_direction: 8, hanging: 1b}},
+	{name: "minecraft:cherry_hanging_sign", states: {attached_bit: 0b, facing_direction: 0, ground_sign_direction: 9, hanging: 0b}},
+	{name: "minecraft:cherry_hanging_sign", states: {attached_bit: 0b, facing_direction: 0, ground_sign_direction: 9, hanging: 1b}},
+	{name: "minecraft:cherry_hanging_sign", states: {attached_bit: 0b, facing_direction: 1, ground_sign_direction: 0, hanging: 0b}},
+	{name: "minecraft:cherry_hanging_sign", states: {attached_bit: 0b, facing_direction: 1, ground_sign_direction: 0, hanging: 1b}},
+	{name: "minecraft:cherry_hanging_sign", states: {attached_bit: 0b, facing_direction: 1, ground_sign_direction: 1, hanging: 0b}},
+	{name: "minecraft:cherry_hanging_sign", states: {attached_bit: 0b, facing_direction: 1, ground_sign_direction: 1, hanging: 1b}},
+	{name: "minecraft:cherry_hanging_sign", states: {attached_bit: 0b, facing_direction: 1, ground_sign_direction: 10, hanging: 0b}},
+	{name: "minecraft:cherry_hanging_sign", states: {attached_bit: 0b, facing_direction: 1, ground_sign_direction: 10, hanging: 1b}},
+	{name: "minecraft:cherry_hanging_sign", states: {attached_bit: 0b, facing_direction: 1, ground_sign_direction: 11, hanging: 0b}},
+	{name: "minecraft:cherry_hanging_sign", states: {attached_bit: 0b, facing_direction: 1, ground_sign_direction: 11, hanging: 1b}},
+	{name: "minecraft:cherry_hanging_sign", states: {attached_bit: 0b, facing_direction: 1, ground_sign_direction: 12, hanging: 0b}},
+	{name: "minecraft:cherry_hanging_sign", states: {attached_bit: 0b, facing_direction: 1, ground_sign_direction: 12, hanging: 1b}},
+	{name: "minecraft:cherry_hanging_sign", states: {attached_bit: 0b, facing_direction: 1, ground_sign_direction: 13, hanging: 0b}},
+	{name: "minecraft:cherry_hanging_sign", states: {attached_bit: 0b, facing_direction: 1, ground_sign_direction: 13, hanging: 1b}},
+	{name: "minecraft:cherry_hanging_sign", states: {attached_bit: 0b, facing_direction: 1, ground_sign_direction: 14, hanging: 0b}},
+	{name: "minecraft:cherry_hanging_sign", states: {attached_bit: 0b, facing_direction: 1, ground_sign_direction: 14, hanging: 1b}},
+	{name: "minecraft:cherry_hanging_sign", states: {attached_bit: 0b, facing_direction: 1, ground_sign_direction: 15, hanging: 0b}},
+	{name: "minecraft:cherry_hanging_sign", states: {attached_bit: 0b, facing_direction: 1, ground_sign_direction: 15, hanging: 1b}},
+	{name: "minecraft:cherry_hanging_sign", states: {attached_bit: 0b, facing_direction: 1, ground_sign_direction: 2, hanging: 0b}},
+	{name: "minecraft:cherry_hanging_sign", states: {attached_bit: 0b, facing_direction: 1, ground_sign_direction: 2, hanging: 1b}},
+	{name: "minecraft:cherry_hanging_sign", states: {attached_bit: 0b, facing_direction: 1, ground_sign_direction: 3, hanging: 0b}},
+	{name: "minecraft:cherry_hanging_sign", states: {attached_bit: 0b, facing_direction: 1, ground_sign_direction: 3, hanging: 1b}},
+	{name: "minecraft:cherry_hanging_sign", states: {attached_bit: 0b, facing_direction: 1, ground_sign_direction: 4, hanging: 0b}},
+	{name: "minecraft:cherry_hanging_sign", states: {attached_bit: 0b, facing_direction: 1, ground_sign_direction: 4, hanging: 1b}},
+	{name: "minecraft:cherry_hanging_sign", states: {attached_bit: 0b, facing_direction: 1, ground_sign_direction: 5, hanging: 0b}},
+	{name: "minecraft:cherry_hanging_sign", states: {attached_bit: 0b, facing_direction: 1, ground_sign_direction: 5, hanging: 1b}},
+	{name: "minecraft:cherry_hanging_sign", states: {attached_bit: 0b, facing_direction: 1, ground_sign_direction: 6, hanging: 0b}},
+	{name: "minecraft:cherry_hanging_sign", states: {attached_bit: 0b, facing_direction: 1, ground_sign_direction: 6, hanging: 1b}},
+	{name: "minecraft:cherry_hanging_sign", states: {attached_bit: 0b, facing_direction: 1, ground_sign_direction: 7, hanging: 0b}},
+	{name: "minecraft:cherry_hanging_sign", states: {attached_bit: 0b, facing_direction: 1, ground_sign_direction: 7, hanging: 1b}},
+	{name: "minecraft:cherry_hanging_sign", states: {attached_bit: 0b, facing_direction: 1, ground_sign_direction: 8, hanging: 0b}},
+	{name: "minecraft:cherry_hanging_sign", states: {attached_bit: 0b, facing_direction: 1, ground_sign_direction: 8, hanging: 1b}},
+	{name: "minecraft:cherry_hanging_sign", states: {attached_bit: 0b, facing_direction: 1, ground_sign_direction: 9, hanging: 0b}},
+	{name: "minecraft:cherry_hanging_sign", states: {attached_bit: 0b, facing_direction: 1, ground_sign_direction: 9, hanging: 1b}},
+	{name: "minecraft:cherry_hanging_sign", states: {attached_bit: 0b, facing_direction: 2, ground_sign_direction: 0, hanging: 0b}},
+	{name: "minecraft:cherry_hanging_sign", states: {attached_bit: 0b, facing_direction: 2, ground_sign_direction: 0, hanging: 1b}},
+	{name: "minecraft:cherry_hanging_sign", states: {attached_bit: 0b, facing_direction: 2, ground_sign_direction: 1, hanging: 0b}},
+	{name: "minecraft:cherry_hanging_sign", states: {attached_bit: 0b, facing_direction: 2, ground_sign_direction: 1, hanging: 1b}},
+	{name: "minecraft:cherry_hanging_sign", states: {attached_bit: 0b, facing_direction: 2, ground_sign_direction: 10, hanging: 0b}},
+	{name: "minecraft:cherry_hanging_sign", states: {attached_bit: 0b, facing_direction: 2, ground_sign_direction: 10, hanging: 1b}},
+	{name: "minecraft:cherry_hanging_sign", states: {attached_bit: 0b, facing_direction: 2, ground_sign_direction: 11, hanging: 0b}},
+	{name: "minecraft:cherry_hanging_sign", states: {attached_bit: 0b, facing_direction: 2, ground_sign_direction: 11, hanging: 1b}},
+	{name: "minecraft:cherry_hanging_sign", states: {attached_bit: 0b, facing_direction: 2, ground_sign_direction: 12, hanging: 0b}},
+	{name: "minecraft:cherry_hanging_sign", states: {attached_bit: 0b, facing_direction: 2, ground_sign_direction: 12, hanging: 1b}},
+	{name: "minecraft:cherry_hanging_sign", states: {attached_bit: 0b, facing_direction: 2, ground_sign_direction: 13, hanging: 0b}},
+	{name: "minecraft:cherry_hanging_sign", states: {attached_bit: 0b, facing_direction: 2, ground_sign_direction: 13, hanging: 1b}},
+	{name: "minecraft:cherry_hanging_sign", states: {attached_bit: 0b, facing_direction: 2, ground_sign_direction: 14, hanging: 0b}},
+	{name: "minecraft:cherry_hanging_sign", states: {attached_bit: 0b, facing_direction: 2, ground_sign_direction: 14, hanging: 1b}},
+	{name: "minecraft:cherry_hanging_sign", states: {attached_bit: 0b, facing_direction: 2, ground_sign_direction: 15, hanging: 0b}},
+	{name: "minecraft:cherry_hanging_sign", states: {attached_bit: 0b, facing_direction: 2, ground_sign_direction: 15, hanging: 1b}},
+	{name: "minecraft:cherry_hanging_sign", states: {attached_bit: 0b, facing_direction: 2, ground_sign_direction: 2, hanging: 0b}},
+	{name: "minecraft:cherry_hanging_sign", states: {attached_bit: 0b, facing_direction: 2, ground_sign_direction: 2, hanging: 1b}},
+	{name: "minecraft:cherry_hanging_sign", states: {attached_bit: 0b, facing_direction: 2, ground_sign_direction: 3, hanging: 0b}},
+	{name: "minecraft:cherry_hanging_sign", states: {attached_bit: 0b, facing_direction: 2, ground_sign_direction: 3, hanging: 1b}},
+	{name: "minecraft:cherry_hanging_sign", states: {attached_bit: 0b, facing_direction: 2, ground_sign_direction: 4, hanging: 0b}},
+	{name: "minecraft:cherry_hanging_sign", states: {attached_bit: 0b, facing_direction: 2, ground_sign_direction: 4, hanging: 1b}},
+	{name: "minecraft:cherry_hanging_sign", states: {attached_bit: 0b, facing_direction: 2, ground_sign_direction: 5, hanging: 0b}},
+	{name: "minecraft:cherry_hanging_sign", states: {attached_bit: 0b, facing_direction: 2, ground_sign_direction: 5, hanging: 1b}},
+	{name: "minecraft:cherry_hanging_sign", states: {attached_bit: 0b, facing_direction: 2, ground_sign_direction: 6, hanging: 0b}},
+	{name: "minecraft:cherry_hanging_sign", states: {attached_bit: 0b, facing_direction: 2, ground_sign_direction: 6, hanging: 1b}},
+	{name: "minecraft:cherry_hanging_sign", states: {attached_bit: 0b, facing_direction: 2, ground_sign_direction: 7, hanging: 0b}},
+	{name: "minecraft:cherry_hanging_sign", states: {attached_bit: 0b, facing_direction: 2, ground_sign_direction: 7, hanging: 1b}},
+	{name: "minecraft:cherry_hanging_sign", states: {attached_bit: 0b, facing_direction: 2, ground_sign_direction: 8, hanging: 0b}},
+	{name: "minecraft:cherry_hanging_sign", states: {attached_bit: 0b, facing_direction: 2, ground_sign_direction: 8, hanging: 1b}},
+	{name: "minecraft:cherry_hanging_sign", states: {attached_bit: 0b, facing_direction: 2, ground_sign_direction: 9, hanging: 0b}},
+	{name: "minecraft:cherry_hanging_sign", states: {attached_bit: 0b, facing_direction: 2, ground_sign_direction: 9, hanging: 1b}},
+	{name: "minecraft:cherry_hanging_sign", states: {attached_bit: 0b, facing_direction: 3, ground_sign_direction: 0, hanging: 0b}},
+	{name: "minecraft:cherry_hanging_sign", states: {attached_bit: 0b, facing_direction: 3, ground_sign_direction: 0, hanging: 1b}},
+	{name: "minecraft:cherry_hanging_sign", states: {attached_bit: 0b, facing_direction: 3, ground_sign_direction: 1, hanging: 0b}},
+	{name: "minecraft:cherry_hanging_sign", states: {attached_bit: 0b, facing_direction: 3, ground_sign_direction: 1, hanging: 1b}},
+	{name: "minecraft:cherry_hanging_sign", states: {attached_bit: 0b, facing_direction: 3, ground_sign_direction: 10, hanging: 0b}},
+	{name: "minecraft:cherry_hanging_sign", states: {attached_bit: 0b, facing_direction: 3, ground_sign_direction: 10, hanging: 1b}},
+	{name: "minecraft:cherry_hanging_sign", states: {attached_bit: 0b, facing_direction: 3, ground_sign_direction: 11, hanging: 0b}},
+	{name: "minecraft:cherry_hanging_sign", states: {attached_bit: 0b, facing_direction: 3, ground_sign_direction: 11, hanging: 1b}},
+	{name: "minecraft:cherry_hanging_sign", states: {attached_bit: 0b, facing_direction: 3, ground_sign_direction: 12, hanging: 0b}},
+	{name: "minecraft:cherry_hanging_sign", states: {attached_bit: 0b, facing_direction: 3, ground_sign_direction: 12, hanging: 1b}},
+	{name: "minecraft:cherry_hanging_sign", states: {attached_bit: 0b, facing_direction: 3, ground_sign_direction: 13, hanging: 0b}},
+	{name: "minecraft:cherry_hanging_sign", states: {attached_bit: 0b, facing_direction: 3, ground_sign_direction: 13, hanging: 1b}},
+	{name: "minecraft:cherry_hanging_sign", states: {attached_bit: 0b, facing_direction: 3, ground_sign_direction: 14, hanging: 0b}},
+	{name: "minecraft:cherry_hanging_sign", states: {attached_bit: 0b, facing_direction: 3, ground_sign_direction: 14, hanging: 1b}},
+	{name: "minecraft:cherry_hanging_sign", states: {attached_bit: 0b, facing_direction: 3, ground_sign_direction: 15, hanging: 0b}},
+	{name: "minecraft:cherry_hanging_sign", states: {attached_bit: 0b, facing_direction: 3, ground_sign_direction: 15, hanging: 1b}},
+	{name: "minecraft:cherry_hanging_sign", states: {attached_bit: 0b, facing_direction: 3, ground_sign_direction: 2, hanging: 0b}},
+	{name: "minecraft:cherry_hanging_sign", states: {attached_bit: 0b, facing_direction: 3, ground_sign_direction: 2, hanging: 1b}},
+	{name: "minecraft:cherry_hanging_sign", states: {attached_bit: 0b, facing_direction: 3, ground_sign_direction: 3, hanging: 0b}},
+	{name: "minecraft:cherry_hanging_sign", states: {attached_bit: 0b, facing_direction: 3, ground_sign_direction: 3, hanging: 1b}},
+	{name: "minecraft:cherry_hanging_sign", states: {attached_bit: 0b, facing_direction: 3, ground_sign_direction: 4, hanging: 0b}},
+	{name: "minecraft:cherry_hanging_sign", states: {attached_bit: 0b, facing_direction: 3, ground_sign_direction: 4, hanging: 1b}},
+	{name: "minecraft:cherry_hanging_sign", states: {attached_bit: 0b, facing_direction: 3, ground_sign_direction: 5, hanging: 0b}},
+	{name: "minecraft:cherry_hanging_sign", states: {attached_bit: 0b, facing_direction: 3, ground_sign_direction: 5, hanging: 1b}},
+	{name: "minecraft:cherry_hanging_sign", states: {attached_bit: 0b, facing_direction: 3, ground_sign_direction: 6, hanging: 0b}},
+	{name: "minecraft:cherry_hanging_sign", states: {attached_bit: 0b, facing_direction: 3, ground_sign_direction: 6, hanging: 1b}},
+	{name: "minecraft:cherry_hanging_sign", states: {attached_bit: 0b, facing_direction: 3, ground_sign_direction: 7, hanging: 0b}},
+	{name: "minecraft:cherry_hanging_sign", states: {attached_bit: 0b, facing_direction: 3, ground_sign_direction: 7, hanging: 1b}},
+	{name: "minecraft:cherry_hanging_sign", states: {attached_bit: 0b, facing_direction: 3, ground_sign_direction: 8, hanging: 0b}},
+	{name: "minecraft:cherry_hanging_sign", states: {attached_bit: 0b, facing_direction: 3, ground_sign_direction: 8, hanging: 1b}},
+	{name: "minecraft:cherry_hanging_sign", states: {attached_bit: 0b, facing_direction: 3, ground_sign_direction: 9, hanging: 0b}},
+	{name: "minecraft:cherry_hanging_sign", states: {attached_bit: 0b, facing_direction: 3, ground_sign_direction: 9, hanging: 1b}},
+	{name: "minecraft:cherry_hanging_sign", states: {attached_bit: 0b, facing_direction: 4, ground_sign_direction: 0, hanging: 0b}},
+	{name: "minecraft:cherry_hanging_sign", states: {attached_bit: 0b, facing_direction: 4, ground_sign_direction: 0, hanging: 1b}},
+	{name: "minecraft:cherry_hanging_sign", states: {attached_bit: 0b, facing_direction: 4, ground_sign_direction: 1, hanging: 0b}},
+	{name: "minecraft:cherry_hanging_sign", states: {attached_bit: 0b, facing_direction: 4, ground_sign_direction: 1, hanging: 1b}},
+	{name: "minecraft:cherry_hanging_sign", states: {attached_bit: 0b, facing_direction: 4, ground_sign_direction: 10, hanging: 0b}},
+	{name: "minecraft:cherry_hanging_sign", states: {attached_bit: 0b, facing_direction: 4, ground_sign_direction: 10, hanging: 1b}},
+	{name: "minecraft:cherry_hanging_sign", states: {attached_bit: 0b, facing_direction: 4, ground_sign_direction: 11, hanging: 0b}},
+	{name: "minecraft:cherry_hanging_sign", states: {attached_bit: 0b, facing_direction: 4, ground_sign_direction: 11, hanging: 1b}},
+	{name: "minecraft:cherry_hanging_sign", states: {attached_bit: 0b, facing_direction: 4, ground_sign_direction: 12, hanging: 0b}},
+	{name: "minecraft:cherry_hanging_sign", states: {attached_bit: 0b, facing_direction: 4, ground_sign_direction: 12, hanging: 1b}},
+	{name: "minecraft:cherry_hanging_sign", states: {attached_bit: 0b, facing_direction: 4, ground_sign_direction: 13, hanging: 0b}},
+	{name: "minecraft:cherry_hanging_sign", states: {attached_bit: 0b, facing_direction: 4, ground_sign_direction: 13, hanging: 1b}},
+	{name: "minecraft:cherry_hanging_sign", states: {attached_bit: 0b, facing_direction: 4, ground_sign_direction: 14, hanging: 0b}},
+	{name: "minecraft:cherry_hanging_sign", states: {attached_bit: 0b, facing_direction: 4, ground_sign_direction: 14, hanging: 1b}},
+	{name: "minecraft:cherry_hanging_sign", states: {attached_bit: 0b, facing_direction: 4, ground_sign_direction: 15, hanging: 0b}},
+	{name: "minecraft:cherry_hanging_sign", states: {attached_bit: 0b, facing_direction: 4, ground_sign_direction: 15, hanging: 1b}},
+	{name: "minecraft:cherry_hanging_sign", states: {attached_bit: 0b, facing_direction: 4, ground_sign_direction: 2, hanging: 0b}},
+	{name: "minecraft:cherry_hanging_sign", states: {attached_bit: 0b, facing_direction: 4, ground_sign_direction: 2, hanging: 1b}},
+	{name: "minecraft:cherry_hanging_sign", states: {attached_bit: 0b, facing_direction: 4, ground_sign_direction: 3, hanging: 0b}},
+	{name: "minecraft:cherry_hanging_sign", states: {attached_bit: 0b, facing_direction: 4, ground_sign_direction: 3, hanging: 1b}},
+	{name: "minecraft:cherry_hanging_sign", states: {attached_bit: 0b, facing_direction: 4, ground_sign_direction: 4, hanging: 0b}},
+	{name: "minecraft:cherry_hanging_sign", states: {attached_bit: 0b, facing_direction: 4, ground_sign_direction: 4, hanging: 1b}},
+	{name: "minecraft:cherry_hanging_sign", states: {attached_bit: 0b, facing_direction: 4, ground_sign_direction: 5, hanging: 0b}},
+	{name: "minecraft:cherry_hanging_sign", states: {attached_bit: 0b, facing_direction: 4, ground_sign_direction: 5, hanging: 1b}},
+	{name: "minecraft:cherry_hanging_sign", states: {attached_bit: 0b, facing_direction: 4, ground_sign_direction: 6, hanging: 0b}},
+	{name: "minecraft:cherry_hanging_sign", states: {attached_bit: 0b, facing_direction: 4, ground_sign_direction: 6, hanging: 1b}},
+	{name: "minecraft:cherry_hanging_sign", states: {attached_bit: 0b, facing_direction: 4, ground_sign_direction: 7, hanging: 0b}},
+	{name: "minecraft:cherry_hanging_sign", states: {attached_bit: 0b, facing_direction: 4, ground_sign_direction: 7, hanging: 1b}},
+	{name: "minecraft:cherry_hanging_sign", states: {attached_bit: 0b, facing_direction: 4, ground_sign_direction: 8, hanging: 0b}},
+	{name: "minecraft:cherry_hanging_sign", states: {attached_bit: 0b, facing_direction: 4, ground_sign_direction: 8, hanging: 1b}},
+	{name: "minecraft:cherry_hanging_sign", states: {attached_bit: 0b, facing_direction: 4, ground_sign_direction: 9, hanging: 0b}},
+	{name: "minecraft:cherry_hanging_sign", states: {attached_bit: 0b, facing_direction: 4, ground_sign_direction: 9, hanging: 1b}},
+	{name: "minecraft:cherry_hanging_sign", states: {attached_bit: 0b, facing_direction: 5, ground_sign_direction: 0, hanging: 0b}},
+	{name: "minecraft:cherry_hanging_sign", states: {attached_bit: 0b, facing_direction: 5, ground_sign_direction: 0, hanging: 1b}},
+	{name: "minecraft:cherry_hanging_sign", states: {attached_bit: 0b, facing_direction: 5, ground_sign_direction: 1, hanging: 0b}},
+	{name: "minecraft:cherry_hanging_sign", states: {attached_bit: 0b, facing_direction: 5, ground_sign_direction: 1, hanging: 1b}},
+	{name: "minecraft:cherry_hanging_sign", states: {attached_bit: 0b, facing_direction: 5, ground_sign_direction: 10, hanging: 0b}},
+	{name: "minecraft:cherry_hanging_sign", states: {attached_bit: 0b, facing_direction: 5, ground_sign_direction: 10, hanging: 1b}},
+	{name: "minecraft:cherry_hanging_sign", states: {attached_bit: 0b, facing_direction: 5, ground_sign_direction: 11, hanging: 0b}},
+	{name: "minecraft:cherry_hanging_sign", states: {attached_bit: 0b, facing_direction: 5, ground_sign_direction: 11, hanging: 1b}},
+	{name: "minecraft:cherry_hanging_sign", states: {attached_bit: 0b, facing_direction: 5, ground_sign_direction: 12, hanging: 0b}},
+	{name: "minecraft:cherry_hanging_sign", states: {attached_bit: 0b, facing_direction: 5, ground_sign_direction: 12, hanging: 1b}},
+	{name: "minecraft:cherry_hanging_sign", states: {attached_bit: 0b, facing_direction: 5, ground_sign_direction: 13, hanging: 0b}},
+	{name: "minecraft:cherry_hanging_sign", states: {attached_bit: 0b, facing_direction: 5, ground_sign_direction: 13, hanging: 1b}},
+	{name: "minecraft:cherry_hanging_sign", states: {attached_bit: 0b, facing_direction: 5, ground_sign_direction: 14, hanging: 0b}},
+	{name: "minecraft:cherry_hanging_sign", states: {attached_bit: 0b, facing_direction: 5, ground_sign_direction: 14, hanging: 1b}},
+	{name: "minecraft:cherry_hanging_sign", states: {attached_bit: 0b, facing_direction: 5, ground_sign_direction: 15, hanging: 0b}},
+	{name: "minecraft:cherry_hanging_sign", states: {attached_bit: 0b, facing_direction: 5, ground_sign_direction: 15, hanging: 1b}},
+	{name: "minecraft:cherry_hanging_sign", states: {attached_bit: 0b, facing_direction: 5, ground_sign_direction: 2, hanging: 0b}},
+	{name: "minecraft:cherry_hanging_sign", states: {attached_bit: 0b, facing_direction: 5, ground_sign_direction: 2, hanging: 1b}},
+	{name: "minecraft:cherry_hanging_sign", states: {attached_bit: 0b, facing_direction: 5, ground_sign_direction: 3, hanging: 0b}},
+	{name: "minecraft:cherry_hanging_sign", states: {attached_bit: 0b, facing_direction: 5, ground_sign_direction: 3, hanging: 1b}},
+	{name: "minecraft:cherry_hanging_sign", states: {attached_bit: 0b, facing_direction: 5, ground_sign_direction: 4, hanging: 0b}},
+	{name: "minecraft:cherry_hanging_sign", states: {attached_bit: 0b, facing_direction: 5, ground_sign_direction: 4, hanging: 1b}},
+	{name: "minecraft:cherry_hanging_sign", states: {attached_bit: 0b, facing_direction: 5, ground_sign_direction: 5, hanging: 0b}},
+	{name: "minecraft:cherry_hanging_sign", states: {attached_bit: 0b, facing_direction: 5, ground_sign_direction: 5, hanging: 1b}},
+	{name: "minecraft:cherry_hanging_sign", states: {attached_bit: 0b, facing_direction: 5, ground_sign_direction: 6, hanging: 0b}},
+	{name: "minecraft:cherry_hanging_sign", states: {attached_bit: 0b, facing_direction: 5, ground_sign_direction: 6, hanging: 1b}},
+	{name: "minecraft:cherry_hanging_sign", states: {attached_bit: 0b, facing_direction: 5, ground_sign_direction: 7, hanging: 0b}},
+	{name: "minecraft:cherry_hanging_sign", states: {attached_bit: 0b, facing_direction: 5, ground_sign_direction: 7, hanging: 1b}},
+	{name: "minecraft:cherry_hanging_sign", states: {attached_bit: 0b, facing_direction: 5, ground_sign_direction: 8, hanging: 0b}},
+	{name: "minecraft:cherry_hanging_sign", states: {attached_bit: 0b, facing_direction: 5, ground_sign_direction: 8, hanging: 1b}},
+	{name: "minecraft:cherry_hanging_sign", states: {attached_bit: 0b, facing_direction: 5, ground_sign_direction: 9, hanging: 0b}},
+	{name: "minecraft:cherry_hanging_sign", states: {attached_bit: 0b, facing_direction: 5, ground_sign_direction: 9, hanging: 1b}},
+	{name: "minecraft:cherry_hanging_sign", states: {attached_bit: 1b, facing_direction: 0, ground_sign_direction: 0, hanging: 0b}},
+	{name: "minecraft:cherry_hanging_sign", states: {attached_bit: 1b, facing_direction: 0, ground_sign_direction: 0, hanging: 1b}},
+	{name: "minecraft:cherry_hanging_sign", states: {attached_bit: 1b, facing_direction: 0, ground_sign_direction: 1, hanging: 0b}},
+	{name: "minecraft:cherry_hanging_sign", states: {attached_bit: 1b, facing_direction: 0, ground_sign_direction: 1, hanging: 1b}},
+	{name: "minecraft:cherry_hanging_sign", states: {attached_bit: 1b, facing_direction: 0, ground_sign_direction: 10, hanging: 0b}},
+	{name: "minecraft:cherry_hanging_sign", states: {attached_bit: 1b, facing_direction: 0, ground_sign_direction: 10, hanging: 1b}},
+	{name: "minecraft:cherry_hanging_sign", states: {attached_bit: 1b, facing_direction: 0, ground_sign_direction: 11, hanging: 0b}},
+	{name: "minecraft:cherry_hanging_sign", states: {attached_bit: 1b, facing_direction: 0, ground_sign_direction: 11, hanging: 1b}},
+	{name: "minecraft:cherry_hanging_sign", states: {attached_bit: 1b, facing_direction: 0, ground_sign_direction: 12, hanging: 0b}},
+	{name: "minecraft:cherry_hanging_sign", states: {attached_bit: 1b, facing_direction: 0, ground_sign_direction: 12, hanging: 1b}},
+	{name: "minecraft:cherry_hanging_sign", states: {attached_bit: 1b, facing_direction: 0, ground_sign_direction: 13, hanging: 0b}},
+	{name: "minecraft:cherry_hanging_sign", states: {attached_bit: 1b, facing_direction: 0, ground_sign_direction: 13, hanging: 1b}},
+	{name: "minecraft:cherry_hanging_sign", states: {attached_bit: 1b, facing_direction: 0, ground_sign_direction: 14, hanging: 0b}},
+	{name: "minecraft:cherry_hanging_sign", states: {attached_bit: 1b, facing_direction: 0, ground_sign_direction: 14, hanging: 1b}},
+	{name: "minecraft:cherry_hanging_sign", states: {attached_bit: 1b, facing_direction: 0, ground_sign_direction: 15, hanging: 0b}},
+	{name: "minecraft:cherry_hanging_sign", states: {attached_bit: 1b, facing_direction: 0, ground_sign_direction: 15, hanging: 1b}},
+	{name: "minecraft:cherry_hanging_sign", states: {attached_bit: 1b, facing_direction: 0, ground_sign_direction: 2, hanging: 0b}},
+	{name: "minecraft:cherry_hanging_sign", states: {attached_bit: 1b, facing_direction: 0, ground_sign_direction: 2, hanging: 1b}},
+	{name: "minecraft:cherry_hanging_sign", states: {attached_bit: 1b, facing_direction: 0, ground_sign_direction: 3, hanging: 0b}},
+	{name: "minecraft:cherry_hanging_sign", states: {attached_bit: 1b, facing_direction: 0, ground_sign_direction: 3, hanging: 1b}},
+	{name: "minecraft:cherry_hanging_sign", states: {attached_bit: 1b, facing_direction: 0, ground_sign_direction: 4, hanging: 0b}},
+	{name: "minecraft:cherry_hanging_sign", states: {attached_bit: 1b, facing_direction: 0, ground_sign_direction: 4, hanging: 1b}},
+	{name: "minecraft:cherry_hanging_sign", states: {attached_bit: 1b, facing_direction: 0, ground_sign_direction: 5, hanging: 0b}},
+	{name: "minecraft:cherry_hanging_sign", states: {attached_bit: 1b, facing_direction: 0, ground_sign_direction: 5, hanging: 1b}},
+	{name: "minecraft:cherry_hanging_sign", states: {attached_bit: 1b, facing_direction: 0, ground_sign_direction: 6, hanging: 0b}},
+	{name: "minecraft:cherry_hanging_sign", states: {attached_bit: 1b, facing_direction: 0, ground_sign_direction: 6, hanging: 1b}},
+	{name: "minecraft:cherry_hanging_sign", states: {attached_bit: 1b, facing_direction: 0, ground_sign_direction: 7, hanging: 0b}},
+	{name: "minecraft:cherry_hanging_sign", states: {attached_bit: 1b, facing_direction: 0, ground_sign_direction: 7, hanging: 1b}},
+	{name: "minecraft:cherry_hanging_sign", states: {attached_bit: 1b, facing_direction: 0, ground_sign_direction: 8, hanging: 0b}},
+	{name: "minecraft:cherry_hanging_sign", states: {attached_bit: 1b, facing_direction: 0, ground_sign_direction: 8, hanging: 1b}},
+	{name: "minecraft:cherry_hanging_sign", states: {attached_bit: 1b, facing_direction: 0, ground_sign_direction: 9, hanging: 0b}},
+	{name: "minecraft:cherry_hanging_sign", states: {attached_bit: 1b, facing_direction: 0, ground_sign_direction: 9, hanging: 1b}},
+	{name: "minecraft:cherry_hanging_sign", states: {attached_bit: 1b, facing_direction: 1, ground_sign_direction: 0, hanging: 0b}},
+	{name: "minecraft:cherry_hanging_sign", states: {attached_bit: 1b, facing_direction: 1, ground_sign_direction: 0, hanging: 1b}},
+	{name: "minecraft:cherry_hanging_sign", states: {attached_bit: 1b, facing_direction: 1, ground_sign_direction: 1, hanging: 0b}},
+	{name: "minecraft:cherry_hanging_sign", states: {attached_bit: 1b, facing_direction: 1, ground_sign_direction: 1, hanging: 1b}},
+	{name: "minecraft:cherry_hanging_sign", states: {attached_bit: 1b, facing_direction: 1, ground_sign_direction: 10, hanging: 0b}},
+	{name: "minecraft:cherry_hanging_sign", states: {attached_bit: 1b, facing_direction: 1, ground_sign_direction: 10, hanging: 1b}},
+	{name: "minecraft:cherry_hanging_sign", states: {attached_bit: 1b, facing_direction: 1, ground_sign_direction: 11, hanging: 0b}},
+	{name: "minecraft:cherry_hanging_sign", states: {attached_bit: 1b, facing_direction: 1, ground_sign_direction: 11, hanging: 1b}},
+	{name: "minecraft:cherry_hanging_sign", states: {attached_bit: 1b, facing_direction: 1, ground_sign_direction: 12, hanging: 0b}},
+	{name: "minecraft:cherry_hanging_sign", states: {attached_bit: 1b, facing_direction: 1, ground_sign_direction: 12, hanging: 1b}},
+	{name: "minecraft:cherry_hanging_sign", states: {attached_bit: 1b, facing_direction: 1, ground_sign_direction: 13, hanging: 0b}},
+	{name: "minecraft:cherry_hanging_sign", states: {attached_bit: 1b, facing_direction: 1, ground_sign_direction: 13, hanging: 1b}},
+	{name: "minecraft:cherry_hanging_sign", states: {attached_bit: 1b, facing_direction: 1, ground_sign_direction: 14, hanging: 0b}},
+	{name: "minecraft:cherry_hanging_sign", states: {attached_bit: 1b, facing_direction: 1, ground_sign_direction: 14, hanging: 1b}},
+	{name: "minecraft:cherry_hanging_sign", states: {attached_bit: 1b, facing_direction: 1, ground_sign_direction: 15, hanging: 0b}},
+	{name: "minecraft:cherry_hanging_sign", states: {attached_bit: 1b, facing_direction: 1, ground_sign_direction: 15, hanging: 1b}},
+	{name: "minecraft:cherry_hanging_sign", states: {attached_bit: 1b, facing_direction: 1, ground_sign_direction: 2, hanging: 0b}},
+	{name: "minecraft:cherry_hanging_sign", states: {attached_bit: 1b, facing_direction: 1, ground_sign_direction: 2, hanging: 1b}},
+	{name: "minecraft:cherry_hanging_sign", states: {attached_bit: 1b, facing_direction: 1, ground_sign_direction: 3, hanging: 0b}},
+	{name: "minecraft:cherry_hanging_sign", states: {attached_bit: 1b, facing_direction: 1, ground_sign_direction: 3, hanging: 1b}},
+	{name: "minecraft:cherry_hanging_sign", states: {attached_bit: 1b, facing_direction: 1, ground_sign_direction: 4, hanging: 0b}},
+	{name: "minecraft:cherry_hanging_sign", states: {attached_bit: 1b, facing_direction: 1, ground_sign_direction: 4, hanging: 1b}},
+	{name: "minecraft:cherry_hanging_sign", states: {attached_bit: 1b, facing_direction: 1, ground_sign_direction: 5, hanging: 0b}},
+	{name: "minecraft:cherry_hanging_sign", states: {attached_bit: 1b, facing_direction: 1, ground_sign_direction: 5, hanging: 1b}},
+	{name: "minecraft:cherry_hanging_sign", states: {attached_bit: 1b, facing_direction: 1, ground_sign_direction: 6, hanging: 0b}},
+	{name: "minecraft:cherry_hanging_sign", states: {attached_bit: 1b, facing_direction: 1, ground_sign_direction: 6, hanging: 1b}},
+	{name: "minecraft:cherry_hanging_sign", states: {attached_bit: 1b, facing_direction: 1, ground_sign_direction: 7, hanging: 0b}},
+	{name: "minecraft:cherry_hanging_sign", states: {attached_bit: 1b, facing_direction: 1, ground_sign_direction: 7, hanging: 1b}},
+	{name: "minecraft:cherry_hanging_sign", states: {attached_bit: 1b, facing_direction: 1, ground_sign_direction: 8, hanging: 0b}},
+	{name: "minecraft:cherry_hanging_sign", states: {attached_bit: 1b, facing_direction: 1, ground_sign_direction: 8, hanging: 1b}},
+	{name: "minecraft:cherry_hanging_sign", states: {attached_bit: 1b, facing_direction: 1, ground_sign_direction: 9, hanging: 0b}},
+	{name: "minecraft:cherry_hanging_sign", states: {attached_bit: 1b, facing_direction: 1, ground_sign_direction: 9, hanging: 1b}},
+	{name: "minecraft:cherry_hanging_sign", states: {attached_bit: 1b, facing_direction: 2, ground_sign_direction: 0, hanging: 0b}},
+	{name: "minecraft:cherry_hanging_sign", states: {attached_bit: 1b, facing_direction: 2, ground_sign_direction: 0, hanging: 1b}},
+	{name: "minecraft:cherry_hanging_sign", states: {attached_bit: 1b, facing_direction: 2, ground_sign_direction: 1, hanging: 0b}},
+	{name: "minecraft:cherry_hanging_sign", states: {attached_bit: 1b, facing_direction: 2, ground_sign_direction: 1, hanging: 1b}},
+	{name: "minecraft:cherry_hanging_sign", states: {attached_bit: 1b, facing_direction: 2, ground_sign_direction: 10, hanging: 0b}},
+	{name: "minecraft:cherry_hanging_sign", states: {attached_bit: 1b, facing_direction: 2, ground_sign_direction: 10, hanging: 1b}},
+	{name: "minecraft:cherry_hanging_sign", states: {attached_bit: 1b, facing_direction: 2, ground_sign_direction: 11, hanging: 0b}},
+	{name: "minecraft:cherry_hanging_sign", states: {attached_bit: 1b, facing_direction: 2, ground_sign_direction: 11, hanging: 1b}},
+	{name: "minecraft:cherry_hanging_sign", states: {attached_bit: 1b, facing_direction: 2, ground_sign_direction: 12, hanging: 0b}},
+	{name: "minecraft:cherry_hanging_sign", states: {attached_bit: 1b, facing_direction: 2, ground_sign_direction: 12, hanging: 1b}},
+	{name: "minecraft:cherry_hanging_sign", states: {attached_bit: 1b, facing_direction: 2, ground_sign_direction: 13, hanging: 0b}},
+	{name: "minecraft:cherry_hanging_sign", states: {attached_bit: 1b, facing_direction: 2, ground_sign_direction: 13, hanging: 1b}},
+	{name: "minecraft:cherry_hanging_sign", states: {attached_bit: 1b, facing_direction: 2, ground_sign_direction: 14, hanging: 0b}},
+	{name: "minecraft:cherry_hanging_sign", states: {attached_bit: 1b, facing_direction: 2, ground_sign_direction: 14, hanging: 1b}},
+	{name: "minecraft:cherry_hanging_sign", states: {attached_bit: 1b, facing_direction: 2, ground_sign_direction: 15, hanging: 0b}},
+	{name: "minecraft:cherry_hanging_sign", states: {attached_bit: 1b, facing_direction: 2, ground_sign_direction: 15, hanging: 1b}},
+	{name: "minecraft:cherry_hanging_sign", states: {attached_bit: 1b, facing_direction: 2, ground_sign_direction: 2, hanging: 0b}},
+	{name: "minecraft:cherry_hanging_sign", states: {attached_bit: 1b, facing_direction: 2, ground_sign_direction: 2, hanging: 1b}},
+	{name: "minecraft:cherry_hanging_sign", states: {attached_bit: 1b, facing_direction: 2, ground_sign_direction: 3, hanging: 0b}},
+	{name: "minecraft:cherry_hanging_sign", states: {attached_bit: 1b, facing_direction: 2, ground_sign_direction: 3, hanging: 1b}},
+	{name: "minecraft:cherry_hanging_sign", states: {attached_bit: 1b, facing_direction: 2, ground_sign_direction: 4, hanging: 0b}},
+	{name: "minecraft:cherry_hanging_sign", states: {attached_bit: 1b, facing_direction: 2, ground_sign_direction: 4, hanging: 1b}},
+	{name: "minecraft:cherry_hanging_sign", states: {attached_bit: 1b, facing_direction: 2, ground_sign_direction: 5, hanging: 0b}},
+	{name: "minecraft:cherry_hanging_sign", states: {attached_bit: 1b, facing_direction: 2, ground_sign_direction: 5, hanging: 1b}},
+	{name: "minecraft:cherry_hanging_sign", states: {attached_bit: 1b, facing_direction: 2, ground_sign_direction: 6, hanging: 0b}},
+	{name: "minecraft:cherry_hanging_sign", states: {attached_bit: 1b, facing_direction: 2, ground_sign_direction: 6, hanging: 1b}},
+	{name: "minecraft:cherry_hanging_sign", states: {attached_bit: 1b, facing_direction: 2, ground_sign_direction: 7, hanging: 0b}},
+	{name: "minecraft:cherry_hanging_sign", states: {attached_bit: 1b, facing_direction: 2, ground_sign_direction: 7, hanging: 1b}},
+	{name: "minecraft:cherry_hanging_sign", states: {attached_bit: 1b, facing_direction: 2, ground_sign_direction: 8, hanging: 0b}},
+	{name: "minecraft:cherry_hanging_sign", states: {attached_bit: 1b, facing_direction: 2, ground_sign_direction: 8, hanging: 1b}},
+	{name: "minecraft:cherry_hanging_sign", states: {attached_bit: 1b, facing_direction: 2, ground_sign_direction: 9, hanging: 0b}},
+	{name: "minecraft:cherry_hanging_sign", states: {attached_bit: 1b, facing_direction: 2, ground_sign_direction: 9, hanging: 1b}},
+	{name: "minecraft:cherry_hanging_sign", states: {attached_bit: 1b, facing_direction: 3, ground_sign_direction: 0, hanging: 0b}},
+	{name: "minecraft:cherry_hanging_sign", states: {attached_bit: 1b, facing_direction: 3, ground_sign_direction: 0, hanging: 1b}},
+	{name: "minecraft:cherry_hanging_sign", states: {attached_bit: 1b, facing_direction: 3, ground_sign_direction: 1, hanging: 0b}},
+	{name: "minecraft:cherry_hanging_sign", states: {attached_bit: 1b, facing_direction: 3, ground_sign_direction: 1, hanging: 1b}},
+	{name: "minecraft:cherry_hanging_sign", states: {attached_bit: 1b, facing_direction: 3, ground_sign_direction: 10, hanging: 0b}},
+	{name: "minecraft:cherry_hanging_sign", states: {attached_bit: 1b, facing_direction: 3, ground_sign_direction: 10, hanging: 1b}},
+	{name: "minecraft:cherry_hanging_sign", states: {attached_bit: 1b, facing_direction: 3, ground_sign_direction: 11, hanging: 0b}},
+	{name: "minecraft:cherry_hanging_sign", states: {attached_bit: 1b, facing_direction: 3, ground_sign_direction: 11, hanging: 1b}},
+	{name: "minecraft:cherry_hanging_sign", states: {attached_bit: 1b, facing_direction: 3, ground_sign_direction: 12, hanging: 0b}},
+	{name: "minecraft:cherry_hanging_sign", states: {attached_bit: 1b, facing_direction: 3, ground_sign_direction: 12, hanging: 1b}},
+	{name: "minecraft:cherry_hanging_sign", states: {attached_bit: 1b, facing_direction: 3, ground_sign_direction: 13, hanging: 0b}},
+	{name: "minecraft:cherry_hanging_sign", states: {attached_bit: 1b, facing_direction: 3, ground_sign_direction: 13, hanging: 1b}},
+	{name: "minecraft:cherry_hanging_sign", states: {attached_bit: 1b, facing_direction: 3, ground_sign_direction: 14, hanging: 0b}},
+	{name: "minecraft:cherry_hanging_sign", states: {attached_bit: 1b, facing_direction: 3, ground_sign_direction: 14, hanging: 1b}},
+	{name: "minecraft:cherry_hanging_sign", states: {attached_bit: 1b, facing_direction: 3, ground_sign_direction: 15, hanging: 0b}},
+	{name: "minecraft:cherry_hanging_sign", states: {attached_bit: 1b, facing_direction: 3, ground_sign_direction: 15, hanging: 1b}},
+	{name: "minecraft:cherry_hanging_sign", states: {attached_bit: 1b, facing_direction: 3, ground_sign_direction: 2, hanging: 0b}},
+	{name: "minecraft:cherry_hanging_sign", states: {attached_bit: 1b, facing_direction: 3, ground_sign_direction: 2, hanging: 1b}},
+	{name: "minecraft:cherry_hanging_sign", states: {attached_bit: 1b, facing_direction: 3, ground_sign_direction: 3, hanging: 0b}},
+	{name: "minecraft:cherry_hanging_sign", states: {attached_bit: 1b, facing_direction: 3, ground_sign_direction: 3, hanging: 1b}},
+	{name: "minecraft:cherry_hanging_sign", states: {attached_bit: 1b, facing_direction: 3, ground_sign_direction: 4, hanging: 0b}},
+	{name: "minecraft:cherry_hanging_sign", states: {attached_bit: 1b, facing_direction: 3, ground_sign_direction: 4, hanging: 1b}},
+	{name: "minecraft:cherry_hanging_sign", states: {attached_bit: 1b, facing_direction: 3, ground_sign_direction: 5, hanging: 0b}},
+	{name: "minecraft:cherry_hanging_sign", states: {attached_bit: 1b, facing_direction: 3, ground_sign_direction: 5, hanging: 1b}},
+	{name: "minecraft:cherry_hanging_sign", states: {attached_bit: 1b, facing_direction: 3, ground_sign_direction: 6, hanging: 0b}},
+	{name: "minecraft:cherry_hanging_sign", states: {attached_bit: 1b, facing_direction: 3, ground_sign_direction: 6, hanging: 1b}},
+	{name: "minecraft:cherry_hanging_sign", states: {attached_bit: 1b, facing_direction: 3, ground_sign_direction: 7, hanging: 0b}},
+	{name: "minecraft:cherry_hanging_sign", states: {attached_bit: 1b, facing_direction: 3, ground_sign_direction: 7, hanging: 1b}},
+	{name: "minecraft:cherry_hanging_sign", states: {attached_bit: 1b, facing_direction: 3, ground_sign_direction: 8, hanging: 0b}},
+	{name: "minecraft:cherry_hanging_sign", states: {attached_bit: 1b, facing_direction: 3, ground_sign_direction: 8, hanging: 1b}},
+	{name: "minecraft:cherry_hanging_sign", states: {attached_bit: 1b, facing_direction: 3, ground_sign_direction: 9, hanging: 0b}},
+	{name: "minecraft:cherry_hanging_sign", states: {attached_bit: 1b, facing_direction: 3, ground_sign_direction: 9, hanging: 1b}},
+	{name: "minecraft:cherry_hanging_sign", states: {attached_bit: 1b, facing_direction: 4, ground_sign_direction: 0, hanging: 0b}},
+	{name: "minecraft:cherry_hanging_sign", states: {attached_bit: 1b, facing_direction: 4, ground_sign_direction: 0, hanging: 1b}},
+	{name: "minecraft:cherry_hanging_sign", states: {attached_bit: 1b, facing_direction: 4, ground_sign_direction: 1, hanging: 0b}},
+	{name: "minecraft:cherry_hanging_sign", states: {attached_bit: 1b, facing_direction: 4, ground_sign_direction: 1, hanging: 1b}},
+	{name: "minecraft:cherry_hanging_sign", states: {attached_bit: 1b, facing_direction: 4, ground_sign_direction: 10, hanging: 0b}},
+	{name: "minecraft:cherry_hanging_sign", states: {attached_bit: 1b, facing_direction: 4, ground_sign_direction: 10, hanging: 1b}},
+	{name: "minecraft:cherry_hanging_sign", states: {attached_bit: 1b, facing_direction: 4, ground_sign_direction: 11, hanging: 0b}},
+	{name: "minecraft:cherry_hanging_sign", states: {attached_bit: 1b, facing_direction: 4, ground_sign_direction: 11, hanging: 1b}},
+	{name: "minecraft:cherry_hanging_sign", states: {attached_bit: 1b, facing_direction: 4, ground_sign_direction: 12, hanging: 0b}},
+	{name: "minecraft:cherry_hanging_sign", states: {attached_bit: 1b, facing_direction: 4, ground_sign_direction: 12, hanging: 1b}},
+	{name: "minecraft:cherry_hanging_sign", states: {attached_bit: 1b, facing_direction: 4, ground_sign_direction: 13, hanging: 0b}},
+	{name: "minecraft:cherry_hanging_sign", states: {attached_bit: 1b, facing_direction: 4, ground_sign_direction: 13, hanging: 1b}},
+	{name: "minecraft:cherry_hanging_sign", states: {attached_bit: 1b, facing_direction: 4, ground_sign_direction: 14, hanging: 0b}},
+	{name: "minecraft:cherry_hanging_sign", states: {attached_bit: 1b, facing_direction: 4, ground_sign_direction: 14, hanging: 1b}},
+	{name: "minecraft:cherry_hanging_sign", states: {attached_bit: 1b, facing_direction: 4, ground_sign_direction: 15, hanging: 0b}},
+	{name: "minecraft:cherry_hanging_sign", states: {attached_bit: 1b, facing_direction: 4, ground_sign_direction: 15, hanging: 1b}},
+	{name: "minecraft:cherry_hanging_sign", states: {attached_bit: 1b, facing_direction: 4, ground_sign_direction: 2, hanging: 0b}},
+	{name: "minecraft:cherry_hanging_sign", states: {attached_bit: 1b, facing_direction: 4, ground_sign_direction: 2, hanging: 1b}},
+	{name: "minecraft:cherry_hanging_sign", states: {attached_bit: 1b, facing_direction: 4, ground_sign_direction: 3, hanging: 0b}},
+	{name: "minecraft:cherry_hanging_sign", states: {attached_bit: 1b, facing_direction: 4, ground_sign_direction: 3, hanging: 1b}},
+	{name: "minecraft:cherry_hanging_sign", states: {attached_bit: 1b, facing_direction: 4, ground_sign_direction: 4, hanging: 0b}},
+	{name: "minecraft:cherry_hanging_sign", states: {attached_bit: 1b, facing_direction: 4, ground_sign_direction: 4, hanging: 1b}},
+	{name: "minecraft:cherry_hanging_sign", states: {attached_bit: 1b, facing_direction: 4, ground_sign_direction: 5, hanging: 0b}},
+	{name: "minecraft:cherry_hanging_sign", states: {attached_bit: 1b, facing_direction: 4, ground_sign_direction: 5, hanging: 1b}},
+	{name: "minecraft:cherry_hanging_sign", states: {attached_bit: 1b, facing_direction: 4, ground_sign_direction: 6, hanging: 0b}},
+	{name: "minecraft:cherry_hanging_sign", states: {attached_bit: 1b, facing_direction: 4, ground_sign_direction: 6, hanging: 1b}},
+	{name: "minecraft:cherry_hanging_sign", states: {attached_bit: 1b, facing_direction: 4, ground_sign_direction: 7, hanging: 0b}},
+	{name: "minecraft:cherry_hanging_sign", states: {attached_bit: 1b, facing_direction: 4, ground_sign_direction: 7, hanging: 1b}},
+	{name: "minecraft:cherry_hanging_sign", states: {attached_bit: 1b, facing_direction: 4, ground_sign_direction: 8, hanging: 0b}},
+	{name: "minecraft:cherry_hanging_sign", states: {attached_bit: 1b, facing_direction: 4, ground_sign_direction: 8, hanging: 1b}},
+	{name: "minecraft:cherry_hanging_sign", states: {attached_bit: 1b, facing_direction: 4, ground_sign_direction: 9, hanging: 0b}},
+	{name: "minecraft:cherry_hanging_sign", states: {attached_bit: 1b, facing_direction: 4, ground_sign_direction: 9, hanging: 1b}},
+	{name: "minecraft:cherry_hanging_sign", states: {attached_bit: 1b, facing_direction: 5, ground_sign_direction: 0, hanging: 0b}},
+	{name: "minecraft:cherry_hanging_sign", states: {attached_bit: 1b, facing_direction: 5, ground_sign_direction: 0, hanging: 1b}},
+	{name: "minecraft:cherry_hanging_sign", states: {attached_bit: 1b, facing_direction: 5, ground_sign_direction: 1, hanging: 0b}},
+	{name: "minecraft:cherry_hanging_sign", states: {attached_bit: 1b, facing_direction: 5, ground_sign_direction: 1, hanging: 1b}},
+	{name: "minecraft:cherry_hanging_sign", states: {attached_bit: 1b, facing_direction: 5, ground_sign_direction: 10, hanging: 0b}},
+	{name: "minecraft:cherry_hanging_sign", states: {attached_bit: 1b, facing_direction: 5, ground_sign_direction: 10, hanging: 1b}},
+	{name: "minecraft:cherry_hanging_sign", states: {attached_bit: 1b, facing_direction: 5, ground_sign_direction: 11, hanging: 0b}},
+	{name: "minecraft:cherry_hanging_sign", states: {attached_bit: 1b, facing_direction: 5, ground_sign_direction: 11, hanging: 1b}},
+	{name: "minecraft:cherry_hanging_sign", states: {attached_bit: 1b, facing_direction: 5, ground_sign_direction: 12, hanging: 0b}},
+	{name: "minecraft:cherry_hanging_sign", states: {attached_bit: 1b, facing_direction: 5, ground_sign_direction: 12, hanging: 1b}},
+	{name: "minecraft:cherry_hanging_sign", states: {attached_bit: 1b, facing_direction: 5, ground_sign_direction: 13, hanging: 0b}},
+	{name: "minecraft:cherry_hanging_sign", states: {attached_bit: 1b, facing_direction: 5, ground_sign_direction: 13, hanging: 1b}},
+	{name: "minecraft:cherry_hanging_sign", states: {attached_bit: 1b, facing_direction: 5, ground_sign_direction: 14, hanging: 0b}},
+	{name: "minecraft:cherry_hanging_sign", states: {attached_bit: 1b, facing_direction: 5, ground_sign_direction: 14, hanging: 1b}},
+	{name: "minecraft:cherry_hanging_sign", states: {attached_bit: 1b, facing_direction: 5, ground_sign_direction: 15, hanging: 0b}},
+	{name: "minecraft:cherry_hanging_sign", states: {attached_bit: 1b, facing_direction: 5, ground_sign_direction: 15, hanging: 1b}},
+	{name: "minecraft:cherry_hanging_sign", states: {attached_bit: 1b, facing_direction: 5, ground_sign_direction: 2, hanging: 0b}},
+	{name: "minecraft:cherry_hanging_sign", states: {attached_bit: 1b, facing_direction: 5, ground_sign_direction: 2, hanging: 1b}},
+	{name: "minecraft:cherry_hanging_sign", states: {attached_bit: 1b, facing_direction: 5, ground_sign_direction: 3, hanging: 0b}},
+	{name: "minecraft:cherry_hanging_sign", states: {attached_bit: 1b, facing_direction: 5, ground_sign_direction: 3, hanging: 1b}},
+	{name: "minecraft:cherry_hanging_sign", states: {attached_bit: 1b, facing_direction: 5, ground_sign_direction: 4, hanging: 0b}},
+	{name: "minecraft:cherry_hanging_sign", states: {attached_bit: 1b, facing_direction: 5, ground_sign_direction: 4, hanging: 1b}},
+	{name: "minecraft:cherry_hanging_sign", states: {attached_bit: 1b, facing_direction: 5, ground_sign_direction: 5, hanging: 0b}},
+	{name: "minecraft:cherry_hanging_sign", states: {attached_bit: 1b, facing_direction: 5, ground_sign_direction: 5, hanging: 1b}},
+	{name: "minecraft:cherry_hanging_sign", states: {attached_bit: 1b, facing_direction: 5, ground_sign_direction: 6, hanging: 0b}},
+	{name: "minecraft:cherry_hanging_sign", states: {attached_bit: 1b, facing_direction: 5, ground_sign_direction: 6, hanging: 1b}},
+	{name: "minecraft:cherry_hanging_sign", states: {attached_bit: 1b, facing_direction: 5, ground_sign_direction: 7, hanging: 0b}},
+	{name: "minecraft:cherry_hanging_sign", states: {attached_bit: 1b, facing_direction: 5, ground_sign_direction: 7, hanging: 1b}},
+	{name: "minecraft:cherry_hanging_sign", states: {attached_bit: 1b, facing_direction: 5, ground_sign_direction: 8, hanging: 0b}},
+	{name: "minecraft:cherry_hanging_sign", states: {attached_bit: 1b, facing_direction: 5, ground_sign_direction: 8, hanging: 1b}},
+	{name: "minecraft:cherry_hanging_sign", states: {attached_bit: 1b, facing_direction: 5, ground_sign_direction: 9, hanging: 0b}},
+	{name: "minecraft:cherry_hanging_sign", states: {attached_bit: 1b, facing_direction: 5, ground_sign_direction: 9, hanging: 1b}},
+	{name: "minecraft:cherry_leaves", states: {persistent_bit: 0b, update_bit: 0b}},
+	{name: "minecraft:cherry_leaves", states: {persistent_bit: 0b, update_bit: 1b}},
+	{name: "minecraft:cherry_leaves", states: {persistent_bit: 1b, update_bit: 0b}},
+	{name: "minecraft:cherry_leaves", states: {persistent_bit: 1b, update_bit: 1b}},
+	{name: "minecraft:cherry_log", states: {pillar_axis: "x"}},
+	{name: "minecraft:cherry_log", states: {pillar_axis: "y"}},
+	{name: "minecraft:cherry_log", states: {pillar_axis: "z"}},
+	{name: "minecraft:cherry_planks", states: {}},
+	{name: "minecraft:cherry_pressure_plate", states: {redstone_signal: 0}},
+	{name: "minecraft:cherry_pressure_plate", states: {redstone_signal: 10}},
+	{name: "minecraft:cherry_pressure_plate", states: {redstone_signal: 11}},
+	{name: "minecraft:cherry_pressure_plate", states: {redstone_signal: 12}},
+	{name: "minecraft:cherry_pressure_plate", states: {redstone_signal: 13}},
+	{name: "minecraft:cherry_pressure_plate", states: {redstone_signal: 14}},
+	{name: "minecraft:cherry_pressure_plate", states: {redstone_signal: 15}},
+	{name: "minecraft:cherry_pressure_plate", states: {redstone_signal: 1}},
+	{name: "minecraft:cherry_pressure_plate", states: {redstone_signal: 2}},
+	{name: "minecraft:cherry_pressure_plate", states: {redstone_signal: 3}},
+	{name: "minecraft:cherry_pressure_plate", states: {redstone_signal: 4}},
+	{name: "minecraft:cherry_pressure_plate", states: {redstone_signal: 5}},
+	{name: "minecraft:cherry_pressure_plate", states: {redstone_signal: 6}},
+	{name: "minecraft:cherry_pressure_plate", states: {redstone_signal: 7}},
+	{name: "minecraft:cherry_pressure_plate", states: {redstone_signal: 8}},
+	{name: "minecraft:cherry_pressure_plate", states: {redstone_signal: 9}},
+	{name: "minecraft:cherry_sapling", states: {age_bit: 0b}},
+	{name: "minecraft:cherry_sapling", states: {age_bit: 1b}},
+	{name: "minecraft:cherry_slab", states: {top_slot_bit: 0b}},
+	{name: "minecraft:cherry_slab", states: {top_slot_bit: 1b}},
+	{name: "minecraft:cherry_stairs", states: {upside_down_bit: 0b, weirdo_direction: 0}},
+	{name: "minecraft:cherry_stairs", states: {upside_down_bit: 0b, weirdo_direction: 1}},
+	{name: "minecraft:cherry_stairs", states: {upside_down_bit: 0b, weirdo_direction: 2}},
+	{name: "minecraft:cherry_stairs", states: {upside_down_bit: 0b, weirdo_direction: 3}},
+	{name: "minecraft:cherry_stairs", states: {upside_down_bit: 1b, weirdo_direction: 0}},
+	{name: "minecraft:cherry_stairs", states: {upside_down_bit: 1b, weirdo_direction: 1}},
+	{name: "minecraft:cherry_stairs", states: {upside_down_bit: 1b, weirdo_direction: 2}},
+	{name: "minecraft:cherry_stairs", states: {upside_down_bit: 1b, weirdo_direction: 3}},
+	{name: "minecraft:cherry_standing_sign", states: {ground_sign_direction: 0}},
+	{name: "minecraft:cherry_standing_sign", states: {ground_sign_direction: 10}},
+	{name: "minecraft:cherry_standing_sign", states: {ground_sign_direction: 11}},
+	{name: "minecraft:cherry_standing_sign", states: {ground_sign_direction: 12}},
+	{name: "minecraft:cherry_standing_sign", states: {ground_sign_direction: 13}},
+	{name: "minecraft:cherry_standing_sign", states: {ground_sign_direction: 14}},
+	{name: "minecraft:cherry_standing_sign", states: {ground_sign_direction: 15}},
+	{name: "minecraft:cherry_standing_sign", states: {ground_sign_direction: 1}},
+	{name: "minecraft:cherry_standing_sign", states: {ground_sign_direction: 2}},
+	{name: "minecraft:cherry_standing_sign", states: {ground_sign_direction: 3}},
+	{name: "minecraft:cherry_standing_sign", states: {ground_sign_direction: 4}},
+	{name: "minecraft:cherry_standing_sign", states: {ground_sign_direction: 5}},
+	{name: "minecraft:cherry_standing_sign", states: {ground_sign_direction: 6}},
+	{name: "minecraft:cherry_standing_sign", states: {ground_sign_direction: 7}},
+	{name: "minecraft:cherry_standing_sign", states: {ground_sign_direction: 8}},
+	{name: "minecraft:cherry_standing_sign", states: {ground_sign_direction: 9}},
+	{name: "minecraft:cherry_trapdoor", states: {direction: 0, open_bit: 0b, upside_down_bit: 0b}},
+	{name: "minecraft:cherry_trapdoor", states: {direction: 0, open_bit: 0b, upside_down_bit: 1b}},
+	{name: "minecraft:cherry_trapdoor", states: {direction: 0, open_bit: 1b, upside_down_bit: 0b}},
+	{name: "minecraft:cherry_trapdoor", states: {direction: 0, open_bit: 1b, upside_down_bit: 1b}},
+	{name: "minecraft:cherry_trapdoor", states: {direction: 1, open_bit: 0b, upside_down_bit: 0b}},
+	{name: "minecraft:cherry_trapdoor", states: {direction: 1, open_bit: 0b, upside_down_bit: 1b}},
+	{name: "minecraft:cherry_trapdoor", states: {direction: 1, open_bit: 1b, upside_down_bit: 0b}},
+	{name: "minecraft:cherry_trapdoor", states: {direction: 1, open_bit: 1b, upside_down_bit: 1b}},
+	{name: "minecraft:cherry_trapdoor", states: {direction: 2, open_bit: 0b, upside_down_bit: 0b}},
+	{name: "minecraft:cherry_trapdoor", states: {direction: 2, open_bit: 0b, upside_down_bit: 1b}},
+	{name: "minecraft:cherry_trapdoor", states: {direction: 2, open_bit: 1b, upside_down_bit: 0b}},
+	{name: "minecraft:cherry_trapdoor", states: {direction: 2, open_bit: 1b, upside_down_bit: 1b}},
+	{name: "minecraft:cherry_trapdoor", states: {direction: 3, open_bit: 0b, upside_down_bit: 0b}},
+	{name: "minecraft:cherry_trapdoor", states: {direction: 3, open_bit: 0b, upside_down_bit: 1b}},
+	{name: "minecraft:cherry_trapdoor", states: {direction: 3, open_bit: 1b, upside_down_bit: 0b}},
+	{name: "minecraft:cherry_trapdoor", states: {direction: 3, open_bit: 1b, upside_down_bit: 1b}},
+	{name: "minecraft:cherry_wall_sign", states: {facing_direction: 0}},
+	{name: "minecraft:cherry_wall_sign", states: {facing_direction: 1}},
+	{name: "minecraft:cherry_wall_sign", states: {facing_direction: 2}},
+	{name: "minecraft:cherry_wall_sign", states: {facing_direction: 3}},
+	{name: "minecraft:cherry_wall_sign", states: {facing_direction: 4}},
+	{name: "minecraft:cherry_wall_sign", states: {facing_direction: 5}},
+	{name: "minecraft:cherry_wood", states: {pillar_axis: "x", stripped_bit: 0b}},
+	{name: "minecraft:cherry_wood", states: {pillar_axis: "x", stripped_bit: 1b}},
+	{name: "minecraft:cherry_wood", states: {pillar_axis: "y", stripped_bit: 0b}},
+	{name: "minecraft:cherry_wood", states: {pillar_axis: "y", stripped_bit: 1b}},
+	{name: "minecraft:cherry_wood", states: {pillar_axis: "z", stripped_bit: 0b}},
+	{name: "minecraft:cherry_wood", states: {pillar_axis: "z", stripped_bit: 1b}},
+	{name: "minecraft:dark_oak_fence", states: {}},
+	{name: "minecraft:dark_oak_log", states: {pillar_axis: "x"}},
+	{name: "minecraft:dark_oak_log", states: {pillar_axis: "y"}},
+	{name: "minecraft:dark_oak_log", states: {pillar_axis: "z"}},
+	{name: "minecraft:jungle_fence", states: {}},
+	{name: "minecraft:jungle_log", states: {pillar_axis: "x"}},
+	{name: "minecraft:jungle_log", states: {pillar_axis: "y"}},
+	{name: "minecraft:jungle_log", states: {pillar_axis: "z"}},
+	{name: "minecraft:oak_fence", states: {}},
+	{name: "minecraft:oak_log", states: {pillar_axis: "x"}},
+	{name: "minecraft:oak_log", states: {pillar_axis: "y"}},
+	{name: "minecraft:oak_log", states: {pillar_axis: "z"}},
+	{name: "minecraft:pink_petals", states: {direction: 0, growth: 0}},
+	{name: "minecraft:pink_petals", states: {direction: 0, growth: 1}},
+	{name: "minecraft:pink_petals", states: {direction: 0, growth: 2}},
+	{name: "minecraft:pink_petals", states: {direction: 0, growth: 3}},
+	{name: "minecraft:pink_petals", states: {direction: 0, growth: 4}},
+	{name: "minecraft:pink_petals", states: {direction: 0, growth: 5}},
+	{name: "minecraft:pink_petals", states: {direction: 0, growth: 6}},
+	{name: "minecraft:pink_petals", states: {direction: 0, growth: 7}},
+	{name: "minecraft:pink_petals", states: {direction: 1, growth: 0}},
+	{name: "minecraft:pink_petals", states: {direction: 1, growth: 1}},
+	{name: "minecraft:pink_petals", states: {direction: 1, growth: 2}},
+	{name: "minecraft:pink_petals", states: {direction: 1, growth: 3}},
+	{name: "minecraft:pink_petals", states: {direction: 1, growth: 4}},
+	{name: "minecraft:pink_petals", states: {direction: 1, growth: 5}},
+	{name: "minecraft:pink_petals", states: {direction: 1, growth: 6}},
+	{name: "minecraft:pink_petals", states: {direction: 1, growth: 7}},
+	{name: "minecraft:pink_petals", states: {direction: 2, growth: 0}},
+	{name: "minecraft:pink_petals", states: {direction: 2, growth: 1}},
+	{name: "minecraft:pink_petals", states: {direction: 2, growth: 2}},
+	{name: "minecraft:pink_petals", states: {direction: 2, growth: 3}},
+	{name: "minecraft:pink_petals", states: {direction: 2, growth: 4}},
+	{name: "minecraft:pink_petals", states: {direction: 2, growth: 5}},
+	{name: "minecraft:pink_petals", states: {direction: 2, growth: 6}},
+	{name: "minecraft:pink_petals", states: {direction: 2, growth: 7}},
+	{name: "minecraft:pink_petals", states: {direction: 3, growth: 0}},
+	{name: "minecraft:pink_petals", states: {direction: 3, growth: 1}},
+	{name: "minecraft:pink_petals", states: {direction: 3, growth: 2}},
+	{name: "minecraft:pink_petals", states: {direction: 3, growth: 3}},
+	{name: "minecraft:pink_petals", states: {direction: 3, growth: 4}},
+	{name: "minecraft:pink_petals", states: {direction: 3, growth: 5}},
+	{name: "minecraft:pink_petals", states: {direction: 3, growth: 6}},
+	{name: "minecraft:pink_petals", states: {direction: 3, growth: 7}},
+	{name: "minecraft:spruce_fence", states: {}},
+	{name: "minecraft:spruce_log", states: {pillar_axis: "x"}},
+	{name: "minecraft:spruce_log", states: {pillar_axis: "y"}},
+	{name: "minecraft:spruce_log", states: {pillar_axis: "z"}},
+	{name: "minecraft:stripped_cherry_log", states: {pillar_axis: "x"}},
+	{name: "minecraft:stripped_cherry_log", states: {pillar_axis: "y"}},
+	{name: "minecraft:stripped_cherry_log", states: {pillar_axis: "z"}},
+	{name: "minecraft:stripped_cherry_wood", states: {pillar_axis: "x"}},
+	{name: "minecraft:stripped_cherry_wood", states: {pillar_axis: "y"}},
+	{name: "minecraft:stripped_cherry_wood", states: {pillar_axis: "z"}},
+	{name: "minecraft:suspicious_gravel", states: {brushed_progress: 0, hanging: 0b}},
+	{name: "minecraft:suspicious_gravel", states: {brushed_progress: 0, hanging: 1b}},
+	{name: "minecraft:suspicious_gravel", states: {brushed_progress: 1, hanging: 0b}},
+	{name: "minecraft:suspicious_gravel", states: {brushed_progress: 1, hanging: 1b}},
+	{name: "minecraft:suspicious_gravel", states: {brushed_progress: 2, hanging: 0b}},
+	{name: "minecraft:suspicious_gravel", states: {brushed_progress: 2, hanging: 1b}},
+	{name: "minecraft:suspicious_gravel", states: {brushed_progress: 3, hanging: 0b}},
+	{name: "minecraft:suspicious_gravel", states: {brushed_progress: 3, hanging: 1b}}
 ]

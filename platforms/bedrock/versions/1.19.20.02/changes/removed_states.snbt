@@ -1,6 +1,3 @@
 [
-	{
-		"name": "minecraft:muddy_mangrove_roots",
-		"states": {}
-	}
+	{name: "minecraft:muddy_mangrove_roots", states: {}}
 ]

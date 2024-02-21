@@ -1,790 +1,118 @@
 [
-	{
-		"name": "minecraft:frame",
-		"states": {
-			"facing_direction": 0,
-			"item_frame_map_bit": 0b,
-			"item_frame_photo_bit": 0b
-		}
-	},
-	{
-		"name": "minecraft:frame",
-		"states": {
-			"facing_direction": 1,
-			"item_frame_map_bit": 0b,
-			"item_frame_photo_bit": 0b
-		}
-	},
-	{
-		"name": "minecraft:frame",
-		"states": {
-			"facing_direction": 2,
-			"item_frame_map_bit": 0b,
-			"item_frame_photo_bit": 0b
-		}
-	},
-	{
-		"name": "minecraft:frame",
-		"states": {
-			"facing_direction": 3,
-			"item_frame_map_bit": 0b,
-			"item_frame_photo_bit": 0b
-		}
-	},
-	{
-		"name": "minecraft:frame",
-		"states": {
-			"facing_direction": 4,
-			"item_frame_map_bit": 0b,
-			"item_frame_photo_bit": 0b
-		}
-	},
-	{
-		"name": "minecraft:frame",
-		"states": {
-			"facing_direction": 5,
-			"item_frame_map_bit": 0b,
-			"item_frame_photo_bit": 0b
-		}
-	},
-	{
-		"name": "minecraft:frame",
-		"states": {
-			"facing_direction": 0,
-			"item_frame_map_bit": 1b,
-			"item_frame_photo_bit": 0b
-		}
-	},
-	{
-		"name": "minecraft:frame",
-		"states": {
-			"facing_direction": 1,
-			"item_frame_map_bit": 1b,
-			"item_frame_photo_bit": 0b
-		}
-	},
-	{
-		"name": "minecraft:frame",
-		"states": {
-			"facing_direction": 2,
-			"item_frame_map_bit": 1b,
-			"item_frame_photo_bit": 0b
-		}
-	},
-	{
-		"name": "minecraft:frame",
-		"states": {
-			"facing_direction": 3,
-			"item_frame_map_bit": 1b,
-			"item_frame_photo_bit": 0b
-		}
-	},
-	{
-		"name": "minecraft:frame",
-		"states": {
-			"facing_direction": 4,
-			"item_frame_map_bit": 1b,
-			"item_frame_photo_bit": 0b
-		}
-	},
-	{
-		"name": "minecraft:frame",
-		"states": {
-			"facing_direction": 5,
-			"item_frame_map_bit": 1b,
-			"item_frame_photo_bit": 0b
-		}
-	},
-	{
-		"name": "minecraft:frame",
-		"states": {
-			"facing_direction": 0,
-			"item_frame_map_bit": 0b,
-			"item_frame_photo_bit": 1b
-		}
-	},
-	{
-		"name": "minecraft:frame",
-		"states": {
-			"facing_direction": 1,
-			"item_frame_map_bit": 0b,
-			"item_frame_photo_bit": 1b
-		}
-	},
-	{
-		"name": "minecraft:frame",
-		"states": {
-			"facing_direction": 2,
-			"item_frame_map_bit": 0b,
-			"item_frame_photo_bit": 1b
-		}
-	},
-	{
-		"name": "minecraft:frame",
-		"states": {
-			"facing_direction": 3,
-			"item_frame_map_bit": 0b,
-			"item_frame_photo_bit": 1b
-		}
-	},
-	{
-		"name": "minecraft:frame",
-		"states": {
-			"facing_direction": 4,
-			"item_frame_map_bit": 0b,
-			"item_frame_photo_bit": 1b
-		}
-	},
-	{
-		"name": "minecraft:frame",
-		"states": {
-			"facing_direction": 5,
-			"item_frame_map_bit": 0b,
-			"item_frame_photo_bit": 1b
-		}
-	},
-	{
-		"name": "minecraft:frame",
-		"states": {
-			"facing_direction": 0,
-			"item_frame_map_bit": 1b,
-			"item_frame_photo_bit": 1b
-		}
-	},
-	{
-		"name": "minecraft:frame",
-		"states": {
-			"facing_direction": 1,
-			"item_frame_map_bit": 1b,
-			"item_frame_photo_bit": 1b
-		}
-	},
-	{
-		"name": "minecraft:frame",
-		"states": {
-			"facing_direction": 2,
-			"item_frame_map_bit": 1b,
-			"item_frame_photo_bit": 1b
-		}
-	},
-	{
-		"name": "minecraft:frame",
-		"states": {
-			"facing_direction": 3,
-			"item_frame_map_bit": 1b,
-			"item_frame_photo_bit": 1b
-		}
-	},
-	{
-		"name": "minecraft:frame",
-		"states": {
-			"facing_direction": 4,
-			"item_frame_map_bit": 1b,
-			"item_frame_photo_bit": 1b
-		}
-	},
-	{
-		"name": "minecraft:frame",
-		"states": {
-			"facing_direction": 5,
-			"item_frame_map_bit": 1b,
-			"item_frame_photo_bit": 1b
-		}
-	},
-	{
-		"name": "minecraft:glow_frame",
-		"states": {
-			"facing_direction": 0,
-			"item_frame_map_bit": 0b,
-			"item_frame_photo_bit": 0b
-		}
-	},
-	{
-		"name": "minecraft:glow_frame",
-		"states": {
-			"facing_direction": 1,
-			"item_frame_map_bit": 0b,
-			"item_frame_photo_bit": 0b
-		}
-	},
-	{
-		"name": "minecraft:glow_frame",
-		"states": {
-			"facing_direction": 2,
-			"item_frame_map_bit": 0b,
-			"item_frame_photo_bit": 0b
-		}
-	},
-	{
-		"name": "minecraft:glow_frame",
-		"states": {
-			"facing_direction": 3,
-			"item_frame_map_bit": 0b,
-			"item_frame_photo_bit": 0b
-		}
-	},
-	{
-		"name": "minecraft:glow_frame",
-		"states": {
-			"facing_direction": 4,
-			"item_frame_map_bit": 0b,
-			"item_frame_photo_bit": 0b
-		}
-	},
-	{
-		"name": "minecraft:glow_frame",
-		"states": {
-			"facing_direction": 5,
-			"item_frame_map_bit": 0b,
-			"item_frame_photo_bit": 0b
-		}
-	},
-	{
-		"name": "minecraft:glow_frame",
-		"states": {
-			"facing_direction": 0,
-			"item_frame_map_bit": 1b,
-			"item_frame_photo_bit": 0b
-		}
-	},
-	{
-		"name": "minecraft:glow_frame",
-		"states": {
-			"facing_direction": 1,
-			"item_frame_map_bit": 1b,
-			"item_frame_photo_bit": 0b
-		}
-	},
-	{
-		"name": "minecraft:glow_frame",
-		"states": {
-			"facing_direction": 2,
-			"item_frame_map_bit": 1b,
-			"item_frame_photo_bit": 0b
-		}
-	},
-	{
-		"name": "minecraft:glow_frame",
-		"states": {
-			"facing_direction": 3,
-			"item_frame_map_bit": 1b,
-			"item_frame_photo_bit": 0b
-		}
-	},
-	{
-		"name": "minecraft:glow_frame",
-		"states": {
-			"facing_direction": 4,
-			"item_frame_map_bit": 1b,
-			"item_frame_photo_bit": 0b
-		}
-	},
-	{
-		"name": "minecraft:glow_frame",
-		"states": {
-			"facing_direction": 5,
-			"item_frame_map_bit": 1b,
-			"item_frame_photo_bit": 0b
-		}
-	},
-	{
-		"name": "minecraft:glow_frame",
-		"states": {
-			"facing_direction": 0,
-			"item_frame_map_bit": 0b,
-			"item_frame_photo_bit": 1b
-		}
-	},
-	{
-		"name": "minecraft:glow_frame",
-		"states": {
-			"facing_direction": 1,
-			"item_frame_map_bit": 0b,
-			"item_frame_photo_bit": 1b
-		}
-	},
-	{
-		"name": "minecraft:glow_frame",
-		"states": {
-			"facing_direction": 2,
-			"item_frame_map_bit": 0b,
-			"item_frame_photo_bit": 1b
-		}
-	},
-	{
-		"name": "minecraft:glow_frame",
-		"states": {
-			"facing_direction": 3,
-			"item_frame_map_bit": 0b,
-			"item_frame_photo_bit": 1b
-		}
-	},
-	{
-		"name": "minecraft:glow_frame",
-		"states": {
-			"facing_direction": 4,
-			"item_frame_map_bit": 0b,
-			"item_frame_photo_bit": 1b
-		}
-	},
-	{
-		"name": "minecraft:glow_frame",
-		"states": {
-			"facing_direction": 5,
-			"item_frame_map_bit": 0b,
-			"item_frame_photo_bit": 1b
-		}
-	},
-	{
-		"name": "minecraft:glow_frame",
-		"states": {
-			"facing_direction": 0,
-			"item_frame_map_bit": 1b,
-			"item_frame_photo_bit": 1b
-		}
-	},
-	{
-		"name": "minecraft:glow_frame",
-		"states": {
-			"facing_direction": 1,
-			"item_frame_map_bit": 1b,
-			"item_frame_photo_bit": 1b
-		}
-	},
-	{
-		"name": "minecraft:glow_frame",
-		"states": {
-			"facing_direction": 2,
-			"item_frame_map_bit": 1b,
-			"item_frame_photo_bit": 1b
-		}
-	},
-	{
-		"name": "minecraft:glow_frame",
-		"states": {
-			"facing_direction": 3,
-			"item_frame_map_bit": 1b,
-			"item_frame_photo_bit": 1b
-		}
-	},
-	{
-		"name": "minecraft:glow_frame",
-		"states": {
-			"facing_direction": 4,
-			"item_frame_map_bit": 1b,
-			"item_frame_photo_bit": 1b
-		}
-	},
-	{
-		"name": "minecraft:glow_frame",
-		"states": {
-			"facing_direction": 5,
-			"item_frame_map_bit": 1b,
-			"item_frame_photo_bit": 1b
-		}
-	},
-	{
-		"name": "minecraft:sculk",
-		"states": {}
-	},
-	{
-		"name": "minecraft:sculk_catalyst",
-		"states": {}
-	},
-	{
-		"name": "minecraft:sculk_shrieker",
-		"states": {
-			"active": 0b
-		}
-	},
-	{
-		"name": "minecraft:sculk_shrieker",
-		"states": {
-			"active": 1b
-		}
-	},
-	{
-		"name": "minecraft:sculk_vein",
-		"states": {
-			"multi_face_direction_bits": 0
-		}
-	},
-	{
-		"name": "minecraft:sculk_vein",
-		"states": {
-			"multi_face_direction_bits": 1
-		}
-	},
-	{
-		"name": "minecraft:sculk_vein",
-		"states": {
-			"multi_face_direction_bits": 2
-		}
-	},
-	{
-		"name": "minecraft:sculk_vein",
-		"states": {
-			"multi_face_direction_bits": 3
-		}
-	},
-	{
-		"name": "minecraft:sculk_vein",
-		"states": {
-			"multi_face_direction_bits": 4
-		}
-	},
-	{
-		"name": "minecraft:sculk_vein",
-		"states": {
-			"multi_face_direction_bits": 5
-		}
-	},
-	{
-		"name": "minecraft:sculk_vein",
-		"states": {
-			"multi_face_direction_bits": 6
-		}
-	},
-	{
-		"name": "minecraft:sculk_vein",
-		"states": {
-			"multi_face_direction_bits": 7
-		}
-	},
-	{
-		"name": "minecraft:sculk_vein",
-		"states": {
-			"multi_face_direction_bits": 8
-		}
-	},
-	{
-		"name": "minecraft:sculk_vein",
-		"states": {
-			"multi_face_direction_bits": 9
-		}
-	},
-	{
-		"name": "minecraft:sculk_vein",
-		"states": {
-			"multi_face_direction_bits": 10
-		}
-	},
-	{
-		"name": "minecraft:sculk_vein",
-		"states": {
-			"multi_face_direction_bits": 11
-		}
-	},
-	{
-		"name": "minecraft:sculk_vein",
-		"states": {
-			"multi_face_direction_bits": 12
-		}
-	},
-	{
-		"name": "minecraft:sculk_vein",
-		"states": {
-			"multi_face_direction_bits": 13
-		}
-	},
-	{
-		"name": "minecraft:sculk_vein",
-		"states": {
-			"multi_face_direction_bits": 14
-		}
-	},
-	{
-		"name": "minecraft:sculk_vein",
-		"states": {
-			"multi_face_direction_bits": 15
-		}
-	},
-	{
-		"name": "minecraft:sculk_vein",
-		"states": {
-			"multi_face_direction_bits": 16
-		}
-	},
-	{
-		"name": "minecraft:sculk_vein",
-		"states": {
-			"multi_face_direction_bits": 17
-		}
-	},
-	{
-		"name": "minecraft:sculk_vein",
-		"states": {
-			"multi_face_direction_bits": 18
-		}
-	},
-	{
-		"name": "minecraft:sculk_vein",
-		"states": {
-			"multi_face_direction_bits": 19
-		}
-	},
-	{
-		"name": "minecraft:sculk_vein",
-		"states": {
-			"multi_face_direction_bits": 20
-		}
-	},
-	{
-		"name": "minecraft:sculk_vein",
-		"states": {
-			"multi_face_direction_bits": 21
-		}
-	},
-	{
-		"name": "minecraft:sculk_vein",
-		"states": {
-			"multi_face_direction_bits": 22
-		}
-	},
-	{
-		"name": "minecraft:sculk_vein",
-		"states": {
-			"multi_face_direction_bits": 23
-		}
-	},
-	{
-		"name": "minecraft:sculk_vein",
-		"states": {
-			"multi_face_direction_bits": 24
-		}
-	},
-	{
-		"name": "minecraft:sculk_vein",
-		"states": {
-			"multi_face_direction_bits": 25
-		}
-	},
-	{
-		"name": "minecraft:sculk_vein",
-		"states": {
-			"multi_face_direction_bits": 26
-		}
-	},
-	{
-		"name": "minecraft:sculk_vein",
-		"states": {
-			"multi_face_direction_bits": 27
-		}
-	},
-	{
-		"name": "minecraft:sculk_vein",
-		"states": {
-			"multi_face_direction_bits": 28
-		}
-	},
-	{
-		"name": "minecraft:sculk_vein",
-		"states": {
-			"multi_face_direction_bits": 29
-		}
-	},
-	{
-		"name": "minecraft:sculk_vein",
-		"states": {
-			"multi_face_direction_bits": 30
-		}
-	},
-	{
-		"name": "minecraft:sculk_vein",
-		"states": {
-			"multi_face_direction_bits": 31
-		}
-	},
-	{
-		"name": "minecraft:sculk_vein",
-		"states": {
-			"multi_face_direction_bits": 32
-		}
-	},
-	{
-		"name": "minecraft:sculk_vein",
-		"states": {
-			"multi_face_direction_bits": 33
-		}
-	},
-	{
-		"name": "minecraft:sculk_vein",
-		"states": {
-			"multi_face_direction_bits": 34
-		}
-	},
-	{
-		"name": "minecraft:sculk_vein",
-		"states": {
-			"multi_face_direction_bits": 35
-		}
-	},
-	{
-		"name": "minecraft:sculk_vein",
-		"states": {
-			"multi_face_direction_bits": 36
-		}
-	},
-	{
-		"name": "minecraft:sculk_vein",
-		"states": {
-			"multi_face_direction_bits": 37
-		}
-	},
-	{
-		"name": "minecraft:sculk_vein",
-		"states": {
-			"multi_face_direction_bits": 38
-		}
-	},
-	{
-		"name": "minecraft:sculk_vein",
-		"states": {
-			"multi_face_direction_bits": 39
-		}
-	},
-	{
-		"name": "minecraft:sculk_vein",
-		"states": {
-			"multi_face_direction_bits": 40
-		}
-	},
-	{
-		"name": "minecraft:sculk_vein",
-		"states": {
-			"multi_face_direction_bits": 41
-		}
-	},
-	{
-		"name": "minecraft:sculk_vein",
-		"states": {
-			"multi_face_direction_bits": 42
-		}
-	},
-	{
-		"name": "minecraft:sculk_vein",
-		"states": {
-			"multi_face_direction_bits": 43
-		}
-	},
-	{
-		"name": "minecraft:sculk_vein",
-		"states": {
-			"multi_face_direction_bits": 44
-		}
-	},
-	{
-		"name": "minecraft:sculk_vein",
-		"states": {
-			"multi_face_direction_bits": 45
-		}
-	},
-	{
-		"name": "minecraft:sculk_vein",
-		"states": {
-			"multi_face_direction_bits": 46
-		}
-	},
-	{
-		"name": "minecraft:sculk_vein",
-		"states": {
-			"multi_face_direction_bits": 47
-		}
-	},
-	{
-		"name": "minecraft:sculk_vein",
-		"states": {
-			"multi_face_direction_bits": 48
-		}
-	},
-	{
-		"name": "minecraft:sculk_vein",
-		"states": {
-			"multi_face_direction_bits": 49
-		}
-	},
-	{
-		"name": "minecraft:sculk_vein",
-		"states": {
-			"multi_face_direction_bits": 50
-		}
-	},
-	{
-		"name": "minecraft:sculk_vein",
-		"states": {
-			"multi_face_direction_bits": 51
-		}
-	},
-	{
-		"name": "minecraft:sculk_vein",
-		"states": {
-			"multi_face_direction_bits": 52
-		}
-	},
-	{
-		"name": "minecraft:sculk_vein",
-		"states": {
-			"multi_face_direction_bits": 53
-		}
-	},
-	{
-		"name": "minecraft:sculk_vein",
-		"states": {
-			"multi_face_direction_bits": 54
-		}
-	},
-	{
-		"name": "minecraft:sculk_vein",
-		"states": {
-			"multi_face_direction_bits": 55
-		}
-	},
-	{
-		"name": "minecraft:sculk_vein",
-		"states": {
-			"multi_face_direction_bits": 56
-		}
-	},
-	{
-		"name": "minecraft:sculk_vein",
-		"states": {
-			"multi_face_direction_bits": 57
-		}
-	},
-	{
-		"name": "minecraft:sculk_vein",
-		"states": {
-			"multi_face_direction_bits": 58
-		}
-	},
-	{
-		"name": "minecraft:sculk_vein",
-		"states": {
-			"multi_face_direction_bits": 59
-		}
-	},
-	{
-		"name": "minecraft:sculk_vein",
-		"states": {
-			"multi_face_direction_bits": 60
-		}
-	},
-	{
-		"name": "minecraft:sculk_vein",
-		"states": {
-			"multi_face_direction_bits": 61
-		}
-	},
-	{
-		"name": "minecraft:sculk_vein",
-		"states": {
-			"multi_face_direction_bits": 62
-		}
-	},
-	{
-		"name": "minecraft:sculk_vein",
-		"states": {
-			"multi_face_direction_bits": 63
-		}
-	}
+	{name: "minecraft:frame", states: {facing_direction: 0, item_frame_map_bit: 0b, item_frame_photo_bit: 0b}},
+	{name: "minecraft:frame", states: {facing_direction: 0, item_frame_map_bit: 0b, item_frame_photo_bit: 1b}},
+	{name: "minecraft:frame", states: {facing_direction: 0, item_frame_map_bit: 1b, item_frame_photo_bit: 0b}},
+	{name: "minecraft:frame", states: {facing_direction: 0, item_frame_map_bit: 1b, item_frame_photo_bit: 1b}},
+	{name: "minecraft:frame", states: {facing_direction: 1, item_frame_map_bit: 0b, item_frame_photo_bit: 0b}},
+	{name: "minecraft:frame", states: {facing_direction: 1, item_frame_map_bit: 0b, item_frame_photo_bit: 1b}},
+	{name: "minecraft:frame", states: {facing_direction: 1, item_frame_map_bit: 1b, item_frame_photo_bit: 0b}},
+	{name: "minecraft:frame", states: {facing_direction: 1, item_frame_map_bit: 1b, item_frame_photo_bit: 1b}},
+	{name: "minecraft:frame", states: {facing_direction: 2, item_frame_map_bit: 0b, item_frame_photo_bit: 0b}},
+	{name: "minecraft:frame", states: {facing_direction: 2, item_frame_map_bit: 0b, item_frame_photo_bit: 1b}},
+	{name: "minecraft:frame", states: {facing_direction: 2, item_frame_map_bit: 1b, item_frame_photo_bit: 0b}},
+	{name: "minecraft:frame", states: {facing_direction: 2, item_frame_map_bit: 1b, item_frame_photo_bit: 1b}},
+	{name: "minecraft:frame", states: {facing_direction: 3, item_frame_map_bit: 0b, item_frame_photo_bit: 0b}},
+	{name: "minecraft:frame", states: {facing_direction: 3, item_frame_map_bit: 0b, item_frame_photo_bit: 1b}},
+	{name: "minecraft:frame", states: {facing_direction: 3, item_frame_map_bit: 1b, item_frame_photo_bit: 0b}},
+	{name: "minecraft:frame", states: {facing_direction: 3, item_frame_map_bit: 1b, item_frame_photo_bit: 1b}},
+	{name: "minecraft:frame", states: {facing_direction: 4, item_frame_map_bit: 0b, item_frame_photo_bit: 0b}},
+	{name: "minecraft:frame", states: {facing_direction: 4, item_frame_map_bit: 0b, item_frame_photo_bit: 1b}},
+	{name: "minecraft:frame", states: {facing_direction: 4, item_frame_map_bit: 1b, item_frame_photo_bit: 0b}},
+	{name: "minecraft:frame", states: {facing_direction: 4, item_frame_map_bit: 1b, item_frame_photo_bit: 1b}},
+	{name: "minecraft:frame", states: {facing_direction: 5, item_frame_map_bit: 0b, item_frame_photo_bit: 0b}},
+	{name: "minecraft:frame", states: {facing_direction: 5, item_frame_map_bit: 0b, item_frame_photo_bit: 1b}},
+	{name: "minecraft:frame", states: {facing_direction: 5, item_frame_map_bit: 1b, item_frame_photo_bit: 0b}},
+	{name: "minecraft:frame", states: {facing_direction: 5, item_frame_map_bit: 1b, item_frame_photo_bit: 1b}},
+	{name: "minecraft:glow_frame", states: {facing_direction: 0, item_frame_map_bit: 0b, item_frame_photo_bit: 0b}},
+	{name: "minecraft:glow_frame", states: {facing_direction: 0, item_frame_map_bit: 0b, item_frame_photo_bit: 1b}},
+	{name: "minecraft:glow_frame", states: {facing_direction: 0, item_frame_map_bit: 1b, item_frame_photo_bit: 0b}},
+	{name: "minecraft:glow_frame", states: {facing_direction: 0, item_frame_map_bit: 1b, item_frame_photo_bit: 1b}},
+	{name: "minecraft:glow_frame", states: {facing_direction: 1, item_frame_map_bit: 0b, item_frame_photo_bit: 0b}},
+	{name: "minecraft:glow_frame", states: {facing_direction: 1, item_frame_map_bit: 0b, item_frame_photo_bit: 1b}},
+	{name: "minecraft:glow_frame", states: {facing_direction: 1, item_frame_map_bit: 1b, item_frame_photo_bit: 0b}},
+	{name: "minecraft:glow_frame", states: {facing_direction: 1, item_frame_map_bit: 1b, item_frame_photo_bit: 1b}},
+	{name: "minecraft:glow_frame", states: {facing_direction: 2, item_frame_map_bit: 0b, item_frame_photo_bit: 0b}},
+	{name: "minecraft:glow_frame", states: {facing_direction: 2, item_frame_map_bit: 0b, item_frame_photo_bit: 1b}},
+	{name: "minecraft:glow_frame", states: {facing_direction: 2, item_frame_map_bit: 1b, item_frame_photo_bit: 0b}},
+	{name: "minecraft:glow_frame", states: {facing_direction: 2, item_frame_map_bit: 1b, item_frame_photo_bit: 1b}},
+	{name: "minecraft:glow_frame", states: {facing_direction: 3, item_frame_map_bit: 0b, item_frame_photo_bit: 0b}},
+	{name: "minecraft:glow_frame", states: {facing_direction: 3, item_frame_map_bit: 0b, item_frame_photo_bit: 1b}},
+	{name: "minecraft:glow_frame", states: {facing_direction: 3, item_frame_map_bit: 1b, item_frame_photo_bit: 0b}},
+	{name: "minecraft:glow_frame", states: {facing_direction: 3, item_frame_map_bit: 1b, item_frame_photo_bit: 1b}},
+	{name: "minecraft:glow_frame", states: {facing_direction: 4, item_frame_map_bit: 0b, item_frame_photo_bit: 0b}},
+	{name: "minecraft:glow_frame", states: {facing_direction: 4, item_frame_map_bit: 0b, item_frame_photo_bit: 1b}},
+	{name: "minecraft:glow_frame", states: {facing_direction: 4, item_frame_map_bit: 1b, item_frame_photo_bit: 0b}},
+	{name: "minecraft:glow_frame", states: {facing_direction: 4, item_frame_map_bit: 1b, item_frame_photo_bit: 1b}},
+	{name: "minecraft:glow_frame", states: {facing_direction: 5, item_frame_map_bit: 0b, item_frame_photo_bit: 0b}},
+	{name: "minecraft:glow_frame", states: {facing_direction: 5, item_frame_map_bit: 0b, item_frame_photo_bit: 1b}},
+	{name: "minecraft:glow_frame", states: {facing_direction: 5, item_frame_map_bit: 1b, item_frame_photo_bit: 0b}},
+	{name: "minecraft:glow_frame", states: {facing_direction: 5, item_frame_map_bit: 1b, item_frame_photo_bit: 1b}},
+	{name: "minecraft:sculk", states: {}},
+	{name: "minecraft:sculk_catalyst", states: {}},
+	{name: "minecraft:sculk_shrieker", states: {active: 0b}},
+	{name: "minecraft:sculk_shrieker", states: {active: 1b}},
+	{name: "minecraft:sculk_vein", states: {multi_face_direction_bits: 0}},
+	{name: "minecraft:sculk_vein", states: {multi_face_direction_bits: 10}},
+	{name: "minecraft:sculk_vein", states: {multi_face_direction_bits: 11}},
+	{name: "minecraft:sculk_vein", states: {multi_face_direction_bits: 12}},
+	{name: "minecraft:sculk_vein", states: {multi_face_direction_bits: 13}},
+	{name: "minecraft:sculk_vein", states: {multi_face_direction_bits: 14}},
+	{name: "minecraft:sculk_vein", states: {multi_face_direction_bits: 15}},
+	{name: "minecraft:sculk_vein", states: {multi_face_direction_bits: 16}},
+	{name: "minecraft:sculk_vein", states: {multi_face_direction_bits: 17}},
+	{name: "minecraft:sculk_vein", states: {multi_face_direction_bits: 18}},
+	{name: "minecraft:sculk_vein", states: {multi_face_direction_bits: 19}},
+	{name: "minecraft:sculk_vein", states: {multi_face_direction_bits: 1}},
+	{name: "minecraft:sculk_vein", states: {multi_face_direction_bits: 20}},
+	{name: "minecraft:sculk_vein", states: {multi_face_direction_bits: 21}},
+	{name: "minecraft:sculk_vein", states: {multi_face_direction_bits: 22}},
+	{name: "minecraft:sculk_vein", states: {multi_face_direction_bits: 23}},
+	{name: "minecraft:sculk_vein", states: {multi_face_direction_bits: 24}},
+	{name: "minecraft:sculk_vein", states: {multi_face_direction_bits: 25}},
+	{name: "minecraft:sculk_vein", states: {multi_face_direction_bits: 26}},
+	{name: "minecraft:sculk_vein", states: {multi_face_direction_bits: 27}},
+	{name: "minecraft:sculk_vein", states: {multi_face_direction_bits: 28}},
+	{name: "minecraft:sculk_vein", states: {multi_face_direction_bits: 29}},
+	{name: "minecraft:sculk_vein", states: {multi_face_direction_bits: 2}},
+	{name: "minecraft:sculk_vein", states: {multi_face_direction_bits: 30}},
+	{name: "minecraft:sculk_vein", states: {multi_face_direction_bits: 31}},
+	{name: "minecraft:sculk_vein", states: {multi_face_direction_bits: 32}},
+	{name: "minecraft:sculk_vein", states: {multi_face_direction_bits: 33}},
+	{name: "minecraft:sculk_vein", states: {multi_face_direction_bits: 34}},
+	{name: "minecraft:sculk_vein", states: {multi_face_direction_bits: 35}},
+	{name: "minecraft:sculk_vein", states: {multi_face_direction_bits: 36}},
+	{name: "minecraft:sculk_vein", states: {multi_face_direction_bits: 37}},
+	{name: "minecraft:sculk_vein", states: {multi_face_direction_bits: 38}},
+	{name: "minecraft:sculk_vein", states: {multi_face_direction_bits: 39}},
+	{name: "minecraft:sculk_vein", states: {multi_face_direction_bits: 3}},
+	{name: "minecraft:sculk_vein", states: {multi_face_direction_bits: 40}},
+	{name: "minecraft:sculk_vein", states: {multi_face_direction_bits: 41}},
+	{name: "minecraft:sculk_vein", states: {multi_face_direction_bits: 42}},
+	{name: "minecraft:sculk_vein", states: {multi_face_direction_bits: 43}},
+	{name: "minecraft:sculk_vein", states: {multi_face_direction_bits: 44}},
+	{name: "minecraft:sculk_vein", states: {multi_face_direction_bits: 45}},
+	{name: "minecraft:sculk_vein", states: {multi_face_direction_bits: 46}},
+	{name: "minecraft:sculk_vein", states: {multi_face_direction_bits: 47}},
+	{name: "minecraft:sculk_vein", states: {multi_face_direction_bits: 48}},
+	{name: "minecraft:sculk_vein", states: {multi_face_direction_bits: 49}},
+	{name: "minecraft:sculk_vein", states: {multi_face_direction_bits: 4}},
+	{name: "minecraft:sculk_vein", states: {multi_face_direction_bits: 50}},
+	{name: "minecraft:sculk_vein", states: {multi_face_direction_bits: 51}},
+	{name: "minecraft:sculk_vein", states: {multi_face_direction_bits: 52}},
+	{name: "minecraft:sculk_vein", states: {multi_face_direction_bits: 53}},
+	{name: "minecraft:sculk_vein", states: {multi_face_direction_bits: 54}},
+	{name: "minecraft:sculk_vein", states: {multi_face_direction_bits: 55}},
+	{name: "minecraft:sculk_vein", states: {multi_face_direction_bits: 56}},
+	{name: "minecraft:sculk_vein", states: {multi_face_direction_bits: 57}},
+	{name: "minecraft:sculk_vein", states: {multi_face_direction_bits: 58}},
+	{name: "minecraft:sculk_vein", states: {multi_face_direction_bits: 59}},
+	{name: "minecraft:sculk_vein", states: {multi_face_direction_bits: 5}},
+	{name: "minecraft:sculk_vein", states: {multi_face_direction_bits: 60}},
+	{name: "minecraft:sculk_vein", states: {multi_face_direction_bits: 61}},
+	{name: "minecraft:sculk_vein", states: {multi_face_direction_bits: 62}},
+	{name: "minecraft:sculk_vein", states: {multi_face_direction_bits: 63}},
+	{name: "minecraft:sculk_vein", states: {multi_face_direction_bits: 6}},
+	{name: "minecraft:sculk_vein", states: {multi_face_direction_bits: 7}},
+	{name: "minecraft:sculk_vein", states: {multi_face_direction_bits: 8}},
+	{name: "minecraft:sculk_vein", states: {multi_face_direction_bits: 9}}
 ]

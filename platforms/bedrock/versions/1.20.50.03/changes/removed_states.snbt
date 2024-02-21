@@ -1,0 +1,15 @@
+[
+	{name: "minecraft:planks", states: {wood_type: "acacia"}},
+	{name: "minecraft:planks", states: {wood_type: "birch"}},
+	{name: "minecraft:planks", states: {wood_type: "dark_oak"}},
+	{name: "minecraft:planks", states: {wood_type: "jungle"}},
+	{name: "minecraft:planks", states: {wood_type: "oak"}},
+	{name: "minecraft:planks", states: {wood_type: "spruce"}},
+	{name: "minecraft:stone", states: {stone_type: "andesite"}},
+	{name: "minecraft:stone", states: {stone_type: "andesite_smooth"}},
+	{name: "minecraft:stone", states: {stone_type: "diorite"}},
+	{name: "minecraft:stone", states: {stone_type: "diorite_smooth"}},
+	{name: "minecraft:stone", states: {stone_type: "granite"}},
+	{name: "minecraft:stone", states: {stone_type: "granite_smooth"}},
+	{name: "minecraft:stone", states: {stone_type: "stone"}}
+]

@@ -1,422 +1,76 @@
 [
-	{
-		"name": "minecraft:blue_carpet",
-		"states": {}
-	},
-	{
-		"name": "minecraft:gray_carpet",
-		"states": {}
-	},
-	{
-		"name": "minecraft:magenta_carpet",
-		"states": {}
-	},
-	{
-		"name": "minecraft:pitcher_crop",
-		"states": {
-			"growth": 0,
-			"upper_block_bit": 0b
-		}
-	},
-	{
-		"name": "minecraft:pitcher_crop",
-		"states": {
-			"growth": 0,
-			"upper_block_bit": 1b
-		}
-	},
-	{
-		"name": "minecraft:pitcher_crop",
-		"states": {
-			"growth": 1,
-			"upper_block_bit": 0b
-		}
-	},
-	{
-		"name": "minecraft:pitcher_crop",
-		"states": {
-			"growth": 1,
-			"upper_block_bit": 1b
-		}
-	},
-	{
-		"name": "minecraft:pitcher_crop",
-		"states": {
-			"growth": 2,
-			"upper_block_bit": 0b
-		}
-	},
-	{
-		"name": "minecraft:pitcher_crop",
-		"states": {
-			"growth": 2,
-			"upper_block_bit": 1b
-		}
-	},
-	{
-		"name": "minecraft:pitcher_crop",
-		"states": {
-			"growth": 3,
-			"upper_block_bit": 0b
-		}
-	},
-	{
-		"name": "minecraft:pitcher_crop",
-		"states": {
-			"growth": 3,
-			"upper_block_bit": 1b
-		}
-	},
-	{
-		"name": "minecraft:pitcher_crop",
-		"states": {
-			"growth": 4,
-			"upper_block_bit": 0b
-		}
-	},
-	{
-		"name": "minecraft:pitcher_crop",
-		"states": {
-			"growth": 4,
-			"upper_block_bit": 1b
-		}
-	},
-	{
-		"name": "minecraft:pitcher_crop",
-		"states": {
-			"growth": 5,
-			"upper_block_bit": 0b
-		}
-	},
-	{
-		"name": "minecraft:pitcher_crop",
-		"states": {
-			"growth": 5,
-			"upper_block_bit": 1b
-		}
-	},
-	{
-		"name": "minecraft:pitcher_crop",
-		"states": {
-			"growth": 6,
-			"upper_block_bit": 0b
-		}
-	},
-	{
-		"name": "minecraft:pitcher_crop",
-		"states": {
-			"growth": 6,
-			"upper_block_bit": 1b
-		}
-	},
-	{
-		"name": "minecraft:pitcher_crop",
-		"states": {
-			"growth": 7,
-			"upper_block_bit": 0b
-		}
-	},
-	{
-		"name": "minecraft:pitcher_crop",
-		"states": {
-			"growth": 7,
-			"upper_block_bit": 1b
-		}
-	},
-	{
-		"name": "minecraft:fire_coral",
-		"states": {}
-	},
-	{
-		"name": "minecraft:brain_coral",
-		"states": {}
-	},
-	{
-		"name": "minecraft:brown_carpet",
-		"states": {}
-	},
-	{
-		"name": "minecraft:horn_coral",
-		"states": {}
-	},
-	{
-		"name": "minecraft:cyan_carpet",
-		"states": {}
-	},
-	{
-		"name": "minecraft:green_carpet",
-		"states": {}
-	},
-	{
-		"name": "minecraft:pitcher_plant",
-		"states": {
-			"upper_block_bit": 0b
-		}
-	},
-	{
-		"name": "minecraft:pitcher_plant",
-		"states": {
-			"upper_block_bit": 1b
-		}
-	},
-	{
-		"name": "minecraft:dead_tube_coral",
-		"states": {}
-	},
-	{
-		"name": "minecraft:sculk_sensor",
-		"states": {
-			"sculk_sensor_phase": 0
-		}
-	},
-	{
-		"name": "minecraft:sculk_sensor",
-		"states": {
-			"sculk_sensor_phase": 1
-		}
-	},
-	{
-		"name": "minecraft:sculk_sensor",
-		"states": {
-			"sculk_sensor_phase": 2
-		}
-	},
-	{
-		"name": "minecraft:pumpkin",
-		"states": {
-			"minecraft:cardinal_direction": "south"
-		}
-	},
-	{
-		"name": "minecraft:pumpkin",
-		"states": {
-			"minecraft:cardinal_direction": "west"
-		}
-	},
-	{
-		"name": "minecraft:pumpkin",
-		"states": {
-			"minecraft:cardinal_direction": "north"
-		}
-	},
-	{
-		"name": "minecraft:pumpkin",
-		"states": {
-			"minecraft:cardinal_direction": "east"
-		}
-	},
-	{
-		"name": "minecraft:light_blue_carpet",
-		"states": {}
-	},
-	{
-		"name": "minecraft:calibrated_sculk_sensor",
-		"states": {
-			"direction": 0,
-			"sculk_sensor_phase": 0
-		}
-	},
-	{
-		"name": "minecraft:calibrated_sculk_sensor",
-		"states": {
-			"direction": 0,
-			"sculk_sensor_phase": 1
-		}
-	},
-	{
-		"name": "minecraft:calibrated_sculk_sensor",
-		"states": {
-			"direction": 0,
-			"sculk_sensor_phase": 2
-		}
-	},
-	{
-		"name": "minecraft:calibrated_sculk_sensor",
-		"states": {
-			"direction": 1,
-			"sculk_sensor_phase": 0
-		}
-	},
-	{
-		"name": "minecraft:calibrated_sculk_sensor",
-		"states": {
-			"direction": 1,
-			"sculk_sensor_phase": 1
-		}
-	},
-	{
-		"name": "minecraft:calibrated_sculk_sensor",
-		"states": {
-			"direction": 1,
-			"sculk_sensor_phase": 2
-		}
-	},
-	{
-		"name": "minecraft:calibrated_sculk_sensor",
-		"states": {
-			"direction": 2,
-			"sculk_sensor_phase": 0
-		}
-	},
-	{
-		"name": "minecraft:calibrated_sculk_sensor",
-		"states": {
-			"direction": 2,
-			"sculk_sensor_phase": 1
-		}
-	},
-	{
-		"name": "minecraft:calibrated_sculk_sensor",
-		"states": {
-			"direction": 2,
-			"sculk_sensor_phase": 2
-		}
-	},
-	{
-		"name": "minecraft:calibrated_sculk_sensor",
-		"states": {
-			"direction": 3,
-			"sculk_sensor_phase": 0
-		}
-	},
-	{
-		"name": "minecraft:calibrated_sculk_sensor",
-		"states": {
-			"direction": 3,
-			"sculk_sensor_phase": 1
-		}
-	},
-	{
-		"name": "minecraft:calibrated_sculk_sensor",
-		"states": {
-			"direction": 3,
-			"sculk_sensor_phase": 2
-		}
-	},
-	{
-		"name": "minecraft:yellow_carpet",
-		"states": {}
-	},
-	{
-		"name": "minecraft:dead_horn_coral",
-		"states": {}
-	},
-	{
-		"name": "minecraft:black_carpet",
-		"states": {}
-	},
-	{
-		"name": "minecraft:bubble_coral",
-		"states": {}
-	},
-	{
-		"name": "minecraft:dead_fire_coral",
-		"states": {}
-	},
-	{
-		"name": "minecraft:lit_pumpkin",
-		"states": {
-			"minecraft:cardinal_direction": "south"
-		}
-	},
-	{
-		"name": "minecraft:lit_pumpkin",
-		"states": {
-			"minecraft:cardinal_direction": "west"
-		}
-	},
-	{
-		"name": "minecraft:lit_pumpkin",
-		"states": {
-			"minecraft:cardinal_direction": "north"
-		}
-	},
-	{
-		"name": "minecraft:lit_pumpkin",
-		"states": {
-			"minecraft:cardinal_direction": "east"
-		}
-	},
-	{
-		"name": "minecraft:lime_carpet",
-		"states": {}
-	},
-	{
-		"name": "minecraft:sniffer_egg",
-		"states": {
-			"cracked_state": "no_cracks"
-		}
-	},
-	{
-		"name": "minecraft:sniffer_egg",
-		"states": {
-			"cracked_state": "cracked"
-		}
-	},
-	{
-		"name": "minecraft:sniffer_egg",
-		"states": {
-			"cracked_state": "max_cracked"
-		}
-	},
-	{
-		"name": "minecraft:orange_carpet",
-		"states": {}
-	},
-	{
-		"name": "minecraft:dead_brain_coral",
-		"states": {}
-	},
-	{
-		"name": "minecraft:dead_bubble_coral",
-		"states": {}
-	},
-	{
-		"name": "minecraft:white_carpet",
-		"states": {}
-	},
-	{
-		"name": "minecraft:carved_pumpkin",
-		"states": {
-			"minecraft:cardinal_direction": "south"
-		}
-	},
-	{
-		"name": "minecraft:carved_pumpkin",
-		"states": {
-			"minecraft:cardinal_direction": "west"
-		}
-	},
-	{
-		"name": "minecraft:carved_pumpkin",
-		"states": {
-			"minecraft:cardinal_direction": "north"
-		}
-	},
-	{
-		"name": "minecraft:carved_pumpkin",
-		"states": {
-			"minecraft:cardinal_direction": "east"
-		}
-	},
-	{
-		"name": "minecraft:red_carpet",
-		"states": {}
-	},
-	{
-		"name": "minecraft:pink_carpet",
-		"states": {}
-	},
-	{
-		"name": "minecraft:purple_carpet",
-		"states": {}
-	},
-	{
-		"name": "minecraft:tube_coral",
-		"states": {}
-	},
-	{
-		"name": "minecraft:light_gray_carpet",
-		"states": {}
-	}
+	{name: "minecraft:black_carpet", states: {}},
+	{name: "minecraft:blue_carpet", states: {}},
+	{name: "minecraft:brain_coral", states: {}},
+	{name: "minecraft:brown_carpet", states: {}},
+	{name: "minecraft:bubble_coral", states: {}},
+	{name: "minecraft:calibrated_sculk_sensor", states: {direction: 0, sculk_sensor_phase: 0}},
+	{name: "minecraft:calibrated_sculk_sensor", states: {direction: 0, sculk_sensor_phase: 1}},
+	{name: "minecraft:calibrated_sculk_sensor", states: {direction: 0, sculk_sensor_phase: 2}},
+	{name: "minecraft:calibrated_sculk_sensor", states: {direction: 1, sculk_sensor_phase: 0}},
+	{name: "minecraft:calibrated_sculk_sensor", states: {direction: 1, sculk_sensor_phase: 1}},
+	{name: "minecraft:calibrated_sculk_sensor", states: {direction: 1, sculk_sensor_phase: 2}},
+	{name: "minecraft:calibrated_sculk_sensor", states: {direction: 2, sculk_sensor_phase: 0}},
+	{name: "minecraft:calibrated_sculk_sensor", states: {direction: 2, sculk_sensor_phase: 1}},
+	{name: "minecraft:calibrated_sculk_sensor", states: {direction: 2, sculk_sensor_phase: 2}},
+	{name: "minecraft:calibrated_sculk_sensor", states: {direction: 3, sculk_sensor_phase: 0}},
+	{name: "minecraft:calibrated_sculk_sensor", states: {direction: 3, sculk_sensor_phase: 1}},
+	{name: "minecraft:calibrated_sculk_sensor", states: {direction: 3, sculk_sensor_phase: 2}},
+	{name: "minecraft:carved_pumpkin", states: {"minecraft:cardinal_direction": "east"}},
+	{name: "minecraft:carved_pumpkin", states: {"minecraft:cardinal_direction": "north"}},
+	{name: "minecraft:carved_pumpkin", states: {"minecraft:cardinal_direction": "south"}},
+	{name: "minecraft:carved_pumpkin", states: {"minecraft:cardinal_direction": "west"}},
+	{name: "minecraft:cyan_carpet", states: {}},
+	{name: "minecraft:dead_brain_coral", states: {}},
+	{name: "minecraft:dead_bubble_coral", states: {}},
+	{name: "minecraft:dead_fire_coral", states: {}},
+	{name: "minecraft:dead_horn_coral", states: {}},
+	{name: "minecraft:dead_tube_coral", states: {}},
+	{name: "minecraft:fire_coral", states: {}},
+	{name: "minecraft:gray_carpet", states: {}},
+	{name: "minecraft:green_carpet", states: {}},
+	{name: "minecraft:horn_coral", states: {}},
+	{name: "minecraft:light_blue_carpet", states: {}},
+	{name: "minecraft:light_gray_carpet", states: {}},
+	{name: "minecraft:lime_carpet", states: {}},
+	{name: "minecraft:lit_pumpkin", states: {"minecraft:cardinal_direction": "east"}},
+	{name: "minecraft:lit_pumpkin", states: {"minecraft:cardinal_direction": "north"}},
+	{name: "minecraft:lit_pumpkin", states: {"minecraft:cardinal_direction": "south"}},
+	{name: "minecraft:lit_pumpkin", states: {"minecraft:cardinal_direction": "west"}},
+	{name: "minecraft:magenta_carpet", states: {}},
+	{name: "minecraft:orange_carpet", states: {}},
+	{name: "minecraft:pink_carpet", states: {}},
+	{name: "minecraft:pitcher_crop", states: {growth: 0, upper_block_bit: 0b}},
+	{name: "minecraft:pitcher_crop", states: {growth: 0, upper_block_bit: 1b}},
+	{name: "minecraft:pitcher_crop", states: {growth: 1, upper_block_bit: 0b}},
+	{name: "minecraft:pitcher_crop", states: {growth: 1, upper_block_bit: 1b}},
+	{name: "minecraft:pitcher_crop", states: {growth: 2, upper_block_bit: 0b}},
+	{name: "minecraft:pitcher_crop", states: {growth: 2, upper_block_bit: 1b}},
+	{name: "minecraft:pitcher_crop", states: {growth: 3, upper_block_bit: 0b}},
+	{name: "minecraft:pitcher_crop", states: {growth: 3, upper_block_bit: 1b}},
+	{name: "minecraft:pitcher_crop", states: {growth: 4, upper_block_bit: 0b}},
+	{name: "minecraft:pitcher_crop", states: {growth: 4, upper_block_bit: 1b}},
+	{name: "minecraft:pitcher_crop", states: {growth: 5, upper_block_bit: 0b}},
+	{name: "minecraft:pitcher_crop", states: {growth: 5, upper_block_bit: 1b}},
+	{name: "minecraft:pitcher_crop", states: {growth: 6, upper_block_bit: 0b}},
+	{name: "minecraft:pitcher_crop", states: {growth: 6, upper_block_bit: 1b}},
+	{name: "minecraft:pitcher_crop", states: {growth: 7, upper_block_bit: 0b}},
+	{name: "minecraft:pitcher_crop", states: {growth: 7, upper_block_bit: 1b}},
+	{name: "minecraft:pitcher_plant", states: {upper_block_bit: 0b}},
+	{name: "minecraft:pitcher_plant", states: {upper_block_bit: 1b}},
+	{name: "minecraft:pumpkin", states: {"minecraft:cardinal_direction": "east"}},
+	{name: "minecraft:pumpkin", states: {"minecraft:cardinal_direction": "north"}},
+	{name: "minecraft:pumpkin", states: {"minecraft:cardinal_direction": "south"}},
+	{name: "minecraft:pumpkin", states: {"minecraft:cardinal_direction": "west"}},
+	{name: "minecraft:purple_carpet", states: {}},
+	{name: "minecraft:red_carpet", states: {}},
+	{name: "minecraft:sculk_sensor", states: {sculk_sensor_phase: 0}},
+	{name: "minecraft:sculk_sensor", states: {sculk_sensor_phase: 1}},
+	{name: "minecraft:sculk_sensor", states: {sculk_sensor_phase: 2}},
+	{name: "minecraft:sniffer_egg", states: {cracked_state: "cracked"}},
+	{name: "minecraft:sniffer_egg", states: {cracked_state: "max_cracked"}},
+	{name: "minecraft:sniffer_egg", states: {cracked_state: "no_cracks"}},
+	{name: "minecraft:tube_coral", states: {}},
+	{name: "minecraft:white_carpet", states: {}},
+	{name: "minecraft:yellow_carpet", states: {}}
 ]

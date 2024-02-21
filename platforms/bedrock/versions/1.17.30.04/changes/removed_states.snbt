@@ -1,170 +1,26 @@
 [
-	{
-		"name": "minecraft:frame",
-		"states": {
-			"facing_direction": 0,
-			"item_frame_map_bit": 0b
-		}
-	},
-	{
-		"name": "minecraft:frame",
-		"states": {
-			"facing_direction": 1,
-			"item_frame_map_bit": 0b
-		}
-	},
-	{
-		"name": "minecraft:frame",
-		"states": {
-			"facing_direction": 2,
-			"item_frame_map_bit": 0b
-		}
-	},
-	{
-		"name": "minecraft:frame",
-		"states": {
-			"facing_direction": 3,
-			"item_frame_map_bit": 0b
-		}
-	},
-	{
-		"name": "minecraft:frame",
-		"states": {
-			"facing_direction": 4,
-			"item_frame_map_bit": 0b
-		}
-	},
-	{
-		"name": "minecraft:frame",
-		"states": {
-			"facing_direction": 5,
-			"item_frame_map_bit": 0b
-		}
-	},
-	{
-		"name": "minecraft:frame",
-		"states": {
-			"facing_direction": 0,
-			"item_frame_map_bit": 1b
-		}
-	},
-	{
-		"name": "minecraft:frame",
-		"states": {
-			"facing_direction": 1,
-			"item_frame_map_bit": 1b
-		}
-	},
-	{
-		"name": "minecraft:frame",
-		"states": {
-			"facing_direction": 2,
-			"item_frame_map_bit": 1b
-		}
-	},
-	{
-		"name": "minecraft:frame",
-		"states": {
-			"facing_direction": 3,
-			"item_frame_map_bit": 1b
-		}
-	},
-	{
-		"name": "minecraft:frame",
-		"states": {
-			"facing_direction": 4,
-			"item_frame_map_bit": 1b
-		}
-	},
-	{
-		"name": "minecraft:frame",
-		"states": {
-			"facing_direction": 5,
-			"item_frame_map_bit": 1b
-		}
-	},
-	{
-		"name": "minecraft:glow_frame",
-		"states": {
-			"facing_direction": 0,
-			"item_frame_map_bit": 0b
-		}
-	},
-	{
-		"name": "minecraft:glow_frame",
-		"states": {
-			"facing_direction": 1,
-			"item_frame_map_bit": 0b
-		}
-	},
-	{
-		"name": "minecraft:glow_frame",
-		"states": {
-			"facing_direction": 2,
-			"item_frame_map_bit": 0b
-		}
-	},
-	{
-		"name": "minecraft:glow_frame",
-		"states": {
-			"facing_direction": 3,
-			"item_frame_map_bit": 0b
-		}
-	},
-	{
-		"name": "minecraft:glow_frame",
-		"states": {
-			"facing_direction": 4,
-			"item_frame_map_bit": 0b
-		}
-	},
-	{
-		"name": "minecraft:glow_frame",
-		"states": {
-			"facing_direction": 5,
-			"item_frame_map_bit": 0b
-		}
-	},
-	{
-		"name": "minecraft:glow_frame",
-		"states": {
-			"facing_direction": 0,
-			"item_frame_map_bit": 1b
-		}
-	},
-	{
-		"name": "minecraft:glow_frame",
-		"states": {
-			"facing_direction": 1,
-			"item_frame_map_bit": 1b
-		}
-	},
-	{
-		"name": "minecraft:glow_frame",
-		"states": {
-			"facing_direction": 2,
-			"item_frame_map_bit": 1b
-		}
-	},
-	{
-		"name": "minecraft:glow_frame",
-		"states": {
-			"facing_direction": 3,
-			"item_frame_map_bit": 1b
-		}
-	},
-	{
-		"name": "minecraft:glow_frame",
-		"states": {
-			"facing_direction": 4,
-			"item_frame_map_bit": 1b
-		}
-	},
-	{
-		"name": "minecraft:glow_frame",
-		"states": {
-			"facing_direction": 5,
-			"item_frame_map_bit": 1b
-		}
-	}
+	{name: "minecraft:frame", states: {facing_direction: 0, item_frame_map_bit: 0b}},
+	{name: "minecraft:frame", states: {facing_direction: 0, item_frame_map_bit: 1b}},
+	{name: "minecraft:frame", states: {facing_direction: 1, item_frame_map_bit: 0b}},
+	{name: "minecraft:frame", states: {facing_direction: 1, item_frame_map_bit: 1b}},
+	{name: "minecraft:frame", states: {facing_direction: 2, item_frame_map_bit: 0b}},
+	{name: "minecraft:frame", states: {facing_direction: 2, item_frame_map_bit: 1b}},
+	{name: "minecraft:frame", states: {facing_direction: 3, item_frame_map_bit: 0b}},
+	{name: "minecraft:frame", states: {facing_direction: 3, item_frame_map_bit: 1b}},
+	{name: "minecraft:frame", states: {facing_direction: 4, item_frame_map_bit: 0b}},
+	{name: "minecraft:frame", states: {facing_direction: 4, item_frame_map_bit: 1b}},
+	{name: "minecraft:frame", states: {facing_direction: 5, item_frame_map_bit: 0b}},
+	{name: "minecraft:frame", states: {facing_direction: 5, item_frame_map_bit: 1b}},
+	{name: "minecraft:glow_frame", states: {facing_direction: 0, item_frame_map_bit: 0b}},
+	{name: "minecraft:glow_frame", states: {facing_direction: 0, item_frame_map_bit: 1b}},
+	{name: "minecraft:glow_frame", states: {facing_direction: 1, item_frame_map_bit: 0b}},
+	{name: "minecraft:glow_frame", states: {facing_direction: 1, item_frame_map_bit: 1b}},
+	{name: "minecraft:glow_frame", states: {facing_direction: 2, item_frame_map_bit: 0b}},
+	{name: "minecraft:glow_frame", states: {facing_direction: 2, item_frame_map_bit: 1b}},
+	{name: "minecraft:glow_frame", states: {facing_direction: 3, item_frame_map_bit: 0b}},
+	{name: "minecraft:glow_frame", states: {facing_direction: 3, item_frame_map_bit: 1b}},
+	{name: "minecraft:glow_frame", states: {facing_direction: 4, item_frame_map_bit: 0b}},
+	{name: "minecraft:glow_frame", states: {facing_direction: 4, item_frame_map_bit: 1b}},
+	{name: "minecraft:glow_frame", states: {facing_direction: 5, item_frame_map_bit: 0b}},
+	{name: "minecraft:glow_frame", states: {facing_direction: 5, item_frame_map_bit: 1b}}
 ]

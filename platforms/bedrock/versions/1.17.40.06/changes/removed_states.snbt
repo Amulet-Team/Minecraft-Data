@@ -1,6 +1,3 @@
 [
-	{
-		"name": "minecraft:sculk_catalyst",
-		"states": {}
-	}
+	{name: "minecraft:sculk_catalyst", states: {}}
 ]

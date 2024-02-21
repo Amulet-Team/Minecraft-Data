@@ -1,1960 +1,277 @@
 [
-	{
-		"name": "minecraft:sculk_shrieker",
-		"states": {
-			"active": 0b,
-			"can_summon": 0b
-		}
-	},
-	{
-		"name": "minecraft:sculk_shrieker",
-		"states": {
-			"active": 1b,
-			"can_summon": 0b
-		}
-	},
-	{
-		"name": "minecraft:sculk_shrieker",
-		"states": {
-			"active": 0b,
-			"can_summon": 1b
-		}
-	},
-	{
-		"name": "minecraft:sculk_shrieker",
-		"states": {
-			"active": 1b,
-			"can_summon": 1b
-		}
-	},
-	{
-		"name": "minecraft:muddy_mangrove_roots",
-		"states": {}
-	},
-	{
-		"name": "minecraft:mangrove_log",
-		"states": {
-			"pillar_axis": "y"
-		}
-	},
-	{
-		"name": "minecraft:mangrove_log",
-		"states": {
-			"pillar_axis": "x"
-		}
-	},
-	{
-		"name": "minecraft:mangrove_log",
-		"states": {
-			"pillar_axis": "z"
-		}
-	},
-	{
-		"name": "minecraft:mangrove_double_slab",
-		"states": {
-			"top_slot_bit": 0b
-		}
-	},
-	{
-		"name": "minecraft:mangrove_double_slab",
-		"states": {
-			"top_slot_bit": 1b
-		}
-	},
-	{
-		"name": "minecraft:mangrove_planks",
-		"states": {}
-	},
-	{
-		"name": "minecraft:mangrove_slab",
-		"states": {
-			"top_slot_bit": 0b
-		}
-	},
-	{
-		"name": "minecraft:mangrove_slab",
-		"states": {
-			"top_slot_bit": 1b
-		}
-	},
-	{
-		"name": "minecraft:mangrove_pressure_plate",
-		"states": {
-			"redstone_signal": 0
-		}
-	},
-	{
-		"name": "minecraft:mangrove_pressure_plate",
-		"states": {
-			"redstone_signal": 1
-		}
-	},
-	{
-		"name": "minecraft:mangrove_pressure_plate",
-		"states": {
-			"redstone_signal": 2
-		}
-	},
-	{
-		"name": "minecraft:mangrove_pressure_plate",
-		"states": {
-			"redstone_signal": 3
-		}
-	},
-	{
-		"name": "minecraft:mangrove_pressure_plate",
-		"states": {
-			"redstone_signal": 4
-		}
-	},
-	{
-		"name": "minecraft:mangrove_pressure_plate",
-		"states": {
-			"redstone_signal": 5
-		}
-	},
-	{
-		"name": "minecraft:mangrove_pressure_plate",
-		"states": {
-			"redstone_signal": 6
-		}
-	},
-	{
-		"name": "minecraft:mangrove_pressure_plate",
-		"states": {
-			"redstone_signal": 7
-		}
-	},
-	{
-		"name": "minecraft:mangrove_pressure_plate",
-		"states": {
-			"redstone_signal": 8
-		}
-	},
-	{
-		"name": "minecraft:mangrove_pressure_plate",
-		"states": {
-			"redstone_signal": 9
-		}
-	},
-	{
-		"name": "minecraft:mangrove_pressure_plate",
-		"states": {
-			"redstone_signal": 10
-		}
-	},
-	{
-		"name": "minecraft:mangrove_pressure_plate",
-		"states": {
-			"redstone_signal": 11
-		}
-	},
-	{
-		"name": "minecraft:mangrove_pressure_plate",
-		"states": {
-			"redstone_signal": 12
-		}
-	},
-	{
-		"name": "minecraft:mangrove_pressure_plate",
-		"states": {
-			"redstone_signal": 13
-		}
-	},
-	{
-		"name": "minecraft:mangrove_pressure_plate",
-		"states": {
-			"redstone_signal": 14
-		}
-	},
-	{
-		"name": "minecraft:mangrove_pressure_plate",
-		"states": {
-			"redstone_signal": 15
-		}
-	},
-	{
-		"name": "minecraft:mangrove_wood",
-		"states": {
-			"pillar_axis": "y",
-			"stripped_bit": 0b
-		}
-	},
-	{
-		"name": "minecraft:mangrove_wood",
-		"states": {
-			"pillar_axis": "y",
-			"stripped_bit": 1b
-		}
-	},
-	{
-		"name": "minecraft:mangrove_wood",
-		"states": {
-			"pillar_axis": "x",
-			"stripped_bit": 0b
-		}
-	},
-	{
-		"name": "minecraft:mangrove_wood",
-		"states": {
-			"pillar_axis": "x",
-			"stripped_bit": 1b
-		}
-	},
-	{
-		"name": "minecraft:mangrove_wood",
-		"states": {
-			"pillar_axis": "z",
-			"stripped_bit": 0b
-		}
-	},
-	{
-		"name": "minecraft:mangrove_wood",
-		"states": {
-			"pillar_axis": "z",
-			"stripped_bit": 1b
-		}
-	},
-	{
-		"name": "minecraft:mangrove_standing_sign",
-		"states": {
-			"ground_sign_direction": 0
-		}
-	},
-	{
-		"name": "minecraft:mangrove_standing_sign",
-		"states": {
-			"ground_sign_direction": 1
-		}
-	},
-	{
-		"name": "minecraft:mangrove_standing_sign",
-		"states": {
-			"ground_sign_direction": 2
-		}
-	},
-	{
-		"name": "minecraft:mangrove_standing_sign",
-		"states": {
-			"ground_sign_direction": 3
-		}
-	},
-	{
-		"name": "minecraft:mangrove_standing_sign",
-		"states": {
-			"ground_sign_direction": 4
-		}
-	},
-	{
-		"name": "minecraft:mangrove_standing_sign",
-		"states": {
-			"ground_sign_direction": 5
-		}
-	},
-	{
-		"name": "minecraft:mangrove_standing_sign",
-		"states": {
-			"ground_sign_direction": 6
-		}
-	},
-	{
-		"name": "minecraft:mangrove_standing_sign",
-		"states": {
-			"ground_sign_direction": 7
-		}
-	},
-	{
-		"name": "minecraft:mangrove_standing_sign",
-		"states": {
-			"ground_sign_direction": 8
-		}
-	},
-	{
-		"name": "minecraft:mangrove_standing_sign",
-		"states": {
-			"ground_sign_direction": 9
-		}
-	},
-	{
-		"name": "minecraft:mangrove_standing_sign",
-		"states": {
-			"ground_sign_direction": 10
-		}
-	},
-	{
-		"name": "minecraft:mangrove_standing_sign",
-		"states": {
-			"ground_sign_direction": 11
-		}
-	},
-	{
-		"name": "minecraft:mangrove_standing_sign",
-		"states": {
-			"ground_sign_direction": 12
-		}
-	},
-	{
-		"name": "minecraft:mangrove_standing_sign",
-		"states": {
-			"ground_sign_direction": 13
-		}
-	},
-	{
-		"name": "minecraft:mangrove_standing_sign",
-		"states": {
-			"ground_sign_direction": 14
-		}
-	},
-	{
-		"name": "minecraft:mangrove_standing_sign",
-		"states": {
-			"ground_sign_direction": 15
-		}
-	},
-	{
-		"name": "minecraft:stripped_mangrove_wood",
-		"states": {
-			"pillar_axis": "y"
-		}
-	},
-	{
-		"name": "minecraft:stripped_mangrove_wood",
-		"states": {
-			"pillar_axis": "x"
-		}
-	},
-	{
-		"name": "minecraft:stripped_mangrove_wood",
-		"states": {
-			"pillar_axis": "z"
-		}
-	},
-	{
-		"name": "minecraft:stone_block_slab",
-		"states": {
-			"stone_slab_type": "smooth_stone",
-			"top_slot_bit": 0b
-		}
-	},
-	{
-		"name": "minecraft:stone_block_slab",
-		"states": {
-			"stone_slab_type": "sandstone",
-			"top_slot_bit": 0b
-		}
-	},
-	{
-		"name": "minecraft:stone_block_slab",
-		"states": {
-			"stone_slab_type": "wood",
-			"top_slot_bit": 0b
-		}
-	},
-	{
-		"name": "minecraft:stone_block_slab",
-		"states": {
-			"stone_slab_type": "cobblestone",
-			"top_slot_bit": 0b
-		}
-	},
-	{
-		"name": "minecraft:stone_block_slab",
-		"states": {
-			"stone_slab_type": "brick",
-			"top_slot_bit": 0b
-		}
-	},
-	{
-		"name": "minecraft:stone_block_slab",
-		"states": {
-			"stone_slab_type": "stone_brick",
-			"top_slot_bit": 0b
-		}
-	},
-	{
-		"name": "minecraft:stone_block_slab",
-		"states": {
-			"stone_slab_type": "quartz",
-			"top_slot_bit": 0b
-		}
-	},
-	{
-		"name": "minecraft:stone_block_slab",
-		"states": {
-			"stone_slab_type": "nether_brick",
-			"top_slot_bit": 0b
-		}
-	},
-	{
-		"name": "minecraft:stone_block_slab",
-		"states": {
-			"stone_slab_type": "smooth_stone",
-			"top_slot_bit": 1b
-		}
-	},
-	{
-		"name": "minecraft:stone_block_slab",
-		"states": {
-			"stone_slab_type": "sandstone",
-			"top_slot_bit": 1b
-		}
-	},
-	{
-		"name": "minecraft:stone_block_slab",
-		"states": {
-			"stone_slab_type": "wood",
-			"top_slot_bit": 1b
-		}
-	},
-	{
-		"name": "minecraft:stone_block_slab",
-		"states": {
-			"stone_slab_type": "cobblestone",
-			"top_slot_bit": 1b
-		}
-	},
-	{
-		"name": "minecraft:stone_block_slab",
-		"states": {
-			"stone_slab_type": "brick",
-			"top_slot_bit": 1b
-		}
-	},
-	{
-		"name": "minecraft:stone_block_slab",
-		"states": {
-			"stone_slab_type": "stone_brick",
-			"top_slot_bit": 1b
-		}
-	},
-	{
-		"name": "minecraft:stone_block_slab",
-		"states": {
-			"stone_slab_type": "quartz",
-			"top_slot_bit": 1b
-		}
-	},
-	{
-		"name": "minecraft:stone_block_slab",
-		"states": {
-			"stone_slab_type": "nether_brick",
-			"top_slot_bit": 1b
-		}
-	},
-	{
-		"name": "minecraft:mangrove_trapdoor",
-		"states": {
-			"direction": 0,
-			"open_bit": 0b,
-			"upside_down_bit": 0b
-		}
-	},
-	{
-		"name": "minecraft:mangrove_trapdoor",
-		"states": {
-			"direction": 1,
-			"open_bit": 0b,
-			"upside_down_bit": 0b
-		}
-	},
-	{
-		"name": "minecraft:mangrove_trapdoor",
-		"states": {
-			"direction": 2,
-			"open_bit": 0b,
-			"upside_down_bit": 0b
-		}
-	},
-	{
-		"name": "minecraft:mangrove_trapdoor",
-		"states": {
-			"direction": 3,
-			"open_bit": 0b,
-			"upside_down_bit": 0b
-		}
-	},
-	{
-		"name": "minecraft:mangrove_trapdoor",
-		"states": {
-			"direction": 0,
-			"open_bit": 0b,
-			"upside_down_bit": 1b
-		}
-	},
-	{
-		"name": "minecraft:mangrove_trapdoor",
-		"states": {
-			"direction": 1,
-			"open_bit": 0b,
-			"upside_down_bit": 1b
-		}
-	},
-	{
-		"name": "minecraft:mangrove_trapdoor",
-		"states": {
-			"direction": 2,
-			"open_bit": 0b,
-			"upside_down_bit": 1b
-		}
-	},
-	{
-		"name": "minecraft:mangrove_trapdoor",
-		"states": {
-			"direction": 3,
-			"open_bit": 0b,
-			"upside_down_bit": 1b
-		}
-	},
-	{
-		"name": "minecraft:mangrove_trapdoor",
-		"states": {
-			"direction": 0,
-			"open_bit": 1b,
-			"upside_down_bit": 0b
-		}
-	},
-	{
-		"name": "minecraft:mangrove_trapdoor",
-		"states": {
-			"direction": 1,
-			"open_bit": 1b,
-			"upside_down_bit": 0b
-		}
-	},
-	{
-		"name": "minecraft:mangrove_trapdoor",
-		"states": {
-			"direction": 2,
-			"open_bit": 1b,
-			"upside_down_bit": 0b
-		}
-	},
-	{
-		"name": "minecraft:mangrove_trapdoor",
-		"states": {
-			"direction": 3,
-			"open_bit": 1b,
-			"upside_down_bit": 0b
-		}
-	},
-	{
-		"name": "minecraft:mangrove_trapdoor",
-		"states": {
-			"direction": 0,
-			"open_bit": 1b,
-			"upside_down_bit": 1b
-		}
-	},
-	{
-		"name": "minecraft:mangrove_trapdoor",
-		"states": {
-			"direction": 1,
-			"open_bit": 1b,
-			"upside_down_bit": 1b
-		}
-	},
-	{
-		"name": "minecraft:mangrove_trapdoor",
-		"states": {
-			"direction": 2,
-			"open_bit": 1b,
-			"upside_down_bit": 1b
-		}
-	},
-	{
-		"name": "minecraft:mangrove_trapdoor",
-		"states": {
-			"direction": 3,
-			"open_bit": 1b,
-			"upside_down_bit": 1b
-		}
-	},
-	{
-		"name": "minecraft:mangrove_stairs",
-		"states": {
-			"upside_down_bit": 0b,
-			"weirdo_direction": 0
-		}
-	},
-	{
-		"name": "minecraft:mangrove_stairs",
-		"states": {
-			"upside_down_bit": 0b,
-			"weirdo_direction": 1
-		}
-	},
-	{
-		"name": "minecraft:mangrove_stairs",
-		"states": {
-			"upside_down_bit": 0b,
-			"weirdo_direction": 2
-		}
-	},
-	{
-		"name": "minecraft:mangrove_stairs",
-		"states": {
-			"upside_down_bit": 0b,
-			"weirdo_direction": 3
-		}
-	},
-	{
-		"name": "minecraft:mangrove_stairs",
-		"states": {
-			"upside_down_bit": 1b,
-			"weirdo_direction": 0
-		}
-	},
-	{
-		"name": "minecraft:mangrove_stairs",
-		"states": {
-			"upside_down_bit": 1b,
-			"weirdo_direction": 1
-		}
-	},
-	{
-		"name": "minecraft:mangrove_stairs",
-		"states": {
-			"upside_down_bit": 1b,
-			"weirdo_direction": 2
-		}
-	},
-	{
-		"name": "minecraft:mangrove_stairs",
-		"states": {
-			"upside_down_bit": 1b,
-			"weirdo_direction": 3
-		}
-	},
-	{
-		"name": "minecraft:mangrove_fence_gate",
-		"states": {
-			"direction": 0,
-			"in_wall_bit": 0b,
-			"open_bit": 0b
-		}
-	},
-	{
-		"name": "minecraft:mangrove_fence_gate",
-		"states": {
-			"direction": 1,
-			"in_wall_bit": 0b,
-			"open_bit": 0b
-		}
-	},
-	{
-		"name": "minecraft:mangrove_fence_gate",
-		"states": {
-			"direction": 2,
-			"in_wall_bit": 0b,
-			"open_bit": 0b
-		}
-	},
-	{
-		"name": "minecraft:mangrove_fence_gate",
-		"states": {
-			"direction": 3,
-			"in_wall_bit": 0b,
-			"open_bit": 0b
-		}
-	},
-	{
-		"name": "minecraft:mangrove_fence_gate",
-		"states": {
-			"direction": 0,
-			"in_wall_bit": 0b,
-			"open_bit": 1b
-		}
-	},
-	{
-		"name": "minecraft:mangrove_fence_gate",
-		"states": {
-			"direction": 1,
-			"in_wall_bit": 0b,
-			"open_bit": 1b
-		}
-	},
-	{
-		"name": "minecraft:mangrove_fence_gate",
-		"states": {
-			"direction": 2,
-			"in_wall_bit": 0b,
-			"open_bit": 1b
-		}
-	},
-	{
-		"name": "minecraft:mangrove_fence_gate",
-		"states": {
-			"direction": 3,
-			"in_wall_bit": 0b,
-			"open_bit": 1b
-		}
-	},
-	{
-		"name": "minecraft:mangrove_fence_gate",
-		"states": {
-			"direction": 0,
-			"in_wall_bit": 1b,
-			"open_bit": 0b
-		}
-	},
-	{
-		"name": "minecraft:mangrove_fence_gate",
-		"states": {
-			"direction": 1,
-			"in_wall_bit": 1b,
-			"open_bit": 0b
-		}
-	},
-	{
-		"name": "minecraft:mangrove_fence_gate",
-		"states": {
-			"direction": 2,
-			"in_wall_bit": 1b,
-			"open_bit": 0b
-		}
-	},
-	{
-		"name": "minecraft:mangrove_fence_gate",
-		"states": {
-			"direction": 3,
-			"in_wall_bit": 1b,
-			"open_bit": 0b
-		}
-	},
-	{
-		"name": "minecraft:mangrove_fence_gate",
-		"states": {
-			"direction": 0,
-			"in_wall_bit": 1b,
-			"open_bit": 1b
-		}
-	},
-	{
-		"name": "minecraft:mangrove_fence_gate",
-		"states": {
-			"direction": 1,
-			"in_wall_bit": 1b,
-			"open_bit": 1b
-		}
-	},
-	{
-		"name": "minecraft:mangrove_fence_gate",
-		"states": {
-			"direction": 2,
-			"in_wall_bit": 1b,
-			"open_bit": 1b
-		}
-	},
-	{
-		"name": "minecraft:mangrove_fence_gate",
-		"states": {
-			"direction": 3,
-			"in_wall_bit": 1b,
-			"open_bit": 1b
-		}
-	},
-	{
-		"name": "minecraft:mangrove_wall_sign",
-		"states": {
-			"facing_direction": 0
-		}
-	},
-	{
-		"name": "minecraft:mangrove_wall_sign",
-		"states": {
-			"facing_direction": 1
-		}
-	},
-	{
-		"name": "minecraft:mangrove_wall_sign",
-		"states": {
-			"facing_direction": 2
-		}
-	},
-	{
-		"name": "minecraft:mangrove_wall_sign",
-		"states": {
-			"facing_direction": 3
-		}
-	},
-	{
-		"name": "minecraft:mangrove_wall_sign",
-		"states": {
-			"facing_direction": 4
-		}
-	},
-	{
-		"name": "minecraft:mangrove_wall_sign",
-		"states": {
-			"facing_direction": 5
-		}
-	},
-	{
-		"name": "minecraft:stone_block_slab2",
-		"states": {
-			"stone_slab_type_2": "red_sandstone",
-			"top_slot_bit": 0b
-		}
-	},
-	{
-		"name": "minecraft:stone_block_slab2",
-		"states": {
-			"stone_slab_type_2": "purpur",
-			"top_slot_bit": 0b
-		}
-	},
-	{
-		"name": "minecraft:stone_block_slab2",
-		"states": {
-			"stone_slab_type_2": "prismarine_rough",
-			"top_slot_bit": 0b
-		}
-	},
-	{
-		"name": "minecraft:stone_block_slab2",
-		"states": {
-			"stone_slab_type_2": "prismarine_dark",
-			"top_slot_bit": 0b
-		}
-	},
-	{
-		"name": "minecraft:stone_block_slab2",
-		"states": {
-			"stone_slab_type_2": "prismarine_brick",
-			"top_slot_bit": 0b
-		}
-	},
-	{
-		"name": "minecraft:stone_block_slab2",
-		"states": {
-			"stone_slab_type_2": "mossy_cobblestone",
-			"top_slot_bit": 0b
-		}
-	},
-	{
-		"name": "minecraft:stone_block_slab2",
-		"states": {
-			"stone_slab_type_2": "smooth_sandstone",
-			"top_slot_bit": 0b
-		}
-	},
-	{
-		"name": "minecraft:stone_block_slab2",
-		"states": {
-			"stone_slab_type_2": "red_nether_brick",
-			"top_slot_bit": 0b
-		}
-	},
-	{
-		"name": "minecraft:stone_block_slab2",
-		"states": {
-			"stone_slab_type_2": "red_sandstone",
-			"top_slot_bit": 1b
-		}
-	},
-	{
-		"name": "minecraft:stone_block_slab2",
-		"states": {
-			"stone_slab_type_2": "purpur",
-			"top_slot_bit": 1b
-		}
-	},
-	{
-		"name": "minecraft:stone_block_slab2",
-		"states": {
-			"stone_slab_type_2": "prismarine_rough",
-			"top_slot_bit": 1b
-		}
-	},
-	{
-		"name": "minecraft:stone_block_slab2",
-		"states": {
-			"stone_slab_type_2": "prismarine_dark",
-			"top_slot_bit": 1b
-		}
-	},
-	{
-		"name": "minecraft:stone_block_slab2",
-		"states": {
-			"stone_slab_type_2": "prismarine_brick",
-			"top_slot_bit": 1b
-		}
-	},
-	{
-		"name": "minecraft:stone_block_slab2",
-		"states": {
-			"stone_slab_type_2": "mossy_cobblestone",
-			"top_slot_bit": 1b
-		}
-	},
-	{
-		"name": "minecraft:stone_block_slab2",
-		"states": {
-			"stone_slab_type_2": "smooth_sandstone",
-			"top_slot_bit": 1b
-		}
-	},
-	{
-		"name": "minecraft:stone_block_slab2",
-		"states": {
-			"stone_slab_type_2": "red_nether_brick",
-			"top_slot_bit": 1b
-		}
-	},
-	{
-		"name": "minecraft:stone_block_slab3",
-		"states": {
-			"stone_slab_type_3": "end_stone_brick",
-			"top_slot_bit": 0b
-		}
-	},
-	{
-		"name": "minecraft:stone_block_slab3",
-		"states": {
-			"stone_slab_type_3": "smooth_red_sandstone",
-			"top_slot_bit": 0b
-		}
-	},
-	{
-		"name": "minecraft:stone_block_slab3",
-		"states": {
-			"stone_slab_type_3": "polished_andesite",
-			"top_slot_bit": 0b
-		}
-	},
-	{
-		"name": "minecraft:stone_block_slab3",
-		"states": {
-			"stone_slab_type_3": "andesite",
-			"top_slot_bit": 0b
-		}
-	},
-	{
-		"name": "minecraft:stone_block_slab3",
-		"states": {
-			"stone_slab_type_3": "diorite",
-			"top_slot_bit": 0b
-		}
-	},
-	{
-		"name": "minecraft:stone_block_slab3",
-		"states": {
-			"stone_slab_type_3": "polished_diorite",
-			"top_slot_bit": 0b
-		}
-	},
-	{
-		"name": "minecraft:stone_block_slab3",
-		"states": {
-			"stone_slab_type_3": "granite",
-			"top_slot_bit": 0b
-		}
-	},
-	{
-		"name": "minecraft:stone_block_slab3",
-		"states": {
-			"stone_slab_type_3": "polished_granite",
-			"top_slot_bit": 0b
-		}
-	},
-	{
-		"name": "minecraft:stone_block_slab3",
-		"states": {
-			"stone_slab_type_3": "end_stone_brick",
-			"top_slot_bit": 1b
-		}
-	},
-	{
-		"name": "minecraft:stone_block_slab3",
-		"states": {
-			"stone_slab_type_3": "smooth_red_sandstone",
-			"top_slot_bit": 1b
-		}
-	},
-	{
-		"name": "minecraft:stone_block_slab3",
-		"states": {
-			"stone_slab_type_3": "polished_andesite",
-			"top_slot_bit": 1b
-		}
-	},
-	{
-		"name": "minecraft:stone_block_slab3",
-		"states": {
-			"stone_slab_type_3": "andesite",
-			"top_slot_bit": 1b
-		}
-	},
-	{
-		"name": "minecraft:stone_block_slab3",
-		"states": {
-			"stone_slab_type_3": "diorite",
-			"top_slot_bit": 1b
-		}
-	},
-	{
-		"name": "minecraft:stone_block_slab3",
-		"states": {
-			"stone_slab_type_3": "polished_diorite",
-			"top_slot_bit": 1b
-		}
-	},
-	{
-		"name": "minecraft:stone_block_slab3",
-		"states": {
-			"stone_slab_type_3": "granite",
-			"top_slot_bit": 1b
-		}
-	},
-	{
-		"name": "minecraft:stone_block_slab3",
-		"states": {
-			"stone_slab_type_3": "polished_granite",
-			"top_slot_bit": 1b
-		}
-	},
-	{
-		"name": "minecraft:stone_block_slab4",
-		"states": {
-			"stone_slab_type_4": "mossy_stone_brick",
-			"top_slot_bit": 0b
-		}
-	},
-	{
-		"name": "minecraft:stone_block_slab4",
-		"states": {
-			"stone_slab_type_4": "smooth_quartz",
-			"top_slot_bit": 0b
-		}
-	},
-	{
-		"name": "minecraft:stone_block_slab4",
-		"states": {
-			"stone_slab_type_4": "stone",
-			"top_slot_bit": 0b
-		}
-	},
-	{
-		"name": "minecraft:stone_block_slab4",
-		"states": {
-			"stone_slab_type_4": "cut_sandstone",
-			"top_slot_bit": 0b
-		}
-	},
-	{
-		"name": "minecraft:stone_block_slab4",
-		"states": {
-			"stone_slab_type_4": "cut_red_sandstone",
-			"top_slot_bit": 0b
-		}
-	},
-	{
-		"name": "minecraft:stone_block_slab4",
-		"states": {
-			"stone_slab_type_4": "mossy_stone_brick",
-			"top_slot_bit": 1b
-		}
-	},
-	{
-		"name": "minecraft:stone_block_slab4",
-		"states": {
-			"stone_slab_type_4": "smooth_quartz",
-			"top_slot_bit": 1b
-		}
-	},
-	{
-		"name": "minecraft:stone_block_slab4",
-		"states": {
-			"stone_slab_type_4": "stone",
-			"top_slot_bit": 1b
-		}
-	},
-	{
-		"name": "minecraft:stone_block_slab4",
-		"states": {
-			"stone_slab_type_4": "cut_sandstone",
-			"top_slot_bit": 1b
-		}
-	},
-	{
-		"name": "minecraft:stone_block_slab4",
-		"states": {
-			"stone_slab_type_4": "cut_red_sandstone",
-			"top_slot_bit": 1b
-		}
-	},
-	{
-		"name": "minecraft:mangrove_roots",
-		"states": {}
-	},
-	{
-		"name": "minecraft:mangrove_door",
-		"states": {
-			"direction": 0,
-			"door_hinge_bit": 0b,
-			"open_bit": 0b,
-			"upper_block_bit": 0b
-		}
-	},
-	{
-		"name": "minecraft:mangrove_door",
-		"states": {
-			"direction": 1,
-			"door_hinge_bit": 0b,
-			"open_bit": 0b,
-			"upper_block_bit": 0b
-		}
-	},
-	{
-		"name": "minecraft:mangrove_door",
-		"states": {
-			"direction": 2,
-			"door_hinge_bit": 0b,
-			"open_bit": 0b,
-			"upper_block_bit": 0b
-		}
-	},
-	{
-		"name": "minecraft:mangrove_door",
-		"states": {
-			"direction": 3,
-			"door_hinge_bit": 0b,
-			"open_bit": 0b,
-			"upper_block_bit": 0b
-		}
-	},
-	{
-		"name": "minecraft:mangrove_door",
-		"states": {
-			"direction": 0,
-			"door_hinge_bit": 0b,
-			"open_bit": 1b,
-			"upper_block_bit": 0b
-		}
-	},
-	{
-		"name": "minecraft:mangrove_door",
-		"states": {
-			"direction": 1,
-			"door_hinge_bit": 0b,
-			"open_bit": 1b,
-			"upper_block_bit": 0b
-		}
-	},
-	{
-		"name": "minecraft:mangrove_door",
-		"states": {
-			"direction": 2,
-			"door_hinge_bit": 0b,
-			"open_bit": 1b,
-			"upper_block_bit": 0b
-		}
-	},
-	{
-		"name": "minecraft:mangrove_door",
-		"states": {
-			"direction": 3,
-			"door_hinge_bit": 0b,
-			"open_bit": 1b,
-			"upper_block_bit": 0b
-		}
-	},
-	{
-		"name": "minecraft:mangrove_door",
-		"states": {
-			"direction": 0,
-			"door_hinge_bit": 0b,
-			"open_bit": 0b,
-			"upper_block_bit": 1b
-		}
-	},
-	{
-		"name": "minecraft:mangrove_door",
-		"states": {
-			"direction": 1,
-			"door_hinge_bit": 0b,
-			"open_bit": 0b,
-			"upper_block_bit": 1b
-		}
-	},
-	{
-		"name": "minecraft:mangrove_door",
-		"states": {
-			"direction": 2,
-			"door_hinge_bit": 0b,
-			"open_bit": 0b,
-			"upper_block_bit": 1b
-		}
-	},
-	{
-		"name": "minecraft:mangrove_door",
-		"states": {
-			"direction": 3,
-			"door_hinge_bit": 0b,
-			"open_bit": 0b,
-			"upper_block_bit": 1b
-		}
-	},
-	{
-		"name": "minecraft:mangrove_door",
-		"states": {
-			"direction": 0,
-			"door_hinge_bit": 0b,
-			"open_bit": 1b,
-			"upper_block_bit": 1b
-		}
-	},
-	{
-		"name": "minecraft:mangrove_door",
-		"states": {
-			"direction": 1,
-			"door_hinge_bit": 0b,
-			"open_bit": 1b,
-			"upper_block_bit": 1b
-		}
-	},
-	{
-		"name": "minecraft:mangrove_door",
-		"states": {
-			"direction": 2,
-			"door_hinge_bit": 0b,
-			"open_bit": 1b,
-			"upper_block_bit": 1b
-		}
-	},
-	{
-		"name": "minecraft:mangrove_door",
-		"states": {
-			"direction": 3,
-			"door_hinge_bit": 0b,
-			"open_bit": 1b,
-			"upper_block_bit": 1b
-		}
-	},
-	{
-		"name": "minecraft:mangrove_door",
-		"states": {
-			"direction": 0,
-			"door_hinge_bit": 1b,
-			"open_bit": 0b,
-			"upper_block_bit": 0b
-		}
-	},
-	{
-		"name": "minecraft:mangrove_door",
-		"states": {
-			"direction": 1,
-			"door_hinge_bit": 1b,
-			"open_bit": 0b,
-			"upper_block_bit": 0b
-		}
-	},
-	{
-		"name": "minecraft:mangrove_door",
-		"states": {
-			"direction": 2,
-			"door_hinge_bit": 1b,
-			"open_bit": 0b,
-			"upper_block_bit": 0b
-		}
-	},
-	{
-		"name": "minecraft:mangrove_door",
-		"states": {
-			"direction": 3,
-			"door_hinge_bit": 1b,
-			"open_bit": 0b,
-			"upper_block_bit": 0b
-		}
-	},
-	{
-		"name": "minecraft:mangrove_door",
-		"states": {
-			"direction": 0,
-			"door_hinge_bit": 1b,
-			"open_bit": 1b,
-			"upper_block_bit": 0b
-		}
-	},
-	{
-		"name": "minecraft:mangrove_door",
-		"states": {
-			"direction": 1,
-			"door_hinge_bit": 1b,
-			"open_bit": 1b,
-			"upper_block_bit": 0b
-		}
-	},
-	{
-		"name": "minecraft:mangrove_door",
-		"states": {
-			"direction": 2,
-			"door_hinge_bit": 1b,
-			"open_bit": 1b,
-			"upper_block_bit": 0b
-		}
-	},
-	{
-		"name": "minecraft:mangrove_door",
-		"states": {
-			"direction": 3,
-			"door_hinge_bit": 1b,
-			"open_bit": 1b,
-			"upper_block_bit": 0b
-		}
-	},
-	{
-		"name": "minecraft:mangrove_door",
-		"states": {
-			"direction": 0,
-			"door_hinge_bit": 1b,
-			"open_bit": 0b,
-			"upper_block_bit": 1b
-		}
-	},
-	{
-		"name": "minecraft:mangrove_door",
-		"states": {
-			"direction": 1,
-			"door_hinge_bit": 1b,
-			"open_bit": 0b,
-			"upper_block_bit": 1b
-		}
-	},
-	{
-		"name": "minecraft:mangrove_door",
-		"states": {
-			"direction": 2,
-			"door_hinge_bit": 1b,
-			"open_bit": 0b,
-			"upper_block_bit": 1b
-		}
-	},
-	{
-		"name": "minecraft:mangrove_door",
-		"states": {
-			"direction": 3,
-			"door_hinge_bit": 1b,
-			"open_bit": 0b,
-			"upper_block_bit": 1b
-		}
-	},
-	{
-		"name": "minecraft:mangrove_door",
-		"states": {
-			"direction": 0,
-			"door_hinge_bit": 1b,
-			"open_bit": 1b,
-			"upper_block_bit": 1b
-		}
-	},
-	{
-		"name": "minecraft:mangrove_door",
-		"states": {
-			"direction": 1,
-			"door_hinge_bit": 1b,
-			"open_bit": 1b,
-			"upper_block_bit": 1b
-		}
-	},
-	{
-		"name": "minecraft:mangrove_door",
-		"states": {
-			"direction": 2,
-			"door_hinge_bit": 1b,
-			"open_bit": 1b,
-			"upper_block_bit": 1b
-		}
-	},
-	{
-		"name": "minecraft:mangrove_door",
-		"states": {
-			"direction": 3,
-			"door_hinge_bit": 1b,
-			"open_bit": 1b,
-			"upper_block_bit": 1b
-		}
-	},
-	{
-		"name": "minecraft:double_stone_block_slab2",
-		"states": {
-			"stone_slab_type_2": "red_sandstone",
-			"top_slot_bit": 0b
-		}
-	},
-	{
-		"name": "minecraft:double_stone_block_slab2",
-		"states": {
-			"stone_slab_type_2": "purpur",
-			"top_slot_bit": 0b
-		}
-	},
-	{
-		"name": "minecraft:double_stone_block_slab2",
-		"states": {
-			"stone_slab_type_2": "prismarine_rough",
-			"top_slot_bit": 0b
-		}
-	},
-	{
-		"name": "minecraft:double_stone_block_slab2",
-		"states": {
-			"stone_slab_type_2": "prismarine_dark",
-			"top_slot_bit": 0b
-		}
-	},
-	{
-		"name": "minecraft:double_stone_block_slab2",
-		"states": {
-			"stone_slab_type_2": "prismarine_brick",
-			"top_slot_bit": 0b
-		}
-	},
-	{
-		"name": "minecraft:double_stone_block_slab2",
-		"states": {
-			"stone_slab_type_2": "mossy_cobblestone",
-			"top_slot_bit": 0b
-		}
-	},
-	{
-		"name": "minecraft:double_stone_block_slab2",
-		"states": {
-			"stone_slab_type_2": "smooth_sandstone",
-			"top_slot_bit": 0b
-		}
-	},
-	{
-		"name": "minecraft:double_stone_block_slab2",
-		"states": {
-			"stone_slab_type_2": "red_nether_brick",
-			"top_slot_bit": 0b
-		}
-	},
-	{
-		"name": "minecraft:double_stone_block_slab2",
-		"states": {
-			"stone_slab_type_2": "red_sandstone",
-			"top_slot_bit": 1b
-		}
-	},
-	{
-		"name": "minecraft:double_stone_block_slab2",
-		"states": {
-			"stone_slab_type_2": "purpur",
-			"top_slot_bit": 1b
-		}
-	},
-	{
-		"name": "minecraft:double_stone_block_slab2",
-		"states": {
-			"stone_slab_type_2": "prismarine_rough",
-			"top_slot_bit": 1b
-		}
-	},
-	{
-		"name": "minecraft:double_stone_block_slab2",
-		"states": {
-			"stone_slab_type_2": "prismarine_dark",
-			"top_slot_bit": 1b
-		}
-	},
-	{
-		"name": "minecraft:double_stone_block_slab2",
-		"states": {
-			"stone_slab_type_2": "prismarine_brick",
-			"top_slot_bit": 1b
-		}
-	},
-	{
-		"name": "minecraft:double_stone_block_slab2",
-		"states": {
-			"stone_slab_type_2": "mossy_cobblestone",
-			"top_slot_bit": 1b
-		}
-	},
-	{
-		"name": "minecraft:double_stone_block_slab2",
-		"states": {
-			"stone_slab_type_2": "smooth_sandstone",
-			"top_slot_bit": 1b
-		}
-	},
-	{
-		"name": "minecraft:double_stone_block_slab2",
-		"states": {
-			"stone_slab_type_2": "red_nether_brick",
-			"top_slot_bit": 1b
-		}
-	},
-	{
-		"name": "minecraft:double_stone_block_slab3",
-		"states": {
-			"stone_slab_type_3": "end_stone_brick",
-			"top_slot_bit": 0b
-		}
-	},
-	{
-		"name": "minecraft:double_stone_block_slab3",
-		"states": {
-			"stone_slab_type_3": "smooth_red_sandstone",
-			"top_slot_bit": 0b
-		}
-	},
-	{
-		"name": "minecraft:double_stone_block_slab3",
-		"states": {
-			"stone_slab_type_3": "polished_andesite",
-			"top_slot_bit": 0b
-		}
-	},
-	{
-		"name": "minecraft:double_stone_block_slab3",
-		"states": {
-			"stone_slab_type_3": "andesite",
-			"top_slot_bit": 0b
-		}
-	},
-	{
-		"name": "minecraft:double_stone_block_slab3",
-		"states": {
-			"stone_slab_type_3": "diorite",
-			"top_slot_bit": 0b
-		}
-	},
-	{
-		"name": "minecraft:double_stone_block_slab3",
-		"states": {
-			"stone_slab_type_3": "polished_diorite",
-			"top_slot_bit": 0b
-		}
-	},
-	{
-		"name": "minecraft:double_stone_block_slab3",
-		"states": {
-			"stone_slab_type_3": "granite",
-			"top_slot_bit": 0b
-		}
-	},
-	{
-		"name": "minecraft:double_stone_block_slab3",
-		"states": {
-			"stone_slab_type_3": "polished_granite",
-			"top_slot_bit": 0b
-		}
-	},
-	{
-		"name": "minecraft:double_stone_block_slab3",
-		"states": {
-			"stone_slab_type_3": "end_stone_brick",
-			"top_slot_bit": 1b
-		}
-	},
-	{
-		"name": "minecraft:double_stone_block_slab3",
-		"states": {
-			"stone_slab_type_3": "smooth_red_sandstone",
-			"top_slot_bit": 1b
-		}
-	},
-	{
-		"name": "minecraft:double_stone_block_slab3",
-		"states": {
-			"stone_slab_type_3": "polished_andesite",
-			"top_slot_bit": 1b
-		}
-	},
-	{
-		"name": "minecraft:double_stone_block_slab3",
-		"states": {
-			"stone_slab_type_3": "andesite",
-			"top_slot_bit": 1b
-		}
-	},
-	{
-		"name": "minecraft:double_stone_block_slab3",
-		"states": {
-			"stone_slab_type_3": "diorite",
-			"top_slot_bit": 1b
-		}
-	},
-	{
-		"name": "minecraft:double_stone_block_slab3",
-		"states": {
-			"stone_slab_type_3": "polished_diorite",
-			"top_slot_bit": 1b
-		}
-	},
-	{
-		"name": "minecraft:double_stone_block_slab3",
-		"states": {
-			"stone_slab_type_3": "granite",
-			"top_slot_bit": 1b
-		}
-	},
-	{
-		"name": "minecraft:double_stone_block_slab3",
-		"states": {
-			"stone_slab_type_3": "polished_granite",
-			"top_slot_bit": 1b
-		}
-	},
-	{
-		"name": "minecraft:double_stone_block_slab4",
-		"states": {
-			"stone_slab_type_4": "mossy_stone_brick",
-			"top_slot_bit": 0b
-		}
-	},
-	{
-		"name": "minecraft:double_stone_block_slab4",
-		"states": {
-			"stone_slab_type_4": "smooth_quartz",
-			"top_slot_bit": 0b
-		}
-	},
-	{
-		"name": "minecraft:double_stone_block_slab4",
-		"states": {
-			"stone_slab_type_4": "stone",
-			"top_slot_bit": 0b
-		}
-	},
-	{
-		"name": "minecraft:double_stone_block_slab4",
-		"states": {
-			"stone_slab_type_4": "cut_sandstone",
-			"top_slot_bit": 0b
-		}
-	},
-	{
-		"name": "minecraft:double_stone_block_slab4",
-		"states": {
-			"stone_slab_type_4": "cut_red_sandstone",
-			"top_slot_bit": 0b
-		}
-	},
-	{
-		"name": "minecraft:double_stone_block_slab4",
-		"states": {
-			"stone_slab_type_4": "mossy_stone_brick",
-			"top_slot_bit": 1b
-		}
-	},
-	{
-		"name": "minecraft:double_stone_block_slab4",
-		"states": {
-			"stone_slab_type_4": "smooth_quartz",
-			"top_slot_bit": 1b
-		}
-	},
-	{
-		"name": "minecraft:double_stone_block_slab4",
-		"states": {
-			"stone_slab_type_4": "stone",
-			"top_slot_bit": 1b
-		}
-	},
-	{
-		"name": "minecraft:double_stone_block_slab4",
-		"states": {
-			"stone_slab_type_4": "cut_sandstone",
-			"top_slot_bit": 1b
-		}
-	},
-	{
-		"name": "minecraft:double_stone_block_slab4",
-		"states": {
-			"stone_slab_type_4": "cut_red_sandstone",
-			"top_slot_bit": 1b
-		}
-	},
-	{
-		"name": "minecraft:double_stone_block_slab",
-		"states": {
-			"stone_slab_type": "smooth_stone",
-			"top_slot_bit": 0b
-		}
-	},
-	{
-		"name": "minecraft:double_stone_block_slab",
-		"states": {
-			"stone_slab_type": "sandstone",
-			"top_slot_bit": 0b
-		}
-	},
-	{
-		"name": "minecraft:double_stone_block_slab",
-		"states": {
-			"stone_slab_type": "wood",
-			"top_slot_bit": 0b
-		}
-	},
-	{
-		"name": "minecraft:double_stone_block_slab",
-		"states": {
-			"stone_slab_type": "cobblestone",
-			"top_slot_bit": 0b
-		}
-	},
-	{
-		"name": "minecraft:double_stone_block_slab",
-		"states": {
-			"stone_slab_type": "brick",
-			"top_slot_bit": 0b
-		}
-	},
-	{
-		"name": "minecraft:double_stone_block_slab",
-		"states": {
-			"stone_slab_type": "stone_brick",
-			"top_slot_bit": 0b
-		}
-	},
-	{
-		"name": "minecraft:double_stone_block_slab",
-		"states": {
-			"stone_slab_type": "quartz",
-			"top_slot_bit": 0b
-		}
-	},
-	{
-		"name": "minecraft:double_stone_block_slab",
-		"states": {
-			"stone_slab_type": "nether_brick",
-			"top_slot_bit": 0b
-		}
-	},
-	{
-		"name": "minecraft:double_stone_block_slab",
-		"states": {
-			"stone_slab_type": "smooth_stone",
-			"top_slot_bit": 1b
-		}
-	},
-	{
-		"name": "minecraft:double_stone_block_slab",
-		"states": {
-			"stone_slab_type": "sandstone",
-			"top_slot_bit": 1b
-		}
-	},
-	{
-		"name": "minecraft:double_stone_block_slab",
-		"states": {
-			"stone_slab_type": "wood",
-			"top_slot_bit": 1b
-		}
-	},
-	{
-		"name": "minecraft:double_stone_block_slab",
-		"states": {
-			"stone_slab_type": "cobblestone",
-			"top_slot_bit": 1b
-		}
-	},
-	{
-		"name": "minecraft:double_stone_block_slab",
-		"states": {
-			"stone_slab_type": "brick",
-			"top_slot_bit": 1b
-		}
-	},
-	{
-		"name": "minecraft:double_stone_block_slab",
-		"states": {
-			"stone_slab_type": "stone_brick",
-			"top_slot_bit": 1b
-		}
-	},
-	{
-		"name": "minecraft:double_stone_block_slab",
-		"states": {
-			"stone_slab_type": "quartz",
-			"top_slot_bit": 1b
-		}
-	},
-	{
-		"name": "minecraft:double_stone_block_slab",
-		"states": {
-			"stone_slab_type": "nether_brick",
-			"top_slot_bit": 1b
-		}
-	},
-	{
-		"name": "minecraft:mangrove_fence",
-		"states": {}
-	},
-	{
-		"name": "minecraft:mangrove_propagule",
-		"states": {
-			"hanging": 0b,
-			"propagule_stage": 0
-		}
-	},
-	{
-		"name": "minecraft:mangrove_propagule",
-		"states": {
-			"hanging": 0b,
-			"propagule_stage": 1
-		}
-	},
-	{
-		"name": "minecraft:mangrove_propagule",
-		"states": {
-			"hanging": 0b,
-			"propagule_stage": 2
-		}
-	},
-	{
-		"name": "minecraft:mangrove_propagule",
-		"states": {
-			"hanging": 0b,
-			"propagule_stage": 3
-		}
-	},
-	{
-		"name": "minecraft:mangrove_propagule",
-		"states": {
-			"hanging": 0b,
-			"propagule_stage": 4
-		}
-	},
-	{
-		"name": "minecraft:mangrove_propagule",
-		"states": {
-			"hanging": 1b,
-			"propagule_stage": 0
-		}
-	},
-	{
-		"name": "minecraft:mangrove_propagule",
-		"states": {
-			"hanging": 1b,
-			"propagule_stage": 1
-		}
-	},
-	{
-		"name": "minecraft:mangrove_propagule",
-		"states": {
-			"hanging": 1b,
-			"propagule_stage": 2
-		}
-	},
-	{
-		"name": "minecraft:mangrove_propagule",
-		"states": {
-			"hanging": 1b,
-			"propagule_stage": 3
-		}
-	},
-	{
-		"name": "minecraft:mangrove_propagule",
-		"states": {
-			"hanging": 1b,
-			"propagule_stage": 4
-		}
-	},
-	{
-		"name": "minecraft:mangrove_button",
-		"states": {
-			"button_pressed_bit": 0b,
-			"facing_direction": 0
-		}
-	},
-	{
-		"name": "minecraft:mangrove_button",
-		"states": {
-			"button_pressed_bit": 0b,
-			"facing_direction": 1
-		}
-	},
-	{
-		"name": "minecraft:mangrove_button",
-		"states": {
-			"button_pressed_bit": 0b,
-			"facing_direction": 2
-		}
-	},
-	{
-		"name": "minecraft:mangrove_button",
-		"states": {
-			"button_pressed_bit": 0b,
-			"facing_direction": 3
-		}
-	},
-	{
-		"name": "minecraft:mangrove_button",
-		"states": {
-			"button_pressed_bit": 0b,
-			"facing_direction": 4
-		}
-	},
-	{
-		"name": "minecraft:mangrove_button",
-		"states": {
-			"button_pressed_bit": 0b,
-			"facing_direction": 5
-		}
-	},
-	{
-		"name": "minecraft:mangrove_button",
-		"states": {
-			"button_pressed_bit": 1b,
-			"facing_direction": 0
-		}
-	},
-	{
-		"name": "minecraft:mangrove_button",
-		"states": {
-			"button_pressed_bit": 1b,
-			"facing_direction": 1
-		}
-	},
-	{
-		"name": "minecraft:mangrove_button",
-		"states": {
-			"button_pressed_bit": 1b,
-			"facing_direction": 2
-		}
-	},
-	{
-		"name": "minecraft:mangrove_button",
-		"states": {
-			"button_pressed_bit": 1b,
-			"facing_direction": 3
-		}
-	},
-	{
-		"name": "minecraft:mangrove_button",
-		"states": {
-			"button_pressed_bit": 1b,
-			"facing_direction": 4
-		}
-	},
-	{
-		"name": "minecraft:mangrove_button",
-		"states": {
-			"button_pressed_bit": 1b,
-			"facing_direction": 5
-		}
-	},
-	{
-		"name": "minecraft:stripped_mangrove_log",
-		"states": {
-			"pillar_axis": "y"
-		}
-	},
-	{
-		"name": "minecraft:stripped_mangrove_log",
-		"states": {
-			"pillar_axis": "x"
-		}
-	},
-	{
-		"name": "minecraft:stripped_mangrove_log",
-		"states": {
-			"pillar_axis": "z"
-		}
-	}
+	{name: "minecraft:double_stone_block_slab", states: {stone_slab_type: "brick", top_slot_bit: 0b}},
+	{name: "minecraft:double_stone_block_slab", states: {stone_slab_type: "brick", top_slot_bit: 1b}},
+	{name: "minecraft:double_stone_block_slab", states: {stone_slab_type: "cobblestone", top_slot_bit: 0b}},
+	{name: "minecraft:double_stone_block_slab", states: {stone_slab_type: "cobblestone", top_slot_bit: 1b}},
+	{name: "minecraft:double_stone_block_slab", states: {stone_slab_type: "nether_brick", top_slot_bit: 0b}},
+	{name: "minecraft:double_stone_block_slab", states: {stone_slab_type: "nether_brick", top_slot_bit: 1b}},
+	{name: "minecraft:double_stone_block_slab", states: {stone_slab_type: "quartz", top_slot_bit: 0b}},
+	{name: "minecraft:double_stone_block_slab", states: {stone_slab_type: "quartz", top_slot_bit: 1b}},
+	{name: "minecraft:double_stone_block_slab", states: {stone_slab_type: "sandstone", top_slot_bit: 0b}},
+	{name: "minecraft:double_stone_block_slab", states: {stone_slab_type: "sandstone", top_slot_bit: 1b}},
+	{name: "minecraft:double_stone_block_slab", states: {stone_slab_type: "smooth_stone", top_slot_bit: 0b}},
+	{name: "minecraft:double_stone_block_slab", states: {stone_slab_type: "smooth_stone", top_slot_bit: 1b}},
+	{name: "minecraft:double_stone_block_slab", states: {stone_slab_type: "stone_brick", top_slot_bit: 0b}},
+	{name: "minecraft:double_stone_block_slab", states: {stone_slab_type: "stone_brick", top_slot_bit: 1b}},
+	{name: "minecraft:double_stone_block_slab", states: {stone_slab_type: "wood", top_slot_bit: 0b}},
+	{name: "minecraft:double_stone_block_slab", states: {stone_slab_type: "wood", top_slot_bit: 1b}},
+	{name: "minecraft:double_stone_block_slab2", states: {stone_slab_type_2: "mossy_cobblestone", top_slot_bit: 0b}},
+	{name: "minecraft:double_stone_block_slab2", states: {stone_slab_type_2: "mossy_cobblestone", top_slot_bit: 1b}},
+	{name: "minecraft:double_stone_block_slab2", states: {stone_slab_type_2: "prismarine_brick", top_slot_bit: 0b}},
+	{name: "minecraft:double_stone_block_slab2", states: {stone_slab_type_2: "prismarine_brick", top_slot_bit: 1b}},
+	{name: "minecraft:double_stone_block_slab2", states: {stone_slab_type_2: "prismarine_dark", top_slot_bit: 0b}},
+	{name: "minecraft:double_stone_block_slab2", states: {stone_slab_type_2: "prismarine_dark", top_slot_bit: 1b}},
+	{name: "minecraft:double_stone_block_slab2", states: {stone_slab_type_2: "prismarine_rough", top_slot_bit: 0b}},
+	{name: "minecraft:double_stone_block_slab2", states: {stone_slab_type_2: "prismarine_rough", top_slot_bit: 1b}},
+	{name: "minecraft:double_stone_block_slab2", states: {stone_slab_type_2: "purpur", top_slot_bit: 0b}},
+	{name: "minecraft:double_stone_block_slab2", states: {stone_slab_type_2: "purpur", top_slot_bit: 1b}},
+	{name: "minecraft:double_stone_block_slab2", states: {stone_slab_type_2: "red_nether_brick", top_slot_bit: 0b}},
+	{name: "minecraft:double_stone_block_slab2", states: {stone_slab_type_2: "red_nether_brick", top_slot_bit: 1b}},
+	{name: "minecraft:double_stone_block_slab2", states: {stone_slab_type_2: "red_sandstone", top_slot_bit: 0b}},
+	{name: "minecraft:double_stone_block_slab2", states: {stone_slab_type_2: "red_sandstone", top_slot_bit: 1b}},
+	{name: "minecraft:double_stone_block_slab2", states: {stone_slab_type_2: "smooth_sandstone", top_slot_bit: 0b}},
+	{name: "minecraft:double_stone_block_slab2", states: {stone_slab_type_2: "smooth_sandstone", top_slot_bit: 1b}},
+	{name: "minecraft:double_stone_block_slab3", states: {stone_slab_type_3: "andesite", top_slot_bit: 0b}},
+	{name: "minecraft:double_stone_block_slab3", states: {stone_slab_type_3: "andesite", top_slot_bit: 1b}},
+	{name: "minecraft:double_stone_block_slab3", states: {stone_slab_type_3: "diorite", top_slot_bit: 0b}},
+	{name: "minecraft:double_stone_block_slab3", states: {stone_slab_type_3: "diorite", top_slot_bit: 1b}},
+	{name: "minecraft:double_stone_block_slab3", states: {stone_slab_type_3: "end_stone_brick", top_slot_bit: 0b}},
+	{name: "minecraft:double_stone_block_slab3", states: {stone_slab_type_3: "end_stone_brick", top_slot_bit: 1b}},
+	{name: "minecraft:double_stone_block_slab3", states: {stone_slab_type_3: "granite", top_slot_bit: 0b}},
+	{name: "minecraft:double_stone_block_slab3", states: {stone_slab_type_3: "granite", top_slot_bit: 1b}},
+	{name: "minecraft:double_stone_block_slab3", states: {stone_slab_type_3: "polished_andesite", top_slot_bit: 0b}},
+	{name: "minecraft:double_stone_block_slab3", states: {stone_slab_type_3: "polished_andesite", top_slot_bit: 1b}},
+	{name: "minecraft:double_stone_block_slab3", states: {stone_slab_type_3: "polished_diorite", top_slot_bit: 0b}},
+	{name: "minecraft:double_stone_block_slab3", states: {stone_slab_type_3: "polished_diorite", top_slot_bit: 1b}},
+	{name: "minecraft:double_stone_block_slab3", states: {stone_slab_type_3: "polished_granite", top_slot_bit: 0b}},
+	{name: "minecraft:double_stone_block_slab3", states: {stone_slab_type_3: "polished_granite", top_slot_bit: 1b}},
+	{name: "minecraft:double_stone_block_slab3", states: {stone_slab_type_3: "smooth_red_sandstone", top_slot_bit: 0b}},
+	{name: "minecraft:double_stone_block_slab3", states: {stone_slab_type_3: "smooth_red_sandstone", top_slot_bit: 1b}},
+	{name: "minecraft:double_stone_block_slab4", states: {stone_slab_type_4: "cut_red_sandstone", top_slot_bit: 0b}},
+	{name: "minecraft:double_stone_block_slab4", states: {stone_slab_type_4: "cut_red_sandstone", top_slot_bit: 1b}},
+	{name: "minecraft:double_stone_block_slab4", states: {stone_slab_type_4: "cut_sandstone", top_slot_bit: 0b}},
+	{name: "minecraft:double_stone_block_slab4", states: {stone_slab_type_4: "cut_sandstone", top_slot_bit: 1b}},
+	{name: "minecraft:double_stone_block_slab4", states: {stone_slab_type_4: "mossy_stone_brick", top_slot_bit: 0b}},
+	{name: "minecraft:double_stone_block_slab4", states: {stone_slab_type_4: "mossy_stone_brick", top_slot_bit: 1b}},
+	{name: "minecraft:double_stone_block_slab4", states: {stone_slab_type_4: "smooth_quartz", top_slot_bit: 0b}},
+	{name: "minecraft:double_stone_block_slab4", states: {stone_slab_type_4: "smooth_quartz", top_slot_bit: 1b}},
+	{name: "minecraft:double_stone_block_slab4", states: {stone_slab_type_4: "stone", top_slot_bit: 0b}},
+	{name: "minecraft:double_stone_block_slab4", states: {stone_slab_type_4: "stone", top_slot_bit: 1b}},
+	{name: "minecraft:mangrove_button", states: {button_pressed_bit: 0b, facing_direction: 0}},
+	{name: "minecraft:mangrove_button", states: {button_pressed_bit: 0b, facing_direction: 1}},
+	{name: "minecraft:mangrove_button", states: {button_pressed_bit: 0b, facing_direction: 2}},
+	{name: "minecraft:mangrove_button", states: {button_pressed_bit: 0b, facing_direction: 3}},
+	{name: "minecraft:mangrove_button", states: {button_pressed_bit: 0b, facing_direction: 4}},
+	{name: "minecraft:mangrove_button", states: {button_pressed_bit: 0b, facing_direction: 5}},
+	{name: "minecraft:mangrove_button", states: {button_pressed_bit: 1b, facing_direction: 0}},
+	{name: "minecraft:mangrove_button", states: {button_pressed_bit: 1b, facing_direction: 1}},
+	{name: "minecraft:mangrove_button", states: {button_pressed_bit: 1b, facing_direction: 2}},
+	{name: "minecraft:mangrove_button", states: {button_pressed_bit: 1b, facing_direction: 3}},
+	{name: "minecraft:mangrove_button", states: {button_pressed_bit: 1b, facing_direction: 4}},
+	{name: "minecraft:mangrove_button", states: {button_pressed_bit: 1b, facing_direction: 5}},
+	{name: "minecraft:mangrove_door", states: {direction: 0, door_hinge_bit: 0b, open_bit: 0b, upper_block_bit: 0b}},
+	{name: "minecraft:mangrove_door", states: {direction: 0, door_hinge_bit: 0b, open_bit: 0b, upper_block_bit: 1b}},
+	{name: "minecraft:mangrove_door", states: {direction: 0, door_hinge_bit: 0b, open_bit: 1b, upper_block_bit: 0b}},
+	{name: "minecraft:mangrove_door", states: {direction: 0, door_hinge_bit: 0b, open_bit: 1b, upper_block_bit: 1b}},
+	{name: "minecraft:mangrove_door", states: {direction: 0, door_hinge_bit: 1b, open_bit: 0b, upper_block_bit: 0b}},
+	{name: "minecraft:mangrove_door", states: {direction: 0, door_hinge_bit: 1b, open_bit: 0b, upper_block_bit: 1b}},
+	{name: "minecraft:mangrove_door", states: {direction: 0, door_hinge_bit: 1b, open_bit: 1b, upper_block_bit: 0b}},
+	{name: "minecraft:mangrove_door", states: {direction: 0, door_hinge_bit: 1b, open_bit: 1b, upper_block_bit: 1b}},
+	{name: "minecraft:mangrove_door", states: {direction: 1, door_hinge_bit: 0b, open_bit: 0b, upper_block_bit: 0b}},
+	{name: "minecraft:mangrove_door", states: {direction: 1, door_hinge_bit: 0b, open_bit: 0b, upper_block_bit: 1b}},
+	{name: "minecraft:mangrove_door", states: {direction: 1, door_hinge_bit: 0b, open_bit: 1b, upper_block_bit: 0b}},
+	{name: "minecraft:mangrove_door", states: {direction: 1, door_hinge_bit: 0b, open_bit: 1b, upper_block_bit: 1b}},
+	{name: "minecraft:mangrove_door", states: {direction: 1, door_hinge_bit: 1b, open_bit: 0b, upper_block_bit: 0b}},
+	{name: "minecraft:mangrove_door", states: {direction: 1, door_hinge_bit: 1b, open_bit: 0b, upper_block_bit: 1b}},
+	{name: "minecraft:mangrove_door", states: {direction: 1, door_hinge_bit: 1b, open_bit: 1b, upper_block_bit: 0b}},
+	{name: "minecraft:mangrove_door", states: {direction: 1, door_hinge_bit: 1b, open_bit: 1b, upper_block_bit: 1b}},
+	{name: "minecraft:mangrove_door", states: {direction: 2, door_hinge_bit: 0b, open_bit: 0b, upper_block_bit: 0b}},
+	{name: "minecraft:mangrove_door", states: {direction: 2, door_hinge_bit: 0b, open_bit: 0b, upper_block_bit: 1b}},
+	{name: "minecraft:mangrove_door", states: {direction: 2, door_hinge_bit: 0b, open_bit: 1b, upper_block_bit: 0b}},
+	{name: "minecraft:mangrove_door", states: {direction: 2, door_hinge_bit: 0b, open_bit: 1b, upper_block_bit: 1b}},
+	{name: "minecraft:mangrove_door", states: {direction: 2, door_hinge_bit: 1b, open_bit: 0b, upper_block_bit: 0b}},
+	{name: "minecraft:mangrove_door", states: {direction: 2, door_hinge_bit: 1b, open_bit: 0b, upper_block_bit: 1b}},
+	{name: "minecraft:mangrove_door", states: {direction: 2, door_hinge_bit: 1b, open_bit: 1b, upper_block_bit: 0b}},
+	{name: "minecraft:mangrove_door", states: {direction: 2, door_hinge_bit: 1b, open_bit: 1b, upper_block_bit: 1b}},
+	{name: "minecraft:mangrove_door", states: {direction: 3, door_hinge_bit: 0b, open_bit: 0b, upper_block_bit: 0b}},
+	{name: "minecraft:mangrove_door", states: {direction: 3, door_hinge_bit: 0b, open_bit: 0b, upper_block_bit: 1b}},
+	{name: "minecraft:mangrove_door", states: {direction: 3, door_hinge_bit: 0b, open_bit: 1b, upper_block_bit: 0b}},
+	{name: "minecraft:mangrove_door", states: {direction: 3, door_hinge_bit: 0b, open_bit: 1b, upper_block_bit: 1b}},
+	{name: "minecraft:mangrove_door", states: {direction: 3, door_hinge_bit: 1b, open_bit: 0b, upper_block_bit: 0b}},
+	{name: "minecraft:mangrove_door", states: {direction: 3, door_hinge_bit: 1b, open_bit: 0b, upper_block_bit: 1b}},
+	{name: "minecraft:mangrove_door", states: {direction: 3, door_hinge_bit: 1b, open_bit: 1b, upper_block_bit: 0b}},
+	{name: "minecraft:mangrove_door", states: {direction: 3, door_hinge_bit: 1b, open_bit: 1b, upper_block_bit: 1b}},
+	{name: "minecraft:mangrove_double_slab", states: {top_slot_bit: 0b}},
+	{name: "minecraft:mangrove_double_slab", states: {top_slot_bit: 1b}},
+	{name: "minecraft:mangrove_fence", states: {}},
+	{name: "minecraft:mangrove_fence_gate", states: {direction: 0, in_wall_bit: 0b, open_bit: 0b}},
+	{name: "minecraft:mangrove_fence_gate", states: {direction: 0, in_wall_bit: 0b, open_bit: 1b}},
+	{name: "minecraft:mangrove_fence_gate", states: {direction: 0, in_wall_bit: 1b, open_bit: 0b}},
+	{name: "minecraft:mangrove_fence_gate", states: {direction: 0, in_wall_bit: 1b, open_bit: 1b}},
+	{name: "minecraft:mangrove_fence_gate", states: {direction: 1, in_wall_bit: 0b, open_bit: 0b}},
+	{name: "minecraft:mangrove_fence_gate", states: {direction: 1, in_wall_bit: 0b, open_bit: 1b}},
+	{name: "minecraft:mangrove_fence_gate", states: {direction: 1, in_wall_bit: 1b, open_bit: 0b}},
+	{name: "minecraft:mangrove_fence_gate", states: {direction: 1, in_wall_bit: 1b, open_bit: 1b}},
+	{name: "minecraft:mangrove_fence_gate", states: {direction: 2, in_wall_bit: 0b, open_bit: 0b}},
+	{name: "minecraft:mangrove_fence_gate", states: {direction: 2, in_wall_bit: 0b, open_bit: 1b}},
+	{name: "minecraft:mangrove_fence_gate", states: {direction: 2, in_wall_bit: 1b, open_bit: 0b}},
+	{name: "minecraft:mangrove_fence_gate", states: {direction: 2, in_wall_bit: 1b, open_bit: 1b}},
+	{name: "minecraft:mangrove_fence_gate", states: {direction: 3, in_wall_bit: 0b, open_bit: 0b}},
+	{name: "minecraft:mangrove_fence_gate", states: {direction: 3, in_wall_bit: 0b, open_bit: 1b}},
+	{name: "minecraft:mangrove_fence_gate", states: {direction: 3, in_wall_bit: 1b, open_bit: 0b}},
+	{name: "minecraft:mangrove_fence_gate", states: {direction: 3, in_wall_bit: 1b, open_bit: 1b}},
+	{name: "minecraft:mangrove_log", states: {pillar_axis: "x"}},
+	{name: "minecraft:mangrove_log", states: {pillar_axis: "y"}},
+	{name: "minecraft:mangrove_log", states: {pillar_axis: "z"}},
+	{name: "minecraft:mangrove_planks", states: {}},
+	{name: "minecraft:mangrove_pressure_plate", states: {redstone_signal: 0}},
+	{name: "minecraft:mangrove_pressure_plate", states: {redstone_signal: 10}},
+	{name: "minecraft:mangrove_pressure_plate", states: {redstone_signal: 11}},
+	{name: "minecraft:mangrove_pressure_plate", states: {redstone_signal: 12}},
+	{name: "minecraft:mangrove_pressure_plate", states: {redstone_signal: 13}},
+	{name: "minecraft:mangrove_pressure_plate", states: {redstone_signal: 14}},
+	{name: "minecraft:mangrove_pressure_plate", states: {redstone_signal: 15}},
+	{name: "minecraft:mangrove_pressure_plate", states: {redstone_signal: 1}},
+	{name: "minecraft:mangrove_pressure_plate", states: {redstone_signal: 2}},
+	{name: "minecraft:mangrove_pressure_plate", states: {redstone_signal: 3}},
+	{name: "minecraft:mangrove_pressure_plate", states: {redstone_signal: 4}},
+	{name: "minecraft:mangrove_pressure_plate", states: {redstone_signal: 5}},
+	{name: "minecraft:mangrove_pressure_plate", states: {redstone_signal: 6}},
+	{name: "minecraft:mangrove_pressure_plate", states: {redstone_signal: 7}},
+	{name: "minecraft:mangrove_pressure_plate", states: {redstone_signal: 8}},
+	{name: "minecraft:mangrove_pressure_plate", states: {redstone_signal: 9}},
+	{name: "minecraft:mangrove_propagule", states: {hanging: 0b, propagule_stage: 0}},
+	{name: "minecraft:mangrove_propagule", states: {hanging: 0b, propagule_stage: 1}},
+	{name: "minecraft:mangrove_propagule", states: {hanging: 0b, propagule_stage: 2}},
+	{name: "minecraft:mangrove_propagule", states: {hanging: 0b, propagule_stage: 3}},
+	{name: "minecraft:mangrove_propagule", states: {hanging: 0b, propagule_stage: 4}},
+	{name: "minecraft:mangrove_propagule", states: {hanging: 1b, propagule_stage: 0}},
+	{name: "minecraft:mangrove_propagule", states: {hanging: 1b, propagule_stage: 1}},
+	{name: "minecraft:mangrove_propagule", states: {hanging: 1b, propagule_stage: 2}},
+	{name: "minecraft:mangrove_propagule", states: {hanging: 1b, propagule_stage: 3}},
+	{name: "minecraft:mangrove_propagule", states: {hanging: 1b, propagule_stage: 4}},
+	{name: "minecraft:mangrove_roots", states: {}},
+	{name: "minecraft:mangrove_slab", states: {top_slot_bit: 0b}},
+	{name: "minecraft:mangrove_slab", states: {top_slot_bit: 1b}},
+	{name: "minecraft:mangrove_stairs", states: {upside_down_bit: 0b, weirdo_direction: 0}},
+	{name: "minecraft:mangrove_stairs", states: {upside_down_bit: 0b, weirdo_direction: 1}},
+	{name: "minecraft:mangrove_stairs", states: {upside_down_bit: 0b, weirdo_direction: 2}},
+	{name: "minecraft:mangrove_stairs", states: {upside_down_bit: 0b, weirdo_direction: 3}},
+	{name: "minecraft:mangrove_stairs", states: {upside_down_bit: 1b, weirdo_direction: 0}},
+	{name: "minecraft:mangrove_stairs", states: {upside_down_bit: 1b, weirdo_direction: 1}},
+	{name: "minecraft:mangrove_stairs", states: {upside_down_bit: 1b, weirdo_direction: 2}},
+	{name: "minecraft:mangrove_stairs", states: {upside_down_bit: 1b, weirdo_direction: 3}},
+	{name: "minecraft:mangrove_standing_sign", states: {ground_sign_direction: 0}},
+	{name: "minecraft:mangrove_standing_sign", states: {ground_sign_direction: 10}},
+	{name: "minecraft:mangrove_standing_sign", states: {ground_sign_direction: 11}},
+	{name: "minecraft:mangrove_standing_sign", states: {ground_sign_direction: 12}},
+	{name: "minecraft:mangrove_standing_sign", states: {ground_sign_direction: 13}},
+	{name: "minecraft:mangrove_standing_sign", states: {ground_sign_direction: 14}},
+	{name: "minecraft:mangrove_standing_sign", states: {ground_sign_direction: 15}},
+	{name: "minecraft:mangrove_standing_sign", states: {ground_sign_direction: 1}},
+	{name: "minecraft:mangrove_standing_sign", states: {ground_sign_direction: 2}},
+	{name: "minecraft:mangrove_standing_sign", states: {ground_sign_direction: 3}},
+	{name: "minecraft:mangrove_standing_sign", states: {ground_sign_direction: 4}},
+	{name: "minecraft:mangrove_standing_sign", states: {ground_sign_direction: 5}},
+	{name: "minecraft:mangrove_standing_sign", states: {ground_sign_direction: 6}},
+	{name: "minecraft:mangrove_standing_sign", states: {ground_sign_direction: 7}},
+	{name: "minecraft:mangrove_standing_sign", states: {ground_sign_direction: 8}},
+	{name: "minecraft:mangrove_standing_sign", states: {ground_sign_direction: 9}},
+	{name: "minecraft:mangrove_trapdoor", states: {direction: 0, open_bit: 0b, upside_down_bit: 0b}},
+	{name: "minecraft:mangrove_trapdoor", states: {direction: 0, open_bit: 0b, upside_down_bit: 1b}},
+	{name: "minecraft:mangrove_trapdoor", states: {direction: 0, open_bit: 1b, upside_down_bit: 0b}},
+	{name: "minecraft:mangrove_trapdoor", states: {direction: 0, open_bit: 1b, upside_down_bit: 1b}},
+	{name: "minecraft:mangrove_trapdoor", states: {direction: 1, open_bit: 0b, upside_down_bit: 0b}},
+	{name: "minecraft:mangrove_trapdoor", states: {direction: 1, open_bit: 0b, upside_down_bit: 1b}},
+	{name: "minecraft:mangrove_trapdoor", states: {direction: 1, open_bit: 1b, upside_down_bit: 0b}},
+	{name: "minecraft:mangrove_trapdoor", states: {direction: 1, open_bit: 1b, upside_down_bit: 1b}},
+	{name: "minecraft:mangrove_trapdoor", states: {direction: 2, open_bit: 0b, upside_down_bit: 0b}},
+	{name: "minecraft:mangrove_trapdoor", states: {direction: 2, open_bit: 0b, upside_down_bit: 1b}},
+	{name: "minecraft:mangrove_trapdoor", states: {direction: 2, open_bit: 1b, upside_down_bit: 0b}},
+	{name: "minecraft:mangrove_trapdoor", states: {direction: 2, open_bit: 1b, upside_down_bit: 1b}},
+	{name: "minecraft:mangrove_trapdoor", states: {direction: 3, open_bit: 0b, upside_down_bit: 0b}},
+	{name: "minecraft:mangrove_trapdoor", states: {direction: 3, open_bit: 0b, upside_down_bit: 1b}},
+	{name: "minecraft:mangrove_trapdoor", states: {direction: 3, open_bit: 1b, upside_down_bit: 0b}},
+	{name: "minecraft:mangrove_trapdoor", states: {direction: 3, open_bit: 1b, upside_down_bit: 1b}},
+	{name: "minecraft:mangrove_wall_sign", states: {facing_direction: 0}},
+	{name: "minecraft:mangrove_wall_sign", states: {facing_direction: 1}},
+	{name: "minecraft:mangrove_wall_sign", states: {facing_direction: 2}},
+	{name: "minecraft:mangrove_wall_sign", states: {facing_direction: 3}},
+	{name: "minecraft:mangrove_wall_sign", states: {facing_direction: 4}},
+	{name: "minecraft:mangrove_wall_sign", states: {facing_direction: 5}},
+	{name: "minecraft:mangrove_wood", states: {pillar_axis: "x", stripped_bit: 0b}},
+	{name: "minecraft:mangrove_wood", states: {pillar_axis: "x", stripped_bit: 1b}},
+	{name: "minecraft:mangrove_wood", states: {pillar_axis: "y", stripped_bit: 0b}},
+	{name: "minecraft:mangrove_wood", states: {pillar_axis: "y", stripped_bit: 1b}},
+	{name: "minecraft:mangrove_wood", states: {pillar_axis: "z", stripped_bit: 0b}},
+	{name: "minecraft:mangrove_wood", states: {pillar_axis: "z", stripped_bit: 1b}},
+	{name: "minecraft:muddy_mangrove_roots", states: {}},
+	{name: "minecraft:sculk_shrieker", states: {active: 0b, can_summon: 0b}},
+	{name: "minecraft:sculk_shrieker", states: {active: 0b, can_summon: 1b}},
+	{name: "minecraft:sculk_shrieker", states: {active: 1b, can_summon: 0b}},
+	{name: "minecraft:sculk_shrieker", states: {active: 1b, can_summon: 1b}},
+	{name: "minecraft:stone_block_slab", states: {stone_slab_type: "brick", top_slot_bit: 0b}},
+	{name: "minecraft:stone_block_slab", states: {stone_slab_type: "brick", top_slot_bit: 1b}},
+	{name: "minecraft:stone_block_slab", states: {stone_slab_type: "cobblestone", top_slot_bit: 0b}},
+	{name: "minecraft:stone_block_slab", states: {stone_slab_type: "cobblestone", top_slot_bit: 1b}},
+	{name: "minecraft:stone_block_slab", states: {stone_slab_type: "nether_brick", top_slot_bit: 0b}},
+	{name: "minecraft:stone_block_slab", states: {stone_slab_type: "nether_brick", top_slot_bit: 1b}},
+	{name: "minecraft:stone_block_slab", states: {stone_slab_type: "quartz", top_slot_bit: 0b}},
+	{name: "minecraft:stone_block_slab", states: {stone_slab_type: "quartz", top_slot_bit: 1b}},
+	{name: "minecraft:stone_block_slab", states: {stone_slab_type: "sandstone", top_slot_bit: 0b}},
+	{name: "minecraft:stone_block_slab", states: {stone_slab_type: "sandstone", top_slot_bit: 1b}},
+	{name: "minecraft:stone_block_slab", states: {stone_slab_type: "smooth_stone", top_slot_bit: 0b}},
+	{name: "minecraft:stone_block_slab", states: {stone_slab_type: "smooth_stone", top_slot_bit: 1b}},
+	{name: "minecraft:stone_block_slab", states: {stone_slab_type: "stone_brick", top_slot_bit: 0b}},
+	{name: "minecraft:stone_block_slab", states: {stone_slab_type: "stone_brick", top_slot_bit: 1b}},
+	{name: "minecraft:stone_block_slab", states: {stone_slab_type: "wood", top_slot_bit: 0b}},
+	{name: "minecraft:stone_block_slab", states: {stone_slab_type: "wood", top_slot_bit: 1b}},
+	{name: "minecraft:stone_block_slab2", states: {stone_slab_type_2: "mossy_cobblestone", top_slot_bit: 0b}},
+	{name: "minecraft:stone_block_slab2", states: {stone_slab_type_2: "mossy_cobblestone", top_slot_bit: 1b}},
+	{name: "minecraft:stone_block_slab2", states: {stone_slab_type_2: "prismarine_brick", top_slot_bit: 0b}},
+	{name: "minecraft:stone_block_slab2", states: {stone_slab_type_2: "prismarine_brick", top_slot_bit: 1b}},
+	{name: "minecraft:stone_block_slab2", states: {stone_slab_type_2: "prismarine_dark", top_slot_bit: 0b}},
+	{name: "minecraft:stone_block_slab2", states: {stone_slab_type_2: "prismarine_dark", top_slot_bit: 1b}},
+	{name: "minecraft:stone_block_slab2", states: {stone_slab_type_2: "prismarine_rough", top_slot_bit: 0b}},
+	{name: "minecraft:stone_block_slab2", states: {stone_slab_type_2: "prismarine_rough", top_slot_bit: 1b}},
+	{name: "minecraft:stone_block_slab2", states: {stone_slab_type_2: "purpur", top_slot_bit: 0b}},
+	{name: "minecraft:stone_block_slab2", states: {stone_slab_type_2: "purpur", top_slot_bit: 1b}},
+	{name: "minecraft:stone_block_slab2", states: {stone_slab_type_2: "red_nether_brick", top_slot_bit: 0b}},
+	{name: "minecraft:stone_block_slab2", states: {stone_slab_type_2: "red_nether_brick", top_slot_bit: 1b}},
+	{name: "minecraft:stone_block_slab2", states: {stone_slab_type_2: "red_sandstone", top_slot_bit: 0b}},
+	{name: "minecraft:stone_block_slab2", states: {stone_slab_type_2: "red_sandstone", top_slot_bit: 1b}},
+	{name: "minecraft:stone_block_slab2", states: {stone_slab_type_2: "smooth_sandstone", top_slot_bit: 0b}},
+	{name: "minecraft:stone_block_slab2", states: {stone_slab_type_2: "smooth_sandstone", top_slot_bit: 1b}},
+	{name: "minecraft:stone_block_slab3", states: {stone_slab_type_3: "andesite", top_slot_bit: 0b}},
+	{name: "minecraft:stone_block_slab3", states: {stone_slab_type_3: "andesite", top_slot_bit: 1b}},
+	{name: "minecraft:stone_block_slab3", states: {stone_slab_type_3: "diorite", top_slot_bit: 0b}},
+	{name: "minecraft:stone_block_slab3", states: {stone_slab_type_3: "diorite", top_slot_bit: 1b}},
+	{name: "minecraft:stone_block_slab3", states: {stone_slab_type_3: "end_stone_brick", top_slot_bit: 0b}},
+	{name: "minecraft:stone_block_slab3", states: {stone_slab_type_3: "end_stone_brick", top_slot_bit: 1b}},
+	{name: "minecraft:stone_block_slab3", states: {stone_slab_type_3: "granite", top_slot_bit: 0b}},
+	{name: "minecraft:stone_block_slab3", states: {stone_slab_type_3: "granite", top_slot_bit: 1b}},
+	{name: "minecraft:stone_block_slab3", states: {stone_slab_type_3: "polished_andesite", top_slot_bit: 0b}},
+	{name: "minecraft:stone_block_slab3", states: {stone_slab_type_3: "polished_andesite", top_slot_bit: 1b}},
+	{name: "minecraft:stone_block_slab3", states: {stone_slab_type_3: "polished_diorite", top_slot_bit: 0b}},
+	{name: "minecraft:stone_block_slab3", states: {stone_slab_type_3: "polished_diorite", top_slot_bit: 1b}},
+	{name: "minecraft:stone_block_slab3", states: {stone_slab_type_3: "polished_granite", top_slot_bit: 0b}},
+	{name: "minecraft:stone_block_slab3", states: {stone_slab_type_3: "polished_granite", top_slot_bit: 1b}},
+	{name: "minecraft:stone_block_slab3", states: {stone_slab_type_3: "smooth_red_sandstone", top_slot_bit: 0b}},
+	{name: "minecraft:stone_block_slab3", states: {stone_slab_type_3: "smooth_red_sandstone", top_slot_bit: 1b}},
+	{name: "minecraft:stone_block_slab4", states: {stone_slab_type_4: "cut_red_sandstone", top_slot_bit: 0b}},
+	{name: "minecraft:stone_block_slab4", states: {stone_slab_type_4: "cut_red_sandstone", top_slot_bit: 1b}},
+	{name: "minecraft:stone_block_slab4", states: {stone_slab_type_4: "cut_sandstone", top_slot_bit: 0b}},
+	{name: "minecraft:stone_block_slab4", states: {stone_slab_type_4: "cut_sandstone", top_slot_bit: 1b}},
+	{name: "minecraft:stone_block_slab4", states: {stone_slab_type_4: "mossy_stone_brick", top_slot_bit: 0b}},
+	{name: "minecraft:stone_block_slab4", states: {stone_slab_type_4: "mossy_stone_brick", top_slot_bit: 1b}},
+	{name: "minecraft:stone_block_slab4", states: {stone_slab_type_4: "smooth_quartz", top_slot_bit: 0b}},
+	{name: "minecraft:stone_block_slab4", states: {stone_slab_type_4: "smooth_quartz", top_slot_bit: 1b}},
+	{name: "minecraft:stone_block_slab4", states: {stone_slab_type_4: "stone", top_slot_bit: 0b}},
+	{name: "minecraft:stone_block_slab4", states: {stone_slab_type_4: "stone", top_slot_bit: 1b}},
+	{name: "minecraft:stripped_mangrove_log", states: {pillar_axis: "x"}},
+	{name: "minecraft:stripped_mangrove_log", states: {pillar_axis: "y"}},
+	{name: "minecraft:stripped_mangrove_log", states: {pillar_axis: "z"}},
+	{name: "minecraft:stripped_mangrove_wood", states: {pillar_axis: "x"}},
+	{name: "minecraft:stripped_mangrove_wood", states: {pillar_axis: "y"}},
+	{name: "minecraft:stripped_mangrove_wood", states: {pillar_axis: "z"}}
 ]

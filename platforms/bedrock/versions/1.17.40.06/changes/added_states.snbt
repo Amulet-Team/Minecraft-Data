@@ -1,26 +1,7 @@
 [
-	{
-		"name": "minecraft:client_request_placeholder_block",
-		"states": {}
-	},
-	{
-		"name": "minecraft:mysterious_frame",
-		"states": {}
-	},
-	{
-		"name": "minecraft:mysterious_frame_slot",
-		"states": {}
-	},
-	{
-		"name": "minecraft:sculk_catalyst",
-		"states": {
-			"bloom": 0b
-		}
-	},
-	{
-		"name": "minecraft:sculk_catalyst",
-		"states": {
-			"bloom": 1b
-		}
-	}
+	{name: "minecraft:client_request_placeholder_block", states: {}},
+	{name: "minecraft:mysterious_frame", states: {}},
+	{name: "minecraft:mysterious_frame_slot", states: {}},
+	{name: "minecraft:sculk_catalyst", states: {bloom: 0b}},
+	{name: "minecraft:sculk_catalyst", states: {bloom: 1b}}
 ]

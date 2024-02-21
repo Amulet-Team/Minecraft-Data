@@ -1,198 +1,39 @@
 [
-	{
-		"name": "minecraft:red_wool",
-		"states": {}
-	},
-	{
-		"name": "minecraft:yellow_wool",
-		"states": {}
-	},
-	{
-		"name": "minecraft:gray_wool",
-		"states": {}
-	},
-	{
-		"name": "minecraft:brown_wool",
-		"states": {}
-	},
-	{
-		"name": "minecraft:black_wool",
-		"states": {}
-	},
-	{
-		"name": "minecraft:orange_wool",
-		"states": {}
-	},
-	{
-		"name": "minecraft:magenta_wool",
-		"states": {}
-	},
-	{
-		"name": "minecraft:suspicious_sand",
-		"states": {
-			"brushed_progress": 0,
-			"hanging": 0b
-		}
-	},
-	{
-		"name": "minecraft:suspicious_sand",
-		"states": {
-			"brushed_progress": 0,
-			"hanging": 1b
-		}
-	},
-	{
-		"name": "minecraft:suspicious_sand",
-		"states": {
-			"brushed_progress": 1,
-			"hanging": 0b
-		}
-	},
-	{
-		"name": "minecraft:suspicious_sand",
-		"states": {
-			"brushed_progress": 1,
-			"hanging": 1b
-		}
-	},
-	{
-		"name": "minecraft:suspicious_sand",
-		"states": {
-			"brushed_progress": 2,
-			"hanging": 0b
-		}
-	},
-	{
-		"name": "minecraft:suspicious_sand",
-		"states": {
-			"brushed_progress": 2,
-			"hanging": 1b
-		}
-	},
-	{
-		"name": "minecraft:suspicious_sand",
-		"states": {
-			"brushed_progress": 3,
-			"hanging": 0b
-		}
-	},
-	{
-		"name": "minecraft:suspicious_sand",
-		"states": {
-			"brushed_progress": 3,
-			"hanging": 1b
-		}
-	},
-	{
-		"name": "minecraft:green_wool",
-		"states": {}
-	},
-	{
-		"name": "minecraft:pink_wool",
-		"states": {}
-	},
-	{
-		"name": "minecraft:cyan_wool",
-		"states": {}
-	},
-	{
-		"name": "minecraft:white_wool",
-		"states": {}
-	},
-	{
-		"name": "minecraft:blue_wool",
-		"states": {}
-	},
-	{
-		"name": "minecraft:lime_wool",
-		"states": {}
-	},
-	{
-		"name": "minecraft:torchflower_crop",
-		"states": {
-			"growth": 0
-		}
-	},
-	{
-		"name": "minecraft:torchflower_crop",
-		"states": {
-			"growth": 1
-		}
-	},
-	{
-		"name": "minecraft:torchflower_crop",
-		"states": {
-			"growth": 2
-		}
-	},
-	{
-		"name": "minecraft:torchflower_crop",
-		"states": {
-			"growth": 3
-		}
-	},
-	{
-		"name": "minecraft:torchflower_crop",
-		"states": {
-			"growth": 4
-		}
-	},
-	{
-		"name": "minecraft:torchflower_crop",
-		"states": {
-			"growth": 5
-		}
-	},
-	{
-		"name": "minecraft:torchflower_crop",
-		"states": {
-			"growth": 6
-		}
-	},
-	{
-		"name": "minecraft:torchflower_crop",
-		"states": {
-			"growth": 7
-		}
-	},
-	{
-		"name": "minecraft:torchflower",
-		"states": {}
-	},
-	{
-		"name": "minecraft:decorated_pot",
-		"states": {
-			"direction": 0
-		}
-	},
-	{
-		"name": "minecraft:decorated_pot",
-		"states": {
-			"direction": 1
-		}
-	},
-	{
-		"name": "minecraft:decorated_pot",
-		"states": {
-			"direction": 2
-		}
-	},
-	{
-		"name": "minecraft:decorated_pot",
-		"states": {
-			"direction": 3
-		}
-	},
-	{
-		"name": "minecraft:light_blue_wool",
-		"states": {}
-	},
-	{
-		"name": "minecraft:light_gray_wool",
-		"states": {}
-	},
-	{
-		"name": "minecraft:purple_wool",
-		"states": {}
-	}
+	{name: "minecraft:black_wool", states: {}},
+	{name: "minecraft:blue_wool", states: {}},
+	{name: "minecraft:brown_wool", states: {}},
+	{name: "minecraft:cyan_wool", states: {}},
+	{name: "minecraft:decorated_pot", states: {direction: 0}},
+	{name: "minecraft:decorated_pot", states: {direction: 1}},
+	{name: "minecraft:decorated_pot", states: {direction: 2}},
+	{name: "minecraft:decorated_pot", states: {direction: 3}},
+	{name: "minecraft:gray_wool", states: {}},
+	{name: "minecraft:green_wool", states: {}},
+	{name: "minecraft:light_blue_wool", states: {}},
+	{name: "minecraft:light_gray_wool", states: {}},
+	{name: "minecraft:lime_wool", states: {}},
+	{name: "minecraft:magenta_wool", states: {}},
+	{name: "minecraft:orange_wool", states: {}},
+	{name: "minecraft:pink_wool", states: {}},
+	{name: "minecraft:purple_wool", states: {}},
+	{name: "minecraft:red_wool", states: {}},
+	{name: "minecraft:suspicious_sand", states: {brushed_progress: 0, hanging: 0b}},
+	{name: "minecraft:suspicious_sand", states: {brushed_progress: 0, hanging: 1b}},
+	{name: "minecraft:suspicious_sand", states: {brushed_progress: 1, hanging: 0b}},
+	{name: "minecraft:suspicious_sand", states: {brushed_progress: 1, hanging: 1b}},
+	{name: "minecraft:suspicious_sand", states: {brushed_progress: 2, hanging: 0b}},
+	{name: "minecraft:suspicious_sand", states: {brushed_progress: 2, hanging: 1b}},
+	{name: "minecraft:suspicious_sand", states: {brushed_progress: 3, hanging: 0b}},
+	{name: "minecraft:suspicious_sand", states: {brushed_progress: 3, hanging: 1b}},
+	{name: "minecraft:torchflower", states: {}},
+	{name: "minecraft:torchflower_crop", states: {growth: 0}},
+	{name: "minecraft:torchflower_crop", states: {growth: 1}},
+	{name: "minecraft:torchflower_crop", states: {growth: 2}},
+	{name: "minecraft:torchflower_crop", states: {growth: 3}},
+	{name: "minecraft:torchflower_crop", states: {growth: 4}},
+	{name: "minecraft:torchflower_crop", states: {growth: 5}},
+	{name: "minecraft:torchflower_crop", states: {growth: 6}},
+	{name: "minecraft:torchflower_crop", states: {growth: 7}},
+	{name: "minecraft:white_wool", states: {}},
+	{name: "minecraft:yellow_wool", states: {}}
 ]

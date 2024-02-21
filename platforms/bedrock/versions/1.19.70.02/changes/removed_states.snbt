@@ -1,98 +1,18 @@
 [
-	{
-		"name": "minecraft:wool",
-		"states": {
-			"color": "white"
-		}
-	},
-	{
-		"name": "minecraft:wool",
-		"states": {
-			"color": "orange"
-		}
-	},
-	{
-		"name": "minecraft:wool",
-		"states": {
-			"color": "magenta"
-		}
-	},
-	{
-		"name": "minecraft:wool",
-		"states": {
-			"color": "light_blue"
-		}
-	},
-	{
-		"name": "minecraft:wool",
-		"states": {
-			"color": "yellow"
-		}
-	},
-	{
-		"name": "minecraft:wool",
-		"states": {
-			"color": "lime"
-		}
-	},
-	{
-		"name": "minecraft:wool",
-		"states": {
-			"color": "pink"
-		}
-	},
-	{
-		"name": "minecraft:wool",
-		"states": {
-			"color": "gray"
-		}
-	},
-	{
-		"name": "minecraft:wool",
-		"states": {
-			"color": "silver"
-		}
-	},
-	{
-		"name": "minecraft:wool",
-		"states": {
-			"color": "cyan"
-		}
-	},
-	{
-		"name": "minecraft:wool",
-		"states": {
-			"color": "purple"
-		}
-	},
-	{
-		"name": "minecraft:wool",
-		"states": {
-			"color": "blue"
-		}
-	},
-	{
-		"name": "minecraft:wool",
-		"states": {
-			"color": "brown"
-		}
-	},
-	{
-		"name": "minecraft:wool",
-		"states": {
-			"color": "green"
-		}
-	},
-	{
-		"name": "minecraft:wool",
-		"states": {
-			"color": "red"
-		}
-	},
-	{
-		"name": "minecraft:wool",
-		"states": {
-			"color": "black"
-		}
-	}
+	{name: "minecraft:wool", states: {color: "black"}},
+	{name: "minecraft:wool", states: {color: "blue"}},
+	{name: "minecraft:wool", states: {color: "brown"}},
+	{name: "minecraft:wool", states: {color: "cyan"}},
+	{name: "minecraft:wool", states: {color: "gray"}},
+	{name: "minecraft:wool", states: {color: "green"}},
+	{name: "minecraft:wool", states: {color: "light_blue"}},
+	{name: "minecraft:wool", states: {color: "lime"}},
+	{name: "minecraft:wool", states: {color: "magenta"}},
+	{name: "minecraft:wool", states: {color: "orange"}},
+	{name: "minecraft:wool", states: {color: "pink"}},
+	{name: "minecraft:wool", states: {color: "purple"}},
+	{name: "minecraft:wool", states: {color: "red"}},
+	{name: "minecraft:wool", states: {color: "silver"}},
+	{name: "minecraft:wool", states: {color: "white"}},
+	{name: "minecraft:wool", states: {color: "yellow"}}
 ]

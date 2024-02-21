@@ -1,1570 +1,198 @@
 [
-	{
-		"name": "minecraft:chiseled_bookshelf",
-		"states": {
-			"books_stored": 0,
-			"direction": 0,
-			"last_interacted_slot": 0
-		}
-	},
-	{
-		"name": "minecraft:chiseled_bookshelf",
-		"states": {
-			"books_stored": 0,
-			"direction": 1,
-			"last_interacted_slot": 0
-		}
-	},
-	{
-		"name": "minecraft:chiseled_bookshelf",
-		"states": {
-			"books_stored": 0,
-			"direction": 2,
-			"last_interacted_slot": 0
-		}
-	},
-	{
-		"name": "minecraft:chiseled_bookshelf",
-		"states": {
-			"books_stored": 0,
-			"direction": 3,
-			"last_interacted_slot": 0
-		}
-	},
-	{
-		"name": "minecraft:chiseled_bookshelf",
-		"states": {
-			"books_stored": 1,
-			"direction": 0,
-			"last_interacted_slot": 0
-		}
-	},
-	{
-		"name": "minecraft:chiseled_bookshelf",
-		"states": {
-			"books_stored": 1,
-			"direction": 1,
-			"last_interacted_slot": 0
-		}
-	},
-	{
-		"name": "minecraft:chiseled_bookshelf",
-		"states": {
-			"books_stored": 1,
-			"direction": 2,
-			"last_interacted_slot": 0
-		}
-	},
-	{
-		"name": "minecraft:chiseled_bookshelf",
-		"states": {
-			"books_stored": 1,
-			"direction": 3,
-			"last_interacted_slot": 0
-		}
-	},
-	{
-		"name": "minecraft:chiseled_bookshelf",
-		"states": {
-			"books_stored": 2,
-			"direction": 0,
-			"last_interacted_slot": 0
-		}
-	},
-	{
-		"name": "minecraft:chiseled_bookshelf",
-		"states": {
-			"books_stored": 2,
-			"direction": 1,
-			"last_interacted_slot": 0
-		}
-	},
-	{
-		"name": "minecraft:chiseled_bookshelf",
-		"states": {
-			"books_stored": 2,
-			"direction": 2,
-			"last_interacted_slot": 0
-		}
-	},
-	{
-		"name": "minecraft:chiseled_bookshelf",
-		"states": {
-			"books_stored": 2,
-			"direction": 3,
-			"last_interacted_slot": 0
-		}
-	},
-	{
-		"name": "minecraft:chiseled_bookshelf",
-		"states": {
-			"books_stored": 3,
-			"direction": 0,
-			"last_interacted_slot": 0
-		}
-	},
-	{
-		"name": "minecraft:chiseled_bookshelf",
-		"states": {
-			"books_stored": 3,
-			"direction": 1,
-			"last_interacted_slot": 0
-		}
-	},
-	{
-		"name": "minecraft:chiseled_bookshelf",
-		"states": {
-			"books_stored": 3,
-			"direction": 2,
-			"last_interacted_slot": 0
-		}
-	},
-	{
-		"name": "minecraft:chiseled_bookshelf",
-		"states": {
-			"books_stored": 3,
-			"direction": 3,
-			"last_interacted_slot": 0
-		}
-	},
-	{
-		"name": "minecraft:chiseled_bookshelf",
-		"states": {
-			"books_stored": 4,
-			"direction": 0,
-			"last_interacted_slot": 0
-		}
-	},
-	{
-		"name": "minecraft:chiseled_bookshelf",
-		"states": {
-			"books_stored": 4,
-			"direction": 1,
-			"last_interacted_slot": 0
-		}
-	},
-	{
-		"name": "minecraft:chiseled_bookshelf",
-		"states": {
-			"books_stored": 4,
-			"direction": 2,
-			"last_interacted_slot": 0
-		}
-	},
-	{
-		"name": "minecraft:chiseled_bookshelf",
-		"states": {
-			"books_stored": 4,
-			"direction": 3,
-			"last_interacted_slot": 0
-		}
-	},
-	{
-		"name": "minecraft:chiseled_bookshelf",
-		"states": {
-			"books_stored": 5,
-			"direction": 0,
-			"last_interacted_slot": 0
-		}
-	},
-	{
-		"name": "minecraft:chiseled_bookshelf",
-		"states": {
-			"books_stored": 5,
-			"direction": 1,
-			"last_interacted_slot": 0
-		}
-	},
-	{
-		"name": "minecraft:chiseled_bookshelf",
-		"states": {
-			"books_stored": 5,
-			"direction": 2,
-			"last_interacted_slot": 0
-		}
-	},
-	{
-		"name": "minecraft:chiseled_bookshelf",
-		"states": {
-			"books_stored": 5,
-			"direction": 3,
-			"last_interacted_slot": 0
-		}
-	},
-	{
-		"name": "minecraft:chiseled_bookshelf",
-		"states": {
-			"books_stored": 6,
-			"direction": 0,
-			"last_interacted_slot": 0
-		}
-	},
-	{
-		"name": "minecraft:chiseled_bookshelf",
-		"states": {
-			"books_stored": 6,
-			"direction": 1,
-			"last_interacted_slot": 0
-		}
-	},
-	{
-		"name": "minecraft:chiseled_bookshelf",
-		"states": {
-			"books_stored": 6,
-			"direction": 2,
-			"last_interacted_slot": 0
-		}
-	},
-	{
-		"name": "minecraft:chiseled_bookshelf",
-		"states": {
-			"books_stored": 6,
-			"direction": 3,
-			"last_interacted_slot": 0
-		}
-	},
-	{
-		"name": "minecraft:chiseled_bookshelf",
-		"states": {
-			"books_stored": 0,
-			"direction": 0,
-			"last_interacted_slot": 1
-		}
-	},
-	{
-		"name": "minecraft:chiseled_bookshelf",
-		"states": {
-			"books_stored": 0,
-			"direction": 1,
-			"last_interacted_slot": 1
-		}
-	},
-	{
-		"name": "minecraft:chiseled_bookshelf",
-		"states": {
-			"books_stored": 0,
-			"direction": 2,
-			"last_interacted_slot": 1
-		}
-	},
-	{
-		"name": "minecraft:chiseled_bookshelf",
-		"states": {
-			"books_stored": 0,
-			"direction": 3,
-			"last_interacted_slot": 1
-		}
-	},
-	{
-		"name": "minecraft:chiseled_bookshelf",
-		"states": {
-			"books_stored": 1,
-			"direction": 0,
-			"last_interacted_slot": 1
-		}
-	},
-	{
-		"name": "minecraft:chiseled_bookshelf",
-		"states": {
-			"books_stored": 1,
-			"direction": 1,
-			"last_interacted_slot": 1
-		}
-	},
-	{
-		"name": "minecraft:chiseled_bookshelf",
-		"states": {
-			"books_stored": 1,
-			"direction": 2,
-			"last_interacted_slot": 1
-		}
-	},
-	{
-		"name": "minecraft:chiseled_bookshelf",
-		"states": {
-			"books_stored": 1,
-			"direction": 3,
-			"last_interacted_slot": 1
-		}
-	},
-	{
-		"name": "minecraft:chiseled_bookshelf",
-		"states": {
-			"books_stored": 2,
-			"direction": 0,
-			"last_interacted_slot": 1
-		}
-	},
-	{
-		"name": "minecraft:chiseled_bookshelf",
-		"states": {
-			"books_stored": 2,
-			"direction": 1,
-			"last_interacted_slot": 1
-		}
-	},
-	{
-		"name": "minecraft:chiseled_bookshelf",
-		"states": {
-			"books_stored": 2,
-			"direction": 2,
-			"last_interacted_slot": 1
-		}
-	},
-	{
-		"name": "minecraft:chiseled_bookshelf",
-		"states": {
-			"books_stored": 2,
-			"direction": 3,
-			"last_interacted_slot": 1
-		}
-	},
-	{
-		"name": "minecraft:chiseled_bookshelf",
-		"states": {
-			"books_stored": 3,
-			"direction": 0,
-			"last_interacted_slot": 1
-		}
-	},
-	{
-		"name": "minecraft:chiseled_bookshelf",
-		"states": {
-			"books_stored": 3,
-			"direction": 1,
-			"last_interacted_slot": 1
-		}
-	},
-	{
-		"name": "minecraft:chiseled_bookshelf",
-		"states": {
-			"books_stored": 3,
-			"direction": 2,
-			"last_interacted_slot": 1
-		}
-	},
-	{
-		"name": "minecraft:chiseled_bookshelf",
-		"states": {
-			"books_stored": 3,
-			"direction": 3,
-			"last_interacted_slot": 1
-		}
-	},
-	{
-		"name": "minecraft:chiseled_bookshelf",
-		"states": {
-			"books_stored": 4,
-			"direction": 0,
-			"last_interacted_slot": 1
-		}
-	},
-	{
-		"name": "minecraft:chiseled_bookshelf",
-		"states": {
-			"books_stored": 4,
-			"direction": 1,
-			"last_interacted_slot": 1
-		}
-	},
-	{
-		"name": "minecraft:chiseled_bookshelf",
-		"states": {
-			"books_stored": 4,
-			"direction": 2,
-			"last_interacted_slot": 1
-		}
-	},
-	{
-		"name": "minecraft:chiseled_bookshelf",
-		"states": {
-			"books_stored": 4,
-			"direction": 3,
-			"last_interacted_slot": 1
-		}
-	},
-	{
-		"name": "minecraft:chiseled_bookshelf",
-		"states": {
-			"books_stored": 5,
-			"direction": 0,
-			"last_interacted_slot": 1
-		}
-	},
-	{
-		"name": "minecraft:chiseled_bookshelf",
-		"states": {
-			"books_stored": 5,
-			"direction": 1,
-			"last_interacted_slot": 1
-		}
-	},
-	{
-		"name": "minecraft:chiseled_bookshelf",
-		"states": {
-			"books_stored": 5,
-			"direction": 2,
-			"last_interacted_slot": 1
-		}
-	},
-	{
-		"name": "minecraft:chiseled_bookshelf",
-		"states": {
-			"books_stored": 5,
-			"direction": 3,
-			"last_interacted_slot": 1
-		}
-	},
-	{
-		"name": "minecraft:chiseled_bookshelf",
-		"states": {
-			"books_stored": 6,
-			"direction": 0,
-			"last_interacted_slot": 1
-		}
-	},
-	{
-		"name": "minecraft:chiseled_bookshelf",
-		"states": {
-			"books_stored": 6,
-			"direction": 1,
-			"last_interacted_slot": 1
-		}
-	},
-	{
-		"name": "minecraft:chiseled_bookshelf",
-		"states": {
-			"books_stored": 6,
-			"direction": 2,
-			"last_interacted_slot": 1
-		}
-	},
-	{
-		"name": "minecraft:chiseled_bookshelf",
-		"states": {
-			"books_stored": 6,
-			"direction": 3,
-			"last_interacted_slot": 1
-		}
-	},
-	{
-		"name": "minecraft:chiseled_bookshelf",
-		"states": {
-			"books_stored": 0,
-			"direction": 0,
-			"last_interacted_slot": 2
-		}
-	},
-	{
-		"name": "minecraft:chiseled_bookshelf",
-		"states": {
-			"books_stored": 0,
-			"direction": 1,
-			"last_interacted_slot": 2
-		}
-	},
-	{
-		"name": "minecraft:chiseled_bookshelf",
-		"states": {
-			"books_stored": 0,
-			"direction": 2,
-			"last_interacted_slot": 2
-		}
-	},
-	{
-		"name": "minecraft:chiseled_bookshelf",
-		"states": {
-			"books_stored": 0,
-			"direction": 3,
-			"last_interacted_slot": 2
-		}
-	},
-	{
-		"name": "minecraft:chiseled_bookshelf",
-		"states": {
-			"books_stored": 1,
-			"direction": 0,
-			"last_interacted_slot": 2
-		}
-	},
-	{
-		"name": "minecraft:chiseled_bookshelf",
-		"states": {
-			"books_stored": 1,
-			"direction": 1,
-			"last_interacted_slot": 2
-		}
-	},
-	{
-		"name": "minecraft:chiseled_bookshelf",
-		"states": {
-			"books_stored": 1,
-			"direction": 2,
-			"last_interacted_slot": 2
-		}
-	},
-	{
-		"name": "minecraft:chiseled_bookshelf",
-		"states": {
-			"books_stored": 1,
-			"direction": 3,
-			"last_interacted_slot": 2
-		}
-	},
-	{
-		"name": "minecraft:chiseled_bookshelf",
-		"states": {
-			"books_stored": 2,
-			"direction": 0,
-			"last_interacted_slot": 2
-		}
-	},
-	{
-		"name": "minecraft:chiseled_bookshelf",
-		"states": {
-			"books_stored": 2,
-			"direction": 1,
-			"last_interacted_slot": 2
-		}
-	},
-	{
-		"name": "minecraft:chiseled_bookshelf",
-		"states": {
-			"books_stored": 2,
-			"direction": 2,
-			"last_interacted_slot": 2
-		}
-	},
-	{
-		"name": "minecraft:chiseled_bookshelf",
-		"states": {
-			"books_stored": 2,
-			"direction": 3,
-			"last_interacted_slot": 2
-		}
-	},
-	{
-		"name": "minecraft:chiseled_bookshelf",
-		"states": {
-			"books_stored": 3,
-			"direction": 0,
-			"last_interacted_slot": 2
-		}
-	},
-	{
-		"name": "minecraft:chiseled_bookshelf",
-		"states": {
-			"books_stored": 3,
-			"direction": 1,
-			"last_interacted_slot": 2
-		}
-	},
-	{
-		"name": "minecraft:chiseled_bookshelf",
-		"states": {
-			"books_stored": 3,
-			"direction": 2,
-			"last_interacted_slot": 2
-		}
-	},
-	{
-		"name": "minecraft:chiseled_bookshelf",
-		"states": {
-			"books_stored": 3,
-			"direction": 3,
-			"last_interacted_slot": 2
-		}
-	},
-	{
-		"name": "minecraft:chiseled_bookshelf",
-		"states": {
-			"books_stored": 4,
-			"direction": 0,
-			"last_interacted_slot": 2
-		}
-	},
-	{
-		"name": "minecraft:chiseled_bookshelf",
-		"states": {
-			"books_stored": 4,
-			"direction": 1,
-			"last_interacted_slot": 2
-		}
-	},
-	{
-		"name": "minecraft:chiseled_bookshelf",
-		"states": {
-			"books_stored": 4,
-			"direction": 2,
-			"last_interacted_slot": 2
-		}
-	},
-	{
-		"name": "minecraft:chiseled_bookshelf",
-		"states": {
-			"books_stored": 4,
-			"direction": 3,
-			"last_interacted_slot": 2
-		}
-	},
-	{
-		"name": "minecraft:chiseled_bookshelf",
-		"states": {
-			"books_stored": 5,
-			"direction": 0,
-			"last_interacted_slot": 2
-		}
-	},
-	{
-		"name": "minecraft:chiseled_bookshelf",
-		"states": {
-			"books_stored": 5,
-			"direction": 1,
-			"last_interacted_slot": 2
-		}
-	},
-	{
-		"name": "minecraft:chiseled_bookshelf",
-		"states": {
-			"books_stored": 5,
-			"direction": 2,
-			"last_interacted_slot": 2
-		}
-	},
-	{
-		"name": "minecraft:chiseled_bookshelf",
-		"states": {
-			"books_stored": 5,
-			"direction": 3,
-			"last_interacted_slot": 2
-		}
-	},
-	{
-		"name": "minecraft:chiseled_bookshelf",
-		"states": {
-			"books_stored": 6,
-			"direction": 0,
-			"last_interacted_slot": 2
-		}
-	},
-	{
-		"name": "minecraft:chiseled_bookshelf",
-		"states": {
-			"books_stored": 6,
-			"direction": 1,
-			"last_interacted_slot": 2
-		}
-	},
-	{
-		"name": "minecraft:chiseled_bookshelf",
-		"states": {
-			"books_stored": 6,
-			"direction": 2,
-			"last_interacted_slot": 2
-		}
-	},
-	{
-		"name": "minecraft:chiseled_bookshelf",
-		"states": {
-			"books_stored": 6,
-			"direction": 3,
-			"last_interacted_slot": 2
-		}
-	},
-	{
-		"name": "minecraft:chiseled_bookshelf",
-		"states": {
-			"books_stored": 0,
-			"direction": 0,
-			"last_interacted_slot": 3
-		}
-	},
-	{
-		"name": "minecraft:chiseled_bookshelf",
-		"states": {
-			"books_stored": 0,
-			"direction": 1,
-			"last_interacted_slot": 3
-		}
-	},
-	{
-		"name": "minecraft:chiseled_bookshelf",
-		"states": {
-			"books_stored": 0,
-			"direction": 2,
-			"last_interacted_slot": 3
-		}
-	},
-	{
-		"name": "minecraft:chiseled_bookshelf",
-		"states": {
-			"books_stored": 0,
-			"direction": 3,
-			"last_interacted_slot": 3
-		}
-	},
-	{
-		"name": "minecraft:chiseled_bookshelf",
-		"states": {
-			"books_stored": 1,
-			"direction": 0,
-			"last_interacted_slot": 3
-		}
-	},
-	{
-		"name": "minecraft:chiseled_bookshelf",
-		"states": {
-			"books_stored": 1,
-			"direction": 1,
-			"last_interacted_slot": 3
-		}
-	},
-	{
-		"name": "minecraft:chiseled_bookshelf",
-		"states": {
-			"books_stored": 1,
-			"direction": 2,
-			"last_interacted_slot": 3
-		}
-	},
-	{
-		"name": "minecraft:chiseled_bookshelf",
-		"states": {
-			"books_stored": 1,
-			"direction": 3,
-			"last_interacted_slot": 3
-		}
-	},
-	{
-		"name": "minecraft:chiseled_bookshelf",
-		"states": {
-			"books_stored": 2,
-			"direction": 0,
-			"last_interacted_slot": 3
-		}
-	},
-	{
-		"name": "minecraft:chiseled_bookshelf",
-		"states": {
-			"books_stored": 2,
-			"direction": 1,
-			"last_interacted_slot": 3
-		}
-	},
-	{
-		"name": "minecraft:chiseled_bookshelf",
-		"states": {
-			"books_stored": 2,
-			"direction": 2,
-			"last_interacted_slot": 3
-		}
-	},
-	{
-		"name": "minecraft:chiseled_bookshelf",
-		"states": {
-			"books_stored": 2,
-			"direction": 3,
-			"last_interacted_slot": 3
-		}
-	},
-	{
-		"name": "minecraft:chiseled_bookshelf",
-		"states": {
-			"books_stored": 3,
-			"direction": 0,
-			"last_interacted_slot": 3
-		}
-	},
-	{
-		"name": "minecraft:chiseled_bookshelf",
-		"states": {
-			"books_stored": 3,
-			"direction": 1,
-			"last_interacted_slot": 3
-		}
-	},
-	{
-		"name": "minecraft:chiseled_bookshelf",
-		"states": {
-			"books_stored": 3,
-			"direction": 2,
-			"last_interacted_slot": 3
-		}
-	},
-	{
-		"name": "minecraft:chiseled_bookshelf",
-		"states": {
-			"books_stored": 3,
-			"direction": 3,
-			"last_interacted_slot": 3
-		}
-	},
-	{
-		"name": "minecraft:chiseled_bookshelf",
-		"states": {
-			"books_stored": 4,
-			"direction": 0,
-			"last_interacted_slot": 3
-		}
-	},
-	{
-		"name": "minecraft:chiseled_bookshelf",
-		"states": {
-			"books_stored": 4,
-			"direction": 1,
-			"last_interacted_slot": 3
-		}
-	},
-	{
-		"name": "minecraft:chiseled_bookshelf",
-		"states": {
-			"books_stored": 4,
-			"direction": 2,
-			"last_interacted_slot": 3
-		}
-	},
-	{
-		"name": "minecraft:chiseled_bookshelf",
-		"states": {
-			"books_stored": 4,
-			"direction": 3,
-			"last_interacted_slot": 3
-		}
-	},
-	{
-		"name": "minecraft:chiseled_bookshelf",
-		"states": {
-			"books_stored": 5,
-			"direction": 0,
-			"last_interacted_slot": 3
-		}
-	},
-	{
-		"name": "minecraft:chiseled_bookshelf",
-		"states": {
-			"books_stored": 5,
-			"direction": 1,
-			"last_interacted_slot": 3
-		}
-	},
-	{
-		"name": "minecraft:chiseled_bookshelf",
-		"states": {
-			"books_stored": 5,
-			"direction": 2,
-			"last_interacted_slot": 3
-		}
-	},
-	{
-		"name": "minecraft:chiseled_bookshelf",
-		"states": {
-			"books_stored": 5,
-			"direction": 3,
-			"last_interacted_slot": 3
-		}
-	},
-	{
-		"name": "minecraft:chiseled_bookshelf",
-		"states": {
-			"books_stored": 6,
-			"direction": 0,
-			"last_interacted_slot": 3
-		}
-	},
-	{
-		"name": "minecraft:chiseled_bookshelf",
-		"states": {
-			"books_stored": 6,
-			"direction": 1,
-			"last_interacted_slot": 3
-		}
-	},
-	{
-		"name": "minecraft:chiseled_bookshelf",
-		"states": {
-			"books_stored": 6,
-			"direction": 2,
-			"last_interacted_slot": 3
-		}
-	},
-	{
-		"name": "minecraft:chiseled_bookshelf",
-		"states": {
-			"books_stored": 6,
-			"direction": 3,
-			"last_interacted_slot": 3
-		}
-	},
-	{
-		"name": "minecraft:chiseled_bookshelf",
-		"states": {
-			"books_stored": 0,
-			"direction": 0,
-			"last_interacted_slot": 4
-		}
-	},
-	{
-		"name": "minecraft:chiseled_bookshelf",
-		"states": {
-			"books_stored": 0,
-			"direction": 1,
-			"last_interacted_slot": 4
-		}
-	},
-	{
-		"name": "minecraft:chiseled_bookshelf",
-		"states": {
-			"books_stored": 0,
-			"direction": 2,
-			"last_interacted_slot": 4
-		}
-	},
-	{
-		"name": "minecraft:chiseled_bookshelf",
-		"states": {
-			"books_stored": 0,
-			"direction": 3,
-			"last_interacted_slot": 4
-		}
-	},
-	{
-		"name": "minecraft:chiseled_bookshelf",
-		"states": {
-			"books_stored": 1,
-			"direction": 0,
-			"last_interacted_slot": 4
-		}
-	},
-	{
-		"name": "minecraft:chiseled_bookshelf",
-		"states": {
-			"books_stored": 1,
-			"direction": 1,
-			"last_interacted_slot": 4
-		}
-	},
-	{
-		"name": "minecraft:chiseled_bookshelf",
-		"states": {
-			"books_stored": 1,
-			"direction": 2,
-			"last_interacted_slot": 4
-		}
-	},
-	{
-		"name": "minecraft:chiseled_bookshelf",
-		"states": {
-			"books_stored": 1,
-			"direction": 3,
-			"last_interacted_slot": 4
-		}
-	},
-	{
-		"name": "minecraft:chiseled_bookshelf",
-		"states": {
-			"books_stored": 2,
-			"direction": 0,
-			"last_interacted_slot": 4
-		}
-	},
-	{
-		"name": "minecraft:chiseled_bookshelf",
-		"states": {
-			"books_stored": 2,
-			"direction": 1,
-			"last_interacted_slot": 4
-		}
-	},
-	{
-		"name": "minecraft:chiseled_bookshelf",
-		"states": {
-			"books_stored": 2,
-			"direction": 2,
-			"last_interacted_slot": 4
-		}
-	},
-	{
-		"name": "minecraft:chiseled_bookshelf",
-		"states": {
-			"books_stored": 2,
-			"direction": 3,
-			"last_interacted_slot": 4
-		}
-	},
-	{
-		"name": "minecraft:chiseled_bookshelf",
-		"states": {
-			"books_stored": 3,
-			"direction": 0,
-			"last_interacted_slot": 4
-		}
-	},
-	{
-		"name": "minecraft:chiseled_bookshelf",
-		"states": {
-			"books_stored": 3,
-			"direction": 1,
-			"last_interacted_slot": 4
-		}
-	},
-	{
-		"name": "minecraft:chiseled_bookshelf",
-		"states": {
-			"books_stored": 3,
-			"direction": 2,
-			"last_interacted_slot": 4
-		}
-	},
-	{
-		"name": "minecraft:chiseled_bookshelf",
-		"states": {
-			"books_stored": 3,
-			"direction": 3,
-			"last_interacted_slot": 4
-		}
-	},
-	{
-		"name": "minecraft:chiseled_bookshelf",
-		"states": {
-			"books_stored": 4,
-			"direction": 0,
-			"last_interacted_slot": 4
-		}
-	},
-	{
-		"name": "minecraft:chiseled_bookshelf",
-		"states": {
-			"books_stored": 4,
-			"direction": 1,
-			"last_interacted_slot": 4
-		}
-	},
-	{
-		"name": "minecraft:chiseled_bookshelf",
-		"states": {
-			"books_stored": 4,
-			"direction": 2,
-			"last_interacted_slot": 4
-		}
-	},
-	{
-		"name": "minecraft:chiseled_bookshelf",
-		"states": {
-			"books_stored": 4,
-			"direction": 3,
-			"last_interacted_slot": 4
-		}
-	},
-	{
-		"name": "minecraft:chiseled_bookshelf",
-		"states": {
-			"books_stored": 5,
-			"direction": 0,
-			"last_interacted_slot": 4
-		}
-	},
-	{
-		"name": "minecraft:chiseled_bookshelf",
-		"states": {
-			"books_stored": 5,
-			"direction": 1,
-			"last_interacted_slot": 4
-		}
-	},
-	{
-		"name": "minecraft:chiseled_bookshelf",
-		"states": {
-			"books_stored": 5,
-			"direction": 2,
-			"last_interacted_slot": 4
-		}
-	},
-	{
-		"name": "minecraft:chiseled_bookshelf",
-		"states": {
-			"books_stored": 5,
-			"direction": 3,
-			"last_interacted_slot": 4
-		}
-	},
-	{
-		"name": "minecraft:chiseled_bookshelf",
-		"states": {
-			"books_stored": 6,
-			"direction": 0,
-			"last_interacted_slot": 4
-		}
-	},
-	{
-		"name": "minecraft:chiseled_bookshelf",
-		"states": {
-			"books_stored": 6,
-			"direction": 1,
-			"last_interacted_slot": 4
-		}
-	},
-	{
-		"name": "minecraft:chiseled_bookshelf",
-		"states": {
-			"books_stored": 6,
-			"direction": 2,
-			"last_interacted_slot": 4
-		}
-	},
-	{
-		"name": "minecraft:chiseled_bookshelf",
-		"states": {
-			"books_stored": 6,
-			"direction": 3,
-			"last_interacted_slot": 4
-		}
-	},
-	{
-		"name": "minecraft:chiseled_bookshelf",
-		"states": {
-			"books_stored": 0,
-			"direction": 0,
-			"last_interacted_slot": 5
-		}
-	},
-	{
-		"name": "minecraft:chiseled_bookshelf",
-		"states": {
-			"books_stored": 0,
-			"direction": 1,
-			"last_interacted_slot": 5
-		}
-	},
-	{
-		"name": "minecraft:chiseled_bookshelf",
-		"states": {
-			"books_stored": 0,
-			"direction": 2,
-			"last_interacted_slot": 5
-		}
-	},
-	{
-		"name": "minecraft:chiseled_bookshelf",
-		"states": {
-			"books_stored": 0,
-			"direction": 3,
-			"last_interacted_slot": 5
-		}
-	},
-	{
-		"name": "minecraft:chiseled_bookshelf",
-		"states": {
-			"books_stored": 1,
-			"direction": 0,
-			"last_interacted_slot": 5
-		}
-	},
-	{
-		"name": "minecraft:chiseled_bookshelf",
-		"states": {
-			"books_stored": 1,
-			"direction": 1,
-			"last_interacted_slot": 5
-		}
-	},
-	{
-		"name": "minecraft:chiseled_bookshelf",
-		"states": {
-			"books_stored": 1,
-			"direction": 2,
-			"last_interacted_slot": 5
-		}
-	},
-	{
-		"name": "minecraft:chiseled_bookshelf",
-		"states": {
-			"books_stored": 1,
-			"direction": 3,
-			"last_interacted_slot": 5
-		}
-	},
-	{
-		"name": "minecraft:chiseled_bookshelf",
-		"states": {
-			"books_stored": 2,
-			"direction": 0,
-			"last_interacted_slot": 5
-		}
-	},
-	{
-		"name": "minecraft:chiseled_bookshelf",
-		"states": {
-			"books_stored": 2,
-			"direction": 1,
-			"last_interacted_slot": 5
-		}
-	},
-	{
-		"name": "minecraft:chiseled_bookshelf",
-		"states": {
-			"books_stored": 2,
-			"direction": 2,
-			"last_interacted_slot": 5
-		}
-	},
-	{
-		"name": "minecraft:chiseled_bookshelf",
-		"states": {
-			"books_stored": 2,
-			"direction": 3,
-			"last_interacted_slot": 5
-		}
-	},
-	{
-		"name": "minecraft:chiseled_bookshelf",
-		"states": {
-			"books_stored": 3,
-			"direction": 0,
-			"last_interacted_slot": 5
-		}
-	},
-	{
-		"name": "minecraft:chiseled_bookshelf",
-		"states": {
-			"books_stored": 3,
-			"direction": 1,
-			"last_interacted_slot": 5
-		}
-	},
-	{
-		"name": "minecraft:chiseled_bookshelf",
-		"states": {
-			"books_stored": 3,
-			"direction": 2,
-			"last_interacted_slot": 5
-		}
-	},
-	{
-		"name": "minecraft:chiseled_bookshelf",
-		"states": {
-			"books_stored": 3,
-			"direction": 3,
-			"last_interacted_slot": 5
-		}
-	},
-	{
-		"name": "minecraft:chiseled_bookshelf",
-		"states": {
-			"books_stored": 4,
-			"direction": 0,
-			"last_interacted_slot": 5
-		}
-	},
-	{
-		"name": "minecraft:chiseled_bookshelf",
-		"states": {
-			"books_stored": 4,
-			"direction": 1,
-			"last_interacted_slot": 5
-		}
-	},
-	{
-		"name": "minecraft:chiseled_bookshelf",
-		"states": {
-			"books_stored": 4,
-			"direction": 2,
-			"last_interacted_slot": 5
-		}
-	},
-	{
-		"name": "minecraft:chiseled_bookshelf",
-		"states": {
-			"books_stored": 4,
-			"direction": 3,
-			"last_interacted_slot": 5
-		}
-	},
-	{
-		"name": "minecraft:chiseled_bookshelf",
-		"states": {
-			"books_stored": 5,
-			"direction": 0,
-			"last_interacted_slot": 5
-		}
-	},
-	{
-		"name": "minecraft:chiseled_bookshelf",
-		"states": {
-			"books_stored": 5,
-			"direction": 1,
-			"last_interacted_slot": 5
-		}
-	},
-	{
-		"name": "minecraft:chiseled_bookshelf",
-		"states": {
-			"books_stored": 5,
-			"direction": 2,
-			"last_interacted_slot": 5
-		}
-	},
-	{
-		"name": "minecraft:chiseled_bookshelf",
-		"states": {
-			"books_stored": 5,
-			"direction": 3,
-			"last_interacted_slot": 5
-		}
-	},
-	{
-		"name": "minecraft:chiseled_bookshelf",
-		"states": {
-			"books_stored": 6,
-			"direction": 0,
-			"last_interacted_slot": 5
-		}
-	},
-	{
-		"name": "minecraft:chiseled_bookshelf",
-		"states": {
-			"books_stored": 6,
-			"direction": 1,
-			"last_interacted_slot": 5
-		}
-	},
-	{
-		"name": "minecraft:chiseled_bookshelf",
-		"states": {
-			"books_stored": 6,
-			"direction": 2,
-			"last_interacted_slot": 5
-		}
-	},
-	{
-		"name": "minecraft:chiseled_bookshelf",
-		"states": {
-			"books_stored": 6,
-			"direction": 3,
-			"last_interacted_slot": 5
-		}
-	},
-	{
-		"name": "minecraft:chiseled_bookshelf",
-		"states": {
-			"books_stored": 0,
-			"direction": 0,
-			"last_interacted_slot": 6
-		}
-	},
-	{
-		"name": "minecraft:chiseled_bookshelf",
-		"states": {
-			"books_stored": 0,
-			"direction": 1,
-			"last_interacted_slot": 6
-		}
-	},
-	{
-		"name": "minecraft:chiseled_bookshelf",
-		"states": {
-			"books_stored": 0,
-			"direction": 2,
-			"last_interacted_slot": 6
-		}
-	},
-	{
-		"name": "minecraft:chiseled_bookshelf",
-		"states": {
-			"books_stored": 0,
-			"direction": 3,
-			"last_interacted_slot": 6
-		}
-	},
-	{
-		"name": "minecraft:chiseled_bookshelf",
-		"states": {
-			"books_stored": 1,
-			"direction": 0,
-			"last_interacted_slot": 6
-		}
-	},
-	{
-		"name": "minecraft:chiseled_bookshelf",
-		"states": {
-			"books_stored": 1,
-			"direction": 1,
-			"last_interacted_slot": 6
-		}
-	},
-	{
-		"name": "minecraft:chiseled_bookshelf",
-		"states": {
-			"books_stored": 1,
-			"direction": 2,
-			"last_interacted_slot": 6
-		}
-	},
-	{
-		"name": "minecraft:chiseled_bookshelf",
-		"states": {
-			"books_stored": 1,
-			"direction": 3,
-			"last_interacted_slot": 6
-		}
-	},
-	{
-		"name": "minecraft:chiseled_bookshelf",
-		"states": {
-			"books_stored": 2,
-			"direction": 0,
-			"last_interacted_slot": 6
-		}
-	},
-	{
-		"name": "minecraft:chiseled_bookshelf",
-		"states": {
-			"books_stored": 2,
-			"direction": 1,
-			"last_interacted_slot": 6
-		}
-	},
-	{
-		"name": "minecraft:chiseled_bookshelf",
-		"states": {
-			"books_stored": 2,
-			"direction": 2,
-			"last_interacted_slot": 6
-		}
-	},
-	{
-		"name": "minecraft:chiseled_bookshelf",
-		"states": {
-			"books_stored": 2,
-			"direction": 3,
-			"last_interacted_slot": 6
-		}
-	},
-	{
-		"name": "minecraft:chiseled_bookshelf",
-		"states": {
-			"books_stored": 3,
-			"direction": 0,
-			"last_interacted_slot": 6
-		}
-	},
-	{
-		"name": "minecraft:chiseled_bookshelf",
-		"states": {
-			"books_stored": 3,
-			"direction": 1,
-			"last_interacted_slot": 6
-		}
-	},
-	{
-		"name": "minecraft:chiseled_bookshelf",
-		"states": {
-			"books_stored": 3,
-			"direction": 2,
-			"last_interacted_slot": 6
-		}
-	},
-	{
-		"name": "minecraft:chiseled_bookshelf",
-		"states": {
-			"books_stored": 3,
-			"direction": 3,
-			"last_interacted_slot": 6
-		}
-	},
-	{
-		"name": "minecraft:chiseled_bookshelf",
-		"states": {
-			"books_stored": 4,
-			"direction": 0,
-			"last_interacted_slot": 6
-		}
-	},
-	{
-		"name": "minecraft:chiseled_bookshelf",
-		"states": {
-			"books_stored": 4,
-			"direction": 1,
-			"last_interacted_slot": 6
-		}
-	},
-	{
-		"name": "minecraft:chiseled_bookshelf",
-		"states": {
-			"books_stored": 4,
-			"direction": 2,
-			"last_interacted_slot": 6
-		}
-	},
-	{
-		"name": "minecraft:chiseled_bookshelf",
-		"states": {
-			"books_stored": 4,
-			"direction": 3,
-			"last_interacted_slot": 6
-		}
-	},
-	{
-		"name": "minecraft:chiseled_bookshelf",
-		"states": {
-			"books_stored": 5,
-			"direction": 0,
-			"last_interacted_slot": 6
-		}
-	},
-	{
-		"name": "minecraft:chiseled_bookshelf",
-		"states": {
-			"books_stored": 5,
-			"direction": 1,
-			"last_interacted_slot": 6
-		}
-	},
-	{
-		"name": "minecraft:chiseled_bookshelf",
-		"states": {
-			"books_stored": 5,
-			"direction": 2,
-			"last_interacted_slot": 6
-		}
-	},
-	{
-		"name": "minecraft:chiseled_bookshelf",
-		"states": {
-			"books_stored": 5,
-			"direction": 3,
-			"last_interacted_slot": 6
-		}
-	},
-	{
-		"name": "minecraft:chiseled_bookshelf",
-		"states": {
-			"books_stored": 6,
-			"direction": 0,
-			"last_interacted_slot": 6
-		}
-	},
-	{
-		"name": "minecraft:chiseled_bookshelf",
-		"states": {
-			"books_stored": 6,
-			"direction": 1,
-			"last_interacted_slot": 6
-		}
-	},
-	{
-		"name": "minecraft:chiseled_bookshelf",
-		"states": {
-			"books_stored": 6,
-			"direction": 2,
-			"last_interacted_slot": 6
-		}
-	},
-	{
-		"name": "minecraft:chiseled_bookshelf",
-		"states": {
-			"books_stored": 6,
-			"direction": 3,
-			"last_interacted_slot": 6
-		}
-	}
+	{name: "minecraft:chiseled_bookshelf", states: {books_stored: 0, direction: 0, last_interacted_slot: 0}},
+	{name: "minecraft:chiseled_bookshelf", states: {books_stored: 0, direction: 0, last_interacted_slot: 1}},
+	{name: "minecraft:chiseled_bookshelf", states: {books_stored: 0, direction: 0, last_interacted_slot: 2}},
+	{name: "minecraft:chiseled_bookshelf", states: {books_stored: 0, direction: 0, last_interacted_slot: 3}},
+	{name: "minecraft:chiseled_bookshelf", states: {books_stored: 0, direction: 0, last_interacted_slot: 4}},
+	{name: "minecraft:chiseled_bookshelf", states: {books_stored: 0, direction: 0, last_interacted_slot: 5}},
+	{name: "minecraft:chiseled_bookshelf", states: {books_stored: 0, direction: 0, last_interacted_slot: 6}},
+	{name: "minecraft:chiseled_bookshelf", states: {books_stored: 0, direction: 1, last_interacted_slot: 0}},
+	{name: "minecraft:chiseled_bookshelf", states: {books_stored: 0, direction: 1, last_interacted_slot: 1}},
+	{name: "minecraft:chiseled_bookshelf", states: {books_stored: 0, direction: 1, last_interacted_slot: 2}},
+	{name: "minecraft:chiseled_bookshelf", states: {books_stored: 0, direction: 1, last_interacted_slot: 3}},
+	{name: "minecraft:chiseled_bookshelf", states: {books_stored: 0, direction: 1, last_interacted_slot: 4}},
+	{name: "minecraft:chiseled_bookshelf", states: {books_stored: 0, direction: 1, last_interacted_slot: 5}},
+	{name: "minecraft:chiseled_bookshelf", states: {books_stored: 0, direction: 1, last_interacted_slot: 6}},
+	{name: "minecraft:chiseled_bookshelf", states: {books_stored: 0, direction: 2, last_interacted_slot: 0}},
+	{name: "minecraft:chiseled_bookshelf", states: {books_stored: 0, direction: 2, last_interacted_slot: 1}},
+	{name: "minecraft:chiseled_bookshelf", states: {books_stored: 0, direction: 2, last_interacted_slot: 2}},
+	{name: "minecraft:chiseled_bookshelf", states: {books_stored: 0, direction: 2, last_interacted_slot: 3}},
+	{name: "minecraft:chiseled_bookshelf", states: {books_stored: 0, direction: 2, last_interacted_slot: 4}},
+	{name: "minecraft:chiseled_bookshelf", states: {books_stored: 0, direction: 2, last_interacted_slot: 5}},
+	{name: "minecraft:chiseled_bookshelf", states: {books_stored: 0, direction: 2, last_interacted_slot: 6}},
+	{name: "minecraft:chiseled_bookshelf", states: {books_stored: 0, direction: 3, last_interacted_slot: 0}},
+	{name: "minecraft:chiseled_bookshelf", states: {books_stored: 0, direction: 3, last_interacted_slot: 1}},
+	{name: "minecraft:chiseled_bookshelf", states: {books_stored: 0, direction: 3, last_interacted_slot: 2}},
+	{name: "minecraft:chiseled_bookshelf", states: {books_stored: 0, direction: 3, last_interacted_slot: 3}},
+	{name: "minecraft:chiseled_bookshelf", states: {books_stored: 0, direction: 3, last_interacted_slot: 4}},
+	{name: "minecraft:chiseled_bookshelf", states: {books_stored: 0, direction: 3, last_interacted_slot: 5}},
+	{name: "minecraft:chiseled_bookshelf", states: {books_stored: 0, direction: 3, last_interacted_slot: 6}},
+	{name: "minecraft:chiseled_bookshelf", states: {books_stored: 1, direction: 0, last_interacted_slot: 0}},
+	{name: "minecraft:chiseled_bookshelf", states: {books_stored: 1, direction: 0, last_interacted_slot: 1}},
+	{name: "minecraft:chiseled_bookshelf", states: {books_stored: 1, direction: 0, last_interacted_slot: 2}},
+	{name: "minecraft:chiseled_bookshelf", states: {books_stored: 1, direction: 0, last_interacted_slot: 3}},
+	{name: "minecraft:chiseled_bookshelf", states: {books_stored: 1, direction: 0, last_interacted_slot: 4}},
+	{name: "minecraft:chiseled_bookshelf", states: {books_stored: 1, direction: 0, last_interacted_slot: 5}},
+	{name: "minecraft:chiseled_bookshelf", states: {books_stored: 1, direction: 0, last_interacted_slot: 6}},
+	{name: "minecraft:chiseled_bookshelf", states: {books_stored: 1, direction: 1, last_interacted_slot: 0}},
+	{name: "minecraft:chiseled_bookshelf", states: {books_stored: 1, direction: 1, last_interacted_slot: 1}},
+	{name: "minecraft:chiseled_bookshelf", states: {books_stored: 1, direction: 1, last_interacted_slot: 2}},
+	{name: "minecraft:chiseled_bookshelf", states: {books_stored: 1, direction: 1, last_interacted_slot: 3}},
+	{name: "minecraft:chiseled_bookshelf", states: {books_stored: 1, direction: 1, last_interacted_slot: 4}},
+	{name: "minecraft:chiseled_bookshelf", states: {books_stored: 1, direction: 1, last_interacted_slot: 5}},
+	{name: "minecraft:chiseled_bookshelf", states: {books_stored: 1, direction: 1, last_interacted_slot: 6}},
+	{name: "minecraft:chiseled_bookshelf", states: {books_stored: 1, direction: 2, last_interacted_slot: 0}},
+	{name: "minecraft:chiseled_bookshelf", states: {books_stored: 1, direction: 2, last_interacted_slot: 1}},
+	{name: "minecraft:chiseled_bookshelf", states: {books_stored: 1, direction: 2, last_interacted_slot: 2}},
+	{name: "minecraft:chiseled_bookshelf", states: {books_stored: 1, direction: 2, last_interacted_slot: 3}},
+	{name: "minecraft:chiseled_bookshelf", states: {books_stored: 1, direction: 2, last_interacted_slot: 4}},
+	{name: "minecraft:chiseled_bookshelf", states: {books_stored: 1, direction: 2, last_interacted_slot: 5}},
+	{name: "minecraft:chiseled_bookshelf", states: {books_stored: 1, direction: 2, last_interacted_slot: 6}},
+	{name: "minecraft:chiseled_bookshelf", states: {books_stored: 1, direction: 3, last_interacted_slot: 0}},
+	{name: "minecraft:chiseled_bookshelf", states: {books_stored: 1, direction: 3, last_interacted_slot: 1}},
+	{name: "minecraft:chiseled_bookshelf", states: {books_stored: 1, direction: 3, last_interacted_slot: 2}},
+	{name: "minecraft:chiseled_bookshelf", states: {books_stored: 1, direction: 3, last_interacted_slot: 3}},
+	{name: "minecraft:chiseled_bookshelf", states: {books_stored: 1, direction: 3, last_interacted_slot: 4}},
+	{name: "minecraft:chiseled_bookshelf", states: {books_stored: 1, direction: 3, last_interacted_slot: 5}},
+	{name: "minecraft:chiseled_bookshelf", states: {books_stored: 1, direction: 3, last_interacted_slot: 6}},
+	{name: "minecraft:chiseled_bookshelf", states: {books_stored: 2, direction: 0, last_interacted_slot: 0}},
+	{name: "minecraft:chiseled_bookshelf", states: {books_stored: 2, direction: 0, last_interacted_slot: 1}},
+	{name: "minecraft:chiseled_bookshelf", states: {books_stored: 2, direction: 0, last_interacted_slot: 2}},
+	{name: "minecraft:chiseled_bookshelf", states: {books_stored: 2, direction: 0, last_interacted_slot: 3}},
+	{name: "minecraft:chiseled_bookshelf", states: {books_stored: 2, direction: 0, last_interacted_slot: 4}},
+	{name: "minecraft:chiseled_bookshelf", states: {books_stored: 2, direction: 0, last_interacted_slot: 5}},
+	{name: "minecraft:chiseled_bookshelf", states: {books_stored: 2, direction: 0, last_interacted_slot: 6}},
+	{name: "minecraft:chiseled_bookshelf", states: {books_stored: 2, direction: 1, last_interacted_slot: 0}},
+	{name: "minecraft:chiseled_bookshelf", states: {books_stored: 2, direction: 1, last_interacted_slot: 1}},
+	{name: "minecraft:chiseled_bookshelf", states: {books_stored: 2, direction: 1, last_interacted_slot: 2}},
+	{name: "minecraft:chiseled_bookshelf", states: {books_stored: 2, direction: 1, last_interacted_slot: 3}},
+	{name: "minecraft:chiseled_bookshelf", states: {books_stored: 2, direction: 1, last_interacted_slot: 4}},
+	{name: "minecraft:chiseled_bookshelf", states: {books_stored: 2, direction: 1, last_interacted_slot: 5}},
+	{name: "minecraft:chiseled_bookshelf", states: {books_stored: 2, direction: 1, last_interacted_slot: 6}},
+	{name: "minecraft:chiseled_bookshelf", states: {books_stored: 2, direction: 2, last_interacted_slot: 0}},
+	{name: "minecraft:chiseled_bookshelf", states: {books_stored: 2, direction: 2, last_interacted_slot: 1}},
+	{name: "minecraft:chiseled_bookshelf", states: {books_stored: 2, direction: 2, last_interacted_slot: 2}},
+	{name: "minecraft:chiseled_bookshelf", states: {books_stored: 2, direction: 2, last_interacted_slot: 3}},
+	{name: "minecraft:chiseled_bookshelf", states: {books_stored: 2, direction: 2, last_interacted_slot: 4}},
+	{name: "minecraft:chiseled_bookshelf", states: {books_stored: 2, direction: 2, last_interacted_slot: 5}},
+	{name: "minecraft:chiseled_bookshelf", states: {books_stored: 2, direction: 2, last_interacted_slot: 6}},
+	{name: "minecraft:chiseled_bookshelf", states: {books_stored: 2, direction: 3, last_interacted_slot: 0}},
+	{name: "minecraft:chiseled_bookshelf", states: {books_stored: 2, direction: 3, last_interacted_slot: 1}},
+	{name: "minecraft:chiseled_bookshelf", states: {books_stored: 2, direction: 3, last_interacted_slot: 2}},
+	{name: "minecraft:chiseled_bookshelf", states: {books_stored: 2, direction: 3, last_interacted_slot: 3}},
+	{name: "minecraft:chiseled_bookshelf", states: {books_stored: 2, direction: 3, last_interacted_slot: 4}},
+	{name: "minecraft:chiseled_bookshelf", states: {books_stored: 2, direction: 3, last_interacted_slot: 5}},
+	{name: "minecraft:chiseled_bookshelf", states: {books_stored: 2, direction: 3, last_interacted_slot: 6}},
+	{name: "minecraft:chiseled_bookshelf", states: {books_stored: 3, direction: 0, last_interacted_slot: 0}},
+	{name: "minecraft:chiseled_bookshelf", states: {books_stored: 3, direction: 0, last_interacted_slot: 1}},
+	{name: "minecraft:chiseled_bookshelf", states: {books_stored: 3, direction: 0, last_interacted_slot: 2}},
+	{name: "minecraft:chiseled_bookshelf", states: {books_stored: 3, direction: 0, last_interacted_slot: 3}},
+	{name: "minecraft:chiseled_bookshelf", states: {books_stored: 3, direction: 0, last_interacted_slot: 4}},
+	{name: "minecraft:chiseled_bookshelf", states: {books_stored: 3, direction: 0, last_interacted_slot: 5}},
+	{name: "minecraft:chiseled_bookshelf", states: {books_stored: 3, direction: 0, last_interacted_slot: 6}},
+	{name: "minecraft:chiseled_bookshelf", states: {books_stored: 3, direction: 1, last_interacted_slot: 0}},
+	{name: "minecraft:chiseled_bookshelf", states: {books_stored: 3, direction: 1, last_interacted_slot: 1}},
+	{name: "minecraft:chiseled_bookshelf", states: {books_stored: 3, direction: 1, last_interacted_slot: 2}},
+	{name: "minecraft:chiseled_bookshelf", states: {books_stored: 3, direction: 1, last_interacted_slot: 3}},
+	{name: "minecraft:chiseled_bookshelf", states: {books_stored: 3, direction: 1, last_interacted_slot: 4}},
+	{name: "minecraft:chiseled_bookshelf", states: {books_stored: 3, direction: 1, last_interacted_slot: 5}},
+	{name: "minecraft:chiseled_bookshelf", states: {books_stored: 3, direction: 1, last_interacted_slot: 6}},
+	{name: "minecraft:chiseled_bookshelf", states: {books_stored: 3, direction: 2, last_interacted_slot: 0}},
+	{name: "minecraft:chiseled_bookshelf", states: {books_stored: 3, direction: 2, last_interacted_slot: 1}},
+	{name: "minecraft:chiseled_bookshelf", states: {books_stored: 3, direction: 2, last_interacted_slot: 2}},
+	{name: "minecraft:chiseled_bookshelf", states: {books_stored: 3, direction: 2, last_interacted_slot: 3}},
+	{name: "minecraft:chiseled_bookshelf", states: {books_stored: 3, direction: 2, last_interacted_slot: 4}},
+	{name: "minecraft:chiseled_bookshelf", states: {books_stored: 3, direction: 2, last_interacted_slot: 5}},
+	{name: "minecraft:chiseled_bookshelf", states: {books_stored: 3, direction: 2, last_interacted_slot: 6}},
+	{name: "minecraft:chiseled_bookshelf", states: {books_stored: 3, direction: 3, last_interacted_slot: 0}},
+	{name: "minecraft:chiseled_bookshelf", states: {books_stored: 3, direction: 3, last_interacted_slot: 1}},
+	{name: "minecraft:chiseled_bookshelf", states: {books_stored: 3, direction: 3, last_interacted_slot: 2}},
+	{name: "minecraft:chiseled_bookshelf", states: {books_stored: 3, direction: 3, last_interacted_slot: 3}},
+	{name: "minecraft:chiseled_bookshelf", states: {books_stored: 3, direction: 3, last_interacted_slot: 4}},
+	{name: "minecraft:chiseled_bookshelf", states: {books_stored: 3, direction: 3, last_interacted_slot: 5}},
+	{name: "minecraft:chiseled_bookshelf", states: {books_stored: 3, direction: 3, last_interacted_slot: 6}},
+	{name: "minecraft:chiseled_bookshelf", states: {books_stored: 4, direction: 0, last_interacted_slot: 0}},
+	{name: "minecraft:chiseled_bookshelf", states: {books_stored: 4, direction: 0, last_interacted_slot: 1}},
+	{name: "minecraft:chiseled_bookshelf", states: {books_stored: 4, direction: 0, last_interacted_slot: 2}},
+	{name: "minecraft:chiseled_bookshelf", states: {books_stored: 4, direction: 0, last_interacted_slot: 3}},
+	{name: "minecraft:chiseled_bookshelf", states: {books_stored: 4, direction: 0, last_interacted_slot: 4}},
+	{name: "minecraft:chiseled_bookshelf", states: {books_stored: 4, direction: 0, last_interacted_slot: 5}},
+	{name: "minecraft:chiseled_bookshelf", states: {books_stored: 4, direction: 0, last_interacted_slot: 6}},
+	{name: "minecraft:chiseled_bookshelf", states: {books_stored: 4, direction: 1, last_interacted_slot: 0}},
+	{name: "minecraft:chiseled_bookshelf", states: {books_stored: 4, direction: 1, last_interacted_slot: 1}},
+	{name: "minecraft:chiseled_bookshelf", states: {books_stored: 4, direction: 1, last_interacted_slot: 2}},
+	{name: "minecraft:chiseled_bookshelf", states: {books_stored: 4, direction: 1, last_interacted_slot: 3}},
+	{name: "minecraft:chiseled_bookshelf", states: {books_stored: 4, direction: 1, last_interacted_slot: 4}},
+	{name: "minecraft:chiseled_bookshelf", states: {books_stored: 4, direction: 1, last_interacted_slot: 5}},
+	{name: "minecraft:chiseled_bookshelf", states: {books_stored: 4, direction: 1, last_interacted_slot: 6}},
+	{name: "minecraft:chiseled_bookshelf", states: {books_stored: 4, direction: 2, last_interacted_slot: 0}},
+	{name: "minecraft:chiseled_bookshelf", states: {books_stored: 4, direction: 2, last_interacted_slot: 1}},
+	{name: "minecraft:chiseled_bookshelf", states: {books_stored: 4, direction: 2, last_interacted_slot: 2}},
+	{name: "minecraft:chiseled_bookshelf", states: {books_stored: 4, direction: 2, last_interacted_slot: 3}},
+	{name: "minecraft:chiseled_bookshelf", states: {books_stored: 4, direction: 2, last_interacted_slot: 4}},
+	{name: "minecraft:chiseled_bookshelf", states: {books_stored: 4, direction: 2, last_interacted_slot: 5}},
+	{name: "minecraft:chiseled_bookshelf", states: {books_stored: 4, direction: 2, last_interacted_slot: 6}},
+	{name: "minecraft:chiseled_bookshelf", states: {books_stored: 4, direction: 3, last_interacted_slot: 0}},
+	{name: "minecraft:chiseled_bookshelf", states: {books_stored: 4, direction: 3, last_interacted_slot: 1}},
+	{name: "minecraft:chiseled_bookshelf", states: {books_stored: 4, direction: 3, last_interacted_slot: 2}},
+	{name: "minecraft:chiseled_bookshelf", states: {books_stored: 4, direction: 3, last_interacted_slot: 3}},
+	{name: "minecraft:chiseled_bookshelf", states: {books_stored: 4, direction: 3, last_interacted_slot: 4}},
+	{name: "minecraft:chiseled_bookshelf", states: {books_stored: 4, direction: 3, last_interacted_slot: 5}},
+	{name: "minecraft:chiseled_bookshelf", states: {books_stored: 4, direction: 3, last_interacted_slot: 6}},
+	{name: "minecraft:chiseled_bookshelf", states: {books_stored: 5, direction: 0, last_interacted_slot: 0}},
+	{name: "minecraft:chiseled_bookshelf", states: {books_stored: 5, direction: 0, last_interacted_slot: 1}},
+	{name: "minecraft:chiseled_bookshelf", states: {books_stored: 5, direction: 0, last_interacted_slot: 2}},
+	{name: "minecraft:chiseled_bookshelf", states: {books_stored: 5, direction: 0, last_interacted_slot: 3}},
+	{name: "minecraft:chiseled_bookshelf", states: {books_stored: 5, direction: 0, last_interacted_slot: 4}},
+	{name: "minecraft:chiseled_bookshelf", states: {books_stored: 5, direction: 0, last_interacted_slot: 5}},
+	{name: "minecraft:chiseled_bookshelf", states: {books_stored: 5, direction: 0, last_interacted_slot: 6}},
+	{name: "minecraft:chiseled_bookshelf", states: {books_stored: 5, direction: 1, last_interacted_slot: 0}},
+	{name: "minecraft:chiseled_bookshelf", states: {books_stored: 5, direction: 1, last_interacted_slot: 1}},
+	{name: "minecraft:chiseled_bookshelf", states: {books_stored: 5, direction: 1, last_interacted_slot: 2}},
+	{name: "minecraft:chiseled_bookshelf", states: {books_stored: 5, direction: 1, last_interacted_slot: 3}},
+	{name: "minecraft:chiseled_bookshelf", states: {books_stored: 5, direction: 1, last_interacted_slot: 4}},
+	{name: "minecraft:chiseled_bookshelf", states: {books_stored: 5, direction: 1, last_interacted_slot: 5}},
+	{name: "minecraft:chiseled_bookshelf", states: {books_stored: 5, direction: 1, last_interacted_slot: 6}},
+	{name: "minecraft:chiseled_bookshelf", states: {books_stored: 5, direction: 2, last_interacted_slot: 0}},
+	{name: "minecraft:chiseled_bookshelf", states: {books_stored: 5, direction: 2, last_interacted_slot: 1}},
+	{name: "minecraft:chiseled_bookshelf", states: {books_stored: 5, direction: 2, last_interacted_slot: 2}},
+	{name: "minecraft:chiseled_bookshelf", states: {books_stored: 5, direction: 2, last_interacted_slot: 3}},
+	{name: "minecraft:chiseled_bookshelf", states: {books_stored: 5, direction: 2, last_interacted_slot: 4}},
+	{name: "minecraft:chiseled_bookshelf", states: {books_stored: 5, direction: 2, last_interacted_slot: 5}},
+	{name: "minecraft:chiseled_bookshelf", states: {books_stored: 5, direction: 2, last_interacted_slot: 6}},
+	{name: "minecraft:chiseled_bookshelf", states: {books_stored: 5, direction: 3, last_interacted_slot: 0}},
+	{name: "minecraft:chiseled_bookshelf", states: {books_stored: 5, direction: 3, last_interacted_slot: 1}},
+	{name: "minecraft:chiseled_bookshelf", states: {books_stored: 5, direction: 3, last_interacted_slot: 2}},
+	{name: "minecraft:chiseled_bookshelf", states: {books_stored: 5, direction: 3, last_interacted_slot: 3}},
+	{name: "minecraft:chiseled_bookshelf", states: {books_stored: 5, direction: 3, last_interacted_slot: 4}},
+	{name: "minecraft:chiseled_bookshelf", states: {books_stored: 5, direction: 3, last_interacted_slot: 5}},
+	{name: "minecraft:chiseled_bookshelf", states: {books_stored: 5, direction: 3, last_interacted_slot: 6}},
+	{name: "minecraft:chiseled_bookshelf", states: {books_stored: 6, direction: 0, last_interacted_slot: 0}},
+	{name: "minecraft:chiseled_bookshelf", states: {books_stored: 6, direction: 0, last_interacted_slot: 1}},
+	{name: "minecraft:chiseled_bookshelf", states: {books_stored: 6, direction: 0, last_interacted_slot: 2}},
+	{name: "minecraft:chiseled_bookshelf", states: {books_stored: 6, direction: 0, last_interacted_slot: 3}},
+	{name: "minecraft:chiseled_bookshelf", states: {books_stored: 6, direction: 0, last_interacted_slot: 4}},
+	{name: "minecraft:chiseled_bookshelf", states: {books_stored: 6, direction: 0, last_interacted_slot: 5}},
+	{name: "minecraft:chiseled_bookshelf", states: {books_stored: 6, direction: 0, last_interacted_slot: 6}},
+	{name: "minecraft:chiseled_bookshelf", states: {books_stored: 6, direction: 1, last_interacted_slot: 0}},
+	{name: "minecraft:chiseled_bookshelf", states: {books_stored: 6, direction: 1, last_interacted_slot: 1}},
+	{name: "minecraft:chiseled_bookshelf", states: {books_stored: 6, direction: 1, last_interacted_slot: 2}},
+	{name: "minecraft:chiseled_bookshelf", states: {books_stored: 6, direction: 1, last_interacted_slot: 3}},
+	{name: "minecraft:chiseled_bookshelf", states: {books_stored: 6, direction: 1, last_interacted_slot: 4}},
+	{name: "minecraft:chiseled_bookshelf", states: {books_stored: 6, direction: 1, last_interacted_slot: 5}},
+	{name: "minecraft:chiseled_bookshelf", states: {books_stored: 6, direction: 1, last_interacted_slot: 6}},
+	{name: "minecraft:chiseled_bookshelf", states: {books_stored: 6, direction: 2, last_interacted_slot: 0}},
+	{name: "minecraft:chiseled_bookshelf", states: {books_stored: 6, direction: 2, last_interacted_slot: 1}},
+	{name: "minecraft:chiseled_bookshelf", states: {books_stored: 6, direction: 2, last_interacted_slot: 2}},
+	{name: "minecraft:chiseled_bookshelf", states: {books_stored: 6, direction: 2, last_interacted_slot: 3}},
+	{name: "minecraft:chiseled_bookshelf", states: {books_stored: 6, direction: 2, last_interacted_slot: 4}},
+	{name: "minecraft:chiseled_bookshelf", states: {books_stored: 6, direction: 2, last_interacted_slot: 5}},
+	{name: "minecraft:chiseled_bookshelf", states: {books_stored: 6, direction: 2, last_interacted_slot: 6}},
+	{name: "minecraft:chiseled_bookshelf", states: {books_stored: 6, direction: 3, last_interacted_slot: 0}},
+	{name: "minecraft:chiseled_bookshelf", states: {books_stored: 6, direction: 3, last_interacted_slot: 1}},
+	{name: "minecraft:chiseled_bookshelf", states: {books_stored: 6, direction: 3, last_interacted_slot: 2}},
+	{name: "minecraft:chiseled_bookshelf", states: {books_stored: 6, direction: 3, last_interacted_slot: 3}},
+	{name: "minecraft:chiseled_bookshelf", states: {books_stored: 6, direction: 3, last_interacted_slot: 4}},
+	{name: "minecraft:chiseled_bookshelf", states: {books_stored: 6, direction: 3, last_interacted_slot: 5}},
+	{name: "minecraft:chiseled_bookshelf", states: {books_stored: 6, direction: 3, last_interacted_slot: 6}}
 ]
