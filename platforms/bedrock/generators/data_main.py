@@ -16,12 +16,13 @@ import ssl
 from amulet_nbt import (
     NamedTag,
     load as load_nbt,
-    ReadContext,
+    ReadOffset,
     ByteTag,
     ShortTag,
     IntTag,
     LongTag,
     StringTag,
+    bedrock_encoding,
 )
 
 
@@ -35,18 +36,17 @@ def load_nbt_array(path: str) -> list[NamedTag]:
     except FileNotFoundError:
         return []
     tags = []
-    context = ReadContext()
+    offset = ReadOffset()
     while data:
         tags.append(
             load_nbt(
                 data,
                 compressed=False,
-                little_endian=True,
-                read_context=context,
-                string_decoder=bytes.decode,
+                preset=bedrock_encoding,
+                read_offset=offset,
             )
         )
-        data = data[context.offset :]
+        data = data[offset.offset :]
     return tags
 
 

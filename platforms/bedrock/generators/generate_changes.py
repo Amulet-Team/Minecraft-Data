@@ -1,7 +1,7 @@
 import os
 from typing import Optional
 from copy import deepcopy
-from amulet_nbt import NamedTag, load as load_nbt, ReadContext, ListTag
+from amulet_nbt import AbstractBaseTag, AbstractBaseArrayTag, NamedTag, load as load_nbt, ReadOffset, ListTag, CompoundTag, AbstractBaseImmutableTag, ByteArrayTag, IntArrayTag, LongArrayTag, bedrock_encoding
 
 VersionsPath = "../versions"
 
@@ -29,18 +29,17 @@ def load_nbt_array(path: str) -> list[NamedTag]:
     except FileNotFoundError:
         return []
     tags = []
-    context = ReadContext()
+    offset = ReadOffset()
     while data:
         tags.append(
             load_nbt(
                 data,
                 compressed=False,
-                little_endian=True,
-                read_context=context,
-                string_decoder=bytes.decode,
+                preset=bedrock_encoding,
+                read_offset=offset,
             )
         )
-        data = data[context.offset :]
+        data = data[offset.offset :]
     return tags
 
 
