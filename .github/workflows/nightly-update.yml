@@ -3,6 +3,8 @@ name: Nightly Update
 on:
   schedule:
     - cron: '30 4 * * *'
+  workflow_dispatch:
+
 
 jobs:
   main:
