@@ -23,6 +23,7 @@ from amulet_nbt import (
     StringTag,
     bedrock_encoding,
 )
+from generate_changes import generate_changes
 
 
 logging.basicConfig(level=logging.INFO)
@@ -171,23 +172,26 @@ def process_version(
     dll_path: str,
     dll_file: bytes,
     dll_file_hash: str,
-    path: str,
+    version_path: str,
+    last_version_path: str,
     force_regenerate: bool = False,
 ):
     """Create the server and generate data for a specific version."""
-    try:
-        with open(os.path.join(path, "generated", "data_hash.txt")) as f:
-            generator_changed = f.read() != dll_file_hash
-    except OSError:
-        generator_changed = True
+    rebuild = force_regenerate
 
-    if generator_changed or force_regenerate:
+    try:
+        with open(os.path.join(version_path, "generated", "data_hash.txt")) as f:
+            rebuild |= f.read() != dll_file_hash
+    except OSError:
+        rebuild = True
+
+    if rebuild:
         # If the generator changed we need to regenerate the data
 
         # Download the server
-        identifier = os.path.basename(path)
-        server_dir = os.path.join(path, "server")
-        modded_server = get_modded_server(ll_bin_path, identifier, path, server_dir)
+        identifier = os.path.basename(version_path)
+        server_dir = os.path.join(version_path, "server")
+        modded_server = get_modded_server(ll_bin_path, identifier, version_path, server_dir)
 
         # Copy the plugin
         plugin_dir = os.path.join(server_dir, "plugins")
@@ -219,21 +223,19 @@ def process_version(
             f.write(dll_file_hash)
 
         # Copy the generated files to the output location
-        generated_out_dir = os.path.join(path, "generated")
+        generated_out_dir = os.path.join(version_path, "generated")
         if os.path.isdir(generated_out_dir):
             shutil.rmtree(generated_out_dir)
         shutil.copytree(generated_dir, generated_out_dir)
 
-    if (
-        generator_changed
-        or force_regenerate
-        or not os.path.isfile(
-            os.path.join(path, "generated", "block", "block_palette.json")
-        )
-    ):
-        states_path = os.path.join(path, "generated", "block", "states.nbtarr")
+    rebuild |= not os.path.isfile(os.path.join(version_path, "generated", "block", "block_palette.json"))
+
+    if rebuild:
+        states_path = os.path.join(version_path, "generated", "block", "states.nbtarr")
         if os.path.isfile(states_path):
             convert_block_palette(states_path)
+
+        generate_changes(last_version_path, version_path)
 
 
 def main(
@@ -248,21 +250,28 @@ def main(
     with open(dll_path, "rb") as f:
         dll_file = f.read()
     dll_file_hash = hashlib.md5(dll_file).hexdigest()
+    last_server_path = "null"
 
-    for server_path in glob.glob(
-        os.path.join(glob.escape(versions_path), "*", "server_url.txt")
+    for version, server_path in sorted(
+        (tuple(map(int, os.path.basename(os.path.dirname(txt_path)).split("."))), os.path.dirname(txt_path))
+        for txt_path in glob.glob(
+            os.path.join(glob.escape(versions_path), "*", "server_url.txt")
+        )
     ):
-        server_path = os.path.dirname(server_path)
-        dir_name = os.path.basename(server_path)
-        if min_version <= tuple(map(int, dir_name.split("."))) <= max_version:
+        if min_version <= version <= max_version:
+            print(f"Processing version {version}")
             process_version(
                 ll_bin_path,
                 dll_path,
                 dll_file,
                 dll_file_hash,
                 server_path,
+                last_server_path,
                 force_regenerate,
             )
+        else:
+            print(f"Skipping version {version}")
+        last_server_path = server_path
 
 
 def main_cli() -> None:
