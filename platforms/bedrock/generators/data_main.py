@@ -52,28 +52,29 @@ def load_nbt_array(path: str) -> list[NamedTag]:
 
 def convert_block_palette(states_path: str):
     """Convert raw states format to a more readable JSON format."""
-    states = load_nbt_array(states_path)
     block_palette = []
     data_version = None
-    for state in states:
+    for state in load_nbt_array(states_path):
         block_palette.append(
-            {
-                "name": state.compound["name"].py_str,
-                "states": [
-                    {
-                        "name": prop_name,
-                        "type": {
-                            ByteTag: "byte",
-                            ShortTag: "short",
-                            IntTag: "int",
-                            LongTag: "long",
-                            StringTag: "string",
-                        }[prop_value.__class__],
-                        "value": prop_value.py_data,
-                    }
-                    for prop_name, prop_value in state.compound["states"].items()
-                ],
-            }
+            json.dumps(
+                {
+                    "name": state.compound["name"].py_str,
+                    "states": [
+                        {
+                            "name": prop_name,
+                            "type": {
+                                ByteTag: "byte",
+                                ShortTag: "short",
+                                IntTag: "int",
+                                LongTag: "long",
+                                StringTag: "string",
+                            }[prop_value.__class__],
+                            "value": prop_value.py_data,
+                        }
+                        for prop_name, prop_value in state.compound["states"].items()
+                    ],
+                }
+            )
         )
         if data_version is None:
             data_version = state.compound["version"].py_int
@@ -84,9 +85,8 @@ def convert_block_palette(states_path: str):
         with open(
             os.path.join(os.path.dirname(states_path), "block_palette.json"), "w"
         ) as f:
-            json.dump(
-                {"data_version": data_version, "blocks": block_palette}, f, indent="\t"
-            )
+            merged_states = ",\n\t\t".join(sorted(block_palette))
+            f.write(f"""{{\n\t"data_version": {data_version},\n\t"blocks": [\n\t\t{merged_states}\n\t]\n}}""")
 
 
 def get_modded_server(
@@ -235,8 +235,6 @@ def process_version(
         states_path = os.path.join(path, "generated", "block", "states.nbtarr")
         if os.path.isfile(states_path):
             convert_block_palette(states_path)
-
-    # if generator_changed or self.rebuild_changes:
 
 
 def main(
