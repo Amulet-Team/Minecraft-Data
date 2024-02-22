@@ -1,7 +1,6 @@
 """
 A script to automate the downloading of server files and generating data from the servers.
 """
-from typing import Optional
 import os
 import glob
 from zipfile import ZipFile
@@ -238,8 +237,8 @@ def process_version(
 
 
 def main(
-    min_version: Optional[tuple[int, ...]],
-    max_version: Optional[tuple[int, ...]],
+    min_version: tuple[int, ...],
+    max_version: tuple[int, ...],
     force_regenerate: bool,
     dll_path: str,
     versions_path: str,
