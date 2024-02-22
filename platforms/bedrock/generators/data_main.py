@@ -85,7 +85,7 @@ def convert_block_palette(states_path: str):
         with open(
             os.path.join(os.path.dirname(states_path), "block_palette.json"), "w"
         ) as f:
-            merged_states = ",\n\t\t".join(sorted(block_palette))
+            merged_states = ",\n\t\t".join(block_palette)
             f.write(f"""{{\n\t"data_version": {data_version},\n\t"blocks": [\n\t\t{merged_states}\n\t]\n}}""")
 
 
