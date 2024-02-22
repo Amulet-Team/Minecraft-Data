@@ -1,5 +1,6 @@
 import os
-from typing import Optional, Hashable
+import argparse
+from typing import Hashable
 from amulet_nbt import AbstractBaseTag, AbstractBaseArrayTag, NamedTag, load as load_nbt, ReadOffset, ListTag, CompoundTag, AbstractBaseImmutableTag, ByteArrayTag, IntArrayTag, LongArrayTag, bedrock_encoding
 
 VersionsPath = "../versions"
@@ -90,6 +91,15 @@ class GameData:
         self.blocks = BlockData(path)
 
 
+_game_data: dict[str, GameData] = {}
+
+
+def get_game_data(version: str) -> GameData:
+    if version not in _game_data:
+        _game_data[version] = GameData(version)
+    return _game_data[version]
+
+
 def freeze_nbt(value: AbstractBaseTag) -> Hashable:
     if isinstance(value, AbstractBaseImmutableTag):
         return (value.tag_id, value)
@@ -103,85 +113,105 @@ def freeze_nbt(value: AbstractBaseTag) -> Hashable:
         raise RuntimeError
 
 
-def main():
-    last_game_data: Optional[GameData] = GameData("null")
+def generate_changes(version_1_path: str, version_2_path: str):
+    game_data_1: GameData = GameData(version_1_path)
+    game_data_2: GameData = GameData(version_2_path)
+    os.makedirs(os.path.join(version_2_path, "changes"), exist_ok=True)
+
+    # Biome changes
+    last_biomes = game_data_1.biomes
+    this_biomes = game_data_2.biomes
+    biome_changes = []
+    for i in range(max([0, *last_biomes.keys(), *this_biomes.keys()])):
+        last = last_biomes.get(i)
+        this = this_biomes.get(i)
+        if last != this:
+            if last is None:
+                biome_changes.append(f"added {i}: {this}")
+            elif this is None:
+                biome_changes.append(f"removed {i}: {last}")
+            else:
+                biome_changes.append(f"changed {i}: {last} to {this}")
+    if biome_changes:
+        with open(os.path.join(version_2_path, "changes", "biomes.txt"), "w") as f:
+            f.write("\n".join(biome_changes))
+
+    # version changes
+    # if game_data_1.versions.actor_digest_version != game_data_2.versions.actor_digest_version and game_data_2.versions.actor_digest_version != "-1":
+    #     with open(os.path.join(path, "changes", "actor_digest_version.txt"), "w") as f:
+    #         f.write(game_data_2.versions.actor_digest_version)
+    # if game_data_1.versions.blend_version != game_data_2.versions.blend_version and game_data_2.versions.blend_version != "-1":
+    #     with open(os.path.join(path, "changes", "blend_version.txt"), "w") as f:
+    #         f.write(game_data_2.versions.blend_version)
+    # if game_data_1.versions.level_chunk_format != game_data_2.versions.level_chunk_format and game_data_2.versions.level_chunk_format != "-1":
+    #     with open(os.path.join(path, "changes", "level_chunk_format.txt"), "w") as f:
+    #         f.write(game_data_2.versions.level_chunk_format)
+    # if game_data_1.versions.storage_version != game_data_2.versions.storage_version and game_data_2.versions.storage_version != "-1":
+    #     with open(os.path.join(path, "changes", "storage_version.txt"), "w") as f:
+    #         f.write(game_data_2.versions.storage_version)
+    # if game_data_1.versions.sub_chunk_format != game_data_2.versions.sub_chunk_format and game_data_2.versions.sub_chunk_format != "-1":
+    #     with open(os.path.join(path, "changes", "sub_chunk_format.txt"), "w") as f:
+    #         f.write(game_data_2.versions.sub_chunk_format)
+
+    # block state changes
+    last_states = []
+    for state in game_data_1.blocks.states:
+        state = state.compound.copy()
+        del state["version"]
+        last_states.append(state)
+    this_states = []
+    for state in game_data_2.blocks.states:
+        state = state.compound.copy()
+        del state["version"]
+        this_states.append(state)
+
+    last_frozen_states = {freeze_nbt(state): state for state in last_states}
+    this_frozen_states = {freeze_nbt(state): state for state in this_states}
+
+    removed_states = [v.to_snbt() for k, v in last_frozen_states.items() if k not in this_frozen_states]
+    added_states = [v.to_snbt() for k, v in this_frozen_states.items() if k not in last_frozen_states]
+
+    if removed_states:
+        with open(os.path.join(version_2_path, "changes", "removed_states.snbt"), "w") as f:
+            f.write(f"[\n\t")
+            f.write(",\n\t".join(sorted(removed_states)))
+            f.write(f"\n]")
+    if added_states:
+        with open(os.path.join(version_2_path, "changes", "added_states.snbt"), "w") as f:
+            f.write(f"[\n\t")
+            f.write(",\n\t".join(sorted(added_states)))
+            f.write(f"\n]")
+
+
+def main(
+    min_version: tuple[int, ...],
+    max_version: tuple[int, ...],
+):
+    last_version_path = "null"
 
     for version_number, version_string in sorted(
         (tuple(map(int, version_string.split("."))), version_string)
         for version_string in os.listdir(VersionsPath)
         if os.path.isdir(os.path.join(VersionsPath, version_string))
     ):
-        path = os.path.join(VersionsPath, version_string)
-        os.makedirs(os.path.join(path, "changes"), exist_ok=True)
         print(version_string)
-        game_data = GameData(path)
+        this_version_path = os.path.join(VersionsPath, version_string)
 
-        # Biome changes
-        last_biomes = last_game_data.biomes
-        this_biomes = game_data.biomes
-        biome_changes = []
-        for i in range(max([0, *last_biomes.keys(), *this_biomes.keys()])):
-            last = last_biomes.get(i)
-            this = this_biomes.get(i)
-            if last != this:
-                if last is None:
-                    biome_changes.append(f"added {i}: {this}")
-                elif this is None:
-                    biome_changes.append(f"removed {i}: {last}")
-                else:
-                    biome_changes.append(f"changed {i}: {last} to {this}")
-        if biome_changes:
-            with open(os.path.join(path, "changes", "biomes.txt"), "w") as f:
-                f.write("\n".join(biome_changes))
+        if min_version <= version_number <= max_version:
+            generate_changes(last_version_path, this_version_path)
 
-        # version changes
-        # if last_game_data.versions.actor_digest_version != game_data.versions.actor_digest_version and game_data.versions.actor_digest_version != "-1":
-        #     with open(os.path.join(path, "changes", "actor_digest_version.txt"), "w") as f:
-        #         f.write(game_data.versions.actor_digest_version)
-        # if last_game_data.versions.blend_version != game_data.versions.blend_version and game_data.versions.blend_version != "-1":
-        #     with open(os.path.join(path, "changes", "blend_version.txt"), "w") as f:
-        #         f.write(game_data.versions.blend_version)
-        # if last_game_data.versions.level_chunk_format != game_data.versions.level_chunk_format and game_data.versions.level_chunk_format != "-1":
-        #     with open(os.path.join(path, "changes", "level_chunk_format.txt"), "w") as f:
-        #         f.write(game_data.versions.level_chunk_format)
-        # if last_game_data.versions.storage_version != game_data.versions.storage_version and game_data.versions.storage_version != "-1":
-        #     with open(os.path.join(path, "changes", "storage_version.txt"), "w") as f:
-        #         f.write(game_data.versions.storage_version)
-        # if last_game_data.versions.sub_chunk_format != game_data.versions.sub_chunk_format and game_data.versions.sub_chunk_format != "-1":
-        #     with open(os.path.join(path, "changes", "sub_chunk_format.txt"), "w") as f:
-        #         f.write(game_data.versions.sub_chunk_format)
+        last_version_path = this_version_path
 
-        # block state changes
-        last_states = []
-        for state in last_game_data.blocks.states:
-            state = state.compound.copy()
-            del state["version"]
-            last_states.append(state)
-        this_states = []
-        for state in game_data.blocks.states:
-            state = state.compound.copy()
-            del state["version"]
-            this_states.append(state)
 
-        last_frozen_states = {freeze_nbt(state): state for state in last_states}
-        this_frozen_states = {freeze_nbt(state): state for state in this_states}
-
-        removed_states = [v.to_snbt() for k, v in last_frozen_states.items() if k not in this_frozen_states]
-        added_states = [v.to_snbt() for k, v in this_frozen_states.items() if k not in last_frozen_states]
-
-        if removed_states:
-            with open(os.path.join(path, "changes", "removed_states.snbt"), "w") as f:
-                f.write(f"[\n\t")
-                f.write(",\n\t".join(sorted(removed_states)))
-                f.write(f"\n]")
-        if added_states:
-            with open(os.path.join(path, "changes", "added_states.snbt"), "w") as f:
-                f.write(f"[\n\t")
-                f.write(",\n\t".join(sorted(added_states)))
-                f.write(f"\n]")
-
-        last_game_data = game_data
+def main_cli() -> None:
+    parser = argparse.ArgumentParser()
+    parser.add_argument("--min_version", type=str, default="0.0.0.0")
+    parser.add_argument("--max_version", type=str, default="9.9.9.9")
+    args = parser.parse_args()
+    min_version = tuple(map(int, args.min_version.split(".")))
+    max_version = tuple(map(int, args.max_version.split(".")))
+    main(min_version, max_version)
 
 
 if __name__ == "__main__":
-    main()
+    main_cli()
