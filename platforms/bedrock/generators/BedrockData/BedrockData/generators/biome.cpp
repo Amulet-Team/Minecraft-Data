@@ -23,7 +23,7 @@ void saveBiome(Biome& biome) {
 
 namespace Data {
 	void biome() {
-		debug("Running data generator: Block");
+		debug("Running data generator: Biome");
 		Minecraft* minecraft = Minecraft::get();
 		if (Level* level = minecraft->getLevel()) {
 			if (BiomeRegistry const* biome_registry = level->getBiomeRegistry()) {
