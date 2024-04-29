@@ -86,7 +86,7 @@ class GameData:
         self.version_string = os.path.basename(path)
         self.versions = VersionData(path)
         self.biomes = load_lined_file(
-            os.path.join(path, "generated", "biome", "biome_map.txt")
+            os.path.join(path, "generated", "biome", "biomes.txt")
         )
         self.blocks = BlockData(path)
 
