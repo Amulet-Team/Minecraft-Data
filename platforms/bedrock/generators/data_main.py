@@ -289,7 +289,7 @@ def main_cli() -> None:
     parser = argparse.ArgumentParser()
     parser.add_argument("--min_version", type=str, default="0.0.0.0")
     parser.add_argument("--max_version", type=str, default="9.9.9.9")
-    parser.add_argument("--force_regenerate", type=bool, default=False)
+    parser.add_argument("--force_regenerate", action="store_true")
     parser.add_argument(
         "--dll_path",
         type=str,
