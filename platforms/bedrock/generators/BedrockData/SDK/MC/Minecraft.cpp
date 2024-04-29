@@ -15,6 +15,23 @@ Minecraft::_getLevelT Minecraft::_getLevel = (Minecraft::_getLevelT)dlsym("?getL
 bool isReady = false;
 
 
+// 1.10.0.7 to 1.11.4.2
+THook(void, "?log@BedrockLog@@YAXIIPEBDH0ZZ", unsigned int a, unsigned int b, char const* c, int d, char const* e, va_list args) {
+	debug("old log");
+	if (std::string(e) == "Server started.") {
+		isReady = true;
+	}
+	original(a, b, c, d, e, args);
+}
+
+// 1.12.0.28 to ?
+THook(void, "?log@BedrockLog@@YAXW4LogCategory@1@V?$bitset@$02@std@@W4LogRule@1@W4LogAreaID@@IPEBDH4ZZ", enum LogCategory a, class std::bitset<3> b, enum LogRule c, enum LogAreaID d, unsigned int e, char const* f, int g, char const* h, va_list args) {
+	if (std::string(h) == "Server started.") {
+		isReady = true;
+	}
+	original(a, b, c, d, e, f, g, h, args);
+}
+
 TInstanceHook(void, "?init@Minecraft@@QEAAXXZ", Minecraft) {
 	original(this);
 	isReady = true;
