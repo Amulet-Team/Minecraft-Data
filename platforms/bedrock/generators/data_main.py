@@ -215,6 +215,10 @@ def process_version(
         if os.path.isdir(generated_dir):
             shutil.rmtree(generated_dir)
         os.makedirs(generated_dir)
+        changes_dir = os.path.join(server_dir, "changes")
+        if os.path.isdir(changes_dir):
+            shutil.rmtree(changes_dir)
+        os.makedirs(changes_dir)
 
         # Run the server
         process = subprocess.Popen(
