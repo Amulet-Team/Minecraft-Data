@@ -164,6 +164,15 @@ def get_modded_server(
         except OSError:
             pass
 
+    # Disable LAN mode so that two servers can run in parallel.
+    with open(os.path.join(server_dir, "server.properties")) as f:
+        server_properties = f.read()
+    server_properties = server_properties.replace("enable-lan-visibility=true", "enable-lan-visibility=false")
+    if "enable-lan-visibility=false" not in server_properties:
+        server_properties += "\nenable-lan-visibility=false\n"
+    with open(os.path.join(server_dir, "server.properties"), "w") as f:
+        f.write(server_properties)
+
     return modded_server
 
 
